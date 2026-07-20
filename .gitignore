@@ -25,5 +25,8 @@ data/alerts/**/*.md
 *.toc
 *.synctex.gz
 
+# External benchmark dataset (MalwareTextDB-1.0, ~25MB, own license; unwired)
+data/evals/
+
 # OS cruft
 .DS_Store

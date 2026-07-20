@@ -133,7 +133,9 @@ data/
 │   ├── split.json          train/val/test partition (small set)
 │   ├── split_full.json     train/val/test partition (full set)
 │   └── results/            regenerable scoring/training artifacts (old labels)
-└── gold_v2_train/          train-doc gold: {slug}.json (66 docs)
+├── gold_v2_train/          train-doc gold: {slug}.json (66 docs)
+└── evals/                  external benchmark (MalwareTextDB-1.0) for
+                            cross-domain eval; not yet wired into any module
 ```
 
 A gold file is a JSON **list** of `{text, label}` entities; config/result
@@ -200,6 +202,29 @@ includes non-standard slugs (`aa23-108`, title-slugged reports).
    eval candidates originate from Sonnet, so the human curation pass over
    val/test is what makes the eval defensible; state that provenance in
    the paper.
+
+## Testing & validation
+
+There is **no unit-test suite** (no `pytest`, no `tests/`). Quality is
+validated empirically, not by asserting on functions:
+
+- `ner.label_census` — repeatable **defect census / acceptance test** for
+  gold quality. Run it after any gold or pipeline change.
+- `ner.evaluate` (`Scorer`) — strict + relaxed span P/R/F1 for model runs.
+
+Don't go looking for a test runner; those two modules are the checks.
+
+## Training notebooks & published models
+
+- `notebooks/` — self-contained Colab notebooks that mirror the local
+  trainers for GPU runs: `RoBERTa_Large_CTI_Colab.ipynb`,
+  `SecureBERT_CTI_Colab.ipynb`, `gliner_cti_colab.ipynb`. The paired
+  `ner/finetune_roberta_colab.py` is the script form.
+- Checkpoints are gitignored (`models/`, ~5.9GB) and published to HF Hub;
+  retraining repopulates them. Current published models were trained on the
+  **old noisy labels** and will be regenerated on the clean gold:
+  `huggingface.co/pzryathzsdhc/cti-ner-roberta-large` and
+  `.../cti-ner-securebert`.
 
 ## Deliverable
 
