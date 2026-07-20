@@ -1,0 +1,47 @@
+[
+ {
+  "text": "Adversary-in-the\u00ad\nMiddle",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "lateral movement",
+  "label": "tactic",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Obtain Credentials from Passwords Stores",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Phishing for Information",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "S0183",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "S0508",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "S1054",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "S1063",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Steal or Force Kerberos Tickets",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

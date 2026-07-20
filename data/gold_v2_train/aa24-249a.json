@@ -1,0 +1,1854 @@
+[
+ {
+  "text": "%TEMP%",
+  "label": "file path"
+ },
+ {
+  "text": "/dev/tcp/179.43.175.38/6870",
+  "label": "file path"
+ },
+ {
+  "text": "/dev/tcp/81.17.24.130/6870",
+  "label": "file path"
+ },
+ {
+  "text": "0.0.0.0",
+  "label": "ip address"
+ },
+ {
+  "text": "032f5642d4fb2fdd74e6f20a13c57746",
+  "label": "file hash"
+ },
+ {
+  "text": "03af632aa6f87bf9dd4364ee3b612cbb",
+  "label": "file hash"
+ },
+ {
+  "text": "08dfebc04eb61c9a6d87b6524c1c0f2e",
+  "label": "file hash"
+ },
+ {
+  "text": "09a2d85e809d36bff82bd5ab773980a3",
+  "label": "file hash"
+ },
+ {
+  "text": "0a2affa6d895baab087b84e93145da35",
+  "label": "file hash"
+ },
+ {
+  "text": "0adc2530cf348c0a3d53a680291a3d67",
+  "label": "file hash"
+ },
+ {
+  "text": "0dc5ac12f7690db15c99eaabc11b129c",
+  "label": "file hash"
+ },
+ {
+  "text": "0dd61a16c625c49ffefaf4ce24cabf9a074028a06640d9bbb804f735ff56dfa3",
+  "label": "file hash"
+ },
+ {
+  "text": "0e03103e8110785156105946e48ea9e0",
+  "label": "file hash"
+ },
+ {
+  "text": "0e6374042b33d78329149a6189a7cb46",
+  "label": "file hash"
+ },
+ {
+  "text": "1.pst",
+  "label": "file name"
+ },
+ {
+  "text": "111.111.111.111",
+  "label": "ip address"
+ },
+ {
+  "text": "112.132.218[.]45",
+  "label": "ip address"
+ },
+ {
+  "text": "112.51.253[.]153",
+  "label": "ip address"
+ },
+ {
+  "text": "1220b580cef1bf22351e271773945d20",
+  "label": "file hash"
+ },
+ {
+  "text": "127.0.0.1",
+  "label": "ip address"
+ },
+ {
+  "text": "143594597130e301499e5940a5fb798a",
+  "label": "file hash"
+ },
+ {
+  "text": "14c8482f302b5e81e3fa1b18a509289d",
+  "label": "file hash"
+ },
+ {
+  "text": "154.21.20[.]82",
+  "label": "ip address"
+ },
+ {
+  "text": "179.43.133[.]202",
+  "label": "ip address"
+ },
+ {
+  "text": "179.43.142[.]42",
+  "label": "ip address"
+ },
+ {
+  "text": "179.43.162[.]55",
+  "label": "ip address"
+ },
+ {
+  "text": "179.43.175.38",
+  "label": "ip address"
+ },
+ {
+  "text": "179.43.175[.]108",
+  "label": "ip address"
+ },
+ {
+  "text": "179.43.175[.]38",
+  "label": "ip address"
+ },
+ {
+  "text": "179.43.176[.]60",
+  "label": "ip address"
+ },
+ {
+  "text": "179.43.187[.]47",
+  "label": "ip address"
+ },
+ {
+  "text": "179.43.189[.]218",
+  "label": "ip address"
+ },
+ {
+  "text": "17fc12902f4769af3a9271eb4e2dacce",
+  "label": "file hash"
+ },
+ {
+  "text": "185.245.84[.]227",
+  "label": "ip address"
+ },
+ {
+  "text": "185.245.85[.]251",
+  "label": "ip address"
+ },
+ {
+  "text": "1934e2ebc64d41e37ef53ea0c075e974",
+  "label": "file hash"
+ },
+ {
+  "text": "194.26.29[.]251",
+  "label": "ip address"
+ },
+ {
+  "text": "194.26.29[.]84",
+  "label": "ip address"
+ },
+ {
+  "text": "194.26.29[.]95",
+  "label": "ip address"
+ },
+ {
+  "text": "194.26.29[.]98",
+  "label": "ip address"
+ },
+ {
+  "text": "19cb20c4e7dbfe15c1aa284752d0fecb",
+  "label": "file hash"
+ },
+ {
+  "text": "1c85c0d044ac837e8939564afac1eb32",
+  "label": "file hash"
+ },
+ {
+  "text": "1cac5c0cb8801e8730447023270d8d56",
+  "label": "file hash"
+ },
+ {
+  "text": "1e22d64f263e8ea4b2d37dcd9b7c3012",
+  "label": "file hash"
+ },
+ {
+  "text": "2128361d8aaae1225d50c9add32006a1",
+  "label": "file hash"
+ },
+ {
+  "text": "246d9f9831b125ea7e6ef21bc4c8a0ca",
+  "label": "file hash"
+ },
+ {
+  "text": "246f31c86bbbe7f65c0126cf4a1a947a",
+  "label": "file hash"
+ },
+ {
+  "text": "251f3a4757d9e4de0499cc30c0bc00a9",
+  "label": "file hash"
+ },
+ {
+  "text": "28d571ddb5c04d065dfe1be9604663ba",
+  "label": "file hash"
+ },
+ {
+  "text": "29ae7b30ed8394c509c561f6117ea671ec412da50d435099756bbb257fafb10b",
+  "label": "file hash"
+ },
+ {
+  "text": "29d83f29c0b0a0b7499e71e7d5cb713f",
+  "label": "file hash"
+ },
+ {
+  "text": "2b2509c6ee46d6327f2f1c9a75122d15",
+  "label": "file hash"
+ },
+ {
+  "text": "2b39eab325906b0a3ab7e584c3d67349",
+  "label": "file hash"
+ },
+ {
+  "text": "2b5f159f022109a8de1bc5dd9e3138a0",
+  "label": "file hash"
+ },
+ {
+  "text": "2ca6bcf16ee4293a771a1cf7b7b9ee49",
+  "label": "file hash"
+ },
+ {
+  "text": "2e035360971a817b854d7d5a2b008717",
+  "label": "file hash"
+ },
+ {
+  "text": "32db8abce1618e60441f5c7cf4be0d22",
+  "label": "file hash"
+ },
+ {
+  "text": "332b7f6662e28e3577bd1b269904b940",
+  "label": "file hash"
+ },
+ {
+  "text": "343b140977b3f9b227e7e5f82b0fadb5",
+  "label": "file hash"
+ },
+ {
+  "text": "34ca75a8c190f20b8a7596afeb255f2228cb2467bd210b2637965b61ac7ea907",
+  "label": "file hash"
+ },
+ {
+  "text": "35feefe6bd2b982cb1a5d4c1d094e8665c51752d0a6f7e3cae546d770c280f3a",
+  "label": "file hash"
+ },
+ {
+  "text": "3907c7fbd4148395284d8e6e3c1dba5d",
+  "label": "file hash"
+ },
+ {
+  "text": "394e056cb6cb732dfd5e0d45d3dae938",
+  "label": "file hash"
+ },
+ {
+  "text": "3bcff990faacbebb8fb470dfe03e2543",
+  "label": "file hash"
+ },
+ {
+  "text": "3ccf799ff208981349cee4fb1a1cf88c",
+  "label": "file hash"
+ },
+ {
+  "text": "3fe96ff4a5ef0f5346ce645a2a893597",
+  "label": "file hash"
+ },
+ {
+  "text": "3proxy",
+  "label": "hacking tool"
+ },
+ {
+  "text": "4074798a621232dc448b65db7b1fdd66",
+  "label": "file hash"
+ },
+ {
+  "text": "41871fef433d7b4b89fd226fe3a1a2c0",
+  "label": "file hash"
+ },
+ {
+  "text": "422437f326b8dbe30cc5f103bde31f26",
+  "label": "file hash"
+ },
+ {
+  "text": "45.141.87[.]11",
+  "label": "ip address"
+ },
+ {
+  "text": "46.101.242[.]222",
+  "label": "ip address"
+ },
+ {
+  "text": "47f4534da421daf8089cf34d53f6bb6e",
+  "label": "file hash"
+ },
+ {
+  "text": "489ab4819830d231c3fc3572c5386cad9d18773a8121373ea8174de981cc9166",
+  "label": "file hash"
+ },
+ {
+  "text": "4bce4831b1dd71f19c55b3e3b5e99856",
+  "label": "file hash"
+ },
+ {
+  "text": "4c19aeecbfca13b8a199703d8b8284b9",
+  "label": "file hash"
+ },
+ {
+  "text": "4d8343c40be53d6521244fe74393d937",
+  "label": "file hash"
+ },
+ {
+  "text": "4e9c55c6fe25d61ca4394de794546fab",
+  "label": "file hash"
+ },
+ {
+  "text": "5.226.139[.]66",
+  "label": "ip address"
+ },
+ {
+  "text": "540ee8e39150c539fea582b0e77be7b0",
+  "label": "file hash"
+ },
+ {
+  "text": "54a9fa9eb337a3b5ca7b0fa4553e439d",
+  "label": "file hash"
+ },
+ {
+  "text": "552d9b79cc544fc6c3e8aa204dd00811",
+  "label": "file hash"
+ },
+ {
+  "text": "562c337b8caca330da2ea6ae07ee5db6",
+  "label": "file hash"
+ },
+ {
+  "text": "569c1d31f4c7ec7701d8e4e51b59fe85",
+  "label": "file hash"
+ },
+ {
+  "text": "56e0446a6d7175a0d09110bc483ddbed",
+  "label": "file hash"
+ },
+ {
+  "text": "58dc7c9577ff90a046359ca255c0c9f4",
+  "label": "file hash"
+ },
+ {
+  "text": "58e879213d81333b628434ba4aeb2751",
+  "label": "file hash"
+ },
+ {
+  "text": "59da31da4db1aa5f9a5c7c0c151422c8",
+  "label": "file hash"
+ },
+ {
+  "text": "5a537673c34933fc854fbfb65477a686",
+  "label": "file hash"
+ },
+ {
+  "text": "5b884f15dc9b072d7bbad9ec2b249f38",
+  "label": "file hash"
+ },
+ {
+  "text": "5c3b0040e2dece6e17093ae607b79044",
+  "label": "file hash"
+ },
+ {
+  "text": "5c9e2195d10375b746b6717fdb47b5b9",
+  "label": "file hash"
+ },
+ {
+  "text": "5d063eecd894d3d523875bc82ef6f319",
+  "label": "file hash"
+ },
+ {
+  "text": "5d5c99a08a7d927346ca2dafa7973fc1",
+  "label": "file hash"
+ },
+ {
+  "text": "5eaa7e812733a5c8cda734fab2f752d5",
+  "label": "file hash"
+ },
+ {
+  "text": "5f4df6dd8e644d59eaf182e500b5e7bf",
+  "label": "file hash"
+ },
+ {
+  "text": "601c12596dfea84c2113ae5ee59a52ec",
+  "label": "file hash"
+ },
+ {
+  "text": "6154760e602bd71192d93f72fbdb486e",
+  "label": "file hash"
+ },
+ {
+  "text": "618d62dd95fd9aeb855fe2ef1403dce5",
+  "label": "file hash"
+ },
+ {
+  "text": "62.173.140[.]223",
+  "label": "ip address"
+ },
+ {
+  "text": "64b9feeccf6c183b9f7138f8fc53acbb",
+  "label": "file hash"
+ },
+ {
+  "text": "673586594242d99ab02118595e457297",
+  "label": "file hash"
+ },
+ {
+  "text": "683546b9171a1ea284a96d1b45d1d823",
+  "label": "file hash"
+ },
+ {
+  "text": "6859fe5a3eead00a563cd93efcc6ea96",
+  "label": "file hash"
+ },
+ {
+  "text": "69e58c5ee69f5e5e8a58f4afdd59adfe",
+  "label": "file hash"
+ },
+ {
+  "text": "6a4fca88ee36fecc5113e188cc39d25c",
+  "label": "file hash"
+ },
+ {
+  "text": "6c152774f6894407075e6f0a2859bbae",
+  "label": "file hash"
+ },
+ {
+  "text": "6e1394938c2fecad2d4f5b3bcf357ec0",
+  "label": "file hash"
+ },
+ {
+  "text": "6eed4ee0cc57126e9a096ab9905f471c",
+  "label": "file hash"
+ },
+ {
+  "text": "7234da8ceafbe6586469f18c03cc1832",
+  "label": "file hash"
+ },
+ {
+  "text": "755dac7edd17fbf5b5c449dd06c02e14",
+  "label": "file hash"
+ },
+ {
+  "text": "764f691b2168e8b3b6f9fb6582e2f819",
+  "label": "file hash"
+ },
+ {
+  "text": "77675a24040f10c85112d9a219d5f1c7",
+  "label": "file hash"
+ },
+ {
+  "text": "77aa3f342a0d69fda67c853bcc004d48",
+  "label": "file hash"
+ },
+ {
+  "text": "78c855a088924e92a7f60d661c3d1845",
+  "label": "file hash"
+ },
+ {
+  "text": "79.124.8[.]66",
+  "label": "ip address"
+ },
+ {
+  "text": "791a81f31a8e7090a7d5417451e09efa",
+  "label": "file hash"
+ },
+ {
+  "text": "7a70d5fbbafe3454b76e3ad2f009618f",
+  "label": "file hash"
+ },
+ {
+  "text": "7c8cb5598e724d34384cce7402b11f0e",
+  "label": "file hash"
+ },
+ {
+  "text": "7d3b529db1bd896d9fd877b85cafdc64",
+  "label": "file hash"
+ },
+ {
+  "text": "7e0c42d33921a89724424f17c97037bd",
+  "label": "file hash"
+ },
+ {
+  "text": "7f84263fd24f783ff72d5ae91011b558",
+  "label": "file hash"
+ },
+ {
+  "text": "7fe7f33d9b5dbdf3d032d2a10e39f283",
+  "label": "file hash"
+ },
+ {
+  "text": "80f0ee332a452172533ad8863bb3bc63",
+  "label": "file hash"
+ },
+ {
+  "text": "81.17.24.130",
+  "label": "ip address"
+ },
+ {
+  "text": "85afdef18d65b0518d709a5a324ea57a",
+  "label": "file hash"
+ },
+ {
+  "text": "8633bd2bbbb5da22c3f8751150186c42",
+  "label": "file hash"
+ },
+ {
+  "text": "869742fb9db71fdb66f00528fe2966ec",
+  "label": "file hash"
+ },
+ {
+  "text": "8744cec7547b1e73705c10a264e28e08",
+  "label": "file hash"
+ },
+ {
+  "text": "875f9200b49db08c33962b0a6bd05ab9",
+  "label": "file hash"
+ },
+ {
+  "text": "896e0f54fc67d72d94b40d7885f10c51",
+  "label": "file hash"
+ },
+ {
+  "text": "8a2ba7f9cb6f65edf65dbe579907551e",
+  "label": "file hash"
+ },
+ {
+  "text": "8cfef66b390f08bdbfd940922cf51650",
+  "label": "file hash"
+ },
+ {
+  "text": "8d3d4d702ba6b4be2766a41bfe5ff76e",
+  "label": "file hash"
+ },
+ {
+  "text": "90.131.156[.]107",
+  "label": "ip address"
+ },
+ {
+  "text": "911c7e82f32f78577dcd725a7adb114d",
+  "label": "file hash"
+ },
+ {
+  "text": "9152c9de57b5647ee4ab3dff551dc8dd",
+  "label": "file hash"
+ },
+ {
+  "text": "923eb77b3c9e11d6c56052318c119c1a22d11ab71675e6b95d05eeb73d1accd6",
+  "label": "file hash"
+ },
+ {
+  "text": "9345425cf07b4c39a80cd8540e08bfde",
+  "label": "file hash"
+ },
+ {
+  "text": "94bf96b76c2a092de8962496ce35deaf",
+  "label": "file hash"
+ },
+ {
+  "text": "955e4c198ee58e40fe92cb74ceefdf00",
+  "label": "file hash"
+ },
+ {
+  "text": "95cf2a5a24b0d33d621bb8995d5826bc",
+  "label": "file hash"
+ },
+ {
+  "text": "9606b4720a0e73ef1f00505a11aab2f7",
+  "label": "file hash"
+ },
+ {
+  "text": "9657c2ef6ed5229740b125df9ca6c915",
+  "label": "file hash"
+ },
+ {
+  "text": "96964aed18f65a7acae632f358a093f6",
+  "label": "file hash"
+ },
+ {
+  "text": "974e7c0b3660fbf18f29eac059f85ac0",
+  "label": "file hash"
+ },
+ {
+  "text": "981160dee6cd25fb181e54eca7ff7c22",
+  "label": "file hash"
+ },
+ {
+  "text": "99305ce01cc2d0f58cd226efb2de893f",
+  "label": "file hash"
+ },
+ {
+  "text": "9935a86108e3ae3f72cd15817601dcc6",
+  "label": "file hash"
+ },
+ {
+  "text": "993f01861aff306df44e6475f7886f37",
+  "label": "file hash"
+ },
+ {
+  "text": "9b1191f1ceddf312b0d609cd929c6631",
+  "label": "file hash"
+ },
+ {
+  "text": "9b2924c727aa3a061906321a66c9050c",
+  "label": "file hash"
+ },
+ {
+  "text": "9c695be3703194fdb71c212a0832bcf3",
+  "label": "file hash"
+ },
+ {
+  "text": "9d7ab8b0aa669125d9a5adc4f46c56f3",
+  "label": "file hash"
+ },
+ {
+  "text": "9ef7dbd3da51332a78eff19146d21c82957821e464e8133e9594a07d716d892d",
+  "label": "file hash"
+ },
+ {
+  "text": "9f11e915be5c0d02a3130329cf032a28",
+  "label": "file hash"
+ },
+ {
+  "text": "a196c6b8ffcb97ffb276d04f354696e2391311db3841ae16c8c9f56f36a38e92",
+  "label": "file hash"
+ },
+ {
+  "text": "a1b509254a0a1daa7e00d279ec974461",
+  "label": "file hash"
+ },
+ {
+  "text": "a5494ffd9efb7c3df59c527076a05e62",
+  "label": "file hash"
+ },
+ {
+  "text": "a66b3b22a3619f739b197d0d443b700c",
+  "label": "file hash"
+ },
+ {
+  "text": "a905d620717f75751aa94ceb88995dbc",
+  "label": "file hash"
+ },
+ {
+  "text": "a9c9c0be8eca3b575c24da0fcf1af1a9",
+  "label": "file hash"
+ },
+ {
+  "text": "aa79afbf82b06cda268664b7c83900d8f7a33e0f0071facba0b3d8f7a68ce56a",
+  "label": "file hash"
+ },
+ {
+  "text": "Active Scanning",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Acunetix",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ad0ca738aa6c987e4ee1a87ff2b8acd5",
+  "label": "file hash"
+ },
+ {
+  "text": "Adminer",
+  "label": "hacking tool"
+ },
+ {
+  "text": "AdvancedRun",
+  "label": "file name"
+ },
+ {
+  "text": "AdvancedRun.exe",
+  "label": "file name"
+ },
+ {
+  "text": "AdvancedRun.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "aecb57e20d2c0b0d9fece2cbcbcc3459",
+  "label": "file hash"
+ },
+ {
+  "text": "af277ae0fbf6cc20f887696ea4756d46",
+  "label": "file hash"
+ },
+ {
+  "text": "af85885a74cfe099676af542dcdc5741",
+  "label": "file hash"
+ },
+ {
+  "text": "afbb9459d4a0f60d7ffb3b3532d11bc2",
+  "label": "file hash"
+ },
+ {
+  "text": "al\\Temp\\AdvancedRun.exe",
+  "label": "file path"
+ },
+ {
+  "text": "Amass",
+  "label": "hacking tool"
+ },
+ {
+  "text": "asd.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Atlassian Confluence Server and Data Center",
+  "label": "affected software product"
+ },
+ {
+  "text": "Avbbwys.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Azkebvoyswvjnrpmn.dll",
+  "label": "file name"
+ },
+ {
+  "text": "b0d0a23766fa64ece9315f37b28bb4c0",
+  "label": "file hash"
+ },
+ {
+  "text": "b32e14a9b7de6c92cd16758fa6e23346",
+  "label": "file hash"
+ },
+ {
+  "text": "b3370eb3c5ef6c536195b3bea0120929",
+  "label": "file hash"
+ },
+ {
+  "text": "b374k",
+  "label": "hacking tool"
+ },
+ {
+  "text": "b7c1a8d39f46eaf52be90e24565dd6b0",
+  "label": "file hash"
+ },
+ {
+  "text": "b85538f665fdb6c8d9a74f2df7369832",
+  "label": "file hash"
+ },
+ {
+  "text": "b9e64b58d7746cb1d3bed20405ef34d097af08c809d8dad10b9296b0bebb2b0b",
+  "label": "file hash"
+ },
+ {
+  "text": "Bleeding Bear",
+  "label": "threat actor group"
+ },
+ {
+  "text": "BloodHound",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Budoejokuqbge.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Bwqdffttejlkeqe.dll",
+  "label": "file name"
+ },
+ {
+  "text": "c265188fdadddb648629e8060601dca7",
+  "label": "file hash"
+ },
+ {
+  "text": "c9d1677f4f89b95b41591b23a1dc1a63",
+  "label": "file hash"
+ },
+ {
+  "text": "C:\\",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\ProgramData\\Microsoft\\Windows Defender",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\<user>\\AppData\\Loc",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\<user>\\AppData\\Local\\Temp\\AdvancedRun.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\<user>\\AppData\\Local\\Temp\\InstallUtil.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\System32\\sc.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "label": "file path"
+ },
+ {
+  "text": "ca43a241042b5fcc305393765ae18e69",
+  "label": "file hash"
+ },
+ {
+  "text": "Cadet Blizzard",
+  "label": "threat actor group"
+ },
+ {
+  "text": "cc4a9db6f250114e26d8d9ba6ab46bc9",
+  "label": "file hash"
+ },
+ {
+  "text": "cd62d4a178705b2b90a8babd8613df93",
+  "label": "file hash"
+ },
+ {
+  "text": "cee5acbfef7e76f52f40b8ae95199c50",
+  "label": "file hash"
+ },
+ {
+  "text": "Client.exe",
+  "label": "file name"
+ },
+ {
+  "text": "cmd.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "Confluence Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Confluence Server and Data Center",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cpdvzvzyghy.dll",
+  "label": "file name"
+ },
+ {
+  "text": "CrackMapExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Ctiktdfyauejxfak.dll",
+  "label": "file name"
+ },
+ {
+  "text": "CVE-2020-1472",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-26084",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-3156",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-33044",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-33045",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-4034",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-26134",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-26138",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-27666",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-3236",
+  "label": "cve identifier"
+ },
+ {
+  "text": "Cybersecurity_Requests@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Czxhayyankwsp.dll",
+  "label": "file name"
+ },
+ {
+  "text": "d034fe4c71b16b6d331886c24fef2751",
+  "label": "file hash"
+ },
+ {
+  "text": "d06761b2cff86035a4838110ed6ab622",
+  "label": "file hash"
+ },
+ {
+  "text": "d0b00a6c83ce810ec2763af17e8ab1c4",
+  "label": "file hash"
+ },
+ {
+  "text": "d33f608f561096be24cba91797e0da2f",
+  "label": "file hash"
+ },
+ {
+  "text": "d40195a444526eafb0db56d95bf8655d",
+  "label": "file hash"
+ },
+ {
+  "text": "d43446b4a22a597b93b559821ee5ac9b",
+  "label": "file hash"
+ },
+ {
+  "text": "d6b41747cb035c4c2b08790cd57f0626",
+  "label": "file hash"
+ },
+ {
+  "text": "d8c04ecd646a1f8537a59f63518ef3c6",
+  "label": "file hash"
+ },
+ {
+  "text": "d973210977957209f255b58eb1715b12",
+  "label": "file hash"
+ },
+ {
+  "text": "da4d81f9ef3b25ea09f34481d923dd9d",
+  "label": "file hash"
+ },
+ {
+  "text": "Dahua IP cameras",
+  "label": "affected software product"
+ },
+ {
+  "text": "Dahua Security",
+  "label": "affected software product"
+ },
+ {
+  "text": "Data Center",
+  "label": "affected software product"
+ },
+ {
+  "text": "Data Destruction",
+  "label": "attack technique name"
+ },
+ {
+  "text": "data exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "db5a204a34969f60fe4a653f51d64eee024dbf018edea334e8b3df780eda846f",
+  "label": "file hash"
+ },
+ {
+  "text": "dc795cb9290b1bc0b7fb1ce9d6ae7c93",
+  "label": "file hash"
+ },
+ {
+  "text": "dcbbae5a1c61dbbbb7dcd6dc5dd1eb1169f5329958d38b58c3fd9384081c9b78",
+  "label": "file hash"
+ },
+ {
+  "text": "dd2431b1f858b4ca14a4ea05fb8c4a06",
+  "label": "file hash"
+ },
+ {
+  "text": "ddec2d79f460a881849037336ba8968f",
+  "label": "file hash"
+ },
+ {
+  "text": "de1bf141976776becd376a0dac400df6",
+  "label": "file hash"
+ },
+ {
+  "text": "de1f9d1f0336ddcff832ad3900acd2f1",
+  "label": "file hash"
+ },
+ {
+  "text": "de276cf07ccffa18d7ffc35281bca910",
+  "label": "file hash"
+ },
+ {
+  "text": "de85ca91e1e8100a619de1c25112f1a5",
+  "label": "file hash"
+ },
+ {
+  "text": "dea3ae8225913dd98148fc86cfc3bcbe",
+  "label": "file hash"
+ },
+ {
+  "text": "DEV-0586",
+  "label": "threat actor group"
+ },
+ {
+  "text": "df4f856f783d23fb01af1e0e64bc0e20",
+  "label": "file hash"
+ },
+ {
+  "text": "Discord",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "Djpajq.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Dmdtflkcgebf.dll",
+  "label": "file name"
+ },
+ {
+  "text": "dnscat/2",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Droopescan",
+  "label": "hacking tool"
+ },
+ {
+  "text": "e1a15bc13157134f542cd9c55c742460",
+  "label": "file hash"
+ },
+ {
+  "text": "e21fe98cc8866c0eeecf3549ebcec751",
+  "label": "file hash"
+ },
+ {
+  "text": "e2cc52273d56ed66c800a726760c1ed0",
+  "label": "file hash"
+ },
+ {
+  "text": "e4634ef9bfe7b598b857ad997445b239",
+  "label": "file hash"
+ },
+ {
+  "text": "e61518ae9454a563b8f842286bbdb87b",
+  "label": "file hash"
+ },
+ {
+  "text": "eac0ae655d344c25ff467a929790885c",
+  "label": "file hash"
+ },
+ {
+  "text": "EazFuscator",
+  "label": "hacking tool"
+ },
+ {
+  "text": "eef2363744345741e09fe5380eeb4df3",
+  "label": "file hash"
+ },
+ {
+  "text": "Email Collection",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Ember Bear",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Encuutwvdqbxlxh.dll",
+  "label": "file name"
+ },
+ {
+  "text": "eScan",
+  "label": "hacking tool"
+ },
+ {
+  "text": "EternalBlue",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "exp_door v1.0.2",
+  "label": "hacking tool"
+ },
+ {
+  "text": "f34f60375bebad861a35b7c4bb0fa1c8",
+  "label": "file hash"
+ },
+ {
+  "text": "f4f4e55a00d2f3a433c9e5624285ac1c",
+  "label": "file hash"
+ },
+ {
+  "text": "f73d203bdf924658fd6edf3444c93a50",
+  "label": "file hash"
+ },
+ {
+  "text": "f772f5c65d65412f61ef5f2660e33ceb",
+  "label": "file hash"
+ },
+ {
+  "text": "f8ffd1eab6223e31b15d0fd6c3c0472e",
+  "label": "file hash"
+ },
+ {
+  "text": "fa97dbe84ce7717b754795fa89f13dce",
+  "label": "file hash"
+ },
+ {
+  "text": "fba76f4eb2e7a2eb17193bebe290a198",
+  "label": "file hash"
+ },
+ {
+  "text": "fc418fdda06ce5982153766dcefb71d9",
+  "label": "file hash"
+ },
+ {
+  "text": "fd4a5398e55beacb2315687a75af5aa15b776b5d36b9800a1792ede3955616c2",
+  "label": "file hash"
+ },
+ {
+  "text": "Fdgofjdvmmllgsxunb.dll",
+  "label": "file name"
+ },
+ {
+  "text": "ffa68749aa3fc6495e2c49b01d964339",
+  "label": "file hash"
+ },
+ {
+  "text": "Fkhzvcuucaprsibp.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Fkthhyexkr.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Fqattuyxknkhv.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Fqyubbzbubsge.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Frkmlkdkdubkznbkmcf.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Frozenvista",
+  "label": "threat actor group"
+ },
+ {
+  "text": "GO Simple Tunnel (GOST)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "GOST",
+  "label": "hacking tool"
+ },
+ {
+  "text": "GRU",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Gsiook.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Gutjuhi.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Hsoahb.dll",
+  "label": "file name"
+ },
+ {
+  "text": "i.php",
+  "label": "file name"
+ },
+ {
+  "text": "Impacket",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "InstallUtil.exe",
+  "label": "file name"
+ },
+ {
+  "text": "InstallUtil.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Iodine",
+  "label": "hacking tool"
+ },
+ {
+  "text": "java",
+  "label": "file name"
+ },
+ {
+  "text": "Jdfzavlqr.dll",
+  "label": "file name"
+ },
+ {
+  "text": "JoomScan",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Jrdggfjvve.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Jteieurqgvpgnhw.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Kdmvyizz.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Kfxghcmg.dll",
+  "label": "file name"
+ },
+ {
+  "text": "krbrelayx.py",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "ldapdomaindump",
+  "label": "hacking tool"
+ },
+ {
+  "text": "LinPEAS",
+  "label": "hacking tool"
+ },
+ {
+  "text": "load2022.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Log Enumeration",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Login.htm",
+  "label": "file name"
+ },
+ {
+  "text": "Lsurhpmpyewhv.dll",
+  "label": "file name"
+ },
+ {
+  "text": "MASSCAN",
+  "label": "hacking tool"
+ },
+ {
+  "text": "MEGA",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Metasploit Framework",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Meterpreter",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Mhnovdgzzidqx.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Microsoft Outlook Web Access (OWA)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft: Windows Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Mppveiyannobrcdlkd.dll",
+  "label": "file name"
+ },
+ {
+  "text": "MySQL",
+  "label": "hacking tool"
+ },
+ {
+  "text": "n.lashevychdirekcy.atom.gov.ua.zip",
+  "label": "file name"
+ },
+ {
+  "text": "Nbbudwt.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Neo-reGeorg",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Netcat",
+  "label": "hacking tool"
+ },
+ {
+  "text": "New-MailboxExportRequest",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ngrok",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Nhqcfzagulwaw.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Nlzhpvuzzoycqnnpl.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Nmap",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Nmap Scripting Engine",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Nmddfrqqrbyjeygggda.vbs",
+  "label": "file name"
+ },
+ {
+  "text": "nssm",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ntlmrelayx.py",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Nvxwbzciqarteyuz.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Ofgdwttnmqibnmpqx.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Olkscszculdbzvco.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Onkwzkpfuqazvali.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Opaqwrazeyyilbbjlkf.dll",
+  "label": "file name"
+ },
+ {
+  "text": "OpenVPN",
+  "label": "hacking tool"
+ },
+ {
+  "text": "OWASP Amass",
+  "label": "hacking tool"
+ },
+ {
+  "text": "OWASP JoomScan",
+  "label": "hacking tool"
+ },
+ {
+  "text": "P.A.S.",
+  "label": "hacking tool"
+ },
+ {
+  "text": "P.A.S. Webshell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Pass-the-Hash",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "PictureCatch.cgi",
+  "label": "file name"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "powershell.exe",
+  "label": "file name"
+ },
+ {
+  "text": "powershell.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Protocol Tunneling",
+  "label": "attack technique name"
+ },
+ {
+  "text": "ProxyChains",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PSExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "psexec.py",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PSQL",
+  "label": "hacking tool"
+ },
+ {
+  "text": "puttyjejfrwu.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Raspberry Robin",
+  "label": "malware family"
+ },
+ {
+  "text": "Rclone",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "Red Hat: Heap Buffer Overflow Flaw",
+  "label": "affected software product"
+ },
+ {
+  "text": "Red Hat: Polkit Privilege Escalation",
+  "label": "affected software product"
+ },
+ {
+  "text": "Red Hat: Privilege Escalation via Command Line Argument Parsing",
+  "label": "affected software product"
+ },
+ {
+  "text": "reGeorg",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Resource Development",
+  "label": "tactic"
+ },
+ {
+  "text": "Responder.py",
+  "label": "hacking tool"
+ },
+ {
+  "text": "saint.exe",
+  "label": "file name"
+ },
+ {
+  "text": "SaintBot",
+  "label": "malware family"
+ },
+ {
+  "text": "sc.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "secretsdump.py",
+  "label": "hacking tool"
+ },
+ {
+  "text": "security.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Shodan",
+  "label": "hacking tool"
+ },
+ {
+  "text": "smbclient",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Sophos: Firewall",
+  "label": "affected software product"
+ },
+ {
+  "text": "SSHPass",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ssi.cgi",
+  "label": "file name"
+ },
+ {
+  "text": "stage1.exe",
+  "label": "file name"
+ },
+ {
+  "text": "stage2.exe",
+  "label": "file name"
+ },
+ {
+  "text": "su-bruteforce",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Sutragevr.dll",
+  "label": "file name"
+ },
+ {
+  "text": "SYS_CFG",
+  "label": "file name"
+ },
+ {
+  "text": "T1003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1095",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1114",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1125",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1213.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1485",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1550.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1560",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1567.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1572",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1583.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1588.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1588.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1590.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1595",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1595.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1595.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1596.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1654",
+  "label": "attack technique id"
+ },
+ {
+  "text": "Tbopbh.jpg",
+  "label": "file name"
+ },
+ {
+  "text": "Tbopbh[.]jpg",
+  "label": "file name"
+ },
+ {
+  "text": "test01.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Through the Wire",
+  "label": "hacking tool"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "tmp/Login.htm",
+  "label": "file path"
+ },
+ {
+  "text": "to@example.com",
+  "label": "email address"
+ },
+ {
+  "text": "Tosyxesxgrzyb.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Tpmnkauftdydomyz.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Tptjtwfhpsjfksqoajt.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Tsgblplhdwwj.dll",
+  "label": "file name"
+ },
+ {
+  "text": "tunnel.jsp",
+  "label": "file name"
+ },
+ {
+  "text": "UAC-0056",
+  "label": "threat actor group"
+ },
+ {
+  "text": "UNC2589",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Unit 26165",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Unit 29155",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Unit 74455",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Video Capture",
+  "label": "attack technique name"
+ },
+ {
+  "text": "VirusTotal",
+  "label": "hacking tool"
+ },
+ {
+  "text": "vulnerability@cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Waordspinycera.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Waqybg",
+  "label": "file name"
+ },
+ {
+  "text": "Wcfsobntsczz.dll",
+  "label": "file name"
+ },
+ {
+  "text": "WhisperGate",
+  "label": "malware family"
+ },
+ {
+  "text": "WhisperKill",
+  "label": "malware family"
+ },
+ {
+  "text": "WMI",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Wpqyhvfnunlabx.dll",
+  "label": "file name"
+ },
+ {
+  "text": "WPScan",
+  "label": "hacking tool"
+ },
+ {
+  "text": "WSO 4.0.5",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Xgcpgrxhchgwz.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Xgkepoc.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Xlfthpiq.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Xlocky.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Xykqrksoqqgyuckfc.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Yawyjonk.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Yrknbt.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Yvbmuigfihprdxgiirp.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Ywrovtjimixpmizuln.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Zfgdccnwnee.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Zkuxhxwbvifejn.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Zsdflpivel.dll",
+  "label": "file name"
+ }
+]

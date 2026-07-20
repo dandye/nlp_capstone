@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-209a",
+  "title": "Potential Legacy Risk from Malware Targeting QNAP NAS Devices",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA20-209A",
+  "release_date": "2020-07-27T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

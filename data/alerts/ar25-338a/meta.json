@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/analysis-reports/ar25-338a",
+  "title": "BRICKSTORM Backdoor",
+  "advisory_type": "Analysis Report",
+  "alert_code": "AR25-338A",
+  "release_date": "2025-12-04T12:00:00Z",
+  "stix_url": "https://www.cisa.gov/sites/default/files/2025-12/MAR-251165.c1.v1.CLEAR_stix2.json",
+  "pdf_url": "https://www.cisa.gov/sites/default/files/2026-02/AR25-338A_malware-analysis-report-brickstorm-backdoor.pdf"
+}

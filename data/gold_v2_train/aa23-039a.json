@@ -1,0 +1,122 @@
+[
+ {
+  "text": "/tmp/recover.sh",
+  "label": "file path"
+ },
+ {
+  "text": "/usr/lib/vmware/hostd/docroot",
+  "label": "file path"
+ },
+ {
+  "text": "/usr/lib/vmware/hostd/docroot/ui/",
+  "label": "file path"
+ },
+ {
+  "text": "/vmfs/volumes/datastore1",
+  "label": "file path"
+ },
+ {
+  "text": "/vmfs/volumes/datastore1/example",
+  "label": "file path"
+ },
+ {
+  "text": "AA23-039A",
+  "label": "file name"
+ },
+ {
+  "text": "CryptoLocker",
+  "label": "malware family"
+ },
+ {
+  "text": "CVE-2020-3992",
+  "label": "cve identifier"
+ },
+ {
+  "text": "ESXi hypervisor",
+  "label": "affected software product"
+ },
+ {
+  "text": "ESXi servers",
+  "label": "affected software product"
+ },
+ {
+  "text": "ESXiArgs",
+  "label": "malware family"
+ },
+ {
+  "text": "index.html",
+  "label": "file name"
+ },
+ {
+  "text": "index1.html",
+  "label": "file name"
+ },
+ {
+  "text": "nvram",
+  "label": "file name"
+ },
+ {
+  "text": "ransom.html",
+  "label": "file name"
+ },
+ {
+  "text": "recover.sh",
+  "label": "file name"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "vmdk",
+  "label": "file name"
+ },
+ {
+  "text": "vmem",
+  "label": "file name"
+ },
+ {
+  "text": "vmsd",
+  "label": "file name"
+ },
+ {
+  "text": "vmsn",
+  "label": "file name"
+ },
+ {
+  "text": "vmss",
+  "label": "file name"
+ },
+ {
+  "text": "VMware",
+  "label": "affected software product"
+ },
+ {
+  "text": "VMware\nESXi software",
+  "label": "affected software product"
+ },
+ {
+  "text": "VMware ESXi",
+  "label": "affected software product"
+ },
+ {
+  "text": "VMware ESXi servers",
+  "label": "affected software product"
+ },
+ {
+  "text": "vmx",
+  "label": "file name"
+ },
+ {
+  "text": "vmxf",
+  "label": "file name"
+ },
+ {
+  "text": "vswp",
+  "label": "file name"
+ }
+]

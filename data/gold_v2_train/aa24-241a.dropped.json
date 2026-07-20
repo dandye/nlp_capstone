@@ -1,0 +1,62 @@
+[
+ {
+  "text": "Account Manipulation",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Command and Scripting",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Command and Scripting Interpreter",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Create Account (Local Account)",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Domain Trust Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Impair Defenses: Disable or Modify Tools",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Impair Defenses: Downgrade Attack",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Scheduled Task/Job",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Server Software Component",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Server Software Component: Web Shell",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Valid Accounts: Domain Accounts",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Valid Accounts: Local Accounts",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

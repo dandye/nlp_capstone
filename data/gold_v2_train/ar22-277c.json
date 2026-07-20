@@ -1,0 +1,222 @@
+[
+ {
+  "text": "0f8d4a9a0f41f1b347daa3ee3da48f54",
+  "label": "file hash"
+ },
+ {
+  "text": "0fd37f12f880d5c5b8d2d32bbbc9ebcbb938a0cb81f942efd92ef328c2e6fa1647bf52c363469a3224d28adba65f6e1ccb47714be519933d7a9ca7304af5a597",
+  "label": "file hash"
+ },
+ {
+  "text": "0GPd9cCt.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "1351bca8b60f74894d13553703597d861acd04ea",
+  "label": "file hash"
+ },
+ {
+  "text": "172e2090dcd8571d3d98e219a2e6b226",
+  "label": "file hash"
+ },
+ {
+  "text": "1c0e6e63818a2955cb368f7ae9a934da",
+  "label": "file hash"
+ },
+ {
+  "text": "1e05b263cfea600f727614e58646a2ff6a4c89a4499e2410f23bf40c718a94d3",
+  "label": "file hash"
+ },
+ {
+  "text": "1f5f5b8dd702da3628e8612d44563d8267fa160048a0da389ee821152ac658f2",
+  "label": "file hash"
+ },
+ {
+  "text": "36531b3b859b7d875260a67e7ce5b59e48d46404",
+  "label": "file hash"
+ },
+ {
+  "text": "411fef05a37e286a4e48700e5155cd55672cce4c9283b448d968391267b4f866",
+  "label": "file hash"
+ },
+ {
+  "text": "5044011ef02042255fe35a01fe7b1063d77f8a269b6e67e0d09506dc102759f1bd2fbba379d46fb4f45ee9d64c88e497e5b78e76be7e5cc1609a8bf9615aec16",
+  "label": "file hash"
+ },
+ {
+  "text": "547dbae802ff6b22406a2083db1b207844638df631a7f9339e2b9428b1685002c51261111c8d99cbf5adc2b19d4a78277193d11fc81a45c515639a89ea50f1d3",
+  "label": "file hash"
+ },
+ {
+  "text": "5537d6f6d321a623ebd7c785df4ada06cbe688c6",
+  "label": "file hash"
+ },
+ {
+  "text": "58a6151413f281143a9390852b017b82ff40d402cdbc8295aa58ae46c4c8424f",
+  "label": "file hash"
+ },
+ {
+  "text": "58b07454a038cd6bb1ca3d6ff4fa38ce",
+  "label": "file hash"
+ },
+ {
+  "text": "60c76e13d797a13d942481237c80ab082e02f744d6cabde724a9108acac737a7ddffce4a5ef6bae30ac2367617028d703853a3ff79a5f519e7348d44849f4e9a",
+  "label": "file hash"
+ },
+ {
+  "text": "62281d112d8a17b49c2dc87bf2167b9f",
+  "label": "file hash"
+ },
+ {
+  "text": "674ad3430e17de5279ceae899ee2d951",
+  "label": "file hash"
+ },
+ {
+  "text": "7603dc2f7d940f8d27b6c36dcd8d66d5cca515ad",
+  "label": "file hash"
+ },
+ {
+  "text": "8dffc394bda02c2978d63b8c128efed7ed1b5e166a6bce93b6fac364fdd4dc49854602ab7ee22069598dc66b35844b3663e859a570328607eb19df80263c72f3",
+  "label": "file hash"
+ },
+ {
+  "text": "981d83dc485048c3c8e4d74fb4a3eab6",
+  "label": "file hash"
+ },
+ {
+  "text": "9a597c67ad6cd1a448f58a2c8e5c4ca6",
+  "label": "file hash"
+ },
+ {
+  "text": "9e770e8216c4cd9be6d0048208c5494b3ff4e5556478f895db6140cdf94c6048004e79ded020bcb7cc2987097f8454d13748337aca5fbae430f0758ab4d6370c",
+  "label": "file hash"
+ },
+ {
+  "text": "a2f3800665492659e44494194ce9e032cd38b16d5c9fe1f8e0c1376e3ddf43860553813271d77bfb604b53c67768f0455d3c77c7b4c1c5a16ca18e66c7356d95",
+  "label": "file hash"
+ },
+ {
+  "text": "a3bcf1bb8ed3073a0c9e6c5a87ad0aeab4001240",
+  "label": "file hash"
+ },
+ {
+  "text": "a58c4fdb1c31100f4e9bb530af7d1ac57c715fee1c7c5e6c790e1e9cc863cfe4",
+  "label": "file hash"
+ },
+ {
+  "text": "a62b048545eaddb6b234dc1d43a754e7550c8be6e2f8b05f85580c504796bcccacbbd7f9f48e34b1910af605fe3a29640e8efe166736623504afcacd762991c7",
+  "label": "file hash"
+ },
+ {
+  "text": "a8c656d12b10d4fae74efc4cc7e585f5569f1a9144ebf6cd56b1bfed0dd7a440",
+  "label": "file hash"
+ },
+ {
+  "text": "bed00a85dbb0cbf3766cb7b05d355db158190a40",
+  "label": "file hash"
+ },
+ {
+  "text": "c6ff7631c088c60a461d70b47dd85aea9fc51019",
+  "label": "file hash"
+ },
+ {
+  "text": "CISA_10328929_01",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10328929_02",
+  "label": "yara rule name"
+ },
+ {
+  "text": "dc10dd5a896e0e343b8a8bf117beca4327b3c4ab",
+  "label": "file hash"
+ },
+ {
+  "text": "dfa9f4a054636750012e0ff56286a3c96c37062959c8ac5b2df52e349de69e65",
+  "label": "file hash"
+ },
+ {
+  "text": "e2caf75367ca300f616a96ff07769b1f80b69b1ae135fa27b79376a75a905b5e",
+  "label": "file hash"
+ },
+ {
+  "text": "e5451de048d7b9d6d8e699da7a10c38079eda4e6328580a8ba259a22eeaaa71d",
+  "label": "file hash"
+ },
+ {
+  "text": "e591908bd81d43464696dde547d45003",
+  "label": "file hash"
+ },
+ {
+  "text": "e731bc758f81f8c6021d59a9ceda37e015d9587b",
+  "label": "file hash"
+ },
+ {
+  "text": "e78fe5eb06c96eb16b7272e8f9472a64ce29b40dd8f6a24e4b8d6074a1674ae0399b2775e5e8314b8d9fc15dae84fd3a20c492f1bd55c68d78acc332f24ac0bd",
+  "label": "file hash"
+ },
+ {
+  "text": "Exploit Public-Facing Application",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Generic.ASP.WebShell.H.35BB5C94",
+  "label": "malware family"
+ },
+ {
+  "text": "Generic.ASP.WebShell.H.9ABE8BEE",
+  "label": "malware family"
+ },
+ {
+  "text": "GLuRqYO7.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "HAFNIUM",
+  "label": "threat actor group"
+ },
+ {
+  "text": "mDweIri6.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "nypCBAQf.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "pRd3rIlG.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "Server Software Component: Web Shell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "submit@malware.us-cert.gov",
+  "label": "email address"
+ },
+ {
+  "text": "T1190.000",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "undMk5U9.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "vyBcbDLQ.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "ydRlt1rF.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "ZyphzweO.aspx",
+  "label": "file name"
+ }
+]

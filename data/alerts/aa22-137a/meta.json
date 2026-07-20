@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-137a",
+  "title": "Weak Security Controls and Practices Routinely Exploited for Initial Access",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA22-137A",
+  "release_date": "2022-05-17T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

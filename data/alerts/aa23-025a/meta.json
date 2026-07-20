@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-025a",
+  "title": "Protecting Against Malicious Use of Remote Monitoring and Management Software",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA23-025A",
+  "release_date": "2023-01-25T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

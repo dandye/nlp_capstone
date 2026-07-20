@@ -1,0 +1,47 @@
+[
+ {
+  "text": "17a27b1759f10d1f6f1f51a11c0efea550e2075",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "3072:oCNLoO2N+p5Fm6nfZvD8sLVdN9dtFiokDFMYLcu:j1o/+34YRvDtFiwu",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "3072:u8txkT6wDLf/p3ufznQbCQVlvxxV5hmWIh:NgpDbZufLQpjxJ9U",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "48:BpsnUP6s3ceBg5YbFYNXEtUyzzYyUyh0+FVzYA6P+Fqbaug9trYhTHhIQG86w09:BuUP6sseBIOqXEvpcrb89Z2T",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "6:halw5fwmUDXSLp8k7KdXSLp8kukK7va2RK4HvEEIVpmYY:sMULS98QAS98kuZ7XPcK3",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "98e79f95cf8de8ace88bf223421db5dce303b11",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CISA MAR-10478915.r1.v1.CLEAR",
+  "label": "tlp classification",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CLEAR",
+  "label": "tlp classification",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "e557e1440e394537cca71ed3d61372106c3c7",
+  "label": "file hash",
+  "reason": "failed format validator"
+ }
+]

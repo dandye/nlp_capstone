@@ -1,0 +1,27 @@
+[
+ {
+  "text": "4f19fa2bf86cbb9280e8ec5a",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "abb22ef504a7593955a65f07",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CWE-200",
+  "label": "cwe identifier",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Fog and Akira Ransomware",
+  "label": "malware family",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Windows Management Instrumentation Command-line (WMIC)",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ }
+]

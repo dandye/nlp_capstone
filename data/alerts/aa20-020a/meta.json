@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-020a",
+  "title": "Critical Vulnerability in Citrix Application Delivery Controller, Gateway, and SD-WAN WANOP",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA20-020A",
+  "release_date": "2020-01-20T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

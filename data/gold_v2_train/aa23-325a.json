@@ -1,0 +1,458 @@
+[
+ {
+  "text": "101.97.36[.]61",
+  "label": "ip address"
+ },
+ {
+  "text": "104.21.1[.]180",
+  "label": "ip address"
+ },
+ {
+  "text": "123.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "141.98.9[.]137",
+  "label": "ip address"
+ },
+ {
+  "text": "168.100.9[.]137",
+  "label": "ip address"
+ },
+ {
+  "text": "172.67.129[.]176",
+  "label": "ip address"
+ },
+ {
+  "text": "185.17.40[.]178",
+  "label": "ip address"
+ },
+ {
+  "text": "185.20.209[.]127",
+  "label": "ip address"
+ },
+ {
+  "text": "185.229.191.41",
+  "label": "ip address"
+ },
+ {
+  "text": "185.229.191[.]41",
+  "label": "ip address"
+ },
+ {
+  "text": "185.230.212[.]83",
+  "label": "ip address"
+ },
+ {
+  "text": "192.229.221[.]95",
+  "label": "ip address"
+ },
+ {
+  "text": "193.201.9[.]224",
+  "label": "ip address"
+ },
+ {
+  "text": "206.188.197[.]22",
+  "label": "ip address"
+ },
+ {
+  "text": "45.129.137[.]233",
+  "label": "ip address"
+ },
+ {
+  "text": "498ba0afa5d3b390f852af66bd6e763945bf9b6bff2087015ed8612a18372155",
+  "label": "file hash"
+ },
+ {
+  "text": "54.84.248[.]205",
+  "label": "ip address"
+ },
+ {
+  "text": "62.233.50[.]25",
+  "label": "ip address"
+ },
+ {
+  "text": "70.37.82[.]20",
+  "label": "ip address"
+ },
+ {
+  "text": "7z.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "81.19.135[.]219",
+  "label": "ip address"
+ },
+ {
+  "text": "81.19.135[.]220",
+  "label": "ip address"
+ },
+ {
+  "text": "81.19.135[.]226",
+  "label": "ip address"
+ },
+ {
+  "text": "\\MEGA\\MEGAc\nmd",
+  "label": "file path"
+ },
+ {
+  "text": "Action1",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ad.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "adobelib.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Adrecon",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Altera",
+  "label": "hacking tool"
+ },
+ {
+  "text": "AnyDesk",
+  "label": "hacking tool"
+ },
+ {
+  "text": "AnyDeskMSI.ex\ne",
+  "label": "file name"
+ },
+ {
+  "text": "Atera",
+  "label": "hacking tool"
+ },
+ {
+  "text": "c:\\perflogs\\1.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\perflogs\\64-bit\\m.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\perflogs\\64-bit\\m0.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\perflogs\\64-bit\\netscan.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\perflogs\\lsass.dmp",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\perflogs\\processhacker.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\perflogs\\run.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\users\\<username>\\desktop\\proc\n64\\proc.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\users\\<username>\\documents\\v\neeam-get-creds.ps1",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\users\\<username>\\downloads\\mi\nmikatz.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\users\\<username>\\downloads\\pr\nocess hacker 2\\peview.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\users\\<username>\\music\\proces\ns hacker 2\\processhacker.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\Public\\adobelib.dll",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\temp\\screenconnect\\23\n.8.5.8707\\files\\processhacker.exe",
+  "label": "file path"
+ },
+ {
+  "text": "Citrix NetScaler",
+  "label": "affected software product"
+ },
+ {
+  "text": "Citrix NetScaler ADC and Gateway",
+  "label": "affected software product"
+ },
+ {
+  "text": "connectwise",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CVE-2023-4966",
+  "label": "cve identifier"
+ },
+ {
+  "text": "F8PtZ87fE8dJWqe.hta",
+  "label": "file name"
+ },
+ {
+  "text": "fixme it",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Gateway appliances",
+  "label": "affected software product"
+ },
+ {
+  "text": "Impacket",
+  "label": "hacking tool"
+ },
+ {
+  "text": "LockBit 3.0",
+  "label": "malware family"
+ },
+ {
+  "text": "Mag.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Mshta",
+  "label": "hacking tool"
+ },
+ {
+  "text": "mshta.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NetScaler ADC",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC 12.1-FIPS before 12.1-55.300",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC 12.1-NDcPP before 12.1-55.300",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC 13.1FIPS before 13.1-37.163",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC and NetScaler Gateway",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC and NetScaler Gateway 13.0 before 13.0-92.19",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC and NetScaler Gateway 13.1 before 13.1-49.15",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC and NetScaler Gateway 14.1 before 14.1-8.50",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC and NetScaler Gateway version 12.1 (EOL)",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler Gateway",
+  "label": "affected software product"
+ },
+ {
+  "text": "Netscan exe",
+  "label": "file name"
+ },
+ {
+  "text": "Plink.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerShell Core",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Procdump",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Process hacker",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PsExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "psexec.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "psexesvc.exe",
+  "label": "file name"
+ },
+ {
+  "text": "q0X5wzEh6P7.hta",
+  "label": "file name"
+ },
+ {
+  "text": "q0X5wzzEh6P7.hta",
+  "label": "file name"
+ },
+ {
+  "text": "RDP",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "rundll32",
+  "label": "hacking tool"
+ },
+ {
+  "text": "screenconnect",
+  "label": "hacking tool"
+ },
+ {
+  "text": "secretsdump.py",
+  "label": "file name"
+ },
+ {
+  "text": "secretsdump.py \n<domain>/<username>@<ip> -\noutputfile 1",
+  "label": "file name"
+ },
+ {
+  "text": "SOC@cisecurity.org",
+  "label": "email address"
+ },
+ {
+  "text": "Softperfect netscan",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Splashtop",
+  "label": "hacking tool"
+ },
+ {
+  "text": "sqlbrowser.exe",
+  "label": "file name"
+ },
+ {
+  "text": "sqlexp2.exe",
+  "label": "file name"
+ },
+ {
+  "text": "sqlexp3.exe",
+  "label": "file name"
+ },
+ {
+  "text": "sqlmangr.exe",
+  "label": "file name"
+ },
+ {
+  "text": "sqlrep.exe",
+  "label": "file name"
+ },
+ {
+  "text": "sqlscan.exe",
+  "label": "file name"
+ },
+ {
+  "text": "sqlserver.exe",
+  "label": "file name"
+ },
+ {
+  "text": "sqlservr.exe",
+  "label": "file name"
+ },
+ {
+  "text": "sqltob.exe",
+  "label": "file name"
+ },
+ {
+  "text": "sqlwb.exe",
+  "label": "file name"
+ },
+ {
+  "text": "sqlwriter.exe",
+  "label": "file name"
+ },
+ {
+  "text": "SRUtility.exe",
+  "label": "file name"
+ },
+ {
+  "text": "T1082",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1539",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1556.006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1563",
+  "label": "attack technique id"
+ },
+ {
+  "text": "taskkill",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Teamviewer",
+  "label": "hacking tool"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "tniwinagent.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Total network inventory agent",
+  "label": "hacking tool"
+ },
+ {
+  "text": "w3sqlmgr.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Windows PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "wmiexec.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "zoho assist",
+  "label": "hacking tool"
+ }
+]

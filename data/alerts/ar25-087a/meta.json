@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/analysis-reports/ar25-087a",
+  "title": "MAR-25993211-r1.v2 Ivanti Connect Secure (RESURGE)",
+  "advisory_type": "Analysis Report",
+  "alert_code": "AR25-087A",
+  "release_date": "2025-03-28T12:00:00Z",
+  "stix_url": "https://www.cisa.gov/sites/default/files/2026-02/MAR-25993211.r1.v2.CLEAR_stix2.json",
+  "pdf_url": "https://www.cisa.gov/sites/default/files/2026-02/MAR-25993211.r1.v2.CLEAR_.pdf"
+}

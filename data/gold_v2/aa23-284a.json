@@ -1,0 +1,338 @@
+[
+ {
+  "text": "10ef090d2f4c8001faadb0a833d60089",
+  "label": "file hash"
+ },
+ {
+  "text": "122ea6581a36f14ab5ab65475370107e",
+  "label": "file hash"
+ },
+ {
+  "text": "1892bd45671f17e9f7f63d3ed15e348e",
+  "label": "file hash"
+ },
+ {
+  "text": "2d1ce0231cf8ff967c36bbfc931f3807ddba765c",
+  "label": "file hash"
+ },
+ {
+  "text": "3222c60b10e5a7c3158fd1cb3f513640",
+  "label": "file hash"
+ },
+ {
+  "text": "44a3561fb9e877a2841de36a3698abc0",
+  "label": "file hash"
+ },
+ {
+  "text": "48dd7d519dbb67b7a2bb2747729fc46e5832c30cafe15f76c1dbe3a249e5e731",
+  "label": "file hash"
+ },
+ {
+  "text": "5cb3f10db11e1795c49ec6273c52b5f1",
+  "label": "file hash"
+ },
+ {
+  "text": "609a925fd253e82c80262bad31637f19",
+  "label": "file hash"
+ },
+ {
+  "text": "646dc0b7335cffb671ae3dfd1ebefe47",
+  "label": "file hash"
+ },
+ {
+  "text": "6ebd7d7473f0ace3f52c483389cab93f",
+  "label": "file hash"
+ },
+ {
+  "text": "7zip",
+  "label": "hacking tool"
+ },
+ {
+  "text": "8227af68552198a2d42de51cded2ce60",
+  "label": "file hash"
+ },
+ {
+  "text": "829f2233a1cd77e9ec7de98596cd8165",
+  "label": "file hash"
+ },
+ {
+  "text": "90ce10d9aca909a8d2524bc265ef2fa4",
+  "label": "file hash"
+ },
+ {
+  "text": "9d0b3796d1d174080cdfdbd4064bea3a",
+  "label": "file hash"
+ },
+ {
+  "text": "ad5fd10aa2dc82731f3885553763dfd4548651ef3e28c69f77ad035166d63db7",
+  "label": "file hash"
+ },
+ {
+  "text": "af31b5a572b3208f81dbf42f6c143f99",
+  "label": "file hash"
+ },
+ {
+  "text": "AnyDesk",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Atera Agent",
+  "label": "hacking tool"
+ },
+ {
+  "text": "AvosLocker",
+  "label": "malware family"
+ },
+ {
+  "text": "AvosLocker",
+  "label": "threat actor group"
+ },
+ {
+  "text": "BEACON.PS1",
+  "label": "file name"
+ },
+ {
+  "text": "c6a667619fff6cf44f447868d8edd681",
+  "label": "file hash"
+ },
+ {
+  "text": "c82d7be7afdc9f3a0e474f019fb7b0f7",
+  "label": "file hash"
+ },
+ {
+  "text": "cc68eaf36cb90c08308ad0ca3abc17c1",
+  "label": "file hash"
+ },
+ {
+  "text": "Chisel",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Cobalt Strike",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "e68f9c3314beee640cc32f08a8532aa8dcda613543c54a83680c21d7cd49ca0f",
+  "label": "file hash"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "FileZilla",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "keishagrey994@outlook[.]com",
+  "label": "email address"
+ },
+ {
+  "text": "Lazagne",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Ligolo",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Linux",
+  "label": "affected software product"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NetMonitor",
+  "label": "malware family"
+ },
+ {
+  "text": "NetMonitor",
+  "label": "yara rule name"
+ },
+ {
+  "text": "NetMonitor.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Nltest",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Notepad++",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PDQ Deploy",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Protocol Tunneling",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PsExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "psscriptpolicytest_0bybivfe.x1t\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_1bokrh3l.2nw\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_2by2p21u.4ej\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_bzoicrns.kat\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_endvm2zz.qlp\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_fqa24ixq.dtc\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_grjck50v.nyg\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_im2hdxqi.g0k\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_jzjombgn.sol\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_lysyd03n.o10\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_nvuxllhd.fs4\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_rdm5qyy1.phg\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_s1mgcgdk.25n\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_satzbifj.oli\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_te5sbsfv.new\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_v3etgbxw.bmm\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "psscriptpolicytest_xnjvzu5o.fta\n.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "PuTTy",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Rclone",
+  "label": "hacking tool"
+ },
+ {
+  "text": "RDP Scanner",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Report@cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Sliver",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Splashtop Streamer",
+  "label": "hacking tool"
+ },
+ {
+  "text": "T1047",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1555",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1572",
+  "label": "attack technique id"
+ },
+ {
+  "text": "Tactical RMM",
+  "label": "hacking tool"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "VMware ESXi",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows",
+  "label": "affected software product"
+ }
+]

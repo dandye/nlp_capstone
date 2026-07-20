@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-062a",
+  "title": "Mitigate Microsoft Exchange Server Vulnerabilities",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA21-062A",
+  "release_date": "2021-03-03T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

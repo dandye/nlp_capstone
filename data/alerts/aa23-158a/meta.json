@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a",
+  "title": "#StopRansomware: CL0P Ransomware Gang Exploits CVE-2023-34362 MOVEit Vulnerability",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA23-158A",
+  "release_date": "2023-06-07T12:00:00Z",
+  "pdf_url": null,
+  "stix_url": null
+}

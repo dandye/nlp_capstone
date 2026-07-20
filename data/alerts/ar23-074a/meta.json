@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/analysis-reports/ar23-074a",
+  "title": "MAR-10413062-1.v1 Telerik Vulnerability in U.S. Government IIS Server",
+  "advisory_type": "Analysis Report",
+  "alert_code": "AR23-074A",
+  "release_date": "2023-03-15T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": "https://www.cisa.gov/sites/default/files/2023-03/mar-10413062-1.v1_telerik_vulnerability_in_u.s._government_iis_server_1.pdf"
+}

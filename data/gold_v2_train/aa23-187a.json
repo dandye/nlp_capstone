@@ -1,0 +1,358 @@
+[
+ {
+  "text": "193.3.19[.]173",
+  "label": "ip address"
+ },
+ {
+  "text": "45.182.189[.]71",
+  "label": "ip address"
+ },
+ {
+  "text": "6164e9d297d29aa8682971259da06848",
+  "label": "file hash"
+ },
+ {
+  "text": "7d75244449fb5c25d8f196a43a6eb9e453652b2185392376e7d44c21bd8431e7",
+  "label": "file hash"
+ },
+ {
+  "text": "92.118.36[.]199",
+  "label": "ip address"
+ },
+ {
+  "text": "AA23-187A.STIX.JSON",
+  "label": "file name"
+ },
+ {
+  "text": "AA23-187A.STIX.XML",
+  "label": "file name"
+ },
+ {
+  "text": "Bumblebee",
+  "label": "malware family"
+ },
+ {
+  "text": "C:\\Intel\\RuntimeBroker.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Intel\\RuntimeBroker[.]exe",
+  "label": "file path"
+ },
+ {
+  "text": "CISA_10445155_01",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CL0P",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Cobalt Strike",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "CVE-2022-31199",
+  "label": "cve identifier"
+ },
+ {
+  "text": "Document_16654[.]exe",
+  "label": "file name"
+ },
+ {
+  "text": "Document_may_24_16654[.]exe",
+  "label": "file name"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "F33734DFBBFF29F68BCDE052E523C287",
+  "label": "file hash"
+ },
+ {
+  "text": "FlawedGrace",
+  "label": "malware family"
+ },
+ {
+  "text": "Graceful Spider",
+  "label": "threat actor group"
+ },
+ {
+  "text": "IcedID",
+  "label": "malware family"
+ },
+ {
+  "text": "IgtyXEQuCEvAM.JSONIP",
+  "label": "file name"
+ },
+ {
+  "text": "Ingress Transfer Tool",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Lateral Tool Transfer",
+  "label": "attack technique name"
+ },
+ {
+  "text": "LummaStealer",
+  "label": "malware family"
+ },
+ {
+  "text": "msiexec.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Netwrix",
+  "label": "affected software product"
+ },
+ {
+  "text": "Netwrix Auditor",
+  "label": "affected software product"
+ },
+ {
+  "text": "PaperCut",
+  "label": "affected software product"
+ },
+ {
+  "text": "Phishing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerShell Core",
+  "label": "affected software product"
+ },
+ {
+  "text": "PsExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Raspberry Robin",
+  "label": "malware family"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Scheduled Transfer",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Screen Capture",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Secretsdump[.]py",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Server 2016",
+  "label": "affected software product"
+ },
+ {
+  "text": "Silence Downloader",
+  "label": "malware family"
+ },
+ {
+  "text": "Silence.Downloader",
+  "label": "malware family"
+ },
+ {
+  "text": "SOC@cisecurity.org",
+  "label": "email address"
+ },
+ {
+  "text": "svchost.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "T1003.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1016",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027.009",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1029",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1030",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036.008",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1048",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1055",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1055.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1057",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1082",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1091",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1095",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1112",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1113",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1124",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1189",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1204.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1210",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1518.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1547.012",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1550.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1563.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1563.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1570",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1573.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1620",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1622",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0010",
+  "label": "tactic"
+ },
+ {
+  "text": "Teleport",
+  "label": "hacking tool"
+ },
+ {
+  "text": "teleport",
+  "label": "malware family"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Truebot",
+  "label": "malware family"
+ },
+ {
+  "text": "Windows 10",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows PowerShell",
+  "label": "affected software product"
+ }
+]

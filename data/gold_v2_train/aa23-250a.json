@@ -1,0 +1,546 @@
+[
+ {
+  "text": "102.129.145[.]232",
+  "label": "ip address"
+ },
+ {
+  "text": "104.238.234[.]145",
+  "label": "ip address"
+ },
+ {
+  "text": "144.202.2[.]71",
+  "label": "ip address"
+ },
+ {
+  "text": "154.6.91[.]26",
+  "label": "ip address"
+ },
+ {
+  "text": "154.6.93[.]12",
+  "label": "ip address"
+ },
+ {
+  "text": "154.6.93[.]22",
+  "label": "ip address"
+ },
+ {
+  "text": "154.6.93[.]24",
+  "label": "ip address"
+ },
+ {
+  "text": "154.6.93[.]32",
+  "label": "ip address"
+ },
+ {
+  "text": "154.6.93[.]5",
+  "label": "ip address"
+ },
+ {
+  "text": "179.60.147[.]4",
+  "label": "ip address"
+ },
+ {
+  "text": "184.170.241[.]27",
+  "label": "ip address"
+ },
+ {
+  "text": "191.96.106[.]40",
+  "label": "ip address"
+ },
+ {
+  "text": "192.142.226[.]153",
+  "label": "ip address"
+ },
+ {
+  "text": "207.246.105[.]240",
+  "label": "ip address"
+ },
+ {
+  "text": "45.77.121[.]232",
+  "label": "ip address"
+ },
+ {
+  "text": "45.90.123[.]194",
+  "label": "ip address"
+ },
+ {
+  "text": "47.90.240[.]218",
+  "label": "ip address"
+ },
+ {
+  "text": "92.118.39[.]82",
+  "label": "ip address"
+ },
+ {
+  "text": "Active Directory",
+  "label": "affected software product"
+ },
+ {
+  "text": "AnyDesk",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Anydesk.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Apache XML Security for Java",
+  "label": "affected software product"
+ },
+ {
+  "text": "Bitmap.exe",
+  "label": "file name"
+ },
+ {
+  "text": "c:\\inetpub\\passwordchange\\0LECPNJYRH.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\inetpub\\passwordchange\\9ehj.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\inetpub\\redirectedSites\\[REDACTED]\\products\\uns1ew.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\inetpub\\redirectedSites\\[REDACTED]\\products\\uns1fw.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\inetpub\\wwwroot\\[REDACTED]\\css\\font-awesome\\css\\configlogin.ashx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\inetpub\\wwwroot\\[REDACTED]\\css\\font-awesome\\css\\discover.ashx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\inetpub\\wwwroot\\wss\\VirtualDirectories\\Portal80\\_vti_pvt\\services.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\inetpub\\wwwroot\\wss\\VirtualDirectories\\Portal80\\_vti_pvt\\servicesinfo.ashx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\Program Files\\Microsoft Office Web Apps\\RootWebsite\\en-us\\error.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\Program Files\\Microsoft Office Web Apps\\RootWebsite\\en-us\\errorinfo.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\Program Files\\Microsoft Office Web Apps\\RootWebsite\\en-us\\info-1.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\Program Files\\Microsoft Office Web Apps\\RootWebsite\\en-us\\info.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\Program Files\\Microsoft Office Web Apps\\RootWebsite\\en-us\\infos.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\Program Files\\Microsoft Office Web Apps\\RootWebsite\\en-us\\lgnbotr.ashx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\Program Files\\Microsoft Office Web Apps\\RootWebsite\\en-us\\new_list.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\Program Files\\Microsoft Office Web Apps\\RootWebsite\\en-us\\resource.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\Program Files\\Microsoft Office Web Apps\\RootWebsite\\errorinfo.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\Program Files\\Microsoft Office Web Apps\\RootWebsite\\infos.ashx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\Program Files\\Microsoft Office Web Apps\\RootWebsite\\infos.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\system32\\fuu.txt",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\system32\\jojo.txt",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\system32\\prc64.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\system32\\ssh-add.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\system32\\ssh-agent.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\system32\\ssh-shellhost.exe",
+  "label": "file path"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "ConnectWise ScreenConnect",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "CVE-2022-42475",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-47966",
+  "label": "cve identifier"
+ },
+ {
+  "text": "Daixin Team",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Data Staged",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "downloadFlile[.]cgi",
+  "label": "file name"
+ },
+ {
+  "text": "install-sshd.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "Interact.sh",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Interactsh",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Iranian Government-Sponsored APT Actors",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "libcrypto.dll",
+  "label": "file name"
+ },
+ {
+  "text": "LockBit 3.0",
+  "label": "malware family"
+ },
+ {
+  "text": "Metasploit",
+  "label": "malware family"
+ },
+ {
+  "text": "Meterpreter",
+  "label": "malware family"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Mimikatz.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Mirai",
+  "label": "malware family"
+ },
+ {
+  "text": "Network Sniffing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Ngrok",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ngrok.yml",
+  "label": "file name"
+ },
+ {
+  "text": "nmap.exe",
+  "label": "file name"
+ },
+ {
+  "text": "nmap.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Non-Standard Port",
+  "label": "attack technique name"
+ },
+ {
+  "text": "npcap.exe",
+  "label": "file name"
+ },
+ {
+  "text": "npcap.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ProcDump",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Process Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Protocol Tunneling",
+  "label": "attack technique name"
+ },
+ {
+  "text": "psexec.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Query Registry",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Quser",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Quser.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Remote Access Software",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "sam.hiv",
+  "label": "file name"
+ },
+ {
+  "text": "ScreenConnect",
+  "label": "hacking tool"
+ },
+ {
+  "text": "security.hiv",
+  "label": "file name"
+ },
+ {
+  "text": "ServiceDesk Plus",
+  "label": "affected software product"
+ },
+ {
+  "text": "ssh-sk-helper.exe",
+  "label": "file name"
+ },
+ {
+  "text": "ssh.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ssh2.zip",
+  "label": "file name"
+ },
+ {
+  "text": "sshd.exe",
+  "label": "file name"
+ },
+ {
+  "text": "system.hiv",
+  "label": "file name"
+ },
+ {
+  "text": "T1003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1012",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1018",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027.009",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036.008",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1040",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1049",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1057",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1068",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1074",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1219",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1553.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1564.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1564.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1570",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1571",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1572",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1573.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1583.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1588.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0009",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0010",
+  "label": "tactic"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "vulnerability@cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "wo_view_bg.zip",
+  "label": "file name"
+ },
+ {
+  "text": "wo_view_bg1.gif",
+  "label": "file name"
+ },
+ {
+  "text": "wo_view_bg2.gif",
+  "label": "file name"
+ },
+ {
+  "text": "xmlsec",
+  "label": "affected software product"
+ },
+ {
+  "text": "xpack.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Zoho ManageEngine ServiceDesk Plus",
+  "label": "affected software product"
+ }
+]

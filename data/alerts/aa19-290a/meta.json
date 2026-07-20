@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa19-290a",
+  "title": "Microsoft Ending Support for Windows 7 and Windows Server 2008 R2",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA19-290A",
+  "release_date": "2019-10-17T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

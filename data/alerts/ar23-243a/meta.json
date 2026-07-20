@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/analysis-reports/ar23-243a",
+  "title": "Infamous Chisel Malware Analysis Report",
+  "advisory_type": "Analysis Report",
+  "alert_code": "AR23-243A",
+  "release_date": "2023-08-31T12:00:00Z",
+  "stix_url": "https://www.cisa.gov/sites/default/files/2023-08/AR23-243A%20Infamous%20Chisel%20Malware%20Analysis%20Report.stix_.json",
+  "pdf_url": null
+}

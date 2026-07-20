@@ -1,0 +1,32 @@
+[
+ {
+  "text": "12288:kyIzsYTd+LXxWtmtOdnPR3xTexehCkijOcXF8qSH8gdkMdCNGCWJOWCmP8pSMmVN:ky4sO+9ymtsnPRBnlivXPSH",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "157a0ffd18e05bfd90a4ec108e5458cbde01015e3407b3964732c9d4",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "24576:vsGNL+Kei7j3iTeG0fYHTlyAUoFwZJuaEh68w8To7FgunNZG10guctbAgYMEc+1B:DNb7dEh68E72O4hEVF",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "24:olkc5V0yhsd/AFvaPo3b6EJ2ITY9UI62JPld5oKLeWb6l+vTI:olkq0yK/Ata5EJ2I5nOTvTI",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "3072:ERNwmyBvqZKFkVfhJnEFbDcazPQLTnVy8JR6Ylb3uQ0PQNIfFrCGdDlBXZuZpZfB:bWrjgA",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "96:nPbVkB7jiZStZC+01RPmaUrfzvDwiFMCnd+taflUTsqzNt:nPbqFiwW+g5maMzDwQMCQwmT",
+  "label": "file hash",
+  "reason": "failed format validator"
+ }
+]

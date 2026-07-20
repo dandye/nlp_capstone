@@ -1,0 +1,32 @@
+[
+ {
+  "text": "Exploit Public-Facing Applications",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Gather Victim Identify Information: Credentials",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Gather Victim Identity Information: Email Addresses",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Gather Victim Org Information: Business Relationships",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Phishing \u2013 Spearphishing Attachment",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "TA001",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ }
+]

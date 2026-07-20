@@ -1,0 +1,72 @@
+[
+ {
+  "text": "24:kNrde9j3a+rJTh91QcFdyW6j0SzMaBmVMr6j71idfhphE5gIU0+62E4ONF0qVenf:kNrdepN1BXS0udM5QZphEQ0+s4ON\nF0q0",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "24:kNrde9j3a+rJTh91QcFdyW6j0SzMaEDVMr6j71idfhphE5gh62E4ONF0qTenf:kNrdepN1BXS0zaM5QZphEws4ONF0q6",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "24:kNrde9j3a+rJTh91QcFdyW6j0SzMaGVMr6j71idfhphE5gHUi62E4ONF0qhVenf:kNrdepN1BXS0QM5QZphE4Vs4ONF0qh0",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "24:kNrde9j3a+rJTh91QcFdyW6j0SzMahBYVMr6j71idfhphE5g7Rj62E4ONF0qdenf:kNrdepN1BXS0SM5QZphEOJs4ONF0q",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "24:kNrde9j3a+rJTh91QcFdyW6j0SzMaPfVMr6j71idfhphE5g1l+62E4ONF0qRvenf:kNrdepN1BXS0/M5QZphE0gs4ONF0qR",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "24:kNrde9j3a+rJTh91QcFdyW6j0SzMaSVMr6j71idfhphE5gp62E4ONF0qgSnenf:kNrdepN1BXS0cM5QZphEIs4ONF0qgS+",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "24:kNrde9j3a+rJTh91QcFdyW6j0SzMaxTQSVMr6j71idfhphE5ghI62E4ONF0qlenf:kNrdepN1BXS0geM5QZphESIs4ONF0qk",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "24:kNrde9j3a+rJTh91QcFdyW6j0SzMaZVMr6j71idfhphE5g2Ze62E4ONF0qUUenf:kNrdepN1BXS0BM5QZphEYs4ONF0qI",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "24:ydxSzMaHVMNGs+rJdrde9j3yh91Qcu6jq6j71idfhphE5kaqt62E4ONF0qpenf:SxngffrdepiBJ95QZphEyfs4ONF0qI",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "48:kNrdepN1BXS0ZPpM5QZphEaes4ONF0qZX:ktde/1Ea5NCqx",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CLEAR",
+  "label": "tlp classification",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE2021-27065",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE_2021_27065",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "ff40a8db1e03a133a54ae2fdaf22a33bbfb393a395e57",
+  "label": "file hash",
+  "reason": "failed format validator"
+ }
+]

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/analysis-reports/ar22-277b",
+  "title": "MAR-10365227-2.v1 - Impacket 2",
+  "advisory_type": "Analysis Report",
+  "alert_code": "AR22-277B",
+  "release_date": "2022-10-05T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": "https://www.cisa.gov/sites/default/files/2023-06/mar-10365227.r2.v1.clear_.pdf"
+}

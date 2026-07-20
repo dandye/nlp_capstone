@@ -1,0 +1,806 @@
+[
+ {
+  "text": "123.bat",
+  "label": "file name"
+ },
+ {
+  "text": "7-zip",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ABCD ransomware",
+  "label": "malware family"
+ },
+ {
+  "text": "Abuse Elevation Control Mechanism",
+  "label": "attack technique name"
+ },
+ {
+  "text": "AdFind",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Advanced Port Scanner",
+  "label": "hacking tool"
+ },
+ {
+  "text": "AdvancedRun",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Alphv",
+  "label": "malware family"
+ },
+ {
+  "text": "AnyDesk",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Apache Log4j2",
+  "label": "affected software product"
+ },
+ {
+  "text": "Application Layer \nProtocol: Web \nProtocols",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Application Layer Protocol: File \nTransfer Protocols",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Application Layer Protocol: Web \nProtocols",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Archive Collected Data: Archive \nvia Utility",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Atera RMM",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Avaddon",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Backstab",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Bat Armor",
+  "label": "hacking tool"
+ },
+ {
+  "text": "BlackCat",
+  "label": "malware family"
+ },
+ {
+  "text": "BlackMatter",
+  "label": "malware family"
+ },
+ {
+  "text": "Blister Loader",
+  "label": "malware family"
+ },
+ {
+  "text": "Bloodhound",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Boot or Logon Autostart Execution",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Brute Force",
+  "label": "attack technique name"
+ },
+ {
+  "text": "cert-fr@ssi.gouv.fr",
+  "label": "email address"
+ },
+ {
+  "text": "Chocolatey",
+  "label": "hacking tool"
+ },
+ {
+  "text": "cmd.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Cobalt Strike",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "Conti",
+  "label": "malware family"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Credentials from Password Stores: \nCredentials from Web Browsers",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Credentials from Web Browsers",
+  "label": "attack technique name"
+ },
+ {
+  "text": "CVE-2018-13379",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2019-0708",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2020-1472",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-22986",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-44228",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-0669",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-27350",
+  "label": "cve identifier"
+ },
+ {
+  "text": "DarkSide",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Data Destruction",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Data Encrypted for Impact",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Defacement: Internal Defacement",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Defender Control",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "Domain Policy Modification: Group \nPolicy Modification",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Domain Trust",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Drive-by Compromise",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Execution Guardrails: Environmental \nKeying",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration Over \nAlternative Protocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Exfiltration Over Web Service",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Exfiltration Over Web Service: \nExfiltration to Cloud Storage",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Exploit Public-Facing Application",
+  "label": "attack technique name"
+ },
+ {
+  "text": "External Remote Services",
+  "label": "attack technique name"
+ },
+ {
+  "text": "ExtPassword",
+  "label": "hacking tool"
+ },
+ {
+  "text": "F5 BIG-IP and BIG-IQ Centralized Management iControl REST",
+  "label": "affected software product"
+ },
+ {
+  "text": "F5 iControl REST",
+  "label": "affected software product"
+ },
+ {
+  "text": "FileZilla",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Fortinet FortiOS Secure Sockets Layer (SSL) Virtual Private Network (VPN)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Fortra GoAnyhwere Managed File Transfer (MFT)",
+  "label": "affected software product"
+ },
+ {
+  "text": "FreeFileSync",
+  "label": "hacking tool"
+ },
+ {
+  "text": "GMER",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Hive RaaS",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Impacket",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "Impair Defenses",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Impair Defenses: Disable or Modify",
+  "label": "attack technique name"
+ },
+ {
+  "text": "incidents@ncsc.govt.nz",
+  "label": "email address"
+ },
+ {
+  "text": "Indicator Removal: Clear Windows \nEvent Logs",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Indicator Removal: File Deletion",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Inhibit System Recovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "ir@ops.cert.govt.nz",
+  "label": "email address"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "LaZagne",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Ligolo",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Linux",
+  "label": "affected software product"
+ },
+ {
+  "text": "LockBit",
+  "label": "malware family"
+ },
+ {
+  "text": "LockBit",
+  "label": "threat actor group"
+ },
+ {
+  "text": "LockBit 2.0",
+  "label": "malware family"
+ },
+ {
+  "text": "LockBit 3.0",
+  "label": "malware family"
+ },
+ {
+  "text": "LockBit 3.0 Black",
+  "label": "malware family"
+ },
+ {
+  "text": "LockBit affiliates",
+  "label": "threat actor group"
+ },
+ {
+  "text": "LockBit Black",
+  "label": "malware family"
+ },
+ {
+  "text": "LockBit Green",
+  "label": "malware family"
+ },
+ {
+  "text": "LockBit Linux-ESXi Locker",
+  "label": "malware family"
+ },
+ {
+  "text": "LockBit Linux-ESXi Locker version 1.0",
+  "label": "malware family"
+ },
+ {
+  "text": "LockBit Red",
+  "label": "malware family"
+ },
+ {
+  "text": "LockBitSupp",
+  "label": "threat actor group"
+ },
+ {
+  "text": "LostMyPassword",
+  "label": "hacking tool"
+ },
+ {
+  "text": "lsass.exe",
+  "label": "file name"
+ },
+ {
+  "text": "macOS",
+  "label": "affected software product"
+ },
+ {
+  "text": "MEGA",
+  "label": "hacking tool"
+ },
+ {
+  "text": "MEGA Ltd MegaSync",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Metasploit",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Microsoft \nSysinternals ProDump",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Microsoft Remote Desktop Services",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Sysinternals \nProcDump",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Microsoft Sysinternals \nPsExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NetLogon",
+  "label": "affected software product"
+ },
+ {
+  "text": "Network Service",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Network Service Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Ngrok",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Non-Application Layer Protocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Obfuscated Files or Information",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Obfuscated Files or Information: \nSoftware Packing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Operating System \n(OS) Credential \nDumping",
+  "label": "attack technique name"
+ },
+ {
+  "text": "OS Credential\nDumping: LSASS \nMemory",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PaperCut MF/NG",
+  "label": "affected software product"
+ },
+ {
+  "text": "PasswordFox",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PCHunter",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Phishing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Plink",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerShell.exe",
+  "label": "file name"
+ },
+ {
+  "text": "PowerTool",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "Process Hacker",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Protocol Tunneling",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PsExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PuTTY Link (Plink)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Rclone",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Remote Access Software",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote Services: \nRemote Desktop \nProtocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote Services: Remote \nDesktop Protocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote Services: Server \nMessage Block (SMB)/Admin \nWindows Shares",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Report@cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Royal",
+  "label": "malware family"
+ },
+ {
+  "text": "ScreenConnect",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Seatbelt",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Service Stop",
+  "label": "attack technique name"
+ },
+ {
+  "text": "soc@msisac.org",
+  "label": "email address"
+ },
+ {
+  "text": "SoftPerfect Network \nScanner",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Software Deployment",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Software Deployment Tools",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Splashtop",
+  "label": "hacking tool"
+ },
+ {
+  "text": "StealBit",
+  "label": "malware family"
+ },
+ {
+  "text": "System Information",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System Language Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System Location Discovery: \nSystem Language Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "T1003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1048",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1072",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1082",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1095",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1189",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1219",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1480.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1482",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1484.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1485",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1486",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1489",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1490",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1491.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1547",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1548",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1555.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1560.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1567",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1567.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1569.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1572",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1614.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0002",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0004",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0008",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0008",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0010",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TDSSKiller",
+  "label": "hacking tool"
+ },
+ {
+  "text": "TeamViewer",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ThunderShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ThunderShell",
+  "label": "malware family"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "UACMe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "VMware ESXi",
+  "label": "affected software product"
+ },
+ {
+  "text": "WinSCP",
+  "label": "hacking tool"
+ }
+]

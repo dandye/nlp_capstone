@@ -1,0 +1,970 @@
+[
+ {
+  "text": "1.exe",
+  "label": "file name"
+ },
+ {
+  "text": "1.exe.Config",
+  "label": "file name"
+ },
+ {
+  "text": "10.exe",
+  "label": "file name"
+ },
+ {
+  "text": "1038436121.png",
+  "label": "file name"
+ },
+ {
+  "text": "112882618.png",
+  "label": "file name"
+ },
+ {
+  "text": "1154761258.png",
+  "label": "file name"
+ },
+ {
+  "text": "12.exe",
+  "label": "file name"
+ },
+ {
+  "text": "12.exe.Config",
+  "label": "file name"
+ },
+ {
+  "text": "188.34.188[.]7",
+  "label": "ip address"
+ },
+ {
+  "text": "193.106.175[.]107",
+  "label": "ip address"
+ },
+ {
+  "text": "193.124.125[.]78",
+  "label": "ip address"
+ },
+ {
+  "text": "193.233.254[.]21",
+  "label": "ip address"
+ },
+ {
+  "text": "2.exe",
+  "label": "file name"
+ },
+ {
+  "text": "2.exe.Config",
+  "label": "file name"
+ },
+ {
+  "text": "2077411869.png",
+  "label": "file name"
+ },
+ {
+  "text": "2113791011.png",
+  "label": "file name"
+ },
+ {
+  "text": "2501108160.png",
+  "label": "file name"
+ },
+ {
+  "text": "2615174623.png",
+  "label": "file name"
+ },
+ {
+  "text": "2681232755.png",
+  "label": "file name"
+ },
+ {
+  "text": "2773036704.png",
+  "label": "file name"
+ },
+ {
+  "text": "2wrRR6sW6XJtsXyPzuhWhDG7qwN4es.exe",
+  "label": "file name"
+ },
+ {
+  "text": "2wrRR6sW6XJtsXyPzuhWhDG7qwN4es.exe.Config",
+  "label": "file name"
+ },
+ {
+  "text": "3.exe",
+  "label": "file name"
+ },
+ {
+  "text": "3.exe.Config",
+  "label": "file name"
+ },
+ {
+  "text": "369210627.png",
+  "label": "file name"
+ },
+ {
+  "text": "4.exe",
+  "label": "file name"
+ },
+ {
+  "text": "4.exe.Config",
+  "label": "file name"
+ },
+ {
+  "text": "45.134.140[.]69",
+  "label": "ip address"
+ },
+ {
+  "text": "45.135.232[.]2",
+  "label": "ip address"
+ },
+ {
+  "text": "45.95.67[.]41",
+  "label": "ip address"
+ },
+ {
+  "text": "5.exe",
+  "label": "file name"
+ },
+ {
+  "text": "5.exe.Config",
+  "label": "file name"
+ },
+ {
+  "text": "534475006.png",
+  "label": "file name"
+ },
+ {
+  "text": "6.exe",
+  "label": "file name"
+ },
+ {
+  "text": "7.exe",
+  "label": "file name"
+ },
+ {
+  "text": "8.211.2[.]97",
+  "label": "ip address"
+ },
+ {
+  "text": "8.exe",
+  "label": "file name"
+ },
+ {
+  "text": "89.23.96[.]203",
+  "label": "ip address"
+ },
+ {
+  "text": "9.exe",
+  "label": "file name"
+ },
+ {
+  "text": "92.exe",
+  "label": "file name"
+ },
+ {
+  "text": "<victim_organization_name>[@]protonmail.com",
+  "label": "email address"
+ },
+ {
+  "text": "Account Manipulation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "agntsvc.exe",
+  "label": "file name"
+ },
+ {
+  "text": "ALPHV",
+  "label": "malware family"
+ },
+ {
+  "text": "Amazon AWS S3 buckets/tools",
+  "label": "hacking tool"
+ },
+ {
+  "text": "amba16.ico",
+  "label": "file name"
+ },
+ {
+  "text": "AmbaPDF.ico",
+  "label": "file name"
+ },
+ {
+  "text": "ambapdf.ico.DLL",
+  "label": "file name"
+ },
+ {
+  "text": "AngryIPScanner",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Anydesk",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Apache ActiveMQ",
+  "label": "affected software product"
+ },
+ {
+  "text": "Atlassian Cloud",
+  "label": "affected software product"
+ },
+ {
+  "text": "bcrypt.dll",
+  "label": "file name"
+ },
+ {
+  "text": "BIG-IP",
+  "label": "affected software product"
+ },
+ {
+  "text": "BITSAdmin",
+  "label": "hacking tool"
+ },
+ {
+  "text": "brahma2023[@]onionmail.org",
+  "label": "email address"
+ },
+ {
+  "text": "C:\\Program Files (x86)\\Nmap\\nmap.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\kerbrute.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\%USERNAME%\\Desktop",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\%USERNAME%\\Desktop\\IamBatMan.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\%USERNAME%\\Downloads",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\%USERNAME%\\Downloads\\Anydesk.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\%USERNAME%\\Downloads\\mimikatz_trunk\\x64\\mimikatz.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\%USERNAME%\\Downloads\\nmap-7.94-setup.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\backupexec\\Desktop\\stealer_cli_v2.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\backupexec\\Downloads\\x64\\mimikatz.exe",
+  "label": "file path"
+ },
+ {
+  "text": "Cabinet.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Citrix ADC (NetScaler)",
+  "label": "affected software product"
+ },
+ {
+  "text": "client.min.js",
+  "label": "file name"
+ },
+ {
+  "text": "Cobalt Strike",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "Confluence Data Center and Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Connectwise",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CrackMapExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Create Account",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "CRYPTBASE.DLL",
+  "label": "file name"
+ },
+ {
+  "text": "cryptnet.dll",
+  "label": "file name"
+ },
+ {
+  "text": "CRYPTSP.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Curve 25519",
+  "label": "malware family"
+ },
+ {
+  "text": "cv4TCGxUjvS.exe",
+  "label": "file name"
+ },
+ {
+  "text": "CVE-2017-0144",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2020-0787",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2020-1472",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-22515",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-27997",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-3519",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-46604",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-46747",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-48788",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CWE-122",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-288",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-306",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-502",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-787",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-89",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-94",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "Cyclops",
+  "label": "malware family"
+ },
+ {
+  "text": "d%E5%AD%97%E5%AD%97.resources.dll",
+  "label": "file name"
+ },
+ {
+  "text": "d%E5%AD%97%E5%AD%97.resources.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Data Encrypted for \nImpact",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Data Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "dbeng50.exe",
+  "label": "file name"
+ },
+ {
+  "text": "dbsnmp.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "DPAPI.DLL",
+  "label": "file name"
+ },
+ {
+  "text": "Encryption",
+  "label": "tactic"
+ },
+ {
+  "text": "encsvc.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "exploitation of known vulnerabilities",
+  "label": "attack technique name"
+ },
+ {
+  "text": "ExploitDB",
+  "label": "hacking tool"
+ },
+ {
+  "text": "explorer.exe",
+  "label": "file name"
+ },
+ {
+  "text": "FortiClientEMS",
+  "label": "affected software product"
+ },
+ {
+  "text": "FortiOS",
+  "label": "affected software product"
+ },
+ {
+  "text": "FortiProxy",
+  "label": "affected software product"
+ },
+ {
+  "text": "GitHub",
+  "label": "hacking tool"
+ },
+ {
+  "text": "How To Restore Your Files.txt",
+  "label": "file name"
+ },
+ {
+  "text": "iertutil.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "information.exe",
+  "label": "file name"
+ },
+ {
+  "text": "information.exe.Config",
+  "label": "file name"
+ },
+ {
+  "text": "information.INI",
+  "label": "file name"
+ },
+ {
+  "text": "Inhibit System \nRecovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Inhibit System Recovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "IPHLPAPI.DLL",
+  "label": "file name"
+ },
+ {
+  "text": "jquery.min.js",
+  "label": "file name"
+ },
+ {
+  "text": "Kerberoast",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Knight",
+  "label": "malware family"
+ },
+ {
+  "text": "Knight Ransomware",
+  "label": "malware family"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "LockBit",
+  "label": "malware family"
+ },
+ {
+  "text": "Masquerading",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Metasploit",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Microsoft Windows Vista SP2",
+  "label": "affected software product"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "module.tripadvisor.css",
+  "label": "file name"
+ },
+ {
+  "text": "module.tripadvisor.js",
+  "label": "file name"
+ },
+ {
+  "text": "moment.min.js",
+  "label": "file name"
+ },
+ {
+  "text": "msaccess.exe",
+  "label": "file name"
+ },
+ {
+  "text": "mshtml.dll",
+  "label": "file name"
+ },
+ {
+  "text": "msi.dll",
+  "label": "file name"
+ },
+ {
+  "text": "mspub.exe",
+  "label": "file name"
+ },
+ {
+  "text": "N-Able",
+  "label": "hacking tool"
+ },
+ {
+  "text": "network scanning",
+  "label": "attack technique name"
+ },
+ {
+  "text": "NEWOFFICIALPROGRAMCAUSEOFNEWUPDATE.exe",
+  "label": "file name"
+ },
+ {
+  "text": "NEWOFFICIALPROGRAMCAUSEOFNEWUPDATE.exe.Config",
+  "label": "file name"
+ },
+ {
+  "text": "NEWOFFICIALPROGRAMCAUSEOFNEWUPDATE.INI",
+  "label": "file name"
+ },
+ {
+  "text": "Nmap",
+  "label": "hacking tool"
+ },
+ {
+  "text": "notepad.exe",
+  "label": "file name"
+ },
+ {
+  "text": "ocautoupds.exe",
+  "label": "file name"
+ },
+ {
+  "text": "ocomm.exe",
+  "label": "file name"
+ },
+ {
+  "text": "ocssd.exe",
+  "label": "file name"
+ },
+ {
+  "text": "onenote.exe",
+  "label": "file name"
+ },
+ {
+  "text": "oracle.exe",
+  "label": "file name"
+ },
+ {
+  "text": "outlook.exe",
+  "label": "file name"
+ },
+ {
+  "text": "password spraying",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "Phishing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "phishing emails",
+  "label": "attack technique name"
+ },
+ {
+  "text": "powerpnt.exe",
+  "label": "file name"
+ },
+ {
+  "text": "PowerShell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "Privilege Escalation and Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "PsExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PuTTY",
+  "label": "hacking tool"
+ },
+ {
+  "text": "QakBot",
+  "label": "malware family"
+ },
+ {
+  "text": "RansomHub",
+  "label": "malware family"
+ },
+ {
+  "text": "RansomHub",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Rclone",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Remote Access Software",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote Desktop Protocol (RDP)",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Resource Development",
+  "label": "tactic"
+ },
+ {
+  "text": "Sliver",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SMBExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SOC@cisecurity.org",
+  "label": "email address"
+ },
+ {
+  "text": "sql.exe",
+  "label": "file name"
+ },
+ {
+  "text": "SspiCli.dll",
+  "label": "file name"
+ },
+ {
+  "text": "steam.exe",
+  "label": "file name"
+ },
+ {
+  "text": "superloop.exe",
+  "label": "file name"
+ },
+ {
+  "text": "svchost.exe",
+  "label": "file name"
+ },
+ {
+  "text": "synctime.exe",
+  "label": "file name"
+ },
+ {
+  "text": "T1003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1018",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1047",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1048.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1048.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1068",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1098",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1210",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1219",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1486",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1490",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1537",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1588.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TeamViewer.exe",
+  "label": "file name"
+ },
+ {
+  "text": "thebat.exe",
+  "label": "file name"
+ },
+ {
+  "text": "thunderbird.exe",
+  "label": "file name"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TmsLA6kdcU8jxKzpMvbUVweTeF5YcR.exe",
+  "label": "file name"
+ },
+ {
+  "text": "TmsLA6kdcU8jxKzpMvbUVweTeF5YcR.exe.Config",
+  "label": "file name"
+ },
+ {
+  "text": "urlmon.dll",
+  "label": "file name"
+ },
+ {
+  "text": "USERENV.dll",
+  "label": "file name"
+ },
+ {
+  "text": "visio.exe",
+  "label": "file name"
+ },
+ {
+  "text": "vmcompute.exe",
+  "label": "file name"
+ },
+ {
+  "text": "vmms.exe",
+  "label": "file name"
+ },
+ {
+  "text": "vmwp.exe",
+  "label": "file name"
+ },
+ {
+  "text": "vssadmin.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "webio.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Windows 10 Gold, 1511, and 1607",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows 7 SP1",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows 8.1",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows RT 8.1",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows Server 2008 SP2 and R2 SP1",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows Server 2012 Gold and R2",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows Server 2016",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows.exe",
+  "label": "file name"
+ },
+ {
+  "text": "winhttp.dll",
+  "label": "file name"
+ },
+ {
+  "text": "WININET.dll",
+  "label": "file name"
+ },
+ {
+  "text": "WINMM.dll",
+  "label": "file name"
+ },
+ {
+  "text": "WINMMBASE.dll",
+  "label": "file name"
+ },
+ {
+  "text": "winnlsres.dll",
+  "label": "file name"
+ },
+ {
+  "text": "WinSCP",
+  "label": "hacking tool"
+ },
+ {
+  "text": "winword.exe",
+  "label": "file name"
+ },
+ {
+  "text": "wordpad.exe",
+  "label": "file name"
+ },
+ {
+  "text": "xfssvccon.exe",
+  "label": "file name"
+ },
+ {
+  "text": "xwenxub285p83ecrzvft.exe",
+  "label": "file name"
+ },
+ {
+  "text": "xwenxub285p83ecrzvft.exe.Config",
+  "label": "file name"
+ }
+]

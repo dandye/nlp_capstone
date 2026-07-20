@@ -1,0 +1,418 @@
+[
+ {
+  "text": "Account Discovery: \nDomain Account",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Active Directory Certificate Services (ADCS)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Active Scanning: \nScanning IP Blocks",
+  "label": "attack technique name"
+ },
+ {
+  "text": "ADCS",
+  "label": "affected software product"
+ },
+ {
+  "text": "adversary-in-the-middle",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Adversary-in-the\ufffeMiddle",
+  "label": "attack technique name"
+ },
+ {
+  "text": "BlueKeep",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Brute Force: \nPassword Cracking",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Brute Force: \nPassword Spraying",
+  "label": "attack technique name"
+ },
+ {
+  "text": "C$",
+  "label": "file path"
+ },
+ {
+  "text": "Certipy",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "Command and \nScripting Interpreter: \nWindows Command \nShell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Command-Line \nInterface",
+  "label": "attack technique name"
+ },
+ {
+  "text": "CrackMapExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "CVE-2017-0144",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2019-0708",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CWE-20",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "Data from Network \nShared Drive",
+  "label": "attack technique name"
+ },
+ {
+  "text": "DCSync",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "DonPAPI",
+  "label": "hacking tool"
+ },
+ {
+  "text": "EternalBlue",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Evilginx",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Exploitation of \nRemote Services",
+  "label": "attack technique name"
+ },
+ {
+  "text": "External Remote \nServices",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Forced",
+  "label": "attack technique name"
+ },
+ {
+  "text": "GetUserSPNs",
+  "label": "hacking tool"
+ },
+ {
+  "text": "golden ticket",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Impacket",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "initial access",
+  "label": "tactic"
+ },
+ {
+  "text": "Kerberoasting",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "LLMNR",
+  "label": "hacking tool"
+ },
+ {
+  "text": "LLMNR/NBT-NS \nPoisoning and Relay",
+  "label": "attack technique name"
+ },
+ {
+  "text": "LLMNR/NBT-NS/mDNS/DHCP poisoning",
+  "label": "attack technique name"
+ },
+ {
+  "text": "MFA fatigue",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Network Service \nScanning",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Network Sniffing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "NTLM relay attacks",
+  "label": "attack technique name"
+ },
+ {
+  "text": "NTLMrelayx",
+  "label": "hacking tool"
+ },
+ {
+  "text": "OS Credential \nDumping",
+  "label": "attack technique name"
+ },
+ {
+  "text": "OS Credential \nDumping: DCSync",
+  "label": "attack technique name"
+ },
+ {
+  "text": "OS Credential \nDumping: Security \nAccount Manager",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PetitPotam",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "RedEye",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Remote Services",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Responder",
+  "label": "hacking tool"
+ },
+ {
+  "text": "silver ticket",
+  "label": "attack technique name"
+ },
+ {
+  "text": "SMB/Windows \nAdmin Shares",
+  "label": "attack technique name"
+ },
+ {
+  "text": "SMBv1",
+  "label": "affected software product"
+ },
+ {
+  "text": "Spooler",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Steal or Forge \nCertificates",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Steal or Forge \nKerberos Tickets",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Steal or Forge \nKerberos Tickets: \nKerberoasting",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System \nShutdown/Reboot",
+  "label": "attack technique name"
+ },
+ {
+  "text": "T1003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1039",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1040",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1080",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1187",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1210",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1529",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1550",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1550.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1557",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1557.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1558",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1558.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1595.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1649",
+  "label": "attack technique id"
+ },
+ {
+  "text": "Taint Shared \nContent",
+  "label": "attack technique name"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Unconstrained Delegation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Use Alternate \nMaterial",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Use Alternate \nMaterial: Pass the \nHash",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Valid Accounts: \nDefault Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Valid Accounts: \nDomain Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "WebClient",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Windows 10",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows 5.1",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows Server 2008",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows Server 2008 R2",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows Server 2019",
+  "label": "affected software product"
+ }
+]

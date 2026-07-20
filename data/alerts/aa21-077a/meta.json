@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-077a",
+  "title": "Detecting Post-Compromise Threat Activity Using the CHIRP IOC Detection Tool",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA21-077A",
+  "release_date": "2021-03-18T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

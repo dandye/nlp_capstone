@@ -1,0 +1,626 @@
+[
+ {
+  "text": ".bat",
+  "label": "file name"
+ },
+ {
+  "text": ".royal",
+  "label": "file name"
+ },
+ {
+  "text": "08c6e20b1785d4ec4e3f9956931d992377963580b4b2c6579fd9930e08882b1c",
+  "label": "file hash"
+ },
+ {
+  "text": "102.157.44[.]105",
+  "label": "ip address"
+ },
+ {
+  "text": "105.158.118[.]241",
+  "label": "ip address"
+ },
+ {
+  "text": "105.69.155[.]85",
+  "label": "ip address"
+ },
+ {
+  "text": "113.169.187[.]159",
+  "label": "ip address"
+ },
+ {
+  "text": "134.35.9[.]209",
+  "label": "ip address"
+ },
+ {
+  "text": "137.220.61.94",
+  "label": "ip address"
+ },
+ {
+  "text": "139.195.43[.]166",
+  "label": "ip address"
+ },
+ {
+  "text": "139.60.161[.]213",
+  "label": "ip address"
+ },
+ {
+  "text": "140.82.48[.]158",
+  "label": "ip address"
+ },
+ {
+  "text": "147.135.11.223",
+  "label": "ip address"
+ },
+ {
+  "text": "147.135.11[.]223",
+  "label": "ip address"
+ },
+ {
+  "text": "147.135.36.162",
+  "label": "ip address"
+ },
+ {
+  "text": "147.135.36[.]162",
+  "label": "ip address"
+ },
+ {
+  "text": "148.213.109[.]165",
+  "label": "ip address"
+ },
+ {
+  "text": "152.89.247[.]50",
+  "label": "ip address"
+ },
+ {
+  "text": "163.182.177[.]80",
+  "label": "ip address"
+ },
+ {
+  "text": "172.64.80[.]1",
+  "label": "ip address"
+ },
+ {
+  "text": "1743494f803bbcbd11150a4a8b7a2c5faba1223da607f67d24b18ca2d95d5ba3",
+  "label": "file hash"
+ },
+ {
+  "text": "179.43.167[.]10",
+  "label": "ip address"
+ },
+ {
+  "text": "181.141.3[.]126",
+  "label": "ip address"
+ },
+ {
+  "text": "181.164.194[.]228",
+  "label": "ip address"
+ },
+ {
+  "text": "185.143.223[.]69",
+  "label": "ip address"
+ },
+ {
+  "text": "185.7.214[.]218",
+  "label": "ip address"
+ },
+ {
+  "text": "186.64.67[.]6",
+  "label": "ip address"
+ },
+ {
+  "text": "186.86.212[.]138",
+  "label": "ip address"
+ },
+ {
+  "text": "190.193.180[.]228",
+  "label": "ip address"
+ },
+ {
+  "text": "193.149.176[.]157",
+  "label": "ip address"
+ },
+ {
+  "text": "193.235.146[.]104",
+  "label": "ip address"
+ },
+ {
+  "text": "196.70.77[.]11",
+  "label": "ip address"
+ },
+ {
+  "text": "197.11.134[.]255",
+  "label": "ip address"
+ },
+ {
+  "text": "197.158.89[.]85",
+  "label": "ip address"
+ },
+ {
+  "text": "197.204.247[.]7",
+  "label": "ip address"
+ },
+ {
+  "text": "197.207.181[.]147",
+  "label": "ip address"
+ },
+ {
+  "text": "197.207.218[.]27",
+  "label": "ip address"
+ },
+ {
+  "text": "197.94.67[.]207",
+  "label": "ip address"
+ },
+ {
+  "text": "19896A23D7B054625C2F6B1EE1551A0DA68AD25CDDBB24510A3B74578418E618",
+  "label": "file hash"
+ },
+ {
+  "text": "209.141.36[.]116",
+  "label": "ip address"
+ },
+ {
+  "text": "216047C048BF1DCBF031CF24BD5E0F263994A5DF60B23089E393033D17257CB5",
+  "label": "file hash"
+ },
+ {
+  "text": "23.111.114[.]52",
+  "label": "ip address"
+ },
+ {
+  "text": "41.100.55[.]97",
+  "label": "ip address"
+ },
+ {
+  "text": "41.107.77[.]67",
+  "label": "ip address"
+ },
+ {
+  "text": "41.109.11[.]80",
+  "label": "ip address"
+ },
+ {
+  "text": "41.251.121[.]35",
+  "label": "ip address"
+ },
+ {
+  "text": "41.97.65[.]51",
+  "label": "ip address"
+ },
+ {
+  "text": "42.189.12[.]36",
+  "label": "ip address"
+ },
+ {
+  "text": "45.227.251[.]167",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.136[.]47",
+  "label": "ip address"
+ },
+ {
+  "text": "45.8.158[.]104",
+  "label": "ip address"
+ },
+ {
+  "text": "47.87.229[.]39",
+  "label": "ip address"
+ },
+ {
+  "text": "4a9dde3979c2343c024c6eeeddff7639be301826dd637c006074e04a1e4e9fe7",
+  "label": "file hash"
+ },
+ {
+  "text": "4cd00234b18e04dcd745cc81bb928c8451f6601affb5fa45f20bb11bfb5383ce",
+  "label": "file hash"
+ },
+ {
+  "text": "5.181.157.8",
+  "label": "ip address"
+ },
+ {
+  "text": "5.181.234.58",
+  "label": "ip address"
+ },
+ {
+  "text": "5.181.234[.]58",
+  "label": "ip address"
+ },
+ {
+  "text": "5.188.86[.]195",
+  "label": "ip address"
+ },
+ {
+  "text": "5.44.42[.]20",
+  "label": "ip address"
+ },
+ {
+  "text": "61.166.221[.]46",
+  "label": "ip address"
+ },
+ {
+  "text": "68.83.169[.]91",
+  "label": "ip address"
+ },
+ {
+  "text": "77.73.133[.]84",
+  "label": "ip address"
+ },
+ {
+  "text": "7zip",
+  "label": "hacking tool"
+ },
+ {
+  "text": "81.184.181[.]215",
+  "label": "ip address"
+ },
+ {
+  "text": "82.12.196[.]197",
+  "label": "ip address"
+ },
+ {
+  "text": "89.108.65[.]136",
+  "label": "ip address"
+ },
+ {
+  "text": "8A983042278BC5897DBCDD54D1D7E3143F8B7EAD553B5A4713E30DEFFDA16375",
+  "label": "file hash"
+ },
+ {
+  "text": "8a99353662ccae117d2bb22efd8c43d7169060450be413af763e8ad7522d2451",
+  "label": "file hash"
+ },
+ {
+  "text": "94.232.41[.]105",
+  "label": "ip address"
+ },
+ {
+  "text": "98.143.70[.]147",
+  "label": "ip address"
+ },
+ {
+  "text": "Acquire Access",
+  "label": "attack technique name"
+ },
+ {
+  "text": "AnyDesk",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Automated Collection",
+  "label": "attack technique name"
+ },
+ {
+  "text": "B8C4AEC31C134ADBDBE8AAD65D2BCB21CFE62D299696A23ADD9AA1DE082C6E20",
+  "label": "file hash"
+ },
+ {
+  "text": "be030e685536eb38ba1fec1c90e90a4165f6641c8dc39291db1d23f4ee9fa0b1",
+  "label": "file hash"
+ },
+ {
+  "text": "BlackSuit",
+  "label": "malware family"
+ },
+ {
+  "text": "BlackSuit",
+  "label": "threat actor group"
+ },
+ {
+  "text": "BlackSuit Ransomware",
+  "label": "malware family"
+ },
+ {
+  "text": "Brute Ratel",
+  "label": "hacking tool"
+ },
+ {
+  "text": "C:\\ProgramData\\",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Temp\\",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\<user>\\AppData\\Roaming\\",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\<users>\\",
+  "label": "file path"
+ },
+ {
+  "text": "calls_rsa_function",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Chisel",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Cobalt Strike",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Cobalt Strike",
+  "label": "malware family"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "d47d4b52e75e8cf3b11ea171163a66c06d1792227c1cf7ca49d7df60804a1681",
+  "label": "file hash"
+ },
+ {
+  "text": "Data Encrypted for Impact",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "f8cff7082a936912baf2124d42ed82403c75c87cb160553a7df862f8d81809ee",
+  "label": "file hash"
+ },
+ {
+  "text": "GMER",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Gootloader",
+  "label": "malware family"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "Ingress Tool Transfer",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "is_executable",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "malvertising",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "MobaXterm",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NirCmd",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Nirsoft",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NSudo",
+  "label": "hacking tool"
+ },
+ {
+  "text": "obfuscates_dlls",
+  "label": "yara rule name"
+ },
+ {
+  "text": "OpenSSH",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "Phishing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PowerTool",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "Protocol Tunneling",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PsExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Public-facing applications",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PuTTY",
+  "label": "hacking tool"
+ },
+ {
+  "text": "RClone",
+  "label": "hacking tool"
+ },
+ {
+  "text": "readme.BlackSuit.txt",
+  "label": "file name"
+ },
+ {
+  "text": "README.TXT",
+  "label": "file name"
+ },
+ {
+  "text": "Remote Desktop Protocol (RDP)",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Resource Development",
+  "label": "tactic"
+ },
+ {
+  "text": "Royal",
+  "label": "malware family"
+ },
+ {
+  "text": "Royal",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Royal Ransomware",
+  "label": "malware family"
+ },
+ {
+  "text": "Secure Shell (SSH) client",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SharpShares",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SoftPerfect NetWorx",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SystemBC",
+  "label": "malware family"
+ },
+ {
+  "text": "T1021.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1119",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1484.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1486",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1572",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1650",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TLP: CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Ursnif/Gozi",
+  "label": "malware family"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Valid Accounts: Domain Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "vssadmin.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "win_BlackSuit_manual",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Windows Restart Manager",
+  "label": "hacking tool"
+ },
+ {
+  "text": "xor_decoder_functions",
+  "label": "yara rule name"
+ }
+]

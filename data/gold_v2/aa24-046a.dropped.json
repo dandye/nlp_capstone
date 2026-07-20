@@ -1,0 +1,72 @@
+[
+ {
+  "text": "Account Discovery: Domain Account",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Data from Information Repositories: SharePoint",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Domain Trust Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "External Remote Services",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "File and Directory Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Gather Victim Identity Information: Credentials",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "M1032",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Network Service Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Remote Services: Cloud Services",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Remote Services: SMB/Windows Admin Shares",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Remote System Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Unsecured Credentials: Credentials in Files",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Valid Accounts: Cloud Accounts",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Valid Accounts: Domain Accounts",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

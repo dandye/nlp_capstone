@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/analysis-reports/ar23-209c",
+  "title": "MAR-10454006-r3.v1 Exploit Payload Backdoor",
+  "advisory_type": "Analysis Report",
+  "alert_code": "AR23-209C",
+  "release_date": "2023-07-28T12:00:00Z",
+  "stix_url": "https://www.cisa.gov/sites/default/files/2023-07/MAR-10454006.r3.v1.CLEAR_stix2.json",
+  "pdf_url": "https://www.cisa.gov/sites/default/files/2023-07/MAR-10454006.r3.v1.CLEAR_.pdf"
+}

@@ -1,0 +1,70 @@
+[
+ {
+  "text": "%APPDATA%\\JWrapper-Remote Access",
+  "label": "file path"
+ },
+ {
+  "text": "/Library/Application Support/JWrapper-Remote Access",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/JWrapper-Remote Access",
+  "label": "file path"
+ },
+ {
+  "text": "<file_path>/JWrapper-Remote Access/JWAppsSharedConfig/",
+  "label": "file path"
+ },
+ {
+  "text": "<file_path>/SimpleHelp/configuration/serverconfig.xml",
+  "label": "file path"
+ },
+ {
+  "text": "aaa.exe",
+  "label": "file name"
+ },
+ {
+  "text": "bbb.exe",
+  "label": "file name"
+ },
+ {
+  "text": "CVE-2024-57727",
+  "label": "cve identifier"
+ },
+ {
+  "text": "DragonForce",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Remote Desktop Protocol (RDP)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "serverconfig.xml",
+  "label": "file name"
+ },
+ {
+  "text": "serviceconfig.xml",
+  "label": "file name"
+ },
+ {
+  "text": "SimpleHelp",
+  "label": "affected software product"
+ },
+ {
+  "text": "SimpleHelp RMM",
+  "label": "affected software product"
+ },
+ {
+  "text": "support@simple-help.com",
+  "label": "email address"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ }
+]

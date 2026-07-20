@@ -1,0 +1,82 @@
+[
+ {
+  "text": "Access Token Manipulation: Token Impersonation/Theft",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Credentials from Password Stores",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Credentials from Password Stores: Credentials from Web Browsers",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Credentials from Password Stores: Password Managers",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Data Obfuscation: Protocol Impersonation",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Deobfuscate/Decode Files or Information",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Disable or Modify System Firewall",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exfiltration Over Alternative Protocol",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "ff3d28afe5245459afa6d7985081bc6a62f86dce64c63daeb2136d7d2c",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "ff3d28afe5245459afa6d7985081bc6a62f86dce64c63daeb2136d7d2c.bin",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "OS Credential Dumping: Cached Domain Credentials",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "OS Credential Dumping: LSASS Memory",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Phishing: Spearphishing Attachment",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Registry Run Keys / Startup Folder",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Search Open Websites/Domains",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "System Binary Proxy Execution: Mshta",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

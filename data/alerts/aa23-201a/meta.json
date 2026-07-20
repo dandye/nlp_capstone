@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-201a",
+  "title": "Threat Actors Exploiting Citrix CVE-2023-3519 to Implant Webshells",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA23-201A",
+  "release_date": "2023-07-20T12:00:00Z",
+  "pdf_url": null,
+  "stix_url": null
+}

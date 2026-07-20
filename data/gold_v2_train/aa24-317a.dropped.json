@@ -1,0 +1,257 @@
+[
+ {
+  "text": "Barracuda Email Security Gateway Appliance (ESG)",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Barracuda Networks Email Security Gateway (ESG) Appliance",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "CL0P Ransomware Gang",
+  "label": "threat actor group",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "CVE-2018-\n13379",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2019-\n11510",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2019-\n18935",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n22205",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n22986",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n26084",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n27860",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n33044",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n33045",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n34473",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n40539",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n44228",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021- 44228",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n26134",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n31199",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n41040",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n47966",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n20198",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n20273",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n22515",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n22518",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n23397",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n27350",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n27997",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n29492",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n34362",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n35078",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n35081",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n36844",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n36845",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n36846",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n36847",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n38831",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n41061",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n41064",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n42793",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n44487",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-\n49103",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2023-3467",
+  "label": "cve identifier",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "CVE-2023-4967",
+  "label": "cve identifier",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Endpoint Manager Mobile (EPMM)",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Iranian Government\ufffeSponsored APT Cyber Actors",
+  "label": "threat actor group",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "ManageEngine Multiple Products",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "PaperCut NG",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Pulse Policy Secure",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Russian Foreign Intelligence Service (SVR)",
+  "label": "threat actor group",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Russian Military Cyber Actors",
+  "label": "threat actor group",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "VMware Horizon",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ }
+]

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141b",
+  "title": "Threat Actors Deploy LummaC2 Malware to Exfiltrate Sensitive Data from Organizations",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA25-141B",
+  "release_date": "2025-05-21T12:00:00Z",
+  "pdf_url": null,
+  "stix_url": null
+}

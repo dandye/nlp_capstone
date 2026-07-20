@@ -1,0 +1,138 @@
+[
+ {
+  "text": "001e4906879e78d567a30502638233f34292504a",
+  "label": "file hash"
+ },
+ {
+  "text": "2da3716aab9c9a8a85705c1372c4d75250dc021caa4f3b7566f6c142bdb3a45a063ec5f343b15b9be6056890768e80e7512f6ddbb86de178c475a160f56c0dad",
+  "label": "file hash"
+ },
+ {
+  "text": "6a9c23c3bd8a4b5f7301b80b7187ed6ae055a4e05e2b817800ddade99cb45e50bf3a96a57f9593aa8dfb49934ea48dba722ba3f4b0e8a8a634e6c86da335dcba",
+  "label": "file hash"
+ },
+ {
+  "text": "6ce087b904af8a01aae73ac77d81822ad41799f89a5d301dce45191c897012aa",
+  "label": "file hash"
+ },
+ {
+  "text": "703437c5742f343cabc6023698e031f0c4167252e9679d4e4fd13d9703f27de21faa7edf275bd9a39c4b2e454a83c43d555849ae61a0897ac1da9ed6be820d4d",
+  "label": "file hash"
+ },
+ {
+  "text": "71323c956317b6b2c8e4ed4595ccfe5a",
+  "label": "file hash"
+ },
+ {
+  "text": "7ebd98f97f61cabff05438dfac34d0331ce233aa",
+  "label": "file hash"
+ },
+ {
+  "text": "App_Web_jl37rjxu.dll",
+  "label": "file name"
+ },
+ {
+  "text": "b374k shell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "b63c95300c8e36b5e6d3393da12931683796f88fd4601ba8364658b4d12ac05b",
+  "label": "file hash"
+ },
+ {
+  "text": "CISA_10443863_01",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10443863_02",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10443863_03",
+  "label": "yara rule name"
+ },
+ {
+  "text": "cmd.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "con7ext_shell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "e5f29cac0570665bc12f54a7e1894f139cc7b45e",
+  "label": "file hash"
+ },
+ {
+  "text": "ea98368f6ecb5281654a6a9e4c649ef9b53860f1ee32340145b61e0e42e1072a",
+  "label": "file hash"
+ },
+ {
+  "text": "f899d6cbe1be6395a0fa2a802b8eb579",
+  "label": "file hash"
+ },
+ {
+  "text": "fcb8a6a264d05f1689c9dce5824b217d",
+  "label": "file hash"
+ },
+ {
+  "text": "garuda tersakti",
+  "label": "threat actor group"
+ },
+ {
+  "text": "IIS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Exchange Servers",
+  "label": "affected software product"
+ },
+ {
+  "text": "osker.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "ProxyLogon",
+  "label": "attack technique name"
+ },
+ {
+  "text": "sd.php",
+  "label": "file name"
+ },
+ {
+  "text": "sqlcmd.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "submit@malware.us-cert.gov",
+  "label": "email address"
+ },
+ {
+  "text": "TLP: CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TubagusNM",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Windows Management Instrumentation (WMI)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "X0MB13",
+  "label": "threat actor group"
+ },
+ {
+  "text": "X0MB13@REBORN.COM",
+  "label": "email address"
+ },
+ {
+  "text": "xaisyndicate",
+  "label": "threat actor group"
+ }
+]

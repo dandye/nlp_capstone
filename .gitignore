@@ -1,0 +1,29 @@
+# Environments
+.venv/
+.venv-ml/
+__pycache__/
+*.pyc
+
+# Model checkpoints (5.9GB; published to HF Hub, retraining repopulates)
+models/
+
+# Raw scrape outputs left behind by design (clean.md is the committed artifact)
+data/pdfs/
+data/stix/
+data/advisories.db
+data/alerts/**/*.pdf
+# raw docling markdown (the annotation-free source of clean.md); regenerable
+data/alerts/**/*.md
+!data/alerts/**/*.clean.md
+
+# LaTeX build intermediates (paper/capstone/)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# OS cruft
+.DS_Store

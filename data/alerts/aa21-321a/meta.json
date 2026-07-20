@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-321a",
+  "title": "Iranian Government-Sponsored APT Cyber Actors Exploiting Microsoft Exchange and Fortinet Vulnerabilities in Furtherance of Malicious Activities",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA21-321A",
+  "release_date": "2021-11-17T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

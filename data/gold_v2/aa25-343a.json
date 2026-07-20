@@ -1,0 +1,290 @@
+[
+ {
+  "text": "Alarm Suppression",
+  "label": "attack technique name"
+ },
+ {
+  "text": "APT44",
+  "label": "threat actor group"
+ },
+ {
+  "text": "CARR",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Change Credential",
+  "label": "attack technique name"
+ },
+ {
+  "text": "CISM",
+  "label": "threat actor group"
+ },
+ {
+  "text": "contact@cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "contact@cyber.gc.ca",
+  "label": "email address"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Cyber Army of Russia Reborn",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Cyber Army of Russia Reborn (CARR)",
+  "label": "threat actor group"
+ },
+ {
+  "text": "CyberArmy of Russia",
+  "label": "threat actor group"
+ },
+ {
+  "text": "CybersecurityReports@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "DDoSia",
+  "label": "malware family"
+ },
+ {
+  "text": "Default Credentials",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Graphical User Interface",
+  "label": "attack technique name"
+ },
+ {
+  "text": "GRU military unit 74455",
+  "label": "threat actor group"
+ },
+ {
+  "text": "GTsST",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "Impair Process Control",
+  "label": "tactic"
+ },
+ {
+  "text": "incidents@ncsc.govt.nz",
+  "label": "email address"
+ },
+ {
+  "text": "Inhibit Response Function",
+  "label": "tactic"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "Loss of View",
+  "label": "attack technique name"
+ },
+ {
+  "text": "military unit 74455",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Modify Parameter",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Nmap",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NoName057(16)",
+  "label": "threat actor group"
+ },
+ {
+  "text": "NoName057(16) France",
+  "label": "threat actor group"
+ },
+ {
+  "text": "NoName057(16) Italy",
+  "label": "threat actor group"
+ },
+ {
+  "text": "NoName057(16) Spain",
+  "label": "threat actor group"
+ },
+ {
+  "text": "OPENVAS",
+  "label": "hacking tool"
+ },
+ {
+  "text": "People\u2019s CyberArmy of Russia (PCA)",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "Remote Services",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote Services: VNC",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Resource Development",
+  "label": "tactic"
+ },
+ {
+  "text": "Russian CyberArmy Team (RCAT)",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Sandworm Team",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Seashell Blizzard",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Sector16",
+  "label": "threat actor group"
+ },
+ {
+  "text": "T0812",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T0816",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T0823",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T0828",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T0829",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T0831",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T0836",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T0855",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T0859",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T0878",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T0883",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T0886",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T0892",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1583.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1591",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1595.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "The People\u2019s Cyber Army of Russia",
+  "label": "threat actor group"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Unauthorized Command Message",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "VNC",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Voodoo Bear",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Z-Alliance",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Z-Pentest",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Z-Pentest Alliance",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Z-Pentest Beograd",
+  "label": "threat actor group"
+ },
+ {
+  "text": "\u041d\u0430\u0440\u043e\u0434\u043d\u0430\u044f Cyber\u0410\u0440\u043c\u0438\u044f (\u041d\u041a\u0410)",
+  "label": "threat actor group"
+ }
+]

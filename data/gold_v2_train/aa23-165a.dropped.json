@@ -1,0 +1,82 @@
+[
+ {
+  "text": "Advanced Internet Protocol (IP) Scanner",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Application Layer Protocol: File Transfer Protocols",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Atera Remote Monitoring & Management (RMM)",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Command and Scripting \nInterpreter: Windows \nCommand Shell",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "CVE-2021-\n22986",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "S0002",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "S0029",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "S0349",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "S0357",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "S0508",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "S0552",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "S1040",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "System Services: \nService \nExecution",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "T1021.00",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "ucmDccwCOM Method",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ }
+]

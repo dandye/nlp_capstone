@@ -1,0 +1,82 @@
+[
+ {
+  "text": "/server-info.action",
+  "label": "file path"
+ },
+ {
+  "text": "/setup/setupadministrator.action",
+  "label": "file path"
+ },
+ {
+  "text": "152.32.207[.]23",
+  "label": "ip address"
+ },
+ {
+  "text": "170.106.106[.]16",
+  "label": "ip address"
+ },
+ {
+  "text": "199.19.110[.]14",
+  "label": "ip address"
+ },
+ {
+  "text": "43.130.1[.]222",
+  "label": "ip address"
+ },
+ {
+  "text": "95.217.6[.]16",
+  "label": "ip address"
+ },
+ {
+  "text": "Atlassian Confluence",
+  "label": "affected software product"
+ },
+ {
+  "text": "Atlassian Confluence Data Center and Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Confluence Data Center and Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "cURL",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CVE-2023-22515",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CWE-20",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Rclone",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "SOC@cisecurity.org",
+  "label": "email address"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "UCloud Information Technology Limited",
+  "label": "affected software product"
+ }
+]

@@ -1,0 +1,97 @@
+[
+ {
+  "text": "Alternative Protocol: Asymmetric Unencrypted Non-C2 Protocol",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Brute Force: Password Spraying",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\crackmapexec.exe",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Command and Scripting Interpreter",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Data Encrypted for Impact",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exfiltration Over Alternative Protocol: Asymmetric Encrypted Non-C2 Protocol",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exploit Public-Facing Application",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exploitation of Remote Services",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Impair Defenses: Disable or Modify Tools",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Indicator Removal on Host",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Netlogon Remote Protocol (MS-NRPC)",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Network Service Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Obtain Capabilities: Exploits",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "OS Credential Dumping",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Remote Services: Remote Desktop Protocol",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Remote System Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Transfer Data to Cloud Account",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Windows Management Instrumentation",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Windows Management Instrumentation",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ }
+]

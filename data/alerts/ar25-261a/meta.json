@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/analysis-reports/ar25-261a",
+  "title": "Malicious Listener for Ivanti Endpoint Mobile Management Systems",
+  "advisory_type": "Analysis Report",
+  "alert_code": "ar25-261a",
+  "release_date": "2025-09-18T12:00:00Z",
+  "stix_url": "https://www.cisa.gov/sites/default/files/2025-09/MAR-251126.r1.v1.CLEAR_stix2.json",
+  "pdf_url": "https://www.cisa.gov/sites/default/files/2025-09/AR25-261A_MAR_Malicious_Listener_for_Ivanti_EPMM_Systems_2.pdf"
+}

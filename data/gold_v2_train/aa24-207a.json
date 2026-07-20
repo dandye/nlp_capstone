@@ -1,0 +1,902 @@
+[
+ {
+  "text": "38f0f2d658e09c57fc78698482f2f638843eb53412d860fb3a99bb6f51025b07",
+  "label": "file hash"
+ },
+ {
+  "text": "3RAT",
+  "label": "malware family"
+ },
+ {
+  "text": "664f8d19af3400a325998b332343a9304f03bab9738ddab1530869eff13dae54",
+  "label": "file hash"
+ },
+ {
+  "text": "772b06f34facf6a2ce351b8679ff957cf601ef3ad29645935cb050b4184c8d51",
+  "label": "file hash"
+ },
+ {
+  "text": "8aa6612c95c7cef49709596da43a0f8354f14d8c08128c4cb9b1f37e548f083b",
+  "label": "file hash"
+ },
+ {
+  "text": "9a5504dcfb7e664259bfa58c46cfd33e554225daf1cedea2ec2a9d83bbbfe238",
+  "label": "file hash"
+ },
+ {
+  "text": "\\x9891-009942-xnopcopie.dat",
+  "label": "file name"
+ },
+ {
+  "text": "aa29bf4292b68d197f4d8ca026b97ec7785796edcb644db625a8f8b66733ab54",
+  "label": "file hash"
+ },
+ {
+  "text": "Account Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Active Directory",
+  "label": "affected software product"
+ },
+ {
+  "text": "Active Scanning",
+  "label": "attack technique name"
+ },
+ {
+  "text": "AdFind",
+  "label": "hacking tool"
+ },
+ {
+  "text": "afosi.dc3.cflintake@us.af.mil",
+  "label": "email address"
+ },
+ {
+  "text": "Agni",
+  "label": "malware family"
+ },
+ {
+  "text": "Andariel",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Andariel Scheduled Task Malware",
+  "label": "malware family"
+ },
+ {
+  "text": "Andariel_Agni",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_Atharvan_3RAT",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_bindshell",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_CutieDrop_MagicRAT",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_dtrack_unpacked",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_elf_backdoor_fipps",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_GoLang_validalpha_BlackString",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_GoLang_validalpha_handshake",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_GoLang_validalpha_tasks",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_grease2",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_hhsd_FileTransferTool",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_KaosRAT_Yamabot",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_LilithRAT_Variant",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_NoPineapple_Dtrack_unpacked",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_ScheduledTask_Loader",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_SocksTroy_Strings_OpCodes",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Andariel_TigerRAT_crowdsourced_rule",
+  "label": "yara rule name"
+ },
+ {
+  "text": "AndarLoader",
+  "label": "malware family"
+ },
+ {
+  "text": "Apache ActiveMQ",
+  "label": "affected software product"
+ },
+ {
+  "text": "Apache HTTP Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Apache HTTP Server 2.4.49",
+  "label": "affected software product"
+ },
+ {
+  "text": "Apache Log4j",
+  "label": "affected software product"
+ },
+ {
+  "text": "Application Layer \nProtocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Application Layer Protocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Archive Collected Data",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Atharvan",
+  "label": "malware family"
+ },
+ {
+  "text": "Atharvan_dll.pdb",
+  "label": "file name"
+ },
+ {
+  "text": "Barracuda Email Security Gateway",
+  "label": "affected software product"
+ },
+ {
+  "text": "Black RAT",
+  "label": "malware family"
+ },
+ {
+  "text": "BottomLoader",
+  "label": "malware family"
+ },
+ {
+  "text": "c2500a6e12f22b16e221ba01952b69c92278cd05632283d8b84c55c916efe27c",
+  "label": "file hash"
+ },
+ {
+  "text": "c: \\\\windows\\\\temp\\\\RDPConf.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c: \\\\windows\\\\temp\\\\RDPWInst.exe",
+  "label": "file path"
+ },
+ {
+  "text": "Citrix NetScaler",
+  "label": "affected software product"
+ },
+ {
+  "text": "Clasiopa",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "CollectionRAT",
+  "label": "malware family"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "Command and Scripting \nInterpreter",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "CutieDrop",
+  "label": "malware family"
+ },
+ {
+  "text": "CVE-2017-4946",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2019-0708",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2019-15637",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2019-7609",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-20028",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-20038",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-3018",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-36955",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-40684",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-41773",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-43226",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-44142",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-44228",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-45837",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-21882",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-22005",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-22947",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-22965",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-24663",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-24664",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-24665",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-24785",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-24990",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-25064",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-27925",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-30190",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-41352",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-47966",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-0669",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-21932",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-25690",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-27997",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-2868",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-28771",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-3079",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-32315",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-32784",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-33010",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-33246",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-34362",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-35078",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-3519",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-42793",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-46604",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CybersecurityReports@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "D:\\\\rang\\\\TOOL\\\\3RAT",
+  "label": "file path"
+ },
+ {
+  "text": "DarkSeoul",
+  "label": "threat actor group"
+ },
+ {
+  "text": "dc3.dcise@us.af.mil",
+  "label": "email address"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Develop Capabilities: \nExploits",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Develop Capabilities: \nMalware",
+  "label": "attack technique name"
+ },
+ {
+  "text": "DIB_Defense@cyber.nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "Dtrack",
+  "label": "malware family"
+ },
+ {
+  "text": "DurianBeacon",
+  "label": "malware family"
+ },
+ {
+  "text": "EasyRAT",
+  "label": "malware family"
+ },
+ {
+  "text": "ELF Backdoor",
+  "label": "malware family"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "Exploit Public-Facing \nApplication",
+  "label": "attack technique name"
+ },
+ {
+  "text": "File and Directory \nDiscovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "FileTransferTool",
+  "label": "malware family"
+ },
+ {
+  "text": "FortiGate SSL VPN",
+  "label": "affected software product"
+ },
+ {
+  "text": "GoAnywhere MFT",
+  "label": "affected software product"
+ },
+ {
+  "text": "Goat RAT",
+  "label": "malware family"
+ },
+ {
+  "text": "Google Chromium V8",
+  "label": "affected software product"
+ },
+ {
+  "text": "grease2",
+  "label": "malware family"
+ },
+ {
+  "text": "H0lyGh0st",
+  "label": "malware family"
+ },
+ {
+  "text": "I:/01___Tools/02__RAT/Black",
+  "label": "file path"
+ },
+ {
+  "text": "INDICATOR_EXE_Packed_Themida",
+  "label": "yara rule name"
+ },
+ {
+  "text": "INDICATOR_EXE_Packed_VMProtect",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "IPeakCMS 3.5",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti Endpoint Manager Mobile (EPMM)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Jupiter",
+  "label": "malware family"
+ },
+ {
+  "text": "KaosRAT",
+  "label": "malware family"
+ },
+ {
+  "text": "KeePass",
+  "label": "affected software product"
+ },
+ {
+  "text": "Kibana",
+  "label": "affected software product"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "Lazarus",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Lilith",
+  "label": "malware family"
+ },
+ {
+  "text": "LilithRAT",
+  "label": "malware family"
+ },
+ {
+  "text": "Log4j",
+  "label": "affected software product"
+ },
+ {
+  "text": "Log4Shell",
+  "label": "affected software product"
+ },
+ {
+  "text": "MagicRAT",
+  "label": "malware family"
+ },
+ {
+  "text": "ManageEngine",
+  "label": "affected software product"
+ },
+ {
+  "text": "Maui Ransomware",
+  "label": "malware family"
+ },
+ {
+  "text": "MediaRelations@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Microsoft",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Remote Desktop Services",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft SharePoint Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Windows Support Diagnostic Tool",
+  "label": "affected software product"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Moment.js",
+  "label": "affected software product"
+ },
+ {
+  "text": "MOVEIt",
+  "label": "affected software product"
+ },
+ {
+  "text": "NineRAT",
+  "label": "malware family"
+ },
+ {
+  "text": "NoPineapple",
+  "label": "malware family"
+ },
+ {
+  "text": "NukeSped",
+  "label": "malware family"
+ },
+ {
+  "text": "Obfuscated Files or \nInformation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Onyx Sleet",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Openfire",
+  "label": "affected software product"
+ },
+ {
+  "text": "OpenSSL",
+  "label": "affected software product"
+ },
+ {
+  "text": "Oracle Hospitality Opera 5",
+  "label": "affected software product"
+ },
+ {
+  "text": "OS Credential Dumping",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PHP Everywhere",
+  "label": "affected software product"
+ },
+ {
+  "text": "PLUTONIUM",
+  "label": "threat actor group"
+ },
+ {
+  "text": "PowerShell",
+  "label": "affected software product"
+ },
+ {
+  "text": "Preft",
+  "label": "malware family"
+ },
+ {
+  "text": "Protocol Tunneling",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Proxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "RDPConf.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "RDPWInst.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "Remote Services",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote Services: \nSMB/Windows Admin \nShares",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Report@cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Resource Development",
+  "label": "tactic"
+ },
+ {
+  "text": "RGB 3rd Bureau",
+  "label": "threat actor group"
+ },
+ {
+  "text": "RocketMQ",
+  "label": "affected software product"
+ },
+ {
+  "text": "Samba vfs_fruit module",
+  "label": "affected software product"
+ },
+ {
+  "text": "Scheduled Tasks",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Silent Chollima",
+  "label": "threat actor group"
+ },
+ {
+  "text": "SMA100 Apache httpd server (SonicWall)",
+  "label": "affected software product"
+ },
+ {
+  "text": "SocksTroy",
+  "label": "malware family"
+ },
+ {
+  "text": "SonicWall Secure Remote Access (SRA)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Spring Cloud Gateway",
+  "label": "affected software product"
+ },
+ {
+  "text": "Stonefly/Clasiopa",
+  "label": "threat actor group"
+ },
+ {
+  "text": "T1003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1039",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1048",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1083",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1560",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1567",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1572",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1591",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1592",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1595",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1596",
+  "label": "attack technique id"
+ },
+ {
+  "text": "Tableau",
+  "label": "affected software product"
+ },
+ {
+  "text": "Talend ESB Runtime",
+  "label": "affected software product"
+ },
+ {
+  "text": "TeamCity",
+  "label": "affected software product"
+ },
+ {
+  "text": "TerraMaster NAS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Themida",
+  "label": "hacking tool"
+ },
+ {
+  "text": "TigerRAT",
+  "label": "malware family"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TP-LINK",
+  "label": "affected software product"
+ },
+ {
+  "text": "Trifaux",
+  "label": "malware family"
+ },
+ {
+  "text": "TriFaux_EasyRAT_JUPITER",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Valefor/VSingle",
+  "label": "malware family"
+ },
+ {
+  "text": "ValidAlpha",
+  "label": "malware family"
+ },
+ {
+  "text": "VMProtect",
+  "label": "hacking tool"
+ },
+ {
+  "text": "VMware V4H and V4PA",
+  "label": "affected software product"
+ },
+ {
+  "text": "Win32k",
+  "label": "affected software product"
+ },
+ {
+  "text": "win_dtrack_auto",
+  "label": "yara rule name"
+ },
+ {
+  "text": "win_tiger_rat_auto",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Windows",
+  "label": "affected software product"
+ },
+ {
+  "text": "YamaBot",
+  "label": "malware family"
+ },
+ {
+  "text": "Zimbra Collaboration Suite",
+  "label": "affected software product"
+ },
+ {
+  "text": "Zyxell firmware",
+  "label": "affected software product"
+ },
+ {
+  "text": "\u201cNo Pineapple\u201d",
+  "label": "malware family"
+ }
+]

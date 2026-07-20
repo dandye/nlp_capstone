@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/analysis-reports/ar20-303a",
+  "title": "MAR-10310246-2.v1 \u2013 PowerShell Script: ComRAT",
+  "advisory_type": "Analysis Report",
+  "alert_code": "AR20-303A",
+  "release_date": "2020-10-29T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

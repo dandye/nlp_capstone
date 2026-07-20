@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/analysis-reports/ar26-113a",
+  "title": "FIRESTARTER Backdoor",
+  "advisory_type": "Analysis Report",
+  "alert_code": "AR26-113A",
+  "release_date": "2026-04-23T12:00:00Z",
+  "stix_url": "https://www.cisa.gov/sites/default/files/2026-04/stix-FIRESTARTER.json",
+  "pdf_url": "https://www.cisa.gov/sites/default/files/2026-04/AR26-113A_MAR_FIRESTARTER_backdoor.pdf"
+}

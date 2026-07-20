@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-257a",
+  "title": "Iranian Islamic Revolutionary Guard Corps-Affiliated Cyber Actors Exploiting Vulnerabilities for Data Extortion and Disk Encryption for Ransom Operations",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA22-257A",
+  "release_date": "2022-09-14T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

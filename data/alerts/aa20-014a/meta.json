@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-014a",
+  "title": "Critical Vulnerabilities in Microsoft Windows Operating Systems",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA20-014A",
+  "release_date": "2020-01-14T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

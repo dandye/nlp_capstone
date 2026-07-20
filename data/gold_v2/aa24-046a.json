@@ -1,0 +1,170 @@
+[
+ {
+  "text": "Active Directory (AD)",
+  "label": "affected software product"
+ },
+ {
+  "text": "ad_computers.txt",
+  "label": "file name"
+ },
+ {
+  "text": "ad_users.txt",
+  "label": "file name"
+ },
+ {
+  "text": "AdFind.exe",
+  "label": "file name"
+ },
+ {
+  "text": "AdFind.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Azure",
+  "label": "affected software product"
+ },
+ {
+  "text": "Azure Active Directory (AAD)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Azure AD",
+  "label": "affected software product"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "M365",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft 365 (M365)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft 365 Defender",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Azure",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Defender for Endpoint (MDE)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "Remote Services",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "SharePoint",
+  "label": "affected software product"
+ },
+ {
+  "text": "SOC@cisecurity.org",
+  "label": "email address"
+ },
+ {
+  "text": "T1018",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.007",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1083",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1213.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1482",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1589.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "trustdmp.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Untitled Goose Tool",
+  "label": "hacking tool"
+ }
+]

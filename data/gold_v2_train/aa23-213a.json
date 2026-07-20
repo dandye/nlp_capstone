@@ -1,0 +1,194 @@
+[
+ {
+  "text": "/ews/Exchange.asmx",
+  "label": "file path"
+ },
+ {
+  "text": "/mifs/aad/api/v2/",
+  "label": "file path"
+ },
+ {
+  "text": "/mifs/aad/api/v2/authorized/users",
+  "label": "file path"
+ },
+ {
+  "text": "/mifs/aad/api/v2/ping",
+  "label": "file path"
+ },
+ {
+  "text": "/mifs/c/windows/api/v2/device/registration",
+  "label": "file path"
+ },
+ {
+  "text": "/owa/auth/logoff.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "/owa/auth/logon.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "/owa/auth/OutlookCN.aspx",
+  "label": "file path"
+ },
+ {
+  "text": "/powershell",
+  "label": "file path"
+ },
+ {
+  "text": "1cd358d28b626b7a23b9fd4944e29077c265db46",
+  "label": "file hash"
+ },
+ {
+  "text": "c0b42bbd06d6e25dfe8faebd735944714b421388",
+  "label": "file hash"
+ },
+ {
+  "text": "cert@ncsc.no",
+  "label": "email address"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "CVE-2023-30578",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-35078",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-35081",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CWE-22",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-288",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "Exchange",
+  "label": "affected software product"
+ },
+ {
+  "text": "Exchange server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Indicator Removal",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Ivanti Endpoint Manager Mobile (EPMM)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti Sentry",
+  "label": "affected software product"
+ },
+ {
+  "text": "ivanti-security\ufffeupdate-1.0.0-1.noarch.rpm",
+  "label": "file name"
+ },
+ {
+  "text": "keywords.txt",
+  "label": "file name"
+ },
+ {
+  "text": "mi.war",
+  "label": "file name"
+ },
+ {
+  "text": "MobileIron Core",
+  "label": "affected software product"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "Protocol Tunneling",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Proxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "T1005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1018",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1572",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "text": "CVE-2022-0732",
+  "label": "cve identifier"
+ },
+ {
+  "text": "Cybersecurity_Requests@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Report@cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "SOC@cisecurity.org",
+  "label": "email address"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ }
+]

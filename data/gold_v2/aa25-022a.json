@@ -1,0 +1,702 @@
+[
+ {
+  "text": "\"/client/index.php%3f.php/gsb/datetime.php",
+  "label": "file path"
+ },
+ {
+  "text": "./k",
+  "label": "file path"
+ },
+ {
+  "text": "/.k",
+  "label": "file path"
+ },
+ {
+  "text": "/backups",
+  "label": "file path"
+ },
+ {
+  "text": "/backups/backup-09-01-2024_010101.tar.gz",
+  "label": "file path"
+ },
+ {
+  "text": "/bin/bash",
+  "label": "file path"
+ },
+ {
+  "text": "/bin/sh",
+  "label": "file path"
+ },
+ {
+  "text": "/client/index.php%3f.php/gsb/broker.php",
+  "label": "file path"
+ },
+ {
+  "text": "/client/index.php%3F.php/gsb/datetime[.]php",
+  "label": "file path"
+ },
+ {
+  "text": "/dev/shm/*",
+  "label": "file path"
+ },
+ {
+  "text": "/dev/shm/a.sh",
+  "label": "file path"
+ },
+ {
+  "text": "/dev/shm/PostgreSQL.1014868572",
+  "label": "file path"
+ },
+ {
+  "text": "/dev/shm/redis",
+  "label": "file path"
+ },
+ {
+  "text": "/dev/shm/redis2",
+  "label": "file path"
+ },
+ {
+  "text": "/dev/tcp/107.173.89[.]16/8000",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/php.ini",
+  "label": "file path"
+ },
+ {
+  "text": "/gsb/reports[.]php",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/ivanti/csa/broker/webroot/client/help.php",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/landesk/broker/broker.conf",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/landesk/broker/webroot/client/about.php",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/landesk/broker/webroot/client/client.php",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/landesk/broker/webroot/client/index.php",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/landesk/broker/webroot/gsb",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/landesk/broker/webroot/gsb/",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/landesk/broker/webroot/gsb/DateTimeTab.php",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/landesk/broker/webroot/gsb/help.php",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/landesk/broker/webroot/gsb/site.cnf",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/landesk/broker/webroot/gsb/style.php",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/landesk/broker/webroot/gsb/view.php",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/landesk/ldms/LDClient/ldpclient",
+  "label": "file path"
+ },
+ {
+  "text": "/sbin/backuptool",
+  "label": "file path"
+ },
+ {
+  "text": "/sbin/setenforce",
+  "label": "file path"
+ },
+ {
+  "text": "/sbin/systemd",
+  "label": "file path"
+ },
+ {
+  "text": "/subin/backuptool",
+  "label": "file path"
+ },
+ {
+  "text": "/subin/tripwire",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/brokerdebug",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/php.ini",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/Xa27efd2.tmp",
+  "label": "file path"
+ },
+ {
+  "text": "/usr/bin",
+  "label": "file path"
+ },
+ {
+  "text": "/usr/bin/base64",
+  "label": "file path"
+ },
+ {
+  "text": "/usr/bin/echo",
+  "label": "file path"
+ },
+ {
+  "text": "/var/log/messages",
+  "label": "file path"
+ },
+ {
+  "text": "/var/log/messages\ufffe20240904.gz",
+  "label": "file path"
+ },
+ {
+  "text": "/var/log/messages\ufffe20240905.gz",
+  "label": "file path"
+ },
+ {
+  "text": "/var/log/messages\ufffe20240906.gz",
+  "label": "file path"
+ },
+ {
+  "text": "/var/secure",
+  "label": "file path"
+ },
+ {
+  "text": "/WpService.conf",
+  "label": "file path"
+ },
+ {
+  "text": "104.168.133[.]228",
+  "label": "ip address"
+ },
+ {
+  "text": "104.28.240[.]123",
+  "label": "ip address"
+ },
+ {
+  "text": "107.173.89[.]16",
+  "label": "ip address"
+ },
+ {
+  "text": "108.174.199.200",
+  "label": "ip address"
+ },
+ {
+  "text": "108.174.199[.]200",
+  "label": "ip address"
+ },
+ {
+  "text": "134.195.90[.]71",
+  "label": "ip address"
+ },
+ {
+  "text": "136.144.17[.]133",
+  "label": "ip address"
+ },
+ {
+  "text": "136.144.17[.]145",
+  "label": "ip address"
+ },
+ {
+  "text": "142.11.217[.]3",
+  "label": "ip address"
+ },
+ {
+  "text": "142.171.217[.]195",
+  "label": "ip address"
+ },
+ {
+  "text": "149.154.167[.]41",
+  "label": "ip address"
+ },
+ {
+  "text": "149.154.176[.]41",
+  "label": "ip address"
+ },
+ {
+  "text": "154.213.185[.]230",
+  "label": "ip address"
+ },
+ {
+  "text": "154.64.226[.]166",
+  "label": "ip address"
+ },
+ {
+  "text": "155.138.215[.]144",
+  "label": "ip address"
+ },
+ {
+  "text": "156.234.193.18",
+  "label": "ip address"
+ },
+ {
+  "text": "156.234.193[.]18",
+  "label": "ip address"
+ },
+ {
+  "text": "163.5.171[.]49",
+  "label": "ip address"
+ },
+ {
+  "text": "185.199.103[.]196",
+  "label": "ip address"
+ },
+ {
+  "text": "185.220.69[.]83",
+  "label": "ip address"
+ },
+ {
+  "text": "185.40.4[.]38",
+  "label": "ip address"
+ },
+ {
+  "text": "185.40.4[.]95",
+  "label": "ip address"
+ },
+ {
+  "text": "188.172.229[.]15",
+  "label": "ip address"
+ },
+ {
+  "text": "192.42.116[.]210",
+  "label": "ip address"
+ },
+ {
+  "text": "203.160.72[.]174",
+  "label": "ip address"
+ },
+ {
+  "text": "203.160.86[.]69",
+  "label": "ip address"
+ },
+ {
+  "text": "205.169.39[.]11",
+  "label": "ip address"
+ },
+ {
+  "text": "206.189.156[.]69",
+  "label": "ip address"
+ },
+ {
+  "text": "208.105.190[.]170",
+  "label": "ip address"
+ },
+ {
+  "text": "216.131.75[.]53",
+  "label": "ip address"
+ },
+ {
+  "text": "216.131[.]75.53",
+  "label": "ip address"
+ },
+ {
+  "text": "216.73.162[.]56",
+  "label": "ip address"
+ },
+ {
+  "text": "23.236.66[.]97",
+  "label": "ip address"
+ },
+ {
+  "text": "30f57e14596f1bcad7cc4284d1af4684",
+  "label": "file hash"
+ },
+ {
+  "text": "38.207.159[.]76",
+  "label": "ip address"
+ },
+ {
+  "text": "45.141.215[.]17",
+  "label": "ip address"
+ },
+ {
+  "text": "45.33.101.53",
+  "label": "ip address"
+ },
+ {
+  "text": "60d5648d35bacf5c7aa713b2a0d267d3",
+  "label": "file hash"
+ },
+ {
+  "text": "64.176.49[.]160",
+  "label": "ip address"
+ },
+ {
+  "text": "67.217.228[.]83",
+  "label": "ip address"
+ },
+ {
+  "text": "698a752ec1ca43237cb1dc791700afde",
+  "label": "file hash"
+ },
+ {
+  "text": "82.197.182[.]161",
+  "label": "ip address"
+ },
+ {
+  "text": "89.187.178[.]179",
+  "label": "ip address"
+ },
+ {
+  "text": "95.161.76[.]100",
+  "label": "ip address"
+ },
+ {
+  "text": "98.101.25[.]30",
+  "label": "ip address"
+ },
+ {
+  "text": "98.98.54.209",
+  "label": "ip address"
+ },
+ {
+  "text": "a.sh",
+  "label": "file name"
+ },
+ {
+  "text": "a50660fb31df96b3328640fdfbeea755",
+  "label": "file hash"
+ },
+ {
+  "text": "aa69300617faab4eb39b789ebfeb5abe",
+  "label": "file hash"
+ },
+ {
+  "text": "Agent.zip",
+  "label": "file name"
+ },
+ {
+  "text": "backup-09-01-2024_010101.tar.gz",
+  "label": "file name"
+ },
+ {
+  "text": "base64",
+  "label": "hacking tool"
+ },
+ {
+  "text": "bash",
+  "label": "hacking tool"
+ },
+ {
+  "text": "broker.conf",
+  "label": "file name"
+ },
+ {
+  "text": "c2becc553b96ba27d60265d07ec3bd6c",
+  "label": "file hash"
+ },
+ {
+  "text": "c7d20ca6fe596009afaeb725fec8635f",
+  "label": "file hash"
+ },
+ {
+  "text": "c894f55c8fa9d92e2dd2c78172cff745",
+  "label": "file hash"
+ },
+ {
+  "text": "cacc30e2a5b2683e19e45dc4f191cebc",
+  "label": "file hash"
+ },
+ {
+  "text": "CAService.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Connect Secure",
+  "label": "affected software product"
+ },
+ {
+  "text": "CSA",
+  "label": "affected software product"
+ },
+ {
+  "text": "curl",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CVE-2024-8190",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-8963",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-9379",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-9380",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2025-0282",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2025-0283",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CWE-22",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-77",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-78",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-89",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "d13f71e51b38ffef6b9dc8efbed27615",
+  "label": "file hash"
+ },
+ {
+  "text": "d88bfac2b43509abdc70308bef75e2a6",
+  "label": "file hash"
+ },
+ {
+  "text": "datetime.php",
+  "label": "file name"
+ },
+ {
+  "text": "DateTimeTab.php",
+  "label": "file name"
+ },
+ {
+  "text": "dCUgGXfm.tmp",
+  "label": "file name"
+ },
+ {
+  "text": "DijZViHC.tmp",
+  "label": "file name"
+ },
+ {
+  "text": "f82847bccb621e6822a3947bc9ce9621",
+  "label": "file hash"
+ },
+ {
+  "text": "GoGo",
+  "label": "hacking tool"
+ },
+ {
+  "text": "GoGo Scanner",
+  "label": "hacking tool"
+ },
+ {
+  "text": "help.php",
+  "label": "file name"
+ },
+ {
+  "text": "index.php",
+  "label": "file name"
+ },
+ {
+  "text": "Ivanti \nCloud Service Applications",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti Cloud Service Appliances (CSA)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti CSA",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti CSA 4.6",
+  "label": "affected software product"
+ },
+ {
+  "text": "Jenkins",
+  "label": "affected software product"
+ },
+ {
+  "text": "Lgfxsys.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Log.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Log.log",
+  "label": "file name"
+ },
+ {
+  "text": "nc",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NetlO.cfg",
+  "label": "file name"
+ },
+ {
+  "text": "Obelisk",
+  "label": "hacking tool"
+ },
+ {
+  "text": "php.ini",
+  "label": "file name"
+ },
+ {
+  "text": "php\\w{6}",
+  "label": "file name"
+ },
+ {
+  "text": "Policy Secure",
+  "label": "affected software product"
+ },
+ {
+  "text": "psql",
+  "label": "hacking tool"
+ },
+ {
+  "text": "psql -d brokerdb -U gsbadmin",
+  "label": "hacking tool"
+ },
+ {
+  "text": "python",
+  "label": "hacking tool"
+ },
+ {
+  "text": "R.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "rm",
+  "label": "hacking tool"
+ },
+ {
+  "text": "sed",
+  "label": "hacking tool"
+ },
+ {
+  "text": "site.cnf",
+  "label": "file name"
+ },
+ {
+  "text": "style.php",
+  "label": "file name"
+ },
+ {
+  "text": "T1059",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1068",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1219",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1548.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1564.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1595.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0010",
+  "label": "tactic"
+ },
+ {
+  "text": "tar",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Timestomping",
+  "label": "attack technique name"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "touch",
+  "label": "hacking tool"
+ },
+ {
+  "text": "view.php",
+  "label": "file name"
+ },
+ {
+  "text": "Wi.bat",
+  "label": "file name"
+ },
+ {
+  "text": "Xa27efd2.tmp",
+  "label": "file name"
+ },
+ {
+  "text": "XboVFyKw.tmp",
+  "label": "file name"
+ },
+ {
+  "text": "ZTA Gateways",
+  "label": "affected software product"
+ }
+]

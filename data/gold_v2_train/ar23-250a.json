@@ -1,0 +1,150 @@
+[
+ {
+  "text": "108[.]62[.]118[.]160",
+  "label": "ip address"
+ },
+ {
+  "text": "179[.]60[.]147[.]4",
+  "label": "ip address"
+ },
+ {
+  "text": "180ee1378ff6ffd8b28c39208d8abb617e263defc74f6781f9f8efa373fd62c3aa0b99a4b77cf44432f9bfe4fd80f40620ffb884af2e440491d007b2e41e4d96",
+  "label": "file hash"
+ },
+ {
+  "text": "1a0e111e60e543810423ef073b545c77",
+  "label": "file hash"
+ },
+ {
+  "text": "23cb74b530c49837595d766492279cc0cdc4692d",
+  "label": "file hash"
+ },
+ {
+  "text": "334c2d0af191ed96b15095a4a098c400f2c0ce6b9c66d1800f6b74554d59ff4b",
+  "label": "file hash"
+ },
+ {
+  "text": "47dacb8f0b157355a4fd59ccbac1c59b8268fe84f3b8a462378b064333920622",
+  "label": "file hash"
+ },
+ {
+  "text": "6dcc7b5e913154abac69687fcfb6a58ac66ec9b8cc7de7afd8832a9066b7bdde",
+  "label": "file hash"
+ },
+ {
+  "text": "75b86d329c06a60b395d539eead76f27bc4055a9743f6f33bc48b4ef54a5d0587fbfaf9742515e73936df2b6a5498a84ae8c501f0f27b6c047e994f3afcc408d",
+  "label": "file hash"
+ },
+ {
+  "text": "76adb0e36aac40cae0ebeb9f4bd38b52",
+  "label": "file hash"
+ },
+ {
+  "text": "78a6e59bb9d9320d39249ee8ae94431a7cda608476f0adc9358e558b535ceccf12e219af16b14a40948986a01ad9128f8cf0240cde866197570fd70772e92d1c",
+  "label": "file hash"
+ },
+ {
+  "text": "79a9136eedbf8288ad7357ddaea3a3cd1a57b7c6f82adffd5a9540e1623bfb63",
+  "label": "file hash"
+ },
+ {
+  "text": "82885f8c57cf4460f52db0a85e183d372f0aeb7e",
+  "label": "file hash"
+ },
+ {
+  "text": "a33354d598b58f2e55eb3619c3465f24",
+  "label": "file hash"
+ },
+ {
+  "text": "ASPX Webshell",
+  "label": "malware family"
+ },
+ {
+  "text": "b8967a33e6c1aee7682810b6b994b991",
+  "label": "file hash"
+ },
+ {
+  "text": "bbda2ad0634aa535b9df40dc39a2d4dfdd763476",
+  "label": "file hash"
+ },
+ {
+  "text": "bitmap.exe",
+  "label": "file name"
+ },
+ {
+  "text": "CISA_10430311_01",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10430311_02",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10430311_03",
+  "label": "yara rule name"
+ },
+ {
+  "text": "command-and-control",
+  "label": "tactic"
+ },
+ {
+  "text": "ConfigLogin.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "CVE-2022-42475",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-47966",
+  "label": "cve identifier"
+ },
+ {
+  "text": "dc3547ca38bcdc00184537f9b2bac6201d9aa1541d172fc78050636b5f0d2c438defcab937f2ac056a0522c9727d2c3ea1636c69c9780ed553b146168956c121",
+  "label": "file hash"
+ },
+ {
+  "text": "e1c6f76085234554e9a47b61105cd45981eb35d2",
+  "label": "file hash"
+ },
+ {
+  "text": "info@safe-vpn.mobi",
+  "label": "email address"
+ },
+ {
+  "text": "Metasploit",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Metasploit",
+  "label": "malware family"
+ },
+ {
+  "text": "Meterpreter",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Meterpreter",
+  "label": "malware family"
+ },
+ {
+  "text": "resource.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "submit@malware.us-cert.gov",
+  "label": "email address"
+ },
+ {
+  "text": "TLP: CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "wkHPd.exe",
+  "label": "file name"
+ }
+]

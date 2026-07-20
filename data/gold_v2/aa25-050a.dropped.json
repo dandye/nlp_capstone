@@ -1,0 +1,62 @@
+[
+ {
+  "text": "7bdb0c2be6fc5dfc15c2",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Account Manipulation",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Application Layer Protocol: Web Protocols",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Data Encrypted for Impact",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exfiltration Over C2 Channel",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exfiltration to Cloud Storage",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exploit Public-Facing Application",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exploitation for Privilege Escalation",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Impair Defenses: Disable or Modify Tools",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Ingress Tool Transfer",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "OS Credential Dumping",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Token Impersonation/Theft",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

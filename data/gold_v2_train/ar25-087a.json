@@ -1,0 +1,358 @@
+[
+ {
+  "text": "/bin/dsmain",
+  "label": "file path"
+ },
+ {
+  "text": "/bin/scanner-0.1-py3.6.egg",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/ld.so.preload",
+  "label": "file path"
+ },
+ {
+  "text": "/home/bin/openssl",
+  "label": "file path"
+ },
+ {
+  "text": "/home/root/bin/dsmain",
+  "label": "file path"
+ },
+ {
+  "text": "/home/root/etc/ld.so.preload",
+  "label": "file path"
+ },
+ {
+  "text": "/home/root/home/venv3/lib/python3.6/site-packages/scanner-0.1-py3.6.egg",
+  "label": "file path"
+ },
+ {
+  "text": "/home/root/lib/%s",
+  "label": "file path"
+ },
+ {
+  "text": "/home/runtime/tmp.logsrv",
+  "label": "file path"
+ },
+ {
+  "text": "/home/runtime/tmp/.logsrv",
+  "label": "file path"
+ },
+ {
+  "text": "/home/venv3/lib/python3.6/site-packages/scanner-0.1-py3.6.egg",
+  "label": "file path"
+ },
+ {
+  "text": "/lib/%s",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/coreboot_fs",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/coreboot_fs/bin/dsmain",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/coreboot_fs/bin/init",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/coreboot_fs/bin/scanner-0.1-py3.6.egg",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/coreboot_fs/coreboot.img.1",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/coreboot_fs/coreboot.img.1.gz",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/coreboot_fs/lib/%s",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/data/boot/",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/data/root/${kerndir}/bzImage",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/data/root/${kerndir}/coreboot.img",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/data/root/etc/ld.so.preload",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/data/root/home/bin/check_integrity.sh",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/data/root/home/etc/manifest/",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/data/root/home/etc/manifest/manifest",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/data/root/home/perl/DSUpgrade.pm",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/data/root/home/venv3/lib/python3.6/site-packages/\nscanner-0.1-py3.6.egg",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/data/root/home/webserver/htdocs/dana-na/auth/\ncompcheckresult.cgi",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/data/root/lib",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/extract_vmlinux.sh",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/installer/do-install-coreboot",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/new_img",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/new_img/coreboot.img.1.gz",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/new_img/vmlinux",
+  "label": "file path"
+ },
+ {
+  "text": "09eb513f284771461bcdc16ee28d31ce8bbe74e0",
+  "label": "file hash"
+ },
+ {
+  "text": "3526af9189533470bc0e90d54bafb0db7bda784be82a372ce112e361f7c7b104",
+  "label": "file hash"
+ },
+ {
+  "text": "44d09ca5b989e24ff5276d5b5ee1d394",
+  "label": "file hash"
+ },
+ {
+  "text": "52bbc44eb451cb5e16bf98bc5b1823d2f47a18d71f14543b460395a1c1b1aeda",
+  "label": "file hash"
+ },
+ {
+  "text": "5309f9082da0fc24ebf03cb1741fa71335224e5a",
+  "label": "file hash"
+ },
+ {
+  "text": "63ded8e7294ee9a0d4181310d25c348d0d657d35e57740234cb98c9abfd8eb18bb3cd35a28bca3013f3e141b41131b923b39717c7ae864019287c2d85a36ae63",
+  "label": "file hash"
+ },
+ {
+  "text": "6e01ef1367ea81994578526b3bd331d6",
+  "label": "file hash"
+ },
+ {
+  "text": "AhnLab Trojan/Linux.SpawnSloth.95092",
+  "label": "file name"
+ },
+ {
+  "text": "b1221000f43734436ec8022caaa34b133f4581ca3ae8eccd8d57ea62573f301d",
+  "label": "file hash"
+ },
+ {
+  "text": "BusyBox",
+  "label": "hacking tool"
+ },
+ {
+  "text": "bzImage",
+  "label": "file name"
+ },
+ {
+  "text": "check_integrity.sh",
+  "label": "file name"
+ },
+ {
+  "text": "CISA_25993211_02",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "compcheckresult.cgi",
+  "label": "file name"
+ },
+ {
+  "text": "coreboot.img",
+  "label": "file name"
+ },
+ {
+  "text": "coreboot.img.1",
+  "label": "file name"
+ },
+ {
+  "text": "coreboot.img.1.gz",
+  "label": "file name"
+ },
+ {
+  "text": "cpio",
+  "label": "hacking tool"
+ },
+ {
+  "text": "do-install",
+  "label": "file name"
+ },
+ {
+  "text": "do-install-coreboot",
+  "label": "file name"
+ },
+ {
+  "text": "DslogdRAT",
+  "label": "malware family"
+ },
+ {
+  "text": "dsmain",
+  "label": "file name"
+ },
+ {
+  "text": "dsmain",
+  "label": "hacking tool"
+ },
+ {
+  "text": "DSUpgrade.pm",
+  "label": "file name"
+ },
+ {
+  "text": "ecbda91571b0429be42017dddd2cb687ce696dd601cd02f2502119b8b732376cee2097069ca35ba0089387d58213c6140c2caf8e6c2e05733d21c309b51e2b9b",
+  "label": "file hash"
+ },
+ {
+  "text": "extract_vmlinux.sh",
+  "label": "file name"
+ },
+ {
+  "text": "Funchook",
+  "label": "hacking tool"
+ },
+ {
+  "text": "funchook_create",
+  "label": "file name"
+ },
+ {
+  "text": "gunzip",
+  "label": "hacking tool"
+ },
+ {
+  "text": "gzip",
+  "label": "hacking tool"
+ },
+ {
+  "text": "init",
+  "label": "file name"
+ },
+ {
+  "text": "Ivanti",
+  "label": "affected software product"
+ },
+ {
+  "text": "ld.so.preload",
+  "label": "file name"
+ },
+ {
+  "text": "liblogbloc",
+  "label": "file name"
+ },
+ {
+  "text": "liblogblock.so",
+  "label": "file name"
+ },
+ {
+  "text": "libssh",
+  "label": "hacking tool"
+ },
+ {
+  "text": "manifest",
+  "label": "file name"
+ },
+ {
+  "text": "manifest.1",
+  "label": "file name"
+ },
+ {
+  "text": "manifest.2",
+  "label": "file name"
+ },
+ {
+  "text": "openssl",
+  "label": "hacking tool"
+ },
+ {
+  "text": "private.pem",
+  "label": "file name"
+ },
+ {
+  "text": "process injection",
+  "label": "attack technique name"
+ },
+ {
+  "text": "RESURGE",
+  "label": "malware family"
+ },
+ {
+  "text": "scanner-0.1-py3.6.egg",
+  "label": "file name"
+ },
+ {
+  "text": "scanner.py",
+  "label": "file name"
+ },
+ {
+  "text": "scanner_legacy.py",
+  "label": "file name"
+ },
+ {
+  "text": "scripts/scanner.py",
+  "label": "file path"
+ },
+ {
+  "text": "scripts/scanner_legacy.py",
+  "label": "file path"
+ },
+ {
+  "text": "sed",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SPAWN",
+  "label": "malware family"
+ },
+ {
+  "text": "SPAWNSLOTH",
+  "label": "malware family"
+ },
+ {
+  "text": "vmlinux",
+  "label": "file name"
+ },
+ {
+  "text": "xxd",
+  "label": "hacking tool"
+ }
+]

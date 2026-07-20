@@ -1,0 +1,92 @@
+[
+ {
+  "text": "192:KuZ4E9i44LYcyHCi3uFl0xEHqQ+k5bUW0sbh3aUfPuS6GZz:Ku79BP/3uFygq49V0stKEuSpz",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "192:omBb/dSBuj9MLFgWfXsea1Xld+LXxzRlRX+pi+n9PshE6w0Tipbg8:j/T9MLFgWfcnVlSzspic9kCPxpB",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "384:iI+1BxqQ3evK5c7aIUnKzaxckO05xiZMQn5JI3c+AK8:iImfqQ3z/nbax1",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "384:kaD+TLeDOl+mDcDFNUaD+TLeDOl+mDcDFNUaD+TLeDOl+mDcDFNUaD+TLeDOl+ms:z6Pl+mwj6Pl+mwj6Pl+mwj6Pl+mw3",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "96:bFlm4Dt94EugELCBt+qRAVfOTqM8+U00RO:Blz94ExtlRAITqGQO",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Application Layer Protocol: Web Protocols",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "CLEAR",
+  "label": "tlp classification",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "cve.2025.4427",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "cve.2025.4428",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CWE-\u2018Code Injection\u2019",
+  "label": "cwe identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Deobfuscate/Decode Files or Information",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Encrypted Channel: Symmetric Cryptography",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Ivanti Endpoint Manager Mobile (Ivanti EPMM)",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Ivanti Endpoint Manger Mobile (EPMM)",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Obfuscated Files or Information: Compile After Delivery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Obfuscated Files or Information: Embedded Payloads",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Obfuscated Files or Information: Encrypted/Encoded File",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Reflective Code Loading",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

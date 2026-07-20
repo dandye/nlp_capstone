@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-120a",
+  "title": "Microsoft Office 365 Security Recommendations",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA20-120A",
+  "release_date": "2020-04-29T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

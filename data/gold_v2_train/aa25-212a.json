@@ -1,0 +1,310 @@
+[
+ {
+  "text": "Account Manipulation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Active Directory",
+  "label": "affected software product"
+ },
+ {
+  "text": "Adversary-in-the-Middle",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Application Layer \nProtocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "ApplicationHost.config",
+  "label": "file name"
+ },
+ {
+  "text": "ASP.NET",
+  "label": "affected software product"
+ },
+ {
+  "text": "aspnetdb",
+  "label": "affected software product"
+ },
+ {
+  "text": "Boot or Autostart \nExecution",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Brute Force: Credential \nStuffing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Brute Force: Password \nCracking",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Brute Force: Password \nGuessing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Brute Force: Password \nSpraying",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Command and \nScripting Interpreter",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "cracking",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "credential stuffing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "Domain or Tenant \nPolicy Modification",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Hijack Execution Flow",
+  "label": "attack technique name"
+ },
+ {
+  "text": "IIS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Impair Defenses: \nDowngrade Attack",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Internet Information Services (IIS)",
+  "label": "affected software product"
+ },
+ {
+  "text": "LAPS",
+  "label": "hacking tool"
+ },
+ {
+  "text": "lateral movement",
+  "label": "tactic"
+ },
+ {
+  "text": "Local Administrator Password Solution",
+  "label": "hacking tool"
+ },
+ {
+  "text": "machine.config",
+  "label": "file name"
+ },
+ {
+  "text": "maritimecyber@uscg.mil",
+  "label": "email address"
+ },
+ {
+  "text": "Microsoft Active Directory",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft LAPS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Modify Registry",
+  "label": "attack technique name"
+ },
+ {
+  "text": "OS Credential Dumping",
+  "label": "attack technique name"
+ },
+ {
+  "text": "password guessing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "RDP",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Remote Desktop Protocol",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Remote Services: \nRemote Desktop \nProtocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote Services: SSH",
+  "label": "attack technique name"
+ },
+ {
+  "text": "SCCM",
+  "label": "affected software product"
+ },
+ {
+  "text": "Secure Shell (SSH)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SOC@mail.cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "spraying",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System Center Configuration Manager (SCCM)",
+  "label": "affected software product"
+ },
+ {
+  "text": "System Network \nConfiguration Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System Network \nConnections Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "T1003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1016",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1049",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1098",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1112",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1484",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1547",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1557",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562.010",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1574",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Unsecured Credentials: \nCredentials in Files",
+  "label": "attack technique name"
+ },
+ {
+  "text": "valid accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Valid Accounts: Local \nAccounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "web.config",
+  "label": "file name"
+ },
+ {
+  "text": "Windows LAPS",
+  "label": "affected software product"
+ }
+]

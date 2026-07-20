@@ -1,0 +1,82 @@
+[
+ {
+  "text": "196608:GbkKsdDjru3WUIOsW5SYVRk/Qvk1LzK3RMxy2wBW:GwKMjr3Os4k/QiLzERMMdW",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "49152:9lDeYNeYunc1S3/U05q+CIKUbwgBfd1Vww/uUJSZina/TokDDko0n8oQhEoAgsUJ:O3lcE380sIDbdB11p3i/TokEIowlb/r",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "49152:BgClz8/9cMSThwhWyh/zypzOzRzqm9hRp6FY+fAn/bkNqr+HfHF2xkdpb3gAiDli:W08/9I6WMzUcRz9zvn//Z5D",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "98304:dzB06b0KX4Mnb+sJf+AjBzH3MF4m1d4U2TuAJ5VGY3glknTSk2nH:dFQKIsJBBzXMum83RJ5VGY3gS2nH",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "98304:QZT3l9IBXSy3dDrwOoJzwGJ/NvfI8xUs/ix:QZT3TIBXSy3dDrwdJzwGJKd",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Abuse Elevation Control Mechanism: Sudo and Sudo Caching",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Application Layer Protocol: Web Protocols",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Boot or Logon Initialization Scripts",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "CLEAR",
+  "label": "tlp classification",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Exfiltration Over C2 Channel",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "File and Directory Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "https[:]//45.90.28.160/dns-query",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "https[:]//8.8.4[.]4/dns-query",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "OS Credential Dumping: NTDS",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Server Software Component: Web Shell",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

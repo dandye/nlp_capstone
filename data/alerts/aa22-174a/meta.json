@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-174a",
+  "title": "Malicious Cyber Actors Continue to Exploit Log4Shell in VMware Horizon Systems",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA22-174A",
+  "release_date": "2022-06-23T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

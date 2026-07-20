@@ -1,0 +1,410 @@
+[
+ {
+  "text": "/bin/sh",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/auth.conf",
+  "label": "file path"
+ },
+ {
+  "text": "/flash/nsconfig/keys/updated/*",
+  "label": "file path"
+ },
+ {
+  "text": "/flash/nsconfig/rc.netscaler",
+  "label": "file path"
+ },
+ {
+  "text": "/netscaler/ns_gui/vpn/",
+  "label": "file path"
+ },
+ {
+  "text": "/netscaler/ns_gui/vpn/medialogininit.png",
+  "label": "file path"
+ },
+ {
+  "text": "/nsconfig/ns.conf",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp",
+  "label": "file path"
+ },
+ {
+  "text": "/var/nslog/counters/prometheus/metrc_codes_client.log",
+  "label": "file path"
+ },
+ {
+  "text": "/var/python/bin",
+  "label": "file path"
+ },
+ {
+  "text": "/var/tmp/all.txt",
+  "label": "file path"
+ },
+ {
+  "text": "/var/tmp/test.tar.gz",
+  "label": "file path"
+ },
+ {
+  "text": "/vpn/vpn/",
+  "label": "file path"
+ },
+ {
+  "text": "1.css",
+  "label": "file name"
+ },
+ {
+  "text": "2.css",
+  "label": "file name"
+ },
+ {
+  "text": "\\vpn\\themes",
+  "label": "file path"
+ },
+ {
+  "text": "AA23-201A STIX JSON",
+  "label": "file name"
+ },
+ {
+  "text": "AA23-201A STIX XML",
+  "label": "file name"
+ },
+ {
+  "text": "ADExplorer.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Boot or Logon Autostart Execution",
+  "label": "attack technique name"
+ },
+ {
+  "text": "C:\\Users\\<redacted>\\AppData\\Local\\Temp\\",
+  "label": "file path"
+ },
+ {
+  "text": "Command and Scripting Interpreter: Unix Shell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Compromise Infrastructure",
+  "label": "attack technique name"
+ },
+ {
+  "text": "curl",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CVE-2023-3519",
+  "label": "cve identifier"
+ },
+ {
+  "text": "Data Staged: Local Data Staging",
+  "label": "attack technique name"
+ },
+ {
+  "text": "defaults.php",
+  "label": "file name"
+ },
+ {
+  "text": "Deobfuscate/Decode Files or Information",
+  "label": "attack technique name"
+ },
+ {
+  "text": "host",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Indicator Removal",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Indicator Removal: Clear Linux or Mac System Logs",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Indicator Removal: File Deletion",
+  "label": "attack technique name"
+ },
+ {
+  "text": "ldapsearch",
+  "label": "hacking tool"
+ },
+ {
+  "text": "libnsd.so",
+  "label": "file name"
+ },
+ {
+  "text": "LIGOLO-NG",
+  "label": "hacking tool"
+ },
+ {
+  "text": "loading[.]php",
+  "label": "file name"
+ },
+ {
+  "text": "log[.]php",
+  "label": "file name"
+ },
+ {
+  "text": "logout[.]php",
+  "label": "file name"
+ },
+ {
+  "text": "logouttm.php",
+  "label": "file name"
+ },
+ {
+  "text": "Masquerading",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Masquerading: Match Legitimate Name or Location",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Native API",
+  "label": "attack technique name"
+ },
+ {
+  "text": "NetScaler (formerly Citrix) Application Delivery Controller",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC 12.1-FIPS before 12.1-55.297",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC 12.1-NDcPP before 12.1-55.297",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC 13.1-FIPS before 13.1-37.159",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC and NetScaler Gateway version 12.1",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler Gateway",
+  "label": "affected software product"
+ },
+ {
+  "text": "NPS",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Obtain Capabilities: Tool",
+  "label": "attack technique name"
+ },
+ {
+  "text": "openssl",
+  "label": "hacking tool"
+ },
+ {
+  "text": "pfSense",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ping",
+  "label": "hacking tool"
+ },
+ {
+  "text": "pip4",
+  "label": "file name"
+ },
+ {
+  "text": "prod[.]php",
+  "label": "file name"
+ },
+ {
+  "text": "Protocol Tunneling",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Proxy: Multi-hop Proxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "pykeygen",
+  "label": "file name"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "SECRETSAUCE",
+  "label": "malware family"
+ },
+ {
+  "text": "Server Software \nComponent: Web \nShell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Sysinternals ADExplorer",
+  "label": "hacking tool"
+ },
+ {
+  "text": "T1016",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1016.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1018",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036.008",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1069.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1074",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1074.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1106",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1140",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1222.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1482",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1531",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1547",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1548.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1560.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1572",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1573.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1584",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1588.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0005",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0007",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0010",
+  "label": "tactic"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "vpn[.]php",
+  "label": "file name"
+ }
+]

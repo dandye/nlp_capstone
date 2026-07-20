@@ -1,0 +1,846 @@
+[
+ {
+  "text": ".aki",
+  "label": "file name"
+ },
+ {
+  "text": ".akira",
+  "label": "file name"
+ },
+ {
+  "text": ".akiranew",
+  "label": "file name"
+ },
+ {
+  "text": ".powerranges",
+  "label": "file name"
+ },
+ {
+  "text": "0c0e0f9b09b80d87ebc88e2870907b6cacb4cd7703584baf8f2be1fd9438696d",
+  "label": "file hash"
+ },
+ {
+  "text": "0ee1d284ed663073872012c7bde7fac5ca1121403f1a5d2d5411317df282796c",
+  "label": "file hash"
+ },
+ {
+  "text": "1.bat",
+  "label": "file name"
+ },
+ {
+  "text": "123.zip",
+  "label": "file name"
+ },
+ {
+  "text": "131da83b521f610819141d5c740313ce46578374",
+  "label": "file hash"
+ },
+ {
+  "text": "17c624693f5dd575485ec4286b0ba786",
+  "label": "file hash"
+ },
+ {
+  "text": "18051333e658c4816ff3576a2e9d97fe2a1196ac0ea5ed9ba386c46defafdb88",
+  "label": "file hash"
+ },
+ {
+  "text": "2.exe",
+  "label": "file name"
+ },
+ {
+  "text": "2f629395fdfa11e713ea8bf11d40f6f240acf2f5fcf9a2ac50b6f7fbc7521c83",
+  "label": "file hash"
+ },
+ {
+  "text": "3298d203c2acb68c474e5fdad8379181890b4403d6491c523c13730129be3f75",
+  "label": "file hash"
+ },
+ {
+  "text": "3a25d3f82651567e5760e48ad06c9f6caab4f9fdc071e98919163b3a71e67168",
+  "label": "file hash"
+ },
+ {
+  "text": "4DC9F9684F715F50946E85557B82AF80FCB45576EFAD47EEE1BF054C15E570F0",
+  "label": "file hash"
+ },
+ {
+  "text": "57D1AEB41D9CFEA4D6899724BC4B09A5",
+  "label": "file hash"
+ },
+ {
+  "text": "58359209e215a9fc0dafd14039121398559790dba9aa2398c457348ee1cb8a4d",
+  "label": "file hash"
+ },
+ {
+  "text": "58afef43cec0ee7a2fbfd9cdd5b71f55f971672d5e523a400b82b98c752ca5b7",
+  "label": "file hash"
+ },
+ {
+  "text": "5e1e3bf6999126ae4aa52146280fdb913912632e8bac4f54e98c58821a307d32",
+  "label": "file hash"
+ },
+ {
+  "text": "7-zip",
+  "label": "hacking tool"
+ },
+ {
+  "text": "7266e2afb5c70788c018d684698b0940eded4cb863f2b33f4edd31b59d1eab1d",
+  "label": "file hash"
+ },
+ {
+  "text": "77d48e8c13ce066b197905cc8fc69969af69b74d25f5e95dcd1302ada2e7ccec",
+  "label": "file hash"
+ },
+ {
+  "text": "7f731cc11f8e4d249142e99a44b9da7a48505ce32c4ee4881041beeddb3760be",
+  "label": "file hash"
+ },
+ {
+  "text": "8e12c8eb39cec9a414b56a36acbcc1a5b31dc96a38bc668138a00f94f7c26ea5",
+  "label": "file hash"
+ },
+ {
+  "text": "95477703e789e6182096a09bc98853e0a70b680a",
+  "label": "file hash"
+ },
+ {
+  "text": "9585af44c3ff8fd921c713680b0c2b3bbc9d56add848ed62164f7c9b9f23d065",
+  "label": "file hash"
+ },
+ {
+  "text": "9f393516edf6b8e011df6ee991758480c5b99a0efbfd68347786061f0e04426c",
+  "label": "file hash"
+ },
+ {
+  "text": "aaa6041912a6ba3cf167ecdb90a434a62feaf08639c59705847706b9f492015d",
+  "label": "file hash"
+ },
+ {
+  "text": "AdFind",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Advanced IP Scanner",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Akira",
+  "label": "malware family"
+ },
+ {
+  "text": "Akira",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Akira and Fog ransomware",
+  "label": "malware family"
+ },
+ {
+  "text": "Akira Ransomware",
+  "label": "malware family"
+ },
+ {
+  "text": "akira.exe",
+  "label": "file name"
+ },
+ {
+  "text": "akira_readme.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Akira_v2",
+  "label": "malware family"
+ },
+ {
+  "text": "akiranew",
+  "label": "file name"
+ },
+ {
+  "text": "akiranew.txt",
+  "label": "file name"
+ },
+ {
+  "text": "All.bat",
+  "label": "file name"
+ },
+ {
+  "text": "AnyDesk",
+  "label": "hacking tool"
+ },
+ {
+  "text": "bfd5fc6cd3dea74738ac7025fa14ea844f400708df2293572796568f65bd6b61",
+  "label": "file hash"
+ },
+ {
+  "text": "c0f706ff43936c1bb19db4f39b11129c3fc8ddafbd159852475ef99a246b2f79",
+  "label": "file hash"
+ },
+ {
+  "text": "C56B31C9080B993D57C100B91D096C33",
+  "label": "file hash"
+ },
+ {
+  "text": "C9c94ac5e1991a7db42c7973e328fceeb6f163d9f644031bdfd4123c7b3898b0",
+  "label": "file hash"
+ },
+ {
+  "text": "C:",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users",
+  "label": "file path"
+ },
+ {
+  "text": "cert@ncsc.nl",
+  "label": "email address"
+ },
+ {
+  "text": "cf3465d7e49b609defa1e2b6cfcc86ffa30c72246cb2744dbf50736c5f3d74d5",
+  "label": "file hash"
+ },
+ {
+  "text": "CFA209D56E296C40B32815270060E539963D68CDA3285C5F393C97EB3C960D37",
+  "label": "file hash"
+ },
+ {
+  "text": "Cisco Anyconnect",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cloudflare Tunnel",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CLOUDFLARED",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Cobalt Strike",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "contact@cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Conti",
+  "label": "threat actor group"
+ },
+ {
+  "text": "CVE-2020-3259",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2020-3580",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-20269",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-27532",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-28252",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-37085",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-40711",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-40766",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CWE-122",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-284",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-288",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-305",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-306",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-502",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-79",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "cybercrime@polizei.bwl.de",
+  "label": "email address"
+ },
+ {
+  "text": "d2fd0654710c27dcf37b6c1437880020824e161dd0bf28e3a133ed777242a0ca",
+  "label": "file hash"
+ },
+ {
+  "text": "dcfa2800754e5722acf94987bb03e814edcb9acebda37df6da1987bf48e5b05e",
+  "label": "file hash"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "dfe6fddc67bdc93b9947430b966da2877fda094edf3e21e6f0ba98a84bc53198",
+  "label": "file hash"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "ESXi hypervisor",
+  "label": "affected software product"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "ffd9f58e5fe8502249c67cad0123ceeeaa6e9f69b4ec9f9e21511809849eb8fc",
+  "label": "file hash"
+ },
+ {
+  "text": "File.exe",
+  "label": "file name"
+ },
+ {
+  "text": "FileZilla",
+  "label": "hacking tool"
+ },
+ {
+  "text": "fn.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Fog",
+  "label": "malware family"
+ },
+ {
+  "text": "Gold Sahara",
+  "label": "threat actor group"
+ },
+ {
+  "text": "HeartCrypt",
+  "label": "hacking tool"
+ },
+ {
+  "text": "HHScyber@hhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Howling Scorpius",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Hyper-V",
+  "label": "affected software product"
+ },
+ {
+  "text": "Impacket",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "itadm",
+  "label": "file name"
+ },
+ {
+  "text": "Kerberoasting",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Ladon.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "LaZagne",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Level.io",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Linux",
+  "label": "affected software product"
+ },
+ {
+  "text": "LogMeIn",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Mega",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Megazord",
+  "label": "malware family"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "MobaXterm",
+  "label": "hacking tool"
+ },
+ {
+  "text": "moe.exe",
+  "label": "file name"
+ },
+ {
+  "text": "net",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NetExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NetScan",
+  "label": "hacking tool"
+ },
+ {
+  "text": "netscan.exe",
+  "label": "file name"
+ },
+ {
+  "text": "NetScanTools",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Ngrok",
+  "label": "hacking tool"
+ },
+ {
+  "text": "nltest /dclist:",
+  "label": "hacking tool"
+ },
+ {
+  "text": "nltest /DOMAIN_TRUSTS",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NTDS.dit",
+  "label": "file name"
+ },
+ {
+  "text": "Nutanix Acropolis Hypervisor",
+  "label": "affected software product"
+ },
+ {
+  "text": "OpenSSH",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PCHunter64",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "POORTRY",
+  "label": "malware family"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowershellKerberos \nTicketDumper",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerTool",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "PSCP",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PSEXESVC.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Punk Spider",
+  "label": "threat actor group"
+ },
+ {
+  "text": "PuTTY",
+  "label": "hacking tool"
+ },
+ {
+  "text": "qKtul.vbs",
+  "label": "file name"
+ },
+ {
+  "text": "RClone",
+  "label": "hacking tool"
+ },
+ {
+  "text": "RDP",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote Desktop Protocol (RDP)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "RustDesk",
+  "label": "hacking tool"
+ },
+ {
+  "text": "s64.dll",
+  "label": "file name"
+ },
+ {
+  "text": "SharpDomainSpray",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SoftPerfect",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SonicWall",
+  "label": "affected software product"
+ },
+ {
+  "text": "SonicWall SSL VPN",
+  "label": "affected software product"
+ },
+ {
+  "text": "spearphishing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "SSH",
+  "label": "attack technique name"
+ },
+ {
+  "text": "STONESTOP",
+  "label": "malware family"
+ },
+ {
+  "text": "Storm-1567",
+  "label": "threat actor group"
+ },
+ {
+  "text": "SYSTEM",
+  "label": "file name"
+ },
+ {
+  "text": "SYSTEM hive",
+  "label": "file name"
+ },
+ {
+  "text": "SystemBC",
+  "label": "malware family"
+ },
+ {
+  "text": "T1003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1016",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1018",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027.015",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1048",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1068",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1082",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1219",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1482",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1486",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1490",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1537",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1550.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1555",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1560.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1567.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1569.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1572",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1573.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1657",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Veeam Backup & Replication",
+  "label": "affected software product"
+ },
+ {
+  "text": "Veeam Backup and Replication",
+  "label": "affected software product"
+ },
+ {
+  "text": "Veeam-Get\ufffeCreds.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "Veeam.Backup.MountService.exe",
+  "label": "file name"
+ },
+ {
+  "text": "VeeamHax.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Visual Basic",
+  "label": "attack technique name"
+ },
+ {
+  "text": "VMware Elastic Sky X Integrated",
+  "label": "affected software product"
+ },
+ {
+  "text": "VMware ESXi",
+  "label": "affected software product"
+ },
+ {
+  "text": "Vssadmin.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "w.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Win.exe",
+  "label": "file name"
+ },
+ {
+  "text": "win_locker.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Windows",
+  "label": "affected software product"
+ },
+ {
+  "text": "WinRAR",
+  "label": "hacking tool"
+ },
+ {
+  "text": "WinSCP",
+  "label": "hacking tool"
+ },
+ {
+  "text": "wmiexec.py",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Zemana AntiMalware",
+  "label": "affected software product"
+ },
+ {
+  "text": "Zemana AntiMalware",
+  "label": "hacking tool"
+ }
+]

@@ -1,0 +1,206 @@
+[
+ {
+  "text": ".ACD file",
+  "label": "file name"
+ },
+ {
+  "text": "135.136.1[.]133",
+  "label": "ip address"
+ },
+ {
+  "text": "185.82.73[.]162",
+  "label": "ip address"
+ },
+ {
+  "text": "185.82.73[.]164",
+  "label": "ip address"
+ },
+ {
+  "text": "185.82.73[.]165",
+  "label": "ip address"
+ },
+ {
+  "text": "185.82.73[.]167",
+  "label": "ip address"
+ },
+ {
+  "text": "185.82.73[.]168",
+  "label": "ip address"
+ },
+ {
+  "text": "185.82.73[.]170",
+  "label": "ip address"
+ },
+ {
+  "text": "185.82.73[.]171",
+  "label": "ip address"
+ },
+ {
+  "text": "AA26-097A STIX JSON",
+  "label": "file name"
+ },
+ {
+  "text": "AA26-097A STIX XML",
+  "label": "file name"
+ },
+ {
+  "text": "APT Iran",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Bauxite",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "Commonly Used Port",
+  "label": "attack technique name"
+ },
+ {
+  "text": "CompactLogix",
+  "label": "affected software product"
+ },
+ {
+  "text": "CompactLogix 5370 Controllers",
+  "label": "affected software product"
+ },
+ {
+  "text": "contact@cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "CVE-2021-22681",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CyberAv3ngers",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Cybersecurity_Requests@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "CybersecurityReports@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Dropbear",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Dropbear SSH",
+  "label": "hacking tool"
+ },
+ {
+  "text": "EnergySRMA@hq.doe.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Hydro Kitten",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "IRGC-Affiliated Cyber Actors",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Micro850",
+  "label": "affected software product"
+ },
+ {
+  "text": "Mr. Soul",
+  "label": "threat actor group"
+ },
+ {
+  "text": "PSIRT@rockwellautomation.com",
+  "label": "email address"
+ },
+ {
+  "text": "Remote Access Tools",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Rockwell Automation/Allen-Bradley",
+  "label": "affected software product"
+ },
+ {
+  "text": "Rockwell Automation/Allen-Bradley manufactured PLCs",
+  "label": "affected software product"
+ },
+ {
+  "text": "Rockwell Automation/Allen-Bradley-manufactured PLCs",
+  "label": "affected software product"
+ },
+ {
+  "text": "Rockwell Automation\u2019s programming software",
+  "label": "affected software product"
+ },
+ {
+  "text": "S7 Totally Integrated Automation [TIA] Portal",
+  "label": "affected software product"
+ },
+ {
+  "text": "Shahid Kaveh Group",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Siemens S7 PLC",
+  "label": "affected software product"
+ },
+ {
+  "text": "Storm-0784",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Studio 5000 Logix Designer",
+  "label": "affected software product"
+ },
+ {
+  "text": "Studio 5000 Logix Designer",
+  "label": "hacking tool"
+ },
+ {
+  "text": "T0883",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T0885",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1219",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1565",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "UNC5691",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Unitronics PLC",
+  "label": "affected software product"
+ },
+ {
+  "text": "Unitronics PLCs",
+  "label": "affected software product"
+ }
+]

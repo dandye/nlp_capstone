@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-289a",
+  "title": "Threat Actors Exploit Atlassian Confluence CVE-2023-22515 for Initial Access to Networks",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA23-289A",
+  "release_date": "2023-10-16T12:00:00Z",
+  "pdf_url": null,
+  "stix_url": null
+}

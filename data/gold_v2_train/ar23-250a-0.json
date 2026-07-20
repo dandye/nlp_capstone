@@ -1,0 +1,290 @@
+[
+ {
+  "text": "./var/run/nscd/socket",
+  "label": "file path"
+ },
+ {
+  "text": "/bin/sh",
+  "label": "file path"
+ },
+ {
+  "text": "/dev/full",
+  "label": "file path"
+ },
+ {
+  "text": "/dev/random",
+  "label": "file path"
+ },
+ {
+  "text": "/dev/urandom",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/aliases",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/ethers",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/fstab",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/fstab.main",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/group",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/gshadow",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/hosts",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/netgroup",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/networks",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/passwd",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/protocols",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/rpc",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/services",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/shadow",
+  "label": "file path"
+ },
+ {
+  "text": "/proc/self/fd",
+  "label": "file path"
+ },
+ {
+  "text": "/proc/stat",
+  "label": "file path"
+ },
+ {
+  "text": "/proc/sys/kernel/ngroups_max",
+  "label": "file path"
+ },
+ {
+  "text": "/proc/sys/kernel/osrelease",
+  "label": "file path"
+ },
+ {
+  "text": "/proc/sys/kernel/rtsig-",
+  "label": "file path"
+ },
+ {
+  "text": "/root/mac",
+  "label": "file path"
+ },
+ {
+  "text": "/root/mach",
+  "label": "file path"
+ },
+ {
+  "text": "/sys/devices/system/cpu/online",
+  "label": "file path"
+ },
+ {
+  "text": "2bb94fdfe31a464c63b8cd726f6ba1c3b18da538221d5bae943dfb03ec353a41826bdcb007bc2b7dfeb76afe619aa8ce078808e9b30079a6f947cce8ace891ff",
+  "label": "file hash"
+ },
+ {
+  "text": "3258af057858ef0930a48771869871736bfb866ef740e81f2518c0d4c217b5c0c5f8eb06985b72a3762ce011458245940be6bb1d4907d2ed0f4e18886bbc48c3",
+  "label": "file hash"
+ },
+ {
+  "text": "4183edae732506a18b5c802cbf0a471a77c3f1e4336a32ccb4958671e404493c",
+  "label": "file hash"
+ },
+ {
+  "text": "436587bad5e061a7e594f9971d89c468",
+  "label": "file hash"
+ },
+ {
+  "text": "44e1fbe71c9fcf9881230cb924987e0e615a7504c3c04d44ae157f07405e3598",
+  "label": "file hash"
+ },
+ {
+  "text": "4881a79d95bf83190be1542d7b26c7b1dee5eece1a689dc81bf2b661b43b3d724703dc4a48f824d8d960e2a480bcbea2e4007eb19023ee1bf329d993009deffc",
+  "label": "file hash"
+ },
+ {
+  "text": "4ec4ceda84c580054f191caa09916c68",
+  "label": "file hash"
+ },
+ {
+  "text": "63788797919985d0e567cf9133ad2ab7a1c415e81598dc07c0bfa3a1566aeb90",
+  "label": "file hash"
+ },
+ {
+  "text": "64b337d7e82c82a4b40c8cb88fbc651929995eef",
+  "label": "file hash"
+ },
+ {
+  "text": "6505513ca06db10b17f6d4792c30a53733309231",
+  "label": "file hash"
+ },
+ {
+  "text": "666da297066a2596cacb13b3da9572bf",
+  "label": "file hash"
+ },
+ {
+  "text": "825ba4c46f1f9c5a4f2ab3ccfd8e3ec02f50f749776df783a085aff89cb19ed983b07ecd0703c74a0474bec56e918ada002b683dec1228f18181a91b0b339234",
+  "label": "file hash"
+ },
+ {
+  "text": "83ca636253fd1eb898b244855838e2281f257bbe8ead428b69528fc50b60ae9c",
+  "label": "file hash"
+ },
+ {
+  "text": "8849a3273e0362c45b4928375d196714224ec22cb1d2df5d029bf57349860347",
+  "label": "file hash"
+ },
+ {
+  "text": "913db6f2f3c21bcb11e0fd02e2b88908b15b5c2d",
+  "label": "file hash"
+ },
+ {
+  "text": "9f04525835f998d454ed68cfc7fcb6b0907f2130ae6c6ab7495d41aa36ad8ccf",
+  "label": "file hash"
+ },
+ {
+  "text": "9fdc1dc99bc8184ee410880427dba89c",
+  "label": "file hash"
+ },
+ {
+  "text": "ad1dc51a66201689d442499f70b78dea",
+  "label": "file hash"
+ },
+ {
+  "text": "Barracuda Email Security Gateway (ESG)",
+  "label": "affected software product"
+ },
+ {
+  "text": "be570775552f937d8588bceb3e2cbb0c18408fc1",
+  "label": "file hash"
+ },
+ {
+  "text": "c61493cfa3c6c41520b6ef608da9398b4fa6a7805293bc98d628335f536509d95585d42f93b8edeabf971390e874c5291b552afe66d72651839a295b76c42380",
+  "label": "file hash"
+ },
+ {
+  "text": "c71bccdc006cca700257a69ed227e0cb1bc071ed",
+  "label": "file hash"
+ },
+ {
+  "text": "caab341a35badbc65046bd02efa9ad2fe2671eb80ece0f2fa9cf70f5d7f4bedc",
+  "label": "file hash"
+ },
+ {
+  "text": "cf22082532d4d6387ea1c9bc4dc5b255aa7a0290",
+  "label": "file hash"
+ },
+ {
+  "text": "CISA_10452108_02",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10454006_11",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10454006_12",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10454006_13",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CVE-2023-2868",
+  "label": "cve identifier"
+ },
+ {
+  "text": "get_fs_info.pl",
+  "label": "file name"
+ },
+ {
+  "text": "machineecho_-n_Y2htb2QgK3ggL3J...",
+  "label": "file name"
+ },
+ {
+  "text": "machineecho_-n_Y2htb2QgK3ggL3Jvb3QvbWFjKgpzaCAvcm9vdC9tYWNoKlxgKgoK___base64_-d__sh_-slack",
+  "label": "file name"
+ },
+ {
+  "text": "mod_rft.so",
+  "label": "file name"
+ },
+ {
+  "text": "mod_sender.lua",
+  "label": "file name"
+ },
+ {
+  "text": "SALTWATER",
+  "label": "malware family"
+ },
+ {
+  "text": "saslautchd",
+  "label": "file name"
+ },
+ {
+  "text": "SEASPRAY",
+  "label": "malware family"
+ },
+ {
+  "text": "SEASPY",
+  "label": "malware family"
+ },
+ {
+  "text": "SKIPJACK",
+  "label": "malware family"
+ },
+ {
+  "text": "SUBMARINE",
+  "label": "malware family"
+ },
+ {
+  "text": "submit@malware.us-cert.gov",
+  "label": "email address"
+ },
+ {
+  "text": "TLP: CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "uname",
+  "label": "hacking tool"
+ },
+ {
+  "text": "WHIRLPOOL",
+  "label": "malware family"
+ }
+]

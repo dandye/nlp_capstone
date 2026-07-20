@@ -1,0 +1,178 @@
+[
+ {
+  "text": "/vmfs/volumes/",
+  "label": "file path"
+ },
+ {
+  "text": "19ED36F063221E161D740651E6578D50E0D3CACEE89D27A6EBED4AB4272585BD",
+  "label": "file hash"
+ },
+ {
+  "text": "475D6E80CF4EF70926A65DF5551F59E35B71A0E92F0FE4DD28559A9DEBA60C28",
+  "label": "file hash"
+ },
+ {
+  "text": "54E3B5A2521A84741DC15810E6FED9D739EB8083CB1FE097CB98B345AF24E939",
+  "label": "file hash"
+ },
+ {
+  "text": "9E42E07073E03BDEA4CD978D9E7B44A9574972818593306BE1F3DCFDEE722238",
+  "label": "file hash"
+ },
+ {
+  "text": "Account Manipulation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Babuk Locker",
+  "label": "malware family"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Daixin Team",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Data Encrypted for Impact",
+  "label": "attack technique name"
+ },
+ {
+  "text": "EC16E2DE3A55772F5DFAC8BF8F5A365600FAD40A244A574CBAB987515AA40CBF",
+  "label": "file hash"
+ },
+ {
+  "text": "ESXi servers",
+  "label": "affected software product"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration Over Web Service",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Exploit Public-Facing Application",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "Ngrok",
+  "label": "hacking tool"
+ },
+ {
+  "text": "OS Credential Dumping",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "Rclone",
+  "label": "hacking tool"
+ },
+ {
+  "text": "rclone-v1.59.2-windows-amd64\\git-log.txt",
+  "label": "file path"
+ },
+ {
+  "text": "rclone-v1.59.2-windows-amd64\\rclone.1",
+  "label": "file path"
+ },
+ {
+  "text": "rclone-v1.59.2-windows-amd64\\rclone.exe",
+  "label": "file path"
+ },
+ {
+  "text": "rclone-v1.59.2-windows-amd64\\README.txt",
+  "label": "file path"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "T1003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1098",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1486",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1550.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1563.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1563.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1567",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1598.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0010",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TLP: WHITE",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:WHITE",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "VMware ESXi servers",
+  "label": "affected software product"
+ },
+ {
+  "text": "VMware vCenter Server",
+  "label": "affected software product"
+ }
+]

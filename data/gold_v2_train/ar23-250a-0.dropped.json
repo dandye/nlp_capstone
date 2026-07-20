@@ -1,0 +1,47 @@
+[
+ {
+  "text": "12:HA4SKFBMygPZr7NBiC+c6jaY7PCbozFJG:thFBMZr7NBazjTzCbozG",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "24576:25gY/a9MQrLO457KIRTQvAunkEKkb8EHA4pje0ET1Nyb+YpYcNvwoQItHzUMDb:25b8y45V2IVEHASjezfYH",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "3::",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "44e1fbe71c...",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "96:JnJKszX3Z+p351GUw5FbsNmnwdx8sMEFoiKe3:JnJjzZ+j14FIEnqxjMEKQ",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "98304:J8sPi2iUKJYO0OAgikIn9FCJM+rXKZ9ldvVkhyfMuG9vU:xVUildN0uX",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "9f04525835...",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CLEAR",
+  "label": "tlp classification",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "woDzUM",
+  "label": "file hash",
+  "reason": "failed format validator"
+ }
+]

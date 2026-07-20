@@ -1,0 +1,27 @@
+[
+ {
+  "text": "96:+1mAIp+Y/icd7s42dB+1jhPBD1rH4equdK3b7OKiTcGuRNdecg6dxkXBd6Ua:em+ZO7sfBkjh79H4q6fbf",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "96:71mv1p+YQicdcs45k+Ujhu0w1rH4equdK3b7OKiTcGuRNdecg6dxkXBd6Ujn:6X+0OcsQkNjhe9H4q6fb2",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "96:e1mfYp+YQicdb34VB+1jhuBj1rH4equdK3b7OKiTcGuRNdecg6dxkXBd6Uq:pW+UOb3QBkjh89H4q6fbP",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "96:i1mJ5p+Yuicd4344D+7jhugE1rH4equdK3b7OKiTcGuRNdecg6dxkXBd6UH:7j+yO435DOjhu9H4q6fbC",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Barracuda Email Security Gateway (ESG)",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ }
+]

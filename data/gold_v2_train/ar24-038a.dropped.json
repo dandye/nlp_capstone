@@ -1,0 +1,17 @@
+[
+ {
+  "text": "MD5 fd41134e8ead1c18ccad27c62a260aa6",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Ultimate Packer for Executables (UPX)",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Windows Management Instrumentation (WMI)",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ }
+]

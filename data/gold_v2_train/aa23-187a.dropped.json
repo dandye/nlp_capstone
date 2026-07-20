@@ -1,0 +1,42 @@
+[
+ {
+  "text": "Application Layer Protocol",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "CL0P Ransomware Gang",
+  "label": "threat actor group",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Data from Local System",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Data Transfer Size Limits",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Encrypted Channel: Asymmetric Cryptography",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exfiltration Over C2 Channel",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Non-Application Protocol",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Windows Server 2012R2",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ }
+]

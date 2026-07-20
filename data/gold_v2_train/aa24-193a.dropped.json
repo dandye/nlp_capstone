@@ -1,0 +1,17 @@
+[
+ {
+  "text": "CVE-2022-\n21587",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Gather Victim Network Information: DNS",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Systems Center Configurations Manager (SCCM)",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ }
+]

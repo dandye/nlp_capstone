@@ -1,0 +1,337 @@
+[
+ {
+  "text": "Application Delivery Controller and \nGateway",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Atlassian Confluence and Data Center",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Atlassian Confluence Server and Data Center",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Citrix Application Delivery Controller",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Citrix SD-WAN WANOP appliance",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Confluence Server and Data Center",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "CVE-2017-\n0199",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2017-\n11882",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2018-\n13379",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2019-\n0708",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2019-\n11510",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2019-\n19781",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2020-\n1472",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2020-\n14882",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2020-\n14883",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2020-\n5902",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n20016",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n20021",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n20038",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n26084",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n26855",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n26857",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n26858",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n27065",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n31207",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n34473",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n34523",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n40438",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n40539",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n41773",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n42013",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n44228",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021-\n45046",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2021- 44228",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n1388",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n22047",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n22536",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n22954",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n22960",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n22963",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n24682",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n26134",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n27593",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n27924",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n29464",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n30190",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n40684",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n41082",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE-2022-\n42475",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE\ufffe2017-\n0199",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE\ufffe2017-\n11882",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE\ufffe2018-\n13379",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE\ufffe2019-\n0708",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE\ufffe2019-\n11510",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE\ufffe2020-\n1472",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE\ufffe2020-\n14882",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE\ufffe2020-\n14883",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE\ufffe2020-\n5902",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Distributed Component Object Model (DCOM)",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "F5 BIG-IP application delivery and security software",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "FortiOS, FortiProxy, FortiSwitchManager",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "NetScaler Gateway",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Pulse Connect Secure / Pulse Policy Secure 9.0RX",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Pulse Secure Pulse Connect Secure",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "VMware Workspace ONE Access, Identity Manager, and other VMware products",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Workspace ONE Access and Identity Manager",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Workspace ONE Access, Identity Manager, and vRealize Automation",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ }
+]

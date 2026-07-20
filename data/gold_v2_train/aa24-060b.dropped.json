@@ -1,0 +1,42 @@
+[
+ {
+  "text": "/home/venv3/lib/python3.6/site-packages/*.egg",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "/home/webserver/htdocs/dana-na/auth/compcheckresult.cgi",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "/home/webserver/htdocs/dana-na/auth/lastauthserverused.js",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Command and Scripting Interpreter: PowerShell",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "CVE 2023-46805",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Exploit Public-Facing Applications",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exploitation for Client Execution",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Server Software Component: Web Shell",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

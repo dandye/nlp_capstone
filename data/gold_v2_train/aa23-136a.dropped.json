@@ -1,0 +1,147 @@
+[
+ {
+  "text": "88A612B3887D57A7FA3D48F5E3EDF952E4BE48E0972FC6456FBBCFF198CC8620E5609ED2D598",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Archive Collected Data",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Command and Scripting Interpreter: PowerShell",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Command and Scripting Interpreter: Windows Command Shell",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Create Account: Cloud Account",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Create Account: Domain Account",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "CVE-2021-31207",
+  "label": "cve identifier",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exploit Public-Facing Application",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "http://bianlianlbc5an4kgnay3opdemgcryg2 \ngnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad[.]onion",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad[.]onion",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd[.]onion",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "https://github.com/qTox/qTox/releases/download/v1.17.6/setup-qtox-x86_64-release.exe",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Impair Defenses: Disable or Modify System Firewall",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Impair Defenses: Disable or Modify Tools",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Masquerading: Masquerade Task or Service",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Obfuscated Files or Information: Software Packing",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "OS Credential Dumping: LSASS Memory",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Permission Groups Discovery: Domain Groups",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Process Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Proxy: External Proxy",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "RDP Recognizer",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Remote Services: Remote Desktop Protocol",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Remote Services: SMB/Windows Admin Shares",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Scheduled Task/Job: Scheduled Task",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Server Software Component: Web Shell",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "System Information Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Unsecured Credentials: Credentials In Files",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Unsecured Credentials: Private Keys",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

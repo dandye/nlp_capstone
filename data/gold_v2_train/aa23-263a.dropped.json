@@ -1,0 +1,52 @@
+[
+ {
+  "text": "Acquire Infrastructure: Virtual Private Server",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Application Layer Protocols: Web Protocols",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Brute Force: Password Guessing",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Command and Scripting Interpreter: Windows Command Shell",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Gather Victim Network Information",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Impair Defenses: Disable or Modify Tools",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Impair Defenses: Safe Mode Boot",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Remote Services: Remote Desktop Protocol",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "System Services: Service Execution",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Valid Accounts: Domain Accounts",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

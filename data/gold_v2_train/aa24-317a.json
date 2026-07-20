@@ -1,0 +1,726 @@
+[
+ {
+  "text": "ADSelfService Plus",
+  "label": "affected software product"
+ },
+ {
+  "text": "Apache Log4j2",
+  "label": "affected software product"
+ },
+ {
+  "text": "Apache\u2019s Log4j library",
+  "label": "affected software product"
+ },
+ {
+  "text": "Apple iOS, iPadOS, \nand watchOS Wallet",
+  "label": "affected software product"
+ },
+ {
+  "text": "Atlassian Confluence Data Center and Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Auditor",
+  "label": "affected software product"
+ },
+ {
+  "text": "BIG-IP",
+  "label": "affected software product"
+ },
+ {
+  "text": "BIG-IP and BIG-IQ \nCentralized \nManagement iControl \nREST",
+  "label": "affected software product"
+ },
+ {
+  "text": "BIG-IQ",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco IOS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco IOS XE",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco IOS XE Software",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco IOS XE Web UI",
+  "label": "affected software product"
+ },
+ {
+  "text": "Citrix ADC",
+  "label": "affected software product"
+ },
+ {
+  "text": "Citrix Gateway",
+  "label": "affected software product"
+ },
+ {
+  "text": "Citrix NetScaler ADC",
+  "label": "affected software product"
+ },
+ {
+  "text": "CL0P",
+  "label": "malware family"
+ },
+ {
+  "text": "Community and \nEnterprise Editions",
+  "label": "affected software product"
+ },
+ {
+  "text": "Confluence Data \nCenter and Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Confluence Data Center",
+  "label": "affected software product"
+ },
+ {
+  "text": "Confluence Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Confluence Server \nand Data Center",
+  "label": "affected software product"
+ },
+ {
+  "text": "contact@cyber.gc.ca",
+  "label": "email address"
+ },
+ {
+  "text": "CVE-2017-6742",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2018-13379",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2019-0708",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2019-11510",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2019-18935",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2020-1472",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-22205",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-22986",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-26084",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-27860",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-33044",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-33045",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-34473",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-4034",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-40539",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-44228",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-26134",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-3236",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-41040",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-47966",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-0669",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-20198",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-20273",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-22515",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-22518",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-23397",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-27350",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-27997",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-2868",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-29492",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-34362",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-3466",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-35078",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-35081",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-3519",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-36844",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-36845",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-36846",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-36847",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-38831",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-41061",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-41064",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-42793",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-49103",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-4966",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-6448",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CWE-1188",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-119",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-120",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-122",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-125",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-20",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-200",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-22",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-284",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-287",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-288",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-294",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-306",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-330",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-345",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-351",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-400",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-416",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-420",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-434",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-473",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-502",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-706",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-77",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-78",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-787",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-798",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-863",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-89",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-917",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-918",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-94",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "Cybersecurity_Requests@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "CyWatch@fbi.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Distributed Component Object \nModel (DCOM)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Endpoint Manager \nMobile",
+  "label": "affected software product"
+ },
+ {
+  "text": "Endpoint Manager \nMobile (EPMM)",
+  "label": "affected software product"
+ },
+ {
+  "text": "ESG Appliance",
+  "label": "affected software product"
+ },
+ {
+  "text": "Exchange Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Firewall",
+  "label": "affected software product"
+ },
+ {
+  "text": "Fortinet FortiOS",
+  "label": "affected software product"
+ },
+ {
+  "text": "FortiOS",
+  "label": "affected software product"
+ },
+ {
+  "text": "FortiOS SSL VPN",
+  "label": "affected software product"
+ },
+ {
+  "text": "FortiOS-6K7K",
+  "label": "affected software product"
+ },
+ {
+  "text": "FortiProxy",
+  "label": "affected software product"
+ },
+ {
+  "text": "FortiProxy SSL-VPN",
+  "label": "affected software product"
+ },
+ {
+  "text": "GitLab",
+  "label": "affected software product"
+ },
+ {
+  "text": "GoAnywhere",
+  "label": "affected software product"
+ },
+ {
+  "text": "GoAnywhere MFT",
+  "label": "affected software product"
+ },
+ {
+  "text": "Golden\nTicket attacks",
+  "label": "attack technique name"
+ },
+ {
+  "text": "HTTP/2 Rapid Reset Attack",
+  "label": "attack technique name"
+ },
+ {
+  "text": "incidents@ncsc.govt.nz",
+  "label": "email address"
+ },
+ {
+  "text": "iOS",
+  "label": "affected software product"
+ },
+ {
+  "text": "IOS and IOS XE \nSoftware",
+  "label": "affected software product"
+ },
+ {
+  "text": "IOS XE",
+  "label": "affected software product"
+ },
+ {
+  "text": "iOS, iPadOS, and \nmacOS ImageIO",
+  "label": "affected software product"
+ },
+ {
+  "text": "iPadOS",
+  "label": "affected software product"
+ },
+ {
+  "text": "IPVPN",
+  "label": "affected software product"
+ },
+ {
+  "text": "JetBrains TeamCity",
+  "label": "affected software product"
+ },
+ {
+  "text": "Junos OS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Junos OS EX Series",
+  "label": "affected software product"
+ },
+ {
+  "text": "Junos OS EX Series \nand SRX Series",
+  "label": "affected software product"
+ },
+ {
+  "text": "Junos OS SRX Series",
+  "label": "affected software product"
+ },
+ {
+  "text": "Kerberoasting",
+  "label": "attack technique name"
+ },
+ {
+  "text": "LockBit 3.0",
+  "label": "malware family"
+ },
+ {
+  "text": "Log4j",
+  "label": "affected software product"
+ },
+ {
+  "text": "macOS Big Sur",
+  "label": "affected software product"
+ },
+ {
+  "text": "macOS Monterey",
+  "label": "affected software product"
+ },
+ {
+  "text": "macOS Ventura",
+  "label": "affected software product"
+ },
+ {
+  "text": "ManageEngine",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Exchange \nServer",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Exchange Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Netlogon",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Office Outlook",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Outlook",
+  "label": "affected software product"
+ },
+ {
+  "text": "MOVEit Cloud",
+  "label": "affected software product"
+ },
+ {
+  "text": "MOVEit Transfer",
+  "label": "affected software product"
+ },
+ {
+  "text": "MPVPN",
+  "label": "affected software product"
+ },
+ {
+  "text": "Netlogon",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler Gateway",
+  "label": "affected software product"
+ },
+ {
+  "text": "Novi Survey",
+  "label": "affected software product"
+ },
+ {
+  "text": "ownCloud graphapi",
+  "label": "affected software product"
+ },
+ {
+  "text": "PaperCut MF",
+  "label": "affected software product"
+ },
+ {
+  "text": "PaperCut MF/NG",
+  "label": "affected software product"
+ },
+ {
+  "text": "Polkit",
+  "label": "affected software product"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Progress MOVEit Transfer",
+  "label": "affected software product"
+ },
+ {
+  "text": "Progress Telerik UI for \nASP.NET AJAX",
+  "label": "affected software product"
+ },
+ {
+  "text": "Pulse Connect Secure",
+  "label": "affected software product"
+ },
+ {
+  "text": "Red Hat Enterprise Linux",
+  "label": "affected software product"
+ },
+ {
+  "text": "Red Hat Virtualization",
+  "label": "affected software product"
+ },
+ {
+  "text": "Remote Desktop \nServices",
+  "label": "affected software product"
+ },
+ {
+  "text": "Remote Desktop Services",
+  "label": "affected software product"
+ },
+ {
+  "text": "report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Russian Cyber Actors",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Sophos Firewall",
+  "label": "affected software product"
+ },
+ {
+  "text": "SQL injection",
+  "label": "attack technique name"
+ },
+ {
+  "text": "TeamCity",
+  "label": "affected software product"
+ },
+ {
+  "text": "Telerik.Web.UI.dll",
+  "label": "file name"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Various products",
+  "label": "affected software product"
+ },
+ {
+  "text": "VisiLogic",
+  "label": "affected software product"
+ },
+ {
+  "text": "Vision PLC and HMI",
+  "label": "affected software product"
+ },
+ {
+  "text": "WARP",
+  "label": "affected software product"
+ },
+ {
+  "text": "WARP, IPVPN, and \nMPVPN",
+  "label": "affected software product"
+ },
+ {
+  "text": "watchOS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows Management Instrumentation (WMI)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "WinRAR",
+  "label": "affected software product"
+ },
+ {
+  "text": "WinRM",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Zoho ManageEngine",
+  "label": "affected software product"
+ },
+ {
+  "text": "Zoho ManageEngine \nMultiple Products",
+  "label": "affected software product"
+ }
+]

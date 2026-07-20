@@ -1,0 +1,482 @@
+[
+ {
+  "text": "/bin/netmon",
+  "label": "file path"
+ },
+ {
+  "text": "/home/etc/sql/dsserver/sessionserver.pl",
+  "label": "file path"
+ },
+ {
+  "text": "/home/etc/sql/dsserver/sessionserver.sh",
+  "label": "file path"
+ },
+ {
+  "text": "/home/perl/DSLogConfig.pm",
+  "label": "file path"
+ },
+ {
+  "text": "/home/webserver/htdocs/dana\ufffena/auth/lastauthserverused.js",
+  "label": "file path"
+ },
+ {
+  "text": "/usr/bin/a.sh",
+  "label": "file path"
+ },
+ {
+  "text": "103.13.28[.]40",
+  "label": "ip address"
+ },
+ {
+  "text": "146.0.228[.]66",
+  "label": "ip address"
+ },
+ {
+  "text": "159.65.130[.]146",
+  "label": "ip address"
+ },
+ {
+  "text": "173.220.106[.]166",
+  "label": "ip address"
+ },
+ {
+  "text": "186.179.39[.]235",
+  "label": "ip address"
+ },
+ {
+  "text": "206.189.208[.]156",
+  "label": "ip address"
+ },
+ {
+  "text": "26cbb54b1feb75fe008e36285334d747428f80aacdb57badf294e597f3e9430d",
+  "label": "file hash"
+ },
+ {
+  "text": "2ec505088b942c234f39a37188e80d7a",
+  "label": "file hash"
+ },
+ {
+  "text": "3045f5b3d355a9ab26ab6f44cc831a83",
+  "label": "file hash"
+ },
+ {
+  "text": "3d97f55a03ceb4f71671aa2ecf5b24e9",
+  "label": "file hash"
+ },
+ {
+  "text": "45.61.136[.]14",
+  "label": "ip address"
+ },
+ {
+  "text": "46.8.68[.]100",
+  "label": "ip address"
+ },
+ {
+  "text": "47.207.9[.]89",
+  "label": "ip address"
+ },
+ {
+  "text": "50.213.208[.]89",
+  "label": "ip address"
+ },
+ {
+  "text": "50.215.39[.]49",
+  "label": "ip address"
+ },
+ {
+  "text": "50.243.177[.]161",
+  "label": "ip address"
+ },
+ {
+  "text": "64.24.179[.]210",
+  "label": "ip address"
+ },
+ {
+  "text": "71.127.149[.]194",
+  "label": "ip address"
+ },
+ {
+  "text": "73.128.178[.]221",
+  "label": "ip address"
+ },
+ {
+  "text": "73.53.43[.]7",
+  "label": "ip address"
+ },
+ {
+  "text": "75.145.224[.]109",
+  "label": "ip address"
+ },
+ {
+  "text": "75.145.243[.]85",
+  "label": "ip address"
+ },
+ {
+  "text": "8.137.112[.]245",
+  "label": "ip address"
+ },
+ {
+  "text": "88.119.169[.]227",
+  "label": "ip address"
+ },
+ {
+  "text": "8bc8f4da98ee05c9d403d2cb76097818de0b524d90bea8ed846615e42cb031d2",
+  "label": "file hash"
+ },
+ {
+  "text": "8eb042da6ba683ef1bae460af103cc44",
+  "label": "file hash"
+ },
+ {
+  "text": "91.92.254[.]14",
+  "label": "ip address"
+ },
+ {
+  "text": "98.160.48[.]170",
+  "label": "ip address"
+ },
+ {
+  "text": "9d901f1a494ffa98d967ee6ee30a46402c12a807ce425d5f51252eb69941d988",
+  "label": "file hash"
+ },
+ {
+  "text": "[a-fA-f0-9]{10\\.css",
+  "label": "file name"
+ },
+ {
+  "text": "a.sh",
+  "label": "file name"
+ },
+ {
+  "text": "a739bd4c2b9f3679f43579711448786f",
+  "label": "file hash"
+ },
+ {
+  "text": "a81813f70151a022ea1065b7f4d6b5ab",
+  "label": "file hash"
+ },
+ {
+  "text": "apt_webshell_aspx_glasstoken",
+  "label": "yara rule name"
+ },
+ {
+  "text": "apt_webshell_pl_complyshell",
+  "label": "yara rule name"
+ },
+ {
+  "text": "apt_webshell_py_categorical",
+  "label": "yara rule name"
+ },
+ {
+  "text": "BUSHWALK",
+  "label": "malware family"
+ },
+ {
+  "text": "CATEGORICAL",
+  "label": "malware family"
+ },
+ {
+  "text": "Cav-0.1-py3.6.egg",
+  "label": "file name"
+ },
+ {
+  "text": "CHAINLINE",
+  "label": "malware family"
+ },
+ {
+  "text": "compcheckresult.cgi",
+  "label": "file name"
+ },
+ {
+  "text": "COMPLYSHELL",
+  "label": "malware family"
+ },
+ {
+  "text": "CVE-2023-46805",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-21887",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-21888",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-21893",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-22024",
+  "label": "cve identifier"
+ },
+ {
+  "text": "d0c7a334a4d9dcd3c6335ae13bee59ea",
+  "label": "file hash"
+ },
+ {
+  "text": "data.mb",
+  "label": "file name"
+ },
+ {
+  "text": "data.mdb",
+  "label": "file name"
+ },
+ {
+  "text": "DSLogConfig.pm",
+  "label": "file name"
+ },
+ {
+  "text": "e192932d834292478c9b1032543c53edfc2b252fdf7e27e4c438f4b249544eeb",
+  "label": "file hash"
+ },
+ {
+  "text": "e8489983d73ed30a4240a14b1f161254",
+  "label": "file hash"
+ },
+ {
+  "text": "ed4b855941d6d7e07aacf016a2402c4c870876a050a4a547af194f5a9b47945f",
+  "label": "file hash"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "freerdp",
+  "label": "hacking tool"
+ },
+ {
+  "text": "GIFTEDVISITOR",
+  "label": "malware family"
+ },
+ {
+  "text": "GLASSTOKEN",
+  "label": "malware family"
+ },
+ {
+  "text": "hacktool_py_pysoxy",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Health.py",
+  "label": "file name"
+ },
+ {
+  "text": "initial access",
+  "label": "tactic"
+ },
+ {
+  "text": "Ivanti Connect Secure",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti Connect Secure VPN",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti Connect Secure VPN appliance",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti Connect Secure VPN appliances",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti Neurons for ZTA",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti Policy Secure",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti VPN appliances",
+  "label": "affected software product"
+ },
+ {
+  "text": "lastauthserverused.js",
+  "label": "file name"
+ },
+ {
+  "text": "lateral movement",
+  "label": "tactic"
+ },
+ {
+  "text": "LIGHTWIRE",
+  "label": "malware family"
+ },
+ {
+  "text": "lmdb-backup/data",
+  "label": "file path"
+ },
+ {
+  "text": "lmdb/data",
+  "label": "file path"
+ },
+ {
+  "text": "login.gif",
+  "label": "file name"
+ },
+ {
+  "text": "logo.gif",
+  "label": "file name"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Netcat",
+  "label": "hacking tool"
+ },
+ {
+  "text": "netmon",
+  "label": "file name"
+ },
+ {
+  "text": "nmap",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "Policy Secure",
+  "label": "affected software product"
+ },
+ {
+  "text": "Policy Secure Gateways",
+  "label": "affected software product"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PRC State-Sponsored Actors",
+  "label": "threat actor group"
+ },
+ {
+  "text": "PsExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "pysoxy",
+  "label": "hacking tool"
+ },
+ {
+  "text": "RDP",
+  "label": "hacking tool"
+ },
+ {
+  "text": "reGeorg",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Remote Desktop Protocols",
+  "label": "hacking tool"
+ },
+ {
+  "text": "report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Secure Connect appliance",
+  "label": "affected software product"
+ },
+ {
+  "text": "sessionserver.pl",
+  "label": "file name"
+ },
+ {
+  "text": "sessionserver.sh",
+  "label": "file name"
+ },
+ {
+  "text": "Sliver",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SOC@cisecurity.org",
+  "label": "email address"
+ },
+ {
+  "text": "ssh",
+  "label": "hacking tool"
+ },
+ {
+  "text": "T1059.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1203",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0003",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0006",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0008",
+  "label": "attack technique id"
+ },
+ {
+  "text": "telnet",
+  "label": "hacking tool"
+ },
+ {
+  "text": "threatintel@volexity.com",
+  "label": "email address"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "UTA0178",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "visits.py",
+  "label": "file name"
+ },
+ {
+  "text": "WARPWIRE",
+  "label": "malware family"
+ },
+ {
+  "text": "webshell_aspx_regeorg",
+  "label": "yara rule name"
+ },
+ {
+  "text": "WIREFIRE",
+  "label": "malware family"
+ },
+ {
+  "text": "ZTA gateways",
+  "label": "affected software product"
+ }
+]

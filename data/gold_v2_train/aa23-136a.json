@@ -1,0 +1,722 @@
+[
+ {
+  "text": "0c1eb11de3a533689267ba075e49d93d55308525c04d6aff0d2c54d1f52f5500",
+  "label": "file hash"
+ },
+ {
+  "text": "1fd07b8d1728e416f897bef4f1471126f9b18ef108eb952f4b75050da22e8e43",
+  "label": "file hash"
+ },
+ {
+  "text": "40126ae71b857dd22db39611c25d3d5dd0e60316b72830e930fba9baf23973ce",
+  "label": "file hash"
+ },
+ {
+  "text": "7b15f570a23a5c5ce8ff942da60834a9d0549ea3ea9f34f900a09331325df893",
+  "label": "file hash"
+ },
+ {
+  "text": "\\\\127.0.0.1\\C$\\Windows\\Temp\\<folder>",
+  "label": "file path"
+ },
+ {
+  "text": "\\Windows\\Temp\\<file>.csv",
+  "label": "file path"
+ },
+ {
+  "text": "Account Discovery: Domain Account",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Account Manipulation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Active Directory",
+  "label": "affected software product"
+ },
+ {
+  "text": "Advanced Port Scanner",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Azure AD",
+  "label": "affected software product"
+ },
+ {
+  "text": "BianLian",
+  "label": "malware family"
+ },
+ {
+  "text": "BianLian",
+  "label": "threat actor group"
+ },
+ {
+  "text": "c:\\programdata\\netsh.dll",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\User",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\users\\<user>\\desktop\\1.txt",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\Public\\Music\\<file>.ps1",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\training\\Music\\<file>.txt",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\windows\\System32\\comsvcs.dll",
+  "label": "file path"
+ },
+ {
+  "text": "Clipboard Data",
+  "label": "attack technique name"
+ },
+ {
+  "text": "cmd.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "comsvcs.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Create Account: Local Account",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "crundll32.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CVE-2020-1472",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-34473",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-34523",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-37969",
+  "label": "cve identifier"
+ },
+ {
+  "text": "Data Encrypted for Impact",
+  "label": "attack technique name"
+ },
+ {
+  "text": "def.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Develop Capabilities: Malware",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "DISM",
+  "label": "hacking tool"
+ },
+ {
+  "text": "dism.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Domain Trust Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "dump.exe",
+  "label": "file name"
+ },
+ {
+  "text": "encryptor.exe",
+  "label": "file name"
+ },
+ {
+  "text": "ESXi",
+  "label": "affected software product"
+ },
+ {
+  "text": "Exchange server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration and Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration Over Alternative Protocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "exp.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Exploitation for Privilege Escalation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "External Remote Services",
+  "label": "attack technique name"
+ },
+ {
+  "text": "File and Directory Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "findstr",
+  "label": "hacking tool"
+ },
+ {
+  "text": "https://qtox.github[.]io/",
+  "label": "file path"
+ },
+ {
+  "text": "https[:]//github.com/qTox/qTox/",
+  "label": "file path"
+ },
+ {
+  "text": "Impacket",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "Ingress Tool Transfer",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "instruction.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "ldap.exe",
+  "label": "file name"
+ },
+ {
+  "text": "logoff",
+  "label": "hacking tool"
+ },
+ {
+  "text": "lsass.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Mega",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Modify Registry",
+  "label": "attack technique name"
+ },
+ {
+  "text": "mstsc",
+  "label": "hacking tool"
+ },
+ {
+  "text": "N0torious@onionmail.org",
+  "label": "email address"
+ },
+ {
+  "text": "n0torious@onionmail[.]org",
+  "label": "email address"
+ },
+ {
+  "text": "net",
+  "label": "hacking tool"
+ },
+ {
+  "text": "net.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "netscan.exe",
+  "label": "file name"
+ },
+ {
+  "text": "netsh.dll",
+  "label": "file name"
+ },
+ {
+  "text": "netsh.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Network Service Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Network Share Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Ngrok",
+  "label": "hacking tool"
+ },
+ {
+  "text": "nltest",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NTDS.dit",
+  "label": "file name"
+ },
+ {
+  "text": "OS Credential Dumping: NTDS",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "Persistence and Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "Phishing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "ping.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PingCastle",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerShell.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "programdata\\vmware",
+  "label": "file path"
+ },
+ {
+  "text": "Proxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "ProxyShell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PsExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "qTox",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Query Registry",
+  "label": "attack technique name"
+ },
+ {
+  "text": "quser",
+  "label": "file name"
+ },
+ {
+  "text": "quser",
+  "label": "hacking tool"
+ },
+ {
+  "text": "quser.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Rclone",
+  "label": "hacking tool"
+ },
+ {
+  "text": "RDP",
+  "label": "hacking tool"
+ },
+ {
+  "text": "reg.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Remote Access Software",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote System Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Resource Development",
+  "label": "tactic"
+ },
+ {
+  "text": "Rsocks",
+  "label": "hacking tool"
+ },
+ {
+  "text": "rundll32.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "s.exe",
+  "label": "file name"
+ },
+ {
+  "text": "SAVService",
+  "label": "affected software product"
+ },
+ {
+  "text": "schtasks.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "secretsdump.py",
+  "label": "file name"
+ },
+ {
+  "text": "secretsdump.py",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Server 2016",
+  "label": "affected software product"
+ },
+ {
+  "text": "SessionGopher",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SharpShares",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SoftPerfect Network Scanner",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Software Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Sophos",
+  "label": "affected software product"
+ },
+ {
+  "text": "Sophos antivirus",
+  "label": "affected software product"
+ },
+ {
+  "text": "swikipedia@onionmail[.]org",
+  "label": "email address"
+ },
+ {
+  "text": "System Owner User Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "system.exe",
+  "label": "file name"
+ },
+ {
+  "text": "T1003.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1012",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1018",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1033",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1048",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1053.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1057",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1068",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1069.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1082",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1083",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1098",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1112",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1115",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1135",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1219",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1482",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1486",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1518",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1537",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1560",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1567.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1587.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "tasklist",
+  "label": "hacking tool"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Transfer Data to Cloud Account",
+  "label": "attack technique name"
+ },
+ {
+  "text": "tvnserver",
+  "label": "hacking tool"
+ },
+ {
+  "text": "UPX",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Windows",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows 10",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows 10 and 11",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows Command Shell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Windows defender",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows Server 2012R2",
+  "label": "affected software product"
+ },
+ {
+  "text": "xwikipedia@onionmail[.]org",
+  "label": "email address"
+ }
+]

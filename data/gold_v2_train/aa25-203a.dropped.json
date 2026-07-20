@@ -1,0 +1,22 @@
+[
+ {
+  "text": "68A49D5A097E3850F3BB572BAF2B75A8E158DADB70BADDC205C2628A9B660E7",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Advanced Port Scanner",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Process Hacker",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "processhacker\ufeff2.39-bin.zip",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ }
+]

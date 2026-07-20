@@ -1,0 +1,478 @@
+[
+ {
+  "text": "%SystemDrive%\\inetpub\\logs\\LogFiles",
+  "label": "file path"
+ },
+ {
+  "text": "%SystemDrive%\\Windows\\System32\\winevt\\logs\\Application.evtx",
+  "label": "file path"
+ },
+ {
+  "text": "%SystemDrive%\\Windows\\System32\\winevt\\logs\\Security.evtx",
+  "label": "file path"
+ },
+ {
+  "text": "%SystemDrive%\\Windows\\Temp\\",
+  "label": "file path"
+ },
+ {
+  "text": "/Telerik.Web.UI.WebResource.axd",
+  "label": "file path"
+ },
+ {
+  "text": "104.225.129[.]102",
+  "label": "ip address"
+ },
+ {
+  "text": "137.184.130[.]162",
+  "label": "ip address"
+ },
+ {
+  "text": "144.96.103[.]245",
+  "label": "ip address"
+ },
+ {
+  "text": "149.28.85[.]24",
+  "label": "ip address"
+ },
+ {
+  "text": "1596835329.5015914.png",
+  "label": "file name"
+ },
+ {
+  "text": "162.210.194[.]10",
+  "label": "ip address"
+ },
+ {
+  "text": "1664175639.65719.dll",
+  "label": "file name"
+ },
+ {
+  "text": "1667203023.5321205.dll",
+  "label": "file name"
+ },
+ {
+  "text": "1667206973.2270932.dll",
+  "label": "file name"
+ },
+ {
+  "text": "184.168.104[.]171",
+  "label": "ip address"
+ },
+ {
+  "text": "185.186.245[.]72",
+  "label": "ip address"
+ },
+ {
+  "text": "193.8.172[.]113",
+  "label": "ip address"
+ },
+ {
+  "text": "193.8.172[.]13",
+  "label": "ip address"
+ },
+ {
+  "text": "20.121.51[.]51",
+  "label": "ip address"
+ },
+ {
+  "text": "207.244.71[.]81",
+  "label": "ip address"
+ },
+ {
+  "text": "216.120.201[.]12",
+  "label": "ip address"
+ },
+ {
+  "text": "45.77.212[.]12",
+  "label": "ip address"
+ },
+ {
+  "text": "5.34.178[.]246",
+  "label": "ip address"
+ },
+ {
+  "text": "79.133.124[.]242",
+  "label": "ip address"
+ },
+ {
+  "text": "92.38.169[.]193",
+  "label": "ip address"
+ },
+ {
+  "text": "92.38.176[.]109",
+  "label": "ip address"
+ },
+ {
+  "text": "92.38.176[.]130",
+  "label": "ip address"
+ },
+ {
+  "text": "App_Web_jl37rjxu.dll",
+  "label": "file name"
+ },
+ {
+  "text": "AppCrash_w3wp.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Application.evtx",
+  "label": "file name"
+ },
+ {
+  "text": "C2",
+  "label": "tactic"
+ },
+ {
+  "text": "c:\\windows\\system32\\inetsrv\\w3wp.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\System32\\vcruntime140.dll",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\1665890187.8690152.dll",
+  "label": "file path"
+ },
+ {
+  "text": "certutil[.]exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CISA MAR-10413062-1.v1",
+  "label": "file name"
+ },
+ {
+  "text": "CISA_10424018_01",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CMD.EXE",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "CVE-2017-11317",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2017-11357",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2017-9248",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2019-18935",
+  "label": "cve identifier"
+ },
+ {
+  "text": "Decode Files",
+  "label": "attack technique name"
+ },
+ {
+  "text": "defense evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "Done.html",
+  "label": "file name"
+ },
+ {
+  "text": "dp_crypto.py",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "Exploit Public-Facing Application",
+  "label": "attack technique name"
+ },
+ {
+  "text": "fassdfsdf.html",
+  "label": "file name"
+ },
+ {
+  "text": "File and Directory Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Indicator Removal: File Deletion",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Indicator Removal: Timestomp",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Ingress Tool Transfer",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Kroll Artifact Parser and Extractor (KAPE)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "lateral movement",
+  "label": "tactic"
+ },
+ {
+  "text": "MAR-10413062-1.v1",
+  "label": "file name"
+ },
+ {
+  "text": "MAR-10443863-1.v1",
+  "label": "file name"
+ },
+ {
+  "text": "memory.hdmp",
+  "label": "file name"
+ },
+ {
+  "text": "Microsoft IIS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Internet Information Services (IIS)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Multi-OS_ReverseShell.exe",
+  "label": "file name"
+ },
+ {
+  "text": "netstat",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Non-Application Layer Protocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "nslookup",
+  "label": "hacking tool"
+ },
+ {
+  "text": "osker.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "privilege escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "Process Injection: DLL Injection",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Progress Telerik",
+  "label": "affected software product"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Resource Development",
+  "label": "tactic"
+ },
+ {
+  "text": "sd.php",
+  "label": "file name"
+ },
+ {
+  "text": "Security.evtx",
+  "label": "file name"
+ },
+ {
+  "text": "small.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "small.txt",
+  "label": "file name"
+ },
+ {
+  "text": "sortcombat.exe",
+  "label": "file name"
+ },
+ {
+  "text": "SortVistaCompat",
+  "label": "file name"
+ },
+ {
+  "text": "System.Configuration.Install.AssemblyInstaller",
+  "label": "file name"
+ },
+ {
+  "text": "T1016",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1055.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1083",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1095",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1140",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1583.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1595.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0005",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0007",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0011",
+  "label": "tactic"
+ },
+ {
+  "text": "TA1",
+  "label": "threat actor group"
+ },
+ {
+  "text": "TA2",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Telerik UI ASP.NET AJAX",
+  "label": "affected software product"
+ },
+ {
+  "text": "Telerik UI for ASP.NET AJAX",
+  "label": "affected software product"
+ },
+ {
+  "text": "Telerik.Web.UI.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Telerik.Web.UI.IAsyncUploadConfiguration",
+  "label": "file name"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Trellix XDR Platform",
+  "label": "affected software product"
+ },
+ {
+  "text": "triagedump.dmp",
+  "label": "file name"
+ },
+ {
+  "text": "vcruntime140.dll",
+  "label": "file name"
+ },
+ {
+  "text": "w3wp.exe",
+  "label": "file name"
+ },
+ {
+  "text": "w3wp.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Windows PowerShell",
+  "label": "affected software product"
+ },
+ {
+  "text": "XE Group",
+  "label": "threat actor group"
+ },
+ {
+  "text": "XEReverseShell.exe",
+  "label": "file name"
+ },
+ {
+  "text": "xesmartshell.tmp",
+  "label": "file name"
+ },
+ {
+  "text": "xesvrs[.]exe",
+  "label": "file name"
+ }
+]

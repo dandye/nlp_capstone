@@ -1,0 +1,1158 @@
+[
+ {
+  "text": "/%2577eb%2575i_%2577sma_Http",
+  "label": "file path"
+ },
+ {
+  "text": "/%2577eb%2575i_%2577sma_Https",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/sudoers",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/sudoers.d/",
+  "label": "file path"
+ },
+ {
+  "text": "/level/15/exec/-/*",
+  "label": "file path"
+ },
+ {
+  "text": "/usr/bin/sudo",
+  "label": "file path"
+ },
+ {
+  "text": "/webui_wsma_*",
+  "label": "file path"
+ },
+ {
+  "text": "/webui_wsma_Http",
+  "label": "file path"
+ },
+ {
+  "text": "/webui_wsma_Https",
+  "label": "file path"
+ },
+ {
+  "text": "1.222.84[.]29",
+  "label": "ip address"
+ },
+ {
+  "text": "1.pcap",
+  "label": "file name"
+ },
+ {
+  "text": "103.169.91[.]231",
+  "label": "ip address"
+ },
+ {
+  "text": "103.199.17[.]238",
+  "label": "ip address"
+ },
+ {
+  "text": "103.253.40[.]199",
+  "label": "ip address"
+ },
+ {
+  "text": "103.7.58[.]162",
+  "label": "ip address"
+ },
+ {
+  "text": "104.194.129[.]137",
+  "label": "ip address"
+ },
+ {
+  "text": "104.194.147[.]15",
+  "label": "ip address"
+ },
+ {
+  "text": "104.194.150[.]26",
+  "label": "ip address"
+ },
+ {
+  "text": "104.194.153[.]181",
+  "label": "ip address"
+ },
+ {
+  "text": "104.194.154[.]150",
+  "label": "ip address"
+ },
+ {
+  "text": "104.194.154[.]222",
+  "label": "ip address"
+ },
+ {
+  "text": "107.189.15[.]206",
+  "label": "ip address"
+ },
+ {
+  "text": "14.143.247[.]202",
+  "label": "ip address"
+ },
+ {
+  "text": "142.171.227[.]16",
+  "label": "ip address"
+ },
+ {
+  "text": "144.172.76[.]213",
+  "label": "ip address"
+ },
+ {
+  "text": "144.172.79[.]4",
+  "label": "ip address"
+ },
+ {
+  "text": "146.70.24[.]144",
+  "label": "ip address"
+ },
+ {
+  "text": "146.70.79[.]68",
+  "label": "ip address"
+ },
+ {
+  "text": "146.70.79[.]78",
+  "label": "ip address"
+ },
+ {
+  "text": "146.70.79[.]81",
+  "label": "ip address"
+ },
+ {
+  "text": "167.88.164[.]166",
+  "label": "ip address"
+ },
+ {
+  "text": "167.88.172[.]70",
+  "label": "ip address"
+ },
+ {
+  "text": "167.88.173[.]158",
+  "label": "ip address"
+ },
+ {
+  "text": "167.88.173[.]252",
+  "label": "ip address"
+ },
+ {
+  "text": "167.88.173[.]58",
+  "label": "ip address"
+ },
+ {
+  "text": "167.88.175[.]175",
+  "label": "ip address"
+ },
+ {
+  "text": "167.88.175[.]231",
+  "label": "ip address"
+ },
+ {
+  "text": "172.86.101[.]123",
+  "label": "ip address"
+ },
+ {
+  "text": "172.86.102[.]83",
+  "label": "ip address"
+ },
+ {
+  "text": "172.86.106[.]15",
+  "label": "ip address"
+ },
+ {
+  "text": "172.86.106[.]234",
+  "label": "ip address"
+ },
+ {
+  "text": "172.86.106[.]39",
+  "label": "ip address"
+ },
+ {
+  "text": "172.86.108[.]11",
+  "label": "ip address"
+ },
+ {
+  "text": "172.86.124[.]235",
+  "label": "ip address"
+ },
+ {
+  "text": "172.86.65[.]145",
+  "label": "ip address"
+ },
+ {
+  "text": "172.86.70[.]73",
+  "label": "ip address"
+ },
+ {
+  "text": "172.86.80[.]15",
+  "label": "ip address"
+ },
+ {
+  "text": "190.131.194[.]90",
+  "label": "ip address"
+ },
+ {
+  "text": "193.239.86[.]132",
+  "label": "ip address"
+ },
+ {
+  "text": "193.239.86[.]146",
+  "label": "ip address"
+ },
+ {
+  "text": "193.43.104[.]185",
+  "label": "ip address"
+ },
+ {
+  "text": "193.56.255[.]209",
+  "label": "ip address"
+ },
+ {
+  "text": "193.56.255[.]210",
+  "label": "ip address"
+ },
+ {
+  "text": "2001:41d0:700:65dc:",
+  "label": "ip address"
+ },
+ {
+  "text": "212.236.17[.]237",
+  "label": "ip address"
+ },
+ {
+  "text": "23.227.196[.]22",
+  "label": "ip address"
+ },
+ {
+  "text": "23.227.199[.]77",
+  "label": "ip address"
+ },
+ {
+  "text": "23.227.202[.]253",
+  "label": "ip address"
+ },
+ {
+  "text": "33e692f435d6cf3c637ba54836c63373",
+  "label": "file hash"
+ },
+ {
+  "text": "37.120.239[.]52",
+  "label": "ip address"
+ },
+ {
+  "text": "38.71.99[.]145",
+  "label": "ip address"
+ },
+ {
+  "text": "43.254.132[.]118",
+  "label": "ip address"
+ },
+ {
+  "text": "45.125.64[.]195",
+  "label": "ip address"
+ },
+ {
+  "text": "45.125.67[.]144",
+  "label": "ip address"
+ },
+ {
+  "text": "45.125.67[.]226",
+  "label": "ip address"
+ },
+ {
+  "text": "45.146.120[.]210",
+  "label": "ip address"
+ },
+ {
+  "text": "45.146.120[.]213",
+  "label": "ip address"
+ },
+ {
+  "text": "45.59.118[.]136",
+  "label": "ip address"
+ },
+ {
+  "text": "45.59.120[.]171",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.128[.]29",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.132[.]125",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.133[.]157",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.133[.]31",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.133[.]61",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.133[.]77",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.133[.]79",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.134[.]134",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.134[.]22",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.134[.]223",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.149[.]200",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.149[.]62",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.151[.]12",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.154[.]130",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.159[.]25",
+  "label": "ip address"
+ },
+ {
+  "text": "45.61.165[.]157",
+  "label": "ip address"
+ },
+ {
+  "text": "5.181.132[.]95",
+  "label": "ip address"
+ },
+ {
+  "text": "59.148.233[.]250",
+  "label": "ip address"
+ },
+ {
+  "text": "61.19.148[.]66",
+  "label": "ip address"
+ },
+ {
+  "text": "63.141.234[.]109",
+  "label": "ip address"
+ },
+ {
+  "text": "63.245.1[.]34",
+  "label": "ip address"
+ },
+ {
+  "text": "74.48.78[.]116",
+  "label": "ip address"
+ },
+ {
+  "text": "74.48.78[.]66",
+  "label": "ip address"
+ },
+ {
+  "text": "74.48.84[.]119",
+  "label": "ip address"
+ },
+ {
+  "text": "85.195.89[.]94",
+  "label": "ip address"
+ },
+ {
+  "text": "89.117.1[.]147",
+  "label": "ip address"
+ },
+ {
+  "text": "89.117.2[.]39",
+  "label": "ip address"
+ },
+ {
+  "text": "89.41.26[.]142",
+  "label": "ip address"
+ },
+ {
+  "text": "8b448f47e36909f3a921b4ff803cf3a61985d8a10f0fe594b405b92ed0fc21f1",
+  "label": "file hash"
+ },
+ {
+  "text": "91.231.186[.]227",
+  "label": "ip address"
+ },
+ {
+  "text": "91.245.253[.]99",
+  "label": "ip address"
+ },
+ {
+  "text": "a1abc3d11c16ae83b9a7cf62ebe6d144dfc5e19b579a99bad062a9d31cf30bfe",
+  "label": "file hash"
+ },
+ {
+  "text": "Active Scanning",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Application Layer Protocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Archive Collected Data",
+  "label": "attack technique name"
+ },
+ {
+  "text": "bootflash:",
+  "label": "file path"
+ },
+ {
+  "text": "bootflash:tac.pcap",
+  "label": "file path"
+ },
+ {
+  "text": "C2",
+  "label": "tactic"
+ },
+ {
+  "text": "C:/work/sync/cmd/cmd3/main.go",
+  "label": "file path"
+ },
+ {
+  "text": "C:/work/sync_v1/cmd/cmd1/main.go",
+  "label": "file path"
+ },
+ {
+  "text": "cert.incident@nukib.gov.cz",
+  "label": "email address"
+ },
+ {
+  "text": "chkconfig",
+  "label": "hacking tool"
+ },
+ {
+  "text": "chvrf",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Cisco Guest Shell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Cisco Internetworking Operating System (IOS) XE software",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco IOS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco IOS and IOS \nXE",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco IOS Devices",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco IOS XE",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco IOS XE web user interface",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco IOS XR",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco IOS XR (64-bit)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco NX-OS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco Smart Install",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco\u2019s Embedded Packet Capture",
+  "label": "hacking tool"
+ },
+ {
+  "text": "cmd1",
+  "label": "file name"
+ },
+ {
+  "text": "cmd1",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Cmd1 SFTP client Yara rule",
+  "label": "yara rule name"
+ },
+ {
+  "text": "cmd3",
+  "label": "file name"
+ },
+ {
+  "text": "cmd3",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "command and control",
+  "label": "tactic"
+ },
+ {
+  "text": "command and control (C2)",
+  "label": "tactic"
+ },
+ {
+  "text": "commands.log",
+  "label": "file name"
+ },
+ {
+  "text": "contact@cyber.gc.ca",
+  "label": "email address"
+ },
+ {
+  "text": "contact@mail.cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Container Service",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "CTIteam@aw.gov.pl",
+  "label": "email address"
+ },
+ {
+  "text": "custom SFTP client",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CVE-2018-0171",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-20198",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-20273",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-46805",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-21887",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-3400",
+  "label": "cve identifier"
+ },
+ {
+  "text": "cyber.int@skw.gov.pl",
+  "label": "email address"
+ },
+ {
+  "text": "CybersecurityReports@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "da692ea0b7f24e31696f8b4fe8a130dbbe3c7c15cea6bde24cccc1fb0a73ae9e",
+  "label": "file hash"
+ },
+ {
+  "text": "Data from Configuration \nRepository: Network \nDevice Configuration \nDump",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Data from Configuration \nRepository: SNMP (MIB \nDump)",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Data from Local System",
+  "label": "attack technique name"
+ },
+ {
+  "text": "DC3.DCISE@us.af.mil",
+  "label": "email address"
+ },
+ {
+  "text": "DC3.Information@us.af.mil",
+  "label": "email address"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Deploy Container",
+  "label": "attack technique name"
+ },
+ {
+  "text": "DIB_Defense@cyber.nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "dohost",
+  "label": "hacking tool"
+ },
+ {
+  "text": "eba9ae70d1b22de67b0eba160a6762d8",
+  "label": "file hash"
+ },
+ {
+  "text": "Embedded Packet Capture",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration over Alternative \nProtocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "f2bbba1ea0f34b262f158ff31e00d39d89bbc471d04e8fca60a034cabe18e4f4",
+  "label": "file hash"
+ },
+ {
+  "text": "first-team@cyber.go.jp",
+  "label": "email address"
+ },
+ {
+  "text": "Fortinet firewalls",
+  "label": "affected software product"
+ },
+ {
+  "text": "GhostEmperor",
+  "label": "threat actor group"
+ },
+ {
+  "text": "GlobalProtect",
+  "label": "affected software product"
+ },
+ {
+  "text": "Guest Shell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "incident@ofcom.org.uk",
+  "label": "email address"
+ },
+ {
+  "text": "Indicator Removal",
+  "label": "attack technique name"
+ },
+ {
+  "text": "info@ncsc.govt.nz",
+  "label": "email address"
+ },
+ {
+  "text": "Initial access",
+  "label": "tactic"
+ },
+ {
+  "text": "IOS",
+  "label": "affected software product"
+ },
+ {
+  "text": "IOS XE",
+  "label": "affected software product"
+ },
+ {
+  "text": "IOS XR",
+  "label": "affected software product"
+ },
+ {
+  "text": "IOx",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti Connect \nSecure and Ivanti \nPolicy",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti Connect Secure",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti Policy Secure",
+  "label": "affected software product"
+ },
+ {
+  "text": "Juniper firewalls",
+  "label": "affected software product"
+ },
+ {
+  "text": "lateral movement",
+  "label": "tactic"
+ },
+ {
+  "text": "Lateral movement & collection",
+  "label": "tactic"
+ },
+ {
+  "text": "map.tcl",
+  "label": "file name"
+ },
+ {
+  "text": "map.tcl",
+  "label": "hacking tool"
+ },
+ {
+  "text": "MediaRelations@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "media\ufffemedias@smtp.gc.ca",
+  "label": "email address"
+ },
+ {
+  "text": "monitor capture mycap interface <interface-name> both",
+  "label": "file name"
+ },
+ {
+  "text": "mycap",
+  "label": "file name"
+ },
+ {
+  "text": "mycap.pcap",
+  "label": "file name"
+ },
+ {
+  "text": "Network Sniffing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "networksecurityenquiries@ofcom.org.uk",
+  "label": "email address"
+ },
+ {
+  "text": "new2",
+  "label": "file name"
+ },
+ {
+  "text": "new2",
+  "label": "hacking tool"
+ },
+ {
+  "text": "New2 SFTP client Yara rule",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Nokia routers and switches",
+  "label": "affected software product"
+ },
+ {
+  "text": "Non-Application Layer \nProtocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Non-Standard Port",
+  "label": "attack technique name"
+ },
+ {
+  "text": "NX-OS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Obtain Capabilities: Tool",
+  "label": "attack technique name"
+ },
+ {
+  "text": "OPERATOR PANDA",
+  "label": "threat actor group"
+ },
+ {
+  "text": "OS Credential Dumping",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Palo Alto Networks \nPAN-OS \nGlobalProtect",
+  "label": "affected software product"
+ },
+ {
+  "text": "Palo Alto Networks PAN-OS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "pip",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PRC State-Sponsored Cyber Actors",
+  "label": "threat actor group"
+ },
+ {
+  "text": "pressestelle@bnd.bund.de",
+  "label": "email address"
+ },
+ {
+  "text": "privilege escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "privilege escalations",
+  "label": "tactic"
+ },
+ {
+  "text": "Protocol Tunneling",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Proxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Proxy: Multi-hop Proxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "RANCID",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "RedMike",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Remote Services",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote Services: SSH",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Resource Development",
+  "label": "tactic"
+ },
+ {
+  "text": "Salt Typhoon",
+  "label": "threat actor group"
+ },
+ {
+  "text": "SALT_TYPHOON_CMD1_SFTP_CLIENT",
+  "label": "yara rule name"
+ },
+ {
+  "text": "SALT_TYPHOON_NEW2_SFTP_CLIENT",
+  "label": "yara rule name"
+ },
+ {
+  "text": "service-center@bsi.bund.de",
+  "label": "email address"
+ },
+ {
+  "text": "sft",
+  "label": "file name"
+ },
+ {
+  "text": "sft",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Sichuan Juxinhe Network Technology Co. Ltd.",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Sichuan Zhixin Ruijie Network Technology Co., Ltd.",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Sierra Wireless devices",
+  "label": "affected software product"
+ },
+ {
+  "text": "siet.py",
+  "label": "file name"
+ },
+ {
+  "text": "siet.py",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SNMPwalk",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Sonicwall firewalls",
+  "label": "affected software product"
+ },
+ {
+  "text": "SSH",
+  "label": "attack technique name"
+ },
+ {
+  "text": "sshd_operns",
+  "label": "hacking tool"
+ },
+ {
+  "text": "STOWAWAY",
+  "label": "hacking tool"
+ },
+ {
+  "text": "System Services",
+  "label": "attack technique name"
+ },
+ {
+  "text": "T1003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1016",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027.010",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1040",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1048.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.008",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1068",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.009",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1082",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1095",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1098.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1199",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1543.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1556",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1560",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1569",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1571",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1572",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1583.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1584.008",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1588.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1588.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1590.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1595",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1599",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1602.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1602.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1609",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1610",
+  "label": "attack technique id"
+ },
+ {
+  "text": "tac.pcap",
+  "label": "file name"
+ },
+ {
+  "text": "TCLproxy.tcl",
+  "label": "file name"
+ },
+ {
+  "text": "tclproxy.tcl",
+  "label": "hacking tool"
+ },
+ {
+  "text": "tclsh",
+  "label": "hacking tool"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Trusted Relationship",
+  "label": "attack technique name"
+ },
+ {
+  "text": "UNC5807",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Wind River Linux",
+  "label": "affected software product"
+ },
+ {
+  "text": "wirtschaftsschutz@bfv.bund.de",
+  "label": "email address"
+ },
+ {
+  "text": "wodSSHServer",
+  "label": "hacking tool"
+ },
+ {
+  "text": "yum",
+  "label": "hacking tool"
+ }
+]

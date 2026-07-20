@@ -1,0 +1,326 @@
+[
+ {
+  "text": "030394b7a2642fe962a7705dcc832d2c08d006f5",
+  "label": "file hash"
+ },
+ {
+  "text": "0E50B289C99A35F4AD884B6A3FFB76DE4B6EBC14",
+  "label": "file hash"
+ },
+ {
+  "text": "10326C2B20D278080AA0CA563FC3E454A85BB32F",
+  "label": "file hash"
+ },
+ {
+  "text": "3.bat",
+  "label": "file name"
+ },
+ {
+  "text": "3e625e20d7f00b6d5121bb0a71cfa61f92d658bcd61af2cf5397e0ae28f4ba56",
+  "label": "file hash"
+ },
+ {
+  "text": "4D7F4BB3A23EAB33A3A28473292D44C5965DDC95",
+  "label": "file hash"
+ },
+ {
+  "text": "563BC09180FD4BB601380659E922C3F7198306E0CAEBE99CD1D88CD2C3FD5C1B",
+  "label": "file hash"
+ },
+ {
+  "text": "5E2B2EBF3D57EE58CADA875B8FBCE536EDCBBF59ACC439081635C88789C67ACA",
+  "label": "file hash"
+ },
+ {
+  "text": "712733C12EA3B6B7A1BCC032CC02FD7EC9160F5129D9034BF9248B27EC057BD2",
+  "label": "file hash"
+ },
+ {
+  "text": "7E654C02E75EC78E8307DBDF95E15529AAAB5DFF",
+  "label": "file hash"
+ },
+ {
+  "text": "7zip",
+  "label": "hacking tool"
+ },
+ {
+  "text": "86366bb7646dcd1a02700ed4be4272cbff5887af",
+  "label": "file hash"
+ },
+ {
+  "text": "8B516E7BE14172E49085C4234C9A53C6EB490A45",
+  "label": "file hash"
+ },
+ {
+  "text": "AnyDesk",
+  "label": "hacking tool"
+ },
+ {
+  "text": "AnyDesk.exe",
+  "label": "file name"
+ },
+ {
+  "text": "armada.mitchell94@protonmail.com",
+  "label": "email address"
+ },
+ {
+  "text": "c.bat",
+  "label": "file name"
+ },
+ {
+  "text": "c33129a680e907e5f49bcbab4227c0b02e191770",
+  "label": "file hash"
+ },
+ {
+  "text": "Cisco AnyConnect",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco VPNs",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cobalt Strike",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "confedicial.datas.download@protonmail.com",
+  "label": "email address"
+ },
+ {
+  "text": "CVE-2021-44228",
+  "label": "cve identifier"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "dllhosts.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration Over Alternative Protocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Exfiltration Over Web Service:\nExfiltration to Cloud Storage",
+  "label": "attack technique name"
+ },
+ {
+  "text": "External Remote Services",
+  "label": "attack technique name"
+ },
+ {
+  "text": "fdb92fac37232790839163a3cae5f37372db7235",
+  "label": "file hash"
+ },
+ {
+  "text": "File and Directory Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Filezilla",
+  "label": "hacking tool"
+ },
+ {
+  "text": "filter.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Fortinet FortiGate SSL VPN",
+  "label": "affected software product"
+ },
+ {
+  "text": "gapreappballye1979@protonmail.com",
+  "label": "email address"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Karakurt",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Karakurt Lair",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Karakurt Team",
+  "label": "threat actor group"
+ },
+ {
+  "text": "karakurtlair@gmail.com",
+  "label": "email address"
+ },
+ {
+  "text": "mark.hubert1986@gmail.com",
+  "label": "email address"
+ },
+ {
+  "text": "Mega.nz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Microsoft Windows Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Mscxxx.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Msuxxx.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Msxsl.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Ngrok",
+  "label": "hacking tool"
+ },
+ {
+  "text": "personal.information.reveal@gmail.com",
+  "label": "email address"
+ },
+ {
+  "text": "Phishing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "rclone",
+  "label": "hacking tool"
+ },
+ {
+  "text": "rclone.conf",
+  "label": "file name"
+ },
+ {
+  "text": "Rclone.exe",
+  "label": "file name"
+ },
+ {
+  "text": "readme.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "Remote Access Software",
+  "label": "attack technique name"
+ },
+ {
+  "text": "report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "ripidelfun1986@protonmail.com",
+  "label": "email address"
+ },
+ {
+  "text": "SonicWall SSL VPN",
+  "label": "affected software product"
+ },
+ {
+  "text": "System32",
+  "label": "file path"
+ },
+ {
+  "text": "T1048",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1083",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1219",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1567.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1589.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1589.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1591.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0043",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:WHITE",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "victimname_files@protonmail.com",
+  "label": "email address"
+ },
+ {
+  "text": "victimname_jewels@protonmail.com",
+  "label": "email address"
+ },
+ {
+  "text": "victimname_treasure@protonmail.com",
+  "label": "email address"
+ }
+]

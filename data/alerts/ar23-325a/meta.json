@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/analysis-reports/ar23-325a",
+  "title": "MAR-10478915-1.v1 Citrix Bleed",
+  "advisory_type": "Analysis Report",
+  "alert_code": "AR23-325A",
+  "release_date": "2023-11-21T12:00:00Z",
+  "stix_url": "https://www.cisa.gov/sites/default/files/2023-11/MAR-10478915.r1.v1.CLEAR_stix2.json",
+  "pdf_url": "https://www.cisa.gov/sites/default/files/2023-11/MAR-10478915.r1.v1.CLEAR_.pdf"
+}

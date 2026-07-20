@@ -1,0 +1,278 @@
+[
+ {
+  "text": "/xui/common/images/",
+  "label": "file path"
+ },
+ {
+  "text": "13.53.124[.]246",
+  "label": "ip address"
+ },
+ {
+  "text": "134.209.30[.]220",
+  "label": "ip address"
+ },
+ {
+  "text": "138.68.90[.]19",
+  "label": "ip address"
+ },
+ {
+  "text": "167.99.202[.]130",
+  "label": "ip address"
+ },
+ {
+  "text": "18.134.0[.]66",
+  "label": "ip address"
+ },
+ {
+  "text": "193.149.187[.]41",
+  "label": "ip address"
+ },
+ {
+  "text": "193.149.190[.]248",
+  "label": "ip address"
+ },
+ {
+  "text": "206.71.148[.]78",
+  "label": "ip address"
+ },
+ {
+  "text": "45.76.65[.]42",
+  "label": "ip address"
+ },
+ {
+  "text": "51.16.51[.]81",
+  "label": "ip address"
+ },
+ {
+  "text": "51.20.138[.]134",
+  "label": "ip address"
+ },
+ {
+  "text": "78.141.238[.]182",
+  "label": "ip address"
+ },
+ {
+  "text": "ALPHV",
+  "label": "threat actor group"
+ },
+ {
+  "text": "AnyDesk",
+  "label": "hacking tool"
+ },
+ {
+  "text": "BlackCat",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Check Point Security Gateways",
+  "label": "affected software product"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "CVE-2019-19781",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-1388",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2023-3519",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-24919",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-3400",
+  "label": "cve identifier"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "External Remote Services",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Fox Kitten",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Group G0117",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Input Capture",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Lemon Sandstorm",
+  "label": "threat actor group"
+ },
+ {
+  "text": "ligolo",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ligolo-ng",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Meshcentral",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Microsoft Windows PowerShell ISE",
+  "label": "affected software product"
+ },
+ {
+  "text": "Netscaler",
+  "label": "affected software product"
+ },
+ {
+  "text": "NGROK",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NoEscape",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Parisite",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Pay2Key",
+  "label": "malware family"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "Pioneer Kitten",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "Protocol Tunneling",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Query Registry",
+  "label": "attack technique name"
+ },
+ {
+  "text": "RansomHouse",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Remote Access Software",
+  "label": "attack technique name"
+ },
+ {
+  "text": "report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "RUBIDIUM",
+  "label": "threat actor group"
+ },
+ {
+  "text": "T1012",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1053",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1056",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1098",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1219",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1482",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562.010",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1572",
+  "label": "attack technique id"
+ },
+ {
+  "text": "UNC757",
+  "label": "threat actor group"
+ },
+ {
+  "text": "version.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Windows PowerShell Web Access",
+  "label": "affected software product"
+ }
+]

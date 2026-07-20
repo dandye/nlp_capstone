@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-131a",
+  "title": "Malicious Actors Exploit CVE-2023-27350 in PaperCut MF and NG",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA23-131A",
+  "release_date": "2023-05-11T12:00:00Z",
+  "pdf_url": null,
+  "stix_url": null
+}

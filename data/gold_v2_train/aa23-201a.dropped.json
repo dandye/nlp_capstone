@@ -1,0 +1,22 @@
+[
+ {
+  "text": "Exploit Public\uf8fe\nFacing Application",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "File and Directory Permissions Modification: Linux and Mac File and Directory Permissions Modification",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "NetScaler ADC and NetScaler Gateway 13.0 before 13.0-91.13",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "NetScaler ADC and NetScaler Gateway 13.1 before 13.1-49.13",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ }
+]

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/analysis-reports/ar23-187a",
+  "title": "MAR-10445155-1.v1 Truebot Activity Infects U.S. and Canada Based Networks",
+  "advisory_type": "Analysis Report",
+  "alert_code": "AR23-187A",
+  "release_date": "2023-07-06T12:00:00Z",
+  "stix_url": "https://www.cisa.gov/sites/default/files/2023-07/MAR-10445155.r1.v1.CLEAR_stix.json",
+  "pdf_url": "https://www.cisa.gov/sites/default/files/2023-07/MAR-10445155.r1.v1.CLEAR_.pdf"
+}

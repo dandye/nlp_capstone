@@ -1,0 +1,310 @@
+[
+ {
+  "text": "%AppData%\\Local\\Temp%",
+  "label": "file path"
+ },
+ {
+  "text": "1.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "1c4978cd5d750a2985da9b58db137fc7",
+  "label": "file hash"
+ },
+ {
+  "text": "4c155e12f71da3959e168851a600b010",
+  "label": "file hash"
+ },
+ {
+  "text": "4d28422f1e087fd77642faa7efe7b597",
+  "label": "file hash"
+ },
+ {
+  "text": "4e34b9442f825a16d7f6557193426ae7",
+  "label": "file hash"
+ },
+ {
+  "text": "6633fa85bb234a75927b23417313e51a",
+  "label": "file hash"
+ },
+ {
+  "text": "918784e25bd24192ce4e999538be9689",
+  "label": "file hash"
+ },
+ {
+  "text": "97766464d0f2f91b82b557ac656ab82e",
+  "label": "file hash"
+ },
+ {
+  "text": "a18899ed46d3b896f6e4357367276183",
+  "label": "file hash"
+ },
+ {
+  "text": "AnyDesk",
+  "label": "hacking tool"
+ },
+ {
+  "text": "AZCopy",
+  "label": "hacking tool"
+ },
+ {
+  "text": "C:\\Windows\\Temp",
+  "label": "file path"
+ },
+ {
+  "text": "cmd.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "command and control",
+  "label": "tactic"
+ },
+ {
+  "text": "conhost.exe",
+  "label": "file name"
+ },
+ {
+  "text": "DEV-0832",
+  "label": "threat actor group"
+ },
+ {
+  "text": "e66fd750c8bec06fca11b6e2919a3d66bc6c0fc1",
+  "label": "file hash"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Gootloader",
+  "label": "malware family"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Ipconfig",
+  "label": "hacking tool"
+ },
+ {
+  "text": "lateral movement",
+  "label": "tactic"
+ },
+ {
+  "text": "mstsc.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "net group \u201cdomain admins\u201d /domain",
+  "label": "hacking tool"
+ },
+ {
+  "text": "net group \u201cdomain computers\u201d /domain",
+  "label": "hacking tool"
+ },
+ {
+  "text": "net localgroup administrators",
+  "label": "hacking tool"
+ },
+ {
+  "text": "net user [username] /domain",
+  "label": "hacking tool"
+ },
+ {
+  "text": "nltest",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NTDS.dit",
+  "label": "file name"
+ },
+ {
+  "text": "ntdsutil.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ntuser.dat",
+  "label": "file name"
+ },
+ {
+  "text": "persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "PortStarter",
+  "label": "malware family"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerShell.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "powershell_ise.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerView",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PsExec.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PuTTY.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "RDP",
+  "label": "hacking tool"
+ },
+ {
+  "text": "reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "Remote Credential Guard",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Rhysida",
+  "label": "malware family"
+ },
+ {
+  "text": "Rhysida",
+  "label": "threat actor group"
+ },
+ {
+  "text": "S_0.bat",
+  "label": "file name"
+ },
+ {
+  "text": "S_1.bat",
+  "label": "file name"
+ },
+ {
+  "text": "S_2.bat",
+  "label": "file name"
+ },
+ {
+  "text": "secretsdump",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SOC@cisecurity.org",
+  "label": "email address"
+ },
+ {
+  "text": "StorageExplorer-windows\ufffex64.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "StorageExplorer\ufffewindows-x64.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "StorageExplorer\ufffewindows\ufffex64.exe",
+  "label": "file name"
+ },
+ {
+  "text": "T1003.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1016",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1018",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1033",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.009",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1069.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1069.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1219",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1482",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1530",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TLP: CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Vice Society",
+  "label": "threat actor group"
+ },
+ {
+  "text": "wevtutil.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "whoami",
+  "label": "hacking tool"
+ }
+]

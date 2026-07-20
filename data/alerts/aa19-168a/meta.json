@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa19-168a",
+  "title": "Microsoft Operating Systems BlueKeep Vulnerability",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA19-168A",
+  "release_date": "2019-06-17T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

@@ -1,0 +1,66 @@
+[
+ {
+  "text": "0af253e60456b03af49cc675f71d47b2dd9a48f50a927e43b9d8116985c06459",
+  "label": "file hash"
+ },
+ {
+  "text": "3ad6bd00c4195c9b1757a9d697196e8beffb343c331509c2eda24bbbd009cc1af552a1900ab04d169a22d273e6359cb2ff149050a7f792b9630108a4af226e2d",
+  "label": "file hash"
+ },
+ {
+  "text": "77e1e9bf69b09ed0840534adb8258540",
+  "label": "file hash"
+ },
+ {
+  "text": "83ca636253fd1eb898b244855838e2281f257bbe8ead428b69528fc50b60ae9c",
+  "label": "file hash"
+ },
+ {
+  "text": "8849a3273e0362c45b4928375d196714224ec22cb1d2df5d029bf57349860347",
+  "label": "file hash"
+ },
+ {
+  "text": "Barracuda Email Security Gateway (ESG)",
+  "label": "affected software product"
+ },
+ {
+  "text": "CISA_10452108_02",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Command-and-Control (C2)",
+  "label": "tactic"
+ },
+ {
+  "text": "CVE-2023-2868",
+  "label": "cve identifier"
+ },
+ {
+  "text": "deadca9bd85ee5c4e086fd81eee09407b769e9b6",
+  "label": "file hash"
+ },
+ {
+  "text": "Linux/WhirlPool.A",
+  "label": "malware family"
+ },
+ {
+  "text": "ssld",
+  "label": "file name"
+ },
+ {
+  "text": "submit@malware.us-cert.gov",
+  "label": "email address"
+ },
+ {
+  "text": "TLP: CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "WHIRLPOOL",
+  "label": "malware family"
+ }
+]

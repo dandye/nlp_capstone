@@ -1,0 +1,210 @@
+{
+  "model": "models/gliner-cti-v1-best",
+  "subset": "test",
+  "threshold": 0.4,
+  "n_documents": 2,
+  "labels": [
+    "affected software product",
+    "attack technique id",
+    "attack technique name",
+    "cve identifier",
+    "email address",
+    "file hash",
+    "file name",
+    "file path",
+    "hacking tool",
+    "malware family",
+    "tactic",
+    "threat actor group",
+    "tlp classification",
+    "yara rule name"
+  ],
+  "strict": {
+    "per_label": {
+      "affected software product": {
+        "P": 0.5,
+        "R": 0.075,
+        "F1": 0.1304,
+        "support": 40
+      },
+      "attack technique id": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "support": 36
+      },
+      "attack technique name": {
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "support": 16
+      },
+      "cve identifier": {
+        "P": 0.875,
+        "R": 1.0,
+        "F1": 0.9333,
+        "support": 7
+      },
+      "email address": {
+        "P": 0.4545,
+        "R": 0.8333,
+        "F1": 0.5882,
+        "support": 6
+      },
+      "file hash": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "support": 16
+      },
+      "file name": {
+        "P": 0.4074,
+        "R": 0.9167,
+        "F1": 0.5641,
+        "support": 12
+      },
+      "file path": {
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "support": 9
+      },
+      "hacking tool": {
+        "P": 0.75,
+        "R": 0.2432,
+        "F1": 0.3673,
+        "support": 37
+      },
+      "malware family": {
+        "P": 0.6667,
+        "R": 0.2319,
+        "F1": 0.3441,
+        "support": 69
+      },
+      "tactic": {
+        "P": 0.4565,
+        "R": 0.7778,
+        "F1": 0.5753,
+        "support": 27
+      },
+      "threat actor group": {
+        "P": 0.3333,
+        "R": 0.1667,
+        "F1": 0.2222,
+        "support": 6
+      },
+      "tlp classification": {
+        "P": 0.8,
+        "R": 1.0,
+        "F1": 0.8889,
+        "support": 8
+      },
+      "yara rule name": {
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "support": 1
+      }
+    },
+    "micro": {
+      "P": 0.6394,
+      "R": 0.4586,
+      "F1": 0.5341
+    },
+    "macro_F1": 0.4724
+  },
+  "relaxed": {
+    "per_label": {
+      "affected software product": {
+        "P": 0.5,
+        "R": 0.075,
+        "F1": 0.1304,
+        "support": 40
+      },
+      "attack technique id": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "support": 36
+      },
+      "attack technique name": {
+        "P": 1.0,
+        "R": 0.0625,
+        "F1": 0.1176,
+        "support": 16
+      },
+      "cve identifier": {
+        "P": 0.875,
+        "R": 1.0,
+        "F1": 0.9333,
+        "support": 7
+      },
+      "email address": {
+        "P": 0.4545,
+        "R": 0.8333,
+        "F1": 0.5882,
+        "support": 6
+      },
+      "file hash": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "support": 16
+      },
+      "file name": {
+        "P": 0.4074,
+        "R": 0.9167,
+        "F1": 0.5641,
+        "support": 12
+      },
+      "file path": {
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "support": 9
+      },
+      "hacking tool": {
+        "P": 0.75,
+        "R": 0.2432,
+        "F1": 0.3673,
+        "support": 37
+      },
+      "malware family": {
+        "P": 0.6667,
+        "R": 0.2319,
+        "F1": 0.3441,
+        "support": 69
+      },
+      "tactic": {
+        "P": 0.4565,
+        "R": 0.7778,
+        "F1": 0.5753,
+        "support": 27
+      },
+      "threat actor group": {
+        "P": 0.3333,
+        "R": 0.1667,
+        "F1": 0.2222,
+        "support": 6
+      },
+      "tlp classification": {
+        "P": 0.8,
+        "R": 1.0,
+        "F1": 0.8889,
+        "support": 8
+      },
+      "yara rule name": {
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "support": 1
+      }
+    },
+    "micro": {
+      "P": 0.6442,
+      "R": 0.4621,
+      "F1": 0.5382
+    },
+    "macro_F1": 0.4808
+  }
+}

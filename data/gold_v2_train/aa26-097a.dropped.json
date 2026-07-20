@@ -1,0 +1,22 @@
+[
+ {
+  "text": "Internet Accessible Device",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "IRGC Cyber Electronic Command (CEC)",
+  "label": "threat actor group",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Soldiers of Solomon",
+  "label": "threat actor group",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Stored Data Manipulation",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

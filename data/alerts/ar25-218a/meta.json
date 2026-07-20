@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/analysis-reports/ar25-218a",
+  "title": "MAR-251132.c1.v1 Exploitation of SharePoint Vulnerabilities",
+  "advisory_type": "Analysis Report",
+  "alert_code": "AR25-218A",
+  "release_date": "2025-08-06T12:00:00Z",
+  "stix_url": "https://www.cisa.gov/sites/default/files/2025-08/MAR-251132.c1.v1.CLEAR_stix2.json",
+  "pdf_url": "https://www.cisa.gov/sites/default/files/2025-08/MAR-251132.c1.v1.CLEAR_.pdf"
+}

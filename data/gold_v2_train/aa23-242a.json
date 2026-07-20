@@ -1,0 +1,258 @@
+[
+ {
+  "text": "185.4.67[.]6",
+  "label": "ip address"
+ },
+ {
+  "text": "185.81.114[.]188",
+  "label": "ip address"
+ },
+ {
+  "text": "188.127.242[.]119",
+  "label": "ip address"
+ },
+ {
+  "text": "188.127.242[.]178",
+  "label": "ip address"
+ },
+ {
+  "text": "188.127.243[.]130",
+  "label": "ip address"
+ },
+ {
+  "text": "188.127.243[.]133",
+  "label": "ip address"
+ },
+ {
+  "text": "188.127.243[.]145",
+  "label": "ip address"
+ },
+ {
+  "text": "188.127.243[.]147",
+  "label": "ip address"
+ },
+ {
+  "text": "188.127.243[.]148",
+  "label": "ip address"
+ },
+ {
+  "text": "188.127.243[.]193",
+  "label": "ip address"
+ },
+ {
+  "text": "188.241.58[.]140",
+  "label": "ip address"
+ },
+ {
+  "text": "190.2.143[.]38",
+  "label": "ip address"
+ },
+ {
+  "text": "193.201.9[.]93",
+  "label": "ip address"
+ },
+ {
+  "text": "193.29.187[.]41",
+  "label": "ip address"
+ },
+ {
+  "text": "193.29.187[.]57",
+  "label": "ip address"
+ },
+ {
+  "text": "23.236.181[.]102",
+  "label": "ip address"
+ },
+ {
+  "text": "45.84.224[.]23",
+  "label": "ip address"
+ },
+ {
+  "text": "46.151.30[.]109",
+  "label": "ip address"
+ },
+ {
+  "text": "51.161.202[.]232",
+  "label": "ip address"
+ },
+ {
+  "text": "51.195.49[.]228",
+  "label": "ip address"
+ },
+ {
+  "text": "51.38.62[.]181",
+  "label": "ip address"
+ },
+ {
+  "text": "51.38.62[.]182",
+  "label": "ip address"
+ },
+ {
+  "text": "62.141.42[.]36",
+  "label": "ip address"
+ },
+ {
+  "text": "7cdee5a583eacf24b1f142413aabb4e556ccf4ef3a4764ad084c1526cc90e117",
+  "label": "file hash"
+ },
+ {
+  "text": "85.14.243[.]111",
+  "label": "ip address"
+ },
+ {
+  "text": "87.117.247[.]41",
+  "label": "ip address"
+ },
+ {
+  "text": "89.163.212[.]111",
+  "label": "ip address"
+ },
+ {
+  "text": "94.103.85[.]86",
+  "label": "ip address"
+ },
+ {
+  "text": "94.198.50[.]147",
+  "label": "ip address"
+ },
+ {
+  "text": "94.198.50[.]210",
+  "label": "ip address"
+ },
+ {
+  "text": "94.198.51[.]202",
+  "label": "ip address"
+ },
+ {
+  "text": "94.198.53[.]17",
+  "label": "ip address"
+ },
+ {
+  "text": "95.211.172[.]108",
+  "label": "ip address"
+ },
+ {
+  "text": "95.211.172[.]109",
+  "label": "ip address"
+ },
+ {
+  "text": "95.211.172[.]6",
+  "label": "ip address"
+ },
+ {
+  "text": "95.211.172[.]7",
+  "label": "ip address"
+ },
+ {
+  "text": "95.211.172[.]86",
+  "label": "ip address"
+ },
+ {
+  "text": "95.211.198[.]177",
+  "label": "ip address"
+ },
+ {
+  "text": "95.211.250[.]117",
+  "label": "ip address"
+ },
+ {
+  "text": "95.211.250[.]97",
+  "label": "ip address"
+ },
+ {
+  "text": "95.211.250[.]98",
+  "label": "ip address"
+ },
+ {
+  "text": "95.211.95[.]14",
+  "label": "ip address"
+ },
+ {
+  "text": "AA23-242A.stix.json",
+  "label": "file name"
+ },
+ {
+  "text": "AA23-242A.stix.xml",
+  "label": "file name"
+ },
+ {
+  "text": "Black Basta",
+  "label": "malware family"
+ },
+ {
+  "text": "Brute Ratel",
+  "label": "hacking tool"
+ },
+ {
+  "text": "C:\\Users\\<user>\\AppData\\Roaming\\Microsoft\\<random_string>\\",
+  "label": "file path"
+ },
+ {
+  "text": "Cobalt Strike",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Conti",
+  "label": "malware family"
+ },
+ {
+  "text": "Egregor",
+  "label": "malware family"
+ },
+ {
+  "text": "HKEY_CURRENT_USER\\Software\\Microsoft\\<random_string>",
+  "label": "file path"
+ },
+ {
+  "text": "MegaCortex",
+  "label": "malware family"
+ },
+ {
+  "text": "Pinkslipbot",
+  "label": "malware family"
+ },
+ {
+  "text": "ProLock",
+  "label": "malware family"
+ },
+ {
+  "text": "PwndLocker",
+  "label": "malware family"
+ },
+ {
+  "text": "QakBot",
+  "label": "malware family"
+ },
+ {
+  "text": "Qbot",
+  "label": "malware family"
+ },
+ {
+  "text": "Quackbot",
+  "label": "malware family"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "REvil",
+  "label": "malware family"
+ },
+ {
+  "text": "Royal",
+  "label": "malware family"
+ },
+ {
+  "text": "TA570",
+  "label": "threat actor group"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "vulnerability@cisa.dhs.gov",
+  "label": "email address"
+ }
+]

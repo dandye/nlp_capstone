@@ -1,0 +1,77 @@
+[
+ {
+  "text": "Application Layer Protocol: Web Protocols",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "c:\\Program Files\\Common Files\\Microsoft Shared\\Web Server Extensions\\15\\template\\layouts\\approveinfo.aspx",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Encrypted Channel: Asymmetric Cryptography",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Hide Artifacts: Hidden Files and Directories",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Hide Artifacts: Hidden Window",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Lateral Tool Transfer",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Network Service Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Obfuscated Files or Information: Embedded Payloads",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "OS Credential Dumping",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "OS Credential Dumping: LSASS Memory",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "OS Credential Dumping: Security Account Manager",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Remote Services: Remote Desktop Protocol",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Remote System Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Subvert Trust Controls: Code Signing",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "System Network Connections Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

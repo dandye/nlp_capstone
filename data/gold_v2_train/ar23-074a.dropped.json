@@ -1,0 +1,87 @@
+[
+ {
+  "text": "08375e2d187ee53ed263ee6529645e03ead1a",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "11d8b9be14097614dedd68839c85e3e8feec0",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "1536:26rED/9NI76mpDrAXUSH/jJKIRYgg7SIJQwKsW+bd09dlfXBm:brEb9NInpDUEa/joaYgguIewRxMVx",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "1536:3siPxIb5AVc+gmXSrCbKChSw9mgMNFl276Jw9UsWtBd09dl+7BnA2oHO:DpIN3+7XzbBh9xMbl2m2907MgVnAY",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "1536:rEFL/kVxbrRMgcfPJR8ba2kV9AuSv/W7eNoFhJlDsW9dP9dlDw0Ve:gF8zr/KJR8D09He/W7eN8hVvNw1",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "192:U7LqxAm19p0WSLQs68UbUA+RR6uVLWcTU/:WIAkXON6LUA2IcT",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "192:UqLqxAm19p0WSLQs68UbUA+RaYlLWcTU/:zIAkXON6LUAY4cT",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "1fed0766f564dc05a119bc7fa0b6670f0da2350",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "3072:rPMMU3GQDizMxtgk3KeJwbUyS6zt1vaefUP:82QoeguKS/y/0",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "3072:ruNzEKGfQiGhdpWrb0k9b5i9qzt1vB+FUe:3XfspYbdiY+",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "5cbba90ba539d4eb6097169b0e9acf40b8c47",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "815d262d38a26d5695606d03d5a1a49b9c009",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "96:/sJBSe0UzgkuQZR39ZoUnXpxs1bc9m4oJ1nbBeFsPW0dfk/QSvlWHaRA3naHrt/y:/ESvLkKUXpxsNcgb9pvRYGsrhUU/HkY",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "a0ab222673d35d750a0290db1b0ce890b9d40",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CLEAR",
+  "label": "tlp classification",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "d9273a16f979adee1afb6e55697d3b7ab42fd7",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "e45ad91f12188a7c3d4891b70e1ee87a3f23eb",
+  "label": "file hash",
+  "reason": "failed format validator"
+ }
+]

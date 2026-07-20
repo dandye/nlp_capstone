@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-163a",
+  "title": "Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Compromise Utility Billing Software Provider",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA25-163A",
+  "release_date": "2025-06-12T12:00:00Z",
+  "pdf_url": null,
+  "stix_url": null
+}

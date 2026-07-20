@@ -1,0 +1,382 @@
+[
+ {
+  "text": "\\\\ad02\\sysvol\\gaze.exe",
+  "label": "file path"
+ },
+ {
+  "text": "BigFix",
+  "label": "hacking tool"
+ },
+ {
+  "text": "c:\\gaze.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\temp\\x.bat",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\system32\\taskkill.exe",
+  "label": "file path"
+ },
+ {
+  "text": "certutil",
+  "label": "hacking tool"
+ },
+ {
+  "text": "cmd.exe",
+  "label": "file name"
+ },
+ {
+  "text": "coba.bat",
+  "label": "file name"
+ },
+ {
+  "text": "compmgmt.msc",
+  "label": "file name"
+ },
+ {
+  "text": "Create Account",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "driverquery",
+  "label": "hacking tool"
+ },
+ {
+  "text": "duooff.bat",
+  "label": "file name"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "File and Directory",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Financial Theft",
+  "label": "attack technique name"
+ },
+ {
+  "text": "gaze.exe",
+  "label": "file name"
+ },
+ {
+  "text": "HKLM\\System\\CurrentControlSet\\Control\\Lsa",
+  "label": "file path"
+ },
+ {
+  "text": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Terminal Server",
+  "label": "file path"
+ },
+ {
+  "text": "hostname/ipwho.bat",
+  "label": "file name"
+ },
+ {
+  "text": "icator Removal",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Ingress Tool Transfer",
+  "label": "attack technique name"
+ },
+ {
+  "text": "ipconfig",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "Medusa",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Mimkatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "mmc.exe",
+  "label": "file name"
+ },
+ {
+  "text": "mstsc.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "net",
+  "label": "hacking tool"
+ },
+ {
+  "text": "net share",
+  "label": "hacking tool"
+ },
+ {
+  "text": "net use",
+  "label": "hacking tool"
+ },
+ {
+  "text": "netsh",
+  "label": "hacking tool"
+ },
+ {
+  "text": "netstat",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Network Service",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Network Share",
+  "label": "attack technique name"
+ },
+ {
+  "text": "newuser.bat",
+  "label": "file name"
+ },
+ {
+  "text": "nltest",
+  "label": "hacking tool"
+ },
+ {
+  "text": "openrdp.bat",
+  "label": "file name"
+ },
+ {
+  "text": "PDQ Deploy",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "psexec.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "query user",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Rclone",
+  "label": "hacking tool"
+ },
+ {
+  "text": "reg",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Remote Access Software",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote Desktop Protocol",
+  "label": "hacking tool"
+ },
+ {
+  "text": "removesophos.bat",
+  "label": "file name"
+ },
+ {
+  "text": "report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "sc query",
+  "label": "hacking tool"
+ },
+ {
+  "text": "schtasks",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Service Stop",
+  "label": "attack technique name"
+ },
+ {
+  "text": "start.bat",
+  "label": "file name"
+ },
+ {
+  "text": "StopAllProcess.bat",
+  "label": "file name"
+ },
+ {
+  "text": "Sysinternals PsExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "System Information",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System Services",
+  "label": "attack technique name"
+ },
+ {
+  "text": "systeminfo",
+  "label": "hacking tool"
+ },
+ {
+  "text": "T1003.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1016",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1047",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1069.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1072",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1082",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1083",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1135",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1219",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1486",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1489",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1490",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1529",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1567.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1569.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1657",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0006",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0008",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0010",
+  "label": "tactic"
+ },
+ {
+  "text": "taskkill.exe",
+  "label": "file name"
+ },
+ {
+  "text": "uninstallSophos.bat",
+  "label": "file name"
+ },
+ {
+  "text": "vssadmin.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "who.bat",
+  "label": "file name"
+ },
+ {
+  "text": "Windows Command Prompt",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Windows Management Instrumentation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "wmic",
+  "label": "hacking tool"
+ },
+ {
+  "text": "WRSA.exe",
+  "label": "file name"
+ },
+ {
+  "text": "zam.bat",
+  "label": "file name"
+ }
+]

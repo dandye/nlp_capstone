@@ -1,0 +1,17 @@
+[
+ {
+  "text": "1536:AxlL0im3r1G1+5uIEcfPTLuYzgrbwhpMTQe5pylmpsk76BAwu:Kt1+5unc3TLRujpyRzaw",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "49152:4ZLtRJ8ryYwd5OP5nz1kHKf26xZVKtom+YvFM4tAcRrhOBDKx76a:4ptVbQ5nz2SZstogttAcRrhOBu6a",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CLEAR",
+  "label": "tlp classification",
+  "reason": "failed format validator"
+ }
+]

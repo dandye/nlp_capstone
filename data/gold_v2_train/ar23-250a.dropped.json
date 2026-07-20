@@ -1,0 +1,27 @@
+[
+ {
+  "text": "24:eFGStrJ9u0/6BonZdkBQAV7YQKZqSeNDMSCvOXpmB:is0M8kBQDQkSD9C2kB",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "24:eFGStrJ9u0/6kgnZdEBQAVXBYLYKZq4eNDMSeGV1iY0im+opmB:is0dUEBQpLYGSD9e8oYKkB",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "3:6DZX6VeeTEdYpEHJCpRZT55bcRRt+ek8fwM2aA42qPJKMWmdeuufKVeM+1Ucv2+:6NeTG+ug/JIi8fwM\n/A7qxKMWmgZMKUeb",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "3:6DZXA/fTGYpEHJCpHT55bct7fk8fwM2aA793nJKAqTGwPW1kyKN+1Ucv2+:6e3q+ugFIt7M8fwM\n/A7zKAqK6ykycKUU",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CLEAR",
+  "label": "tlp classification",
+  "reason": "failed format validator"
+ }
+]

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-339a",
+  "title": "Threat Actors Exploit Adobe ColdFusion CVE-2023-26360 for Initial Access to Government Servers",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA23-339A",
+  "release_date": "2023-12-05T12:00:00Z",
+  "pdf_url": null,
+  "stix_url": null
+}

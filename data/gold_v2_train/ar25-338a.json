@@ -1,0 +1,746 @@
+[
+ {
+  "text": "/api/file/change-dir",
+  "label": "file path"
+ },
+ {
+  "text": "/api/file/delete-dir",
+  "label": "file path"
+ },
+ {
+  "text": "/api/file/delete-file",
+  "label": "file path"
+ },
+ {
+  "text": "/api/file/file-md5",
+  "label": "file path"
+ },
+ {
+  "text": "/api/file/get-file",
+  "label": "file path"
+ },
+ {
+  "text": "/api/file/list-dir",
+  "label": "file path"
+ },
+ {
+  "text": "/api/file/mkdir",
+  "label": "file path"
+ },
+ {
+  "text": "/api/file/put-file",
+  "label": "file path"
+ },
+ {
+  "text": "/api/file/rename",
+  "label": "file path"
+ },
+ {
+  "text": "/api/file/slice-up",
+  "label": "file path"
+ },
+ {
+  "text": "/api/file/stat",
+  "label": "file path"
+ },
+ {
+  "text": "/api/file/up",
+  "label": "file path"
+ },
+ {
+  "text": "/bin/vmx",
+  "label": "file path"
+ },
+ {
+  "text": "/dev/null",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/fuse.conf",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/sysconfig",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/sysconfig/",
+  "label": "file path"
+ },
+ {
+  "text": "/etc/sysconfig/init",
+  "label": "file path"
+ },
+ {
+  "text": "/home/bin/logd",
+  "label": "file path"
+ },
+ {
+  "text": "/home/bin/netmon",
+  "label": "file path"
+ },
+ {
+  "text": "/home/config/logd.spec.cfg",
+  "label": "file path"
+ },
+ {
+  "text": "/home/runtime/logd",
+  "label": "file path"
+ },
+ {
+  "text": "/lib64/ld-linux-x86-64.so.2",
+  "label": "file path"
+ },
+ {
+  "text": "/mnt/image",
+  "label": "file path"
+ },
+ {
+  "text": "/mnt/remote-server",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/vmware/sbin",
+  "label": "file path"
+ },
+ {
+  "text": "/rest/apisession",
+  "label": "file path"
+ },
+ {
+  "text": "/rest/appliance/access/ssh",
+  "label": "file path"
+ },
+ {
+  "text": "/rest/com/vmware/cis/session",
+  "label": "file path"
+ },
+ {
+  "text": "/usr/java/jre-vmware/bin/",
+  "label": "file path"
+ },
+ {
+  "text": "/usr/sbin/",
+  "label": "file path"
+ },
+ {
+  "text": "/usr/sbin/sqiud",
+  "label": "file path"
+ },
+ {
+  "text": "/vmfs/volumes.vmx",
+  "label": "file path"
+ },
+ {
+  "text": "013211c56caaa697914b5b5871e4998d0298902e336e373ebb27b7db30917eaf",
+  "label": "file hash"
+ },
+ {
+  "text": "0a4fa52803a389311a9ddc49b7b19138",
+  "label": "file hash"
+ },
+ {
+  "text": "0cba5c6d16c7b94a450c36bfbaeab79107ac10aa9548b02c42b4b6ba8cef6a51",
+  "label": "file hash"
+ },
+ {
+  "text": "0e92009fc6519c837982b3fbfd42946e827de47b73a264d693739168533d07f4",
+  "label": "file hash"
+ },
+ {
+  "text": "1.0.0.1",
+  "label": "ip address"
+ },
+ {
+  "text": "1.1.1.1",
+  "label": "ip address"
+ },
+ {
+  "text": "149.112.112.112",
+  "label": "ip address"
+ },
+ {
+  "text": "149[.]248[.]11[.]71",
+  "label": "ip address"
+ },
+ {
+  "text": "22c15a32b69116a46eb5d0f2b228cc37cd1b5915a91ec8f38df79d3eed1da26b",
+  "label": "file hash"
+ },
+ {
+  "text": "24a11a26a2586f4fba7bfe89df2e21a0809ad85069e442da98c37c4add369a0c",
+  "label": "file hash"
+ },
+ {
+  "text": "2654c08491a0f7c4a3dfc6282de5638b",
+  "label": "file hash"
+ },
+ {
+  "text": "28a16e782f04d9394b5dfa3363d41d9f5eecc206166aeffd73363d83734a026d",
+  "label": "file hash"
+ },
+ {
+  "text": "2b1c6f52c0bef4fdae2e2965a14b3c5ae61c7b9009822f6ec4b3d6495aeffcaae3bea0fc7ab52093c993cc207f037a35488dcdd7a653952013cf9b75859bc57e",
+  "label": "file hash"
+ },
+ {
+  "text": "2bf9bfa1f9bcbcad0eada7e3be8d380d809248f08609f6e9d971b37ce09f7e93",
+  "label": "file hash"
+ },
+ {
+  "text": "2fa1454c1373af774f45207ec249d53b4dae7f9a",
+  "label": "file hash"
+ },
+ {
+  "text": "320a0b5d4900697e125cebb5ff03dee7368f8f087db1c1570b0b62f5a986d759",
+  "label": "file hash"
+ },
+ {
+  "text": "34d6af5ae2ab7a08fa474358a0b95539",
+  "label": "file hash"
+ },
+ {
+  "text": "38f6baad1dff7466a07eb456808cc8aa46a3e50c",
+  "label": "file hash"
+ },
+ {
+  "text": "39111508bfde89ce6e0fe6abe0365552",
+  "label": "file hash"
+ },
+ {
+  "text": "45.90.28.160",
+  "label": "ip address"
+ },
+ {
+  "text": "45.90.30.160",
+  "label": "ip address"
+ },
+ {
+  "text": "4b8ab808442bf7cb084fddf983a558c2cd4b3ff2",
+  "label": "file hash"
+ },
+ {
+  "text": "4c52caf2e5f114103ed5f60c6add3aa26c741b07869bb66e3c25a1dc290d4a8bf87c42c336e8ac8ebf82d9a9b23eaa18c31f7051a5970a8fe1125a2da890340f",
+  "label": "file hash"
+ },
+ {
+  "text": "57bd98dbb5a00e54f07ffacda1fea91451a0c0b532cd7d570e98ce2ff741c21d",
+  "label": "file hash"
+ },
+ {
+  "text": "5e654776e9c419e11e6f93a452415a601bd9a2079710f1074608570e498a9af37b81bb57c98cb8bb626c5ee4b3e35757d3ae8c1c3717f28d9f3fe7a4cebe0608",
+  "label": "file hash"
+ },
+ {
+  "text": "659205fa2cfa85e484c091cc2e85a7ec4e332b196e423b1f39bafdc8fca33e3db712bbe07afcc091ff26d9b4f641fa9a73f2a66dce9a0ced54ebeb8c2be82a7f",
+  "label": "file hash"
+ },
+ {
+  "text": "65ebf5dfafb8972ffead44271436ec842517cfaaf3d1f1f1237a32d66e1d280943bd3a69f1d539a1b7aca6152e96b29bc822e1047e2243f6aec8959595560147",
+  "label": "file hash"
+ },
+ {
+  "text": "6a67a9769a55ec889a5dd4199b2fc08965d39d737838836853bc13c81c56a800",
+  "label": "file hash"
+ },
+ {
+  "text": "6c20a810134025a9f05cf312d4b34967",
+  "label": "file hash"
+ },
+ {
+  "text": "6d42e9a0757670b9837034b5202d1673093577757b44bb0f0253f366413393e9",
+  "label": "file hash"
+ },
+ {
+  "text": "74b4c6f7c7cae07c6f8edf3f2fb1e9206d4f1f9734e8e4784b15d192eec8cd8a4f59078fc0c56dc4ad0856cdd792337b5c92ffd3d2240c8a287a776df4363bba",
+  "label": "file hash"
+ },
+ {
+  "text": "77b49c854afd6746fee393711b48979376fb910b34105c0e18a3fdc24ea31d5c",
+  "label": "file hash"
+ },
+ {
+  "text": "7cec4d74931d925996b03a75da0d79e95f47ed86",
+  "label": "file hash"
+ },
+ {
+  "text": "7d263a40e32e0026e72d871a3c369e5977f4474137aaa7315a4207e2d696d877bd9b1cff2758975c1f6613c2c205e0f277b6503977a945721618b10949a8bfa8",
+  "label": "file hash"
+ },
+ {
+  "text": "8.8.4.4",
+  "label": "ip address"
+ },
+ {
+  "text": "8.8.4[.]4",
+  "label": "ip address"
+ },
+ {
+  "text": "8.8.8.8",
+  "label": "ip address"
+ },
+ {
+  "text": "8.8.8[.]8",
+  "label": "ip address"
+ },
+ {
+  "text": "82bf31e7d768e6d4d3bc7c8c8ef2b358",
+  "label": "file hash"
+ },
+ {
+  "text": "8e4c88d00b6eb46229a1ed7001451320",
+  "label": "file hash"
+ },
+ {
+  "text": "9.9.9.11",
+  "label": "ip address"
+ },
+ {
+  "text": "9.9.9.9",
+  "label": "ip address"
+ },
+ {
+  "text": "9.9.9[.]11",
+  "label": "ip address"
+ },
+ {
+  "text": "9.9.9[.]9",
+  "label": "ip address"
+ },
+ {
+  "text": "97001baaa379bcd83677dca7bc5b8048fdfaaddc",
+  "label": "file hash"
+ },
+ {
+  "text": "9bf4c786ebd68c0181cfe3eb85d2fd202ed12c54",
+  "label": "file hash"
+ },
+ {
+  "text": "aaf5569c8e349c15028bc3fac09eb982efb06eabac955b705a6d447263658e38",
+  "label": "file hash"
+ },
+ {
+  "text": "Active Directory Federation Services (ADFS)",
+  "label": "affected software product"
+ },
+ {
+  "text": "ADFS",
+  "label": "affected software product"
+ },
+ {
+  "text": "AR25-338A Sigma YAML",
+  "label": "file name"
+ },
+ {
+  "text": "b30041b986ee3231fd53522c9d0c57e4567d6c60959fa06c125dde2af558fc9f",
+  "label": "file hash"
+ },
+ {
+  "text": "b3b6a992540da96375e4781afd3052118ad97cfe60ccf004d732f76678f6820a",
+  "label": "file hash"
+ },
+ {
+  "text": "b91881cb1aa861138f2063ec130b2b01a8aaf0e3f04921e5cbfc61b09024bf12",
+  "label": "file hash"
+ },
+ {
+  "text": "bfb3ffd46b21b2281374cd60bc756fe2dcc32486dcc156c9bd98f24101145454",
+  "label": "file hash"
+ },
+ {
+  "text": "bkmgr",
+  "label": "file name"
+ },
+ {
+  "text": "bkup",
+  "label": "file name"
+ },
+ {
+  "text": "BRICKSTORM",
+  "label": "malware family"
+ },
+ {
+  "text": "C:\\Windows\\System32\\drivers\\etc\\hosts",
+  "label": "file path"
+ },
+ {
+  "text": "CISA_251155_01",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_251155_02",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_251155_03",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_251165_02",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_251186_02",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_251217_03",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_261234_01",
+  "label": "yara rule name"
+ },
+ {
+  "text": "command and control",
+  "label": "tactic"
+ },
+ {
+  "text": "contact@cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "contact@cyber.gc.ca",
+  "label": "email address"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "d1f608cfb395d9274aa52b6a524d9fb5",
+  "label": "file hash"
+ },
+ {
+  "text": "DAEMONIZED",
+  "label": "file path"
+ },
+ {
+  "text": "dbca28ad420408850a94d5c325183b28",
+  "label": "file hash"
+ },
+ {
+  "text": "de28546ec356c566cd8bca205101a733e9a4a22d",
+  "label": "file hash"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Detect-VirtualGHOST.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "dfac2542a0ee65c474b91d3b352540a24f4e223f1b808b741cfe680263f0ee44",
+  "label": "file hash"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "ed907d39efd5750236b075ca9fbb1f090d7bf578578c38faab24210d298a60ae",
+  "label": "file hash"
+ },
+ {
+  "text": "ESXi",
+  "label": "affected software product"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "f060e3f7bc55d24f9a926988b395af2c14117fcb289c231546dd7022d2d32470f02e98fb4951bf11766604e03efa528b423916a4cdcb3894266cc5093d78657d",
+  "label": "file hash"
+ },
+ {
+  "text": "f639d9404c03af86ce452db5c5e0c528b81dc0d7",
+  "label": "file hash"
+ },
+ {
+  "text": "fa664bb3369d4a48db88f4e8d7364f7582f64313",
+  "label": "file hash"
+ },
+ {
+  "text": "Falcon LogScale",
+  "label": "hacking tool"
+ },
+ {
+  "text": "fb11c6caa4ea844942fe97f46d7eb42bc76911ab",
+  "label": "file hash"
+ },
+ {
+  "text": "fb22eea57e00b83edad50ee6e02320377efc10586584c476d5018dbba3643c32",
+  "label": "file hash"
+ },
+ {
+  "text": "feb8fe45092f2d42656bbf49450f242826598aa816307d11a5c8caec5647884ea245c8a099aee7a1a51f37f5273f6797055326768e48131d063ee4f089771299",
+  "label": "file hash"
+ },
+ {
+  "text": "home/vsphere-ui/vcli",
+  "label": "file path"
+ },
+ {
+  "text": "if-up",
+  "label": "file name"
+ },
+ {
+  "text": "image.001",
+  "label": "file name"
+ },
+ {
+  "text": "Ingress Tool Transfer",
+  "label": "attack technique name"
+ },
+ {
+  "text": "internal VMware vCenter server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Kali",
+  "label": "hacking tool"
+ },
+ {
+  "text": "lateral movement",
+  "label": "tactic"
+ },
+ {
+  "text": "Linux",
+  "label": "affected software product"
+ },
+ {
+  "text": "MAR-251165.c1.v1.CLEAR",
+  "label": "file name"
+ },
+ {
+  "text": "MAR-2512217.c1.v2.CLEAR",
+  "label": "file name"
+ },
+ {
+  "text": "MAR-261234.c1.v1.CLEAR",
+  "label": "file name"
+ },
+ {
+  "text": "Masquerading",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Nessus",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ntds.dit",
+  "label": "file name"
+ },
+ {
+  "text": "persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "Proxy: Internal Proxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "pwsh",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Remote Desktop Protocol (RDP)",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Sigma",
+  "label": "hacking tool"
+ },
+ {
+  "text": "sqiud",
+  "label": "file name"
+ },
+ {
+  "text": "sshfs",
+  "label": "hacking tool"
+ },
+ {
+  "text": "sudo command",
+  "label": "attack technique name"
+ },
+ {
+  "text": "support",
+  "label": "file name"
+ },
+ {
+  "text": "T1003.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1037",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1041",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1083",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1548.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1574.007",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TLP CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP GREEN",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "UNC3944",
+  "label": "threat actor group"
+ },
+ {
+  "text": "unc5221",
+  "label": "threat actor group"
+ },
+ {
+  "text": "username@domain.local",
+  "label": "email address"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "vCenter",
+  "label": "affected software product"
+ },
+ {
+  "text": "vCenter management console",
+  "label": "affected software product"
+ },
+ {
+  "text": "viocli",
+  "label": "file name"
+ },
+ {
+  "text": "VirtualGHOST",
+  "label": "hacking tool"
+ },
+ {
+  "text": "vmsrc",
+  "label": "file name"
+ },
+ {
+  "text": "VMware Aria Automation Orchestrator",
+  "label": "affected software product"
+ },
+ {
+  "text": "VMware ESXI",
+  "label": "affected software product"
+ },
+ {
+  "text": "VMware vCenter server",
+  "label": "affected software product"
+ },
+ {
+  "text": "VMware vCenter servers",
+  "label": "affected software product"
+ },
+ {
+  "text": "VMware vSphere",
+  "label": "affected software product"
+ },
+ {
+  "text": "vmware-sphere",
+  "label": "file name"
+ },
+ {
+  "text": "VMware.PowerCLI",
+  "label": "hacking tool"
+ },
+ {
+  "text": "vnetd",
+  "label": "file name"
+ },
+ {
+  "text": "vsm-boot-monitordvcenter",
+  "label": "file name"
+ },
+ {
+  "text": "vsm-monitordvcenter",
+  "label": "file name"
+ },
+ {
+  "text": "vts",
+  "label": "file name"
+ },
+ {
+  "text": "WARP PANDA",
+  "label": "threat actor group"
+ },
+ {
+  "text": "web shell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Windows",
+  "label": "affected software product"
+ },
+ {
+  "text": "yara",
+  "label": "hacking tool"
+ },
+ {
+  "text": "yara.rule",
+  "label": "file name"
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "text": "99b80c5ac352081a64\n129772ed5e1543d94c\nad708ba2adc46dc4ab\n7a0bd563f1",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "\\\\?\\GLOBALROOT\\Device\\{redacted}VolumeShadowCopy1\\Windows\\NTDS\\ntds.dit",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "C:\\$SNAP_{redacted}_VOLUMEC$\\Windows\\NTDS\\ntds.dit",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Dev-0391",
+  "label": "threat actor group",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "edc0c63065e88ec961\n97c8d7a40662a15a81\n2a9583dc6c82b18ecd\n7e43b13b70",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Exploit Public\ufffe\nFacing Application",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Google Common Controls",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Google Sites",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "living off the land (LOTL) techniques",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Search Victim\ufffe\nOwned Websites",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Shortel Enterprise Contact Center (ECC)",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Users\\{redacted}\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Users\\{redacted}\\AppData\\Local\\Google\\Chrome\\User Data\\Local State",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Windows Extensible Storage Engine Technology (ESENT)",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ }
+]

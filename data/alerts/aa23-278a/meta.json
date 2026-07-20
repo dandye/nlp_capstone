@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-278a",
+  "title": "NSA and CISA Red and Blue Teams Share Top Ten Cybersecurity Misconfigurations",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA23-278A",
+  "release_date": "2023-10-05T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

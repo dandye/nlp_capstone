@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-099a",
+  "title": "COVID-19 Exploited by Malicious Cyber Actors",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA20-099A",
+  "release_date": "2020-04-08T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

@@ -1,0 +1,182 @@
+[
+ {
+  "text": "/boot/os_tools",
+  "label": "file path"
+ },
+ {
+  "text": "/boot/os_tools/",
+  "label": "file path"
+ },
+ {
+  "text": "/boot/os_tools/hw-set",
+  "label": "file path"
+ },
+ {
+  "text": "/boot/os_tools/libutil.so",
+  "label": "file path"
+ },
+ {
+  "text": "/boot/os_tools/update_version",
+  "label": "file path"
+ },
+ {
+  "text": "/dev/null",
+  "label": "file path"
+ },
+ {
+  "text": "/home/product/code/firmware/current/sbin/",
+  "label": "file path"
+ },
+ {
+  "text": "/mail/scan/body*",
+  "label": "file path"
+ },
+ {
+  "text": "/mail/tmp/mimeattach.*",
+  "label": "file path"
+ },
+ {
+  "text": "/var/tmp/",
+  "label": "file path"
+ },
+ {
+  "text": "/var/tmp/libutil.so",
+  "label": "file path"
+ },
+ {
+  "text": "0d4b66dbeb88e8c9fb970572c033ab84b8273734277edb139cdc04560a0547d192a6762fc8ed8138eb43f7d05df6c36aa6bc1987eda4a4b6075e9059e71ef358",
+  "label": "file hash"
+ },
+ {
+  "text": "127.0.0.1",
+  "label": "ip address"
+ },
+ {
+  "text": "35a432e40da597c7ab63ff16b09d19d8",
+  "label": "file hash"
+ },
+ {
+  "text": "81cf3b162a4fe1f1b916021ec652ade4a14df808021eeb9f7c81c8d2326bddab",
+  "label": "file hash"
+ },
+ {
+  "text": "af6aa47f44e604a60930f122ebd47d6c1b83c756b005d79ade8af147bfbfab40f16ba91e32021d65b18b21e06911476fb5d03f050850c8300d1e7d7a3e61c36b",
+  "label": "file hash"
+ },
+ {
+  "text": "b745626b36b841ed03eddfb08e6bb061",
+  "label": "file hash"
+ },
+ {
+  "text": "b798b881b89526051ee5d50f24239b3a952c9724",
+  "label": "file hash"
+ },
+ {
+  "text": "b860198feca7398bc79a8ec69afc65ed",
+  "label": "file hash"
+ },
+ {
+  "text": "b98f8989e8706380f779bfd464f3dea87c122651a7a6d06a994d9a4758e12e43",
+  "label": "file hash"
+ },
+ {
+  "text": "base64",
+  "label": "hacking tool"
+ },
+ {
+  "text": "bbbae0455f8c98cc955487125a791052353456c8f652ddee14f452415c0b235a",
+  "label": "file hash"
+ },
+ {
+  "text": "bsmtpd",
+  "label": "hacking tool"
+ },
+ {
+  "text": "c4c64da81995044ea3447b8ffd07689382b7487b",
+  "label": "file hash"
+ },
+ {
+  "text": "cb20b167795db258b307ddee91ded87a9e7562d0",
+  "label": "file hash"
+ },
+ {
+  "text": "cc131dd1976a47ee3b631a136c3224a138716e9053e04d8bea3ee2e2c5de451a",
+  "label": "file hash"
+ },
+ {
+  "text": "chmod",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CISA_10454006_01",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10454006_04",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10454006_05",
+  "label": "yara rule name"
+ },
+ {
+  "text": "d6b9dfc9b784ca76386cbbf2c75c7e0ad3ac45e4420a838bc21b1464d07208f46901d7a0c8fbeca90303ce48720d7fd60b76d25cfebf5ea5b385e6b9db10ed98",
+  "label": "file hash"
+ },
+ {
+  "text": "dev/null",
+  "label": "file path"
+ },
+ {
+  "text": "grep",
+  "label": "hacking tool"
+ },
+ {
+  "text": "hw-set",
+  "label": "file name"
+ },
+ {
+  "text": "libutil.so",
+  "label": "file name"
+ },
+ {
+  "text": "openssl",
+  "label": "hacking tool"
+ },
+ {
+  "text": "run.sh",
+  "label": "file name"
+ },
+ {
+  "text": "sed",
+  "label": "hacking tool"
+ },
+ {
+  "text": "sedO4CWZ9",
+  "label": "file name"
+ },
+ {
+  "text": "sh",
+  "label": "hacking tool"
+ },
+ {
+  "text": "smtpctl",
+  "label": "file name"
+ },
+ {
+  "text": "smtpctl.sh",
+  "label": "file name"
+ },
+ {
+  "text": "SUBMARINE",
+  "label": "malware family"
+ },
+ {
+  "text": "submit@malware.us-cert.gov",
+  "label": "email address"
+ },
+ {
+  "text": "update_version",
+  "label": "file name"
+ }
+]

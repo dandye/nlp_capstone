@@ -1,0 +1,32 @@
+[
+ {
+  "text": "127/8",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "6dd8de093e...",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "6dd8de093e391da96070a978209ebdf9d807e",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "81cf3b162a...",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "bbbae0455f...",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CLEAR",
+  "label": "tlp classification",
+  "reason": "failed format validator"
+ }
+]

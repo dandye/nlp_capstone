@@ -1,0 +1,17 @@
+[
+ {
+  "text": "Cisco Smart Install",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "CPG 2.B",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "pass-the-hash attacks",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

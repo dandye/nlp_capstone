@@ -1,0 +1,46 @@
+[
+ {
+  "text": "CIP Security",
+  "label": "affected software product"
+ },
+ {
+  "text": "Common Industrial Protocol [CIP]",
+  "label": "affected software product"
+ },
+ {
+  "text": "DNP3 Secure Authentication version 5 [DNP3-SAv5]",
+  "label": "affected software product"
+ },
+ {
+  "text": "Industroyer",
+  "label": "malware family"
+ },
+ {
+  "text": "lateral movement",
+  "label": "tactic"
+ },
+ {
+  "text": "Modbus",
+  "label": "affected software product"
+ },
+ {
+  "text": "Modbus Security",
+  "label": "affected software product"
+ },
+ {
+  "text": "Open Platform Communications Data Access [OPC DA]",
+  "label": "affected software product"
+ },
+ {
+  "text": "PGP 5.0",
+  "label": "affected software product"
+ },
+ {
+  "text": "PRC State-Sponsored Actors",
+  "label": "threat actor group"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ }
+]

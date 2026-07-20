@@ -1,0 +1,310 @@
+[
+ {
+  "text": ".env",
+  "label": "file name"
+ },
+ {
+  "text": "/vendor/phpunit/phpunit/src/Util/PHP",
+  "label": "file path"
+ },
+ {
+  "text": "0df17ad20bf796ed549c240856ac2bf9ceb19f21a8cae2dbd7d99369ecd317ef",
+  "label": "file hash"
+ },
+ {
+  "text": "23fc51fde90d98daee27499a7ff94065f7ed4ac09c22867ebd9199e025dee066",
+  "label": "file hash"
+ },
+ {
+  "text": "45.95.147[.]236",
+  "label": "ip address"
+ },
+ {
+  "text": "6b5846f32d8009e6b54743d6f817f0c3519be6f370a0917bf455d3d114820bbc",
+  "label": "file hash"
+ },
+ {
+  "text": "Acquire \nInfrastructure: \nBotnet",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Acquire \nInfrastructure: Web \nServices",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Active Scanning: \nVulnerability \nScanning",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Androxgh0st",
+  "label": "malware family"
+ },
+ {
+  "text": "Apache",
+  "label": "affected software product"
+ },
+ {
+  "text": "AWS",
+  "label": "affected software product"
+ },
+ {
+  "text": "bb7070cbede294963328119d1145546c2e26709c5cea1d876d234b991682c0b7",
+  "label": "file hash"
+ },
+ {
+  "text": "ca45a14d0e88e4aa408a6ac2ee3012bf9994b16b74e3c66b588c7eabaaec4d72",
+  "label": "file hash"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "Command and \nScripting Interpreter: \nPython",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "configx.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Create Account",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "cURL",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CVE-2017-9841",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2018-15133",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-41773",
+  "label": "cve identifier"
+ },
+ {
+  "text": "dcf8f640dd7cc27d2399cce96b1cf4b75e3b9f2dfdf19cee0a170e5a6d2ce6b6",
+  "label": "file hash"
+ },
+ {
+  "text": "de1114a09cbab5ae9c1011ddd11719f15087cc29c8303da2e71d861b0594a1ba",
+  "label": "file hash"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "Email Collection",
+  "label": "attack technique name"
+ },
+ {
+  "text": "eval-stdin.php",
+  "label": "file name"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Exploit Public\ufffeFacing Application",
+  "label": "attack technique name"
+ },
+ {
+  "text": "File and Directory \nDiscovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "filemanager",
+  "label": "hacking tool"
+ },
+ {
+  "text": "hxxp://45.95.147[.]236/tmp.x86_64",
+  "label": "file path"
+ },
+ {
+  "text": "hxxp://download.asyncfox[.]xyz/download/xmrig.x86_64",
+  "label": "file path"
+ },
+ {
+  "text": "hxxp://main.dsn[.]ovh/dns/pwer",
+  "label": "file path"
+ },
+ {
+  "text": "hxxp://raw.githubusercontent[.]com/0x5a455553/MARIJUANA/master/MARIJUANA.php",
+  "label": "file path"
+ },
+ {
+  "text": "hxxp://tangible-drink.surge[.]sh/configx.txt",
+  "label": "file path"
+ },
+ {
+  "text": "hxxps://chainventures.co[.]uk/.well-known/aas",
+  "label": "file path"
+ },
+ {
+  "text": "hxxps://github[.]com/alexantr/filemanager",
+  "label": "file path"
+ },
+ {
+  "text": "hxxps://github[.]com/prasathmani/tinyfilemanager",
+  "label": "file path"
+ },
+ {
+  "text": "hxxps://pastebin[.]com/raw/zw0gAmpC",
+  "label": "file path"
+ },
+ {
+  "text": "Ingress Tool \nTransfer",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Laravel",
+  "label": "affected software product"
+ },
+ {
+  "text": "MARIJUANA",
+  "label": "malware family"
+ },
+ {
+  "text": "MARIJUANA.php",
+  "label": "file name"
+ },
+ {
+  "text": "Network Service \nDiscovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Obfuscated Files or \nInformation: \nCommand \nObfuscation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "PHPUnit",
+  "label": "affected software product"
+ },
+ {
+  "text": "pwer",
+  "label": "file name"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Resource Development",
+  "label": "tactic"
+ },
+ {
+  "text": "Server Software \nComponent: Web \nShell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "T1027.010",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1083",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1114",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1583.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1583.006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1595.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "tinyfilemanager",
+  "label": "hacking tool"
+ },
+ {
+  "text": "tmp.x86_64",
+  "label": "file name"
+ },
+ {
+  "text": "Unsecured \nCredentials: \nCredentials in Files",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "xmrig.x86_64",
+  "label": "file name"
+ }
+]

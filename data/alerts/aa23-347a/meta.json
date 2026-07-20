@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-347a",
+  "title": "Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA23-347A",
+  "release_date": "2023-12-13T12:00:00Z",
+  "pdf_url": null,
+  "stix_url": null
+}

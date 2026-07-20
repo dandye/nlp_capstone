@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-107a",
+  "title": "Continued Threat Actor Exploitation Post Pulse Secure VPN Patching",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA20-107A",
+  "release_date": "2020-04-16T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

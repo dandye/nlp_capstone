@@ -1,0 +1,78 @@
+[
+ {
+  "text": "1b8432fcda4c12b64cdf4918adf7880aecf054ec",
+  "label": "file hash"
+ },
+ {
+  "text": "37d1d1913d758f7d71020c08d4a7dae3efe83b68",
+  "label": "file hash"
+ },
+ {
+  "text": "60a37499f9b02c203af24c2dfd7fdb3834cea707c4c56b410a7e68376938c4b7",
+  "label": "file hash"
+ },
+ {
+  "text": "675a10e87c248d0f629da864ba8b7fd92b62323c406a69dec35a0e6e1552ecbc",
+  "label": "file hash"
+ },
+ {
+  "text": "7768feda9d79ef6f87410c02e981f066",
+  "label": "file hash"
+ },
+ {
+  "text": "7d2f36f4cb82c75b83c210e655649b5d",
+  "label": "file hash"
+ },
+ {
+  "text": "9340bf7378234db5bca0dc5378bf764b6a24bb87a42b05fa21a996340608fbd7",
+  "label": "file hash"
+ },
+ {
+  "text": "bee94b93c1796981a55d7bd27a32345a61304a88ed6cd70a5f7a402f1332df72",
+  "label": "file hash"
+ },
+ {
+  "text": "c52ab55753ae7fcfca46e869b805f3aa2d19c45e7526a61f79b20b8cd38eccc09f1b7a06acbd8d77e936f68fea9ee3bba7b7c42d6f93cf0c27a22cf7555d70d3",
+  "label": "file hash"
+ },
+ {
+  "text": "c9ee5d32a59fad386570923df7950b562e1d4c000c7f4a20aebc214477f737815a401858a11d4e9139a80152afd5ddc8655ad804e71544e50f5a23cc9888eeba",
+  "label": "file hash"
+ },
+ {
+  "text": "CISA_251132_06",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_251132_07",
+  "label": "yara rule name"
+ },
+ {
+  "text": "cmd.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "d0c4d6a4be0a65f8ca89e828a3bc810572fff3b3978ff0552a8868c69f83d170",
+  "label": "file hash"
+ },
+ {
+  "text": "d9c4dd5a8317d1d83b5cc3482e95602f721d58e3ba624d131a9472f927d33b00",
+  "label": "file hash"
+ },
+ {
+  "text": "info3.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "powershell.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "spinstallb.aspx",
+  "label": "file name"
+ },
+ {
+  "text": "spinstallp.aspx",
+  "label": "file name"
+ }
+]

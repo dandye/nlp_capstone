@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-008a",
+  "title": "Detecting Post-Compromise Threat Activity in Microsoft Cloud Environments",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA21-008A",
+  "release_date": "2021-01-08T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

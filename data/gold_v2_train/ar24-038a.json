@@ -1,0 +1,146 @@
+[
+ {
+  "text": "./frpc.ini",
+  "label": "file path"
+ },
+ {
+  "text": "04423659f175a6878b26ac7d6b6e47c6fd9194d1",
+  "label": "file hash"
+ },
+ {
+  "text": "127.0.0.1",
+  "label": "ip address"
+ },
+ {
+  "text": "192.168.18.111",
+  "label": "ip address"
+ },
+ {
+  "text": "3a97d9b6f17754dcd38ca7fc89caab04",
+  "label": "file hash"
+ },
+ {
+  "text": "5c0061445ac2f8e6cadf694e54146914",
+  "label": "file hash"
+ },
+ {
+  "text": "6ed4f5f04d62b18d96b26d6db7c18840",
+  "label": "file hash"
+ },
+ {
+  "text": "7f8e8722da728b6e834260b5a314cbac",
+  "label": "file hash"
+ },
+ {
+  "text": "99b80c5ac352081a64129772ed5e1543d94cad708ba2adc46dc4ab7a0bd563f1",
+  "label": "file hash"
+ },
+ {
+  "text": "b1de37bf229890ac181bdef1ad8ee0c2",
+  "label": "file hash"
+ },
+ {
+  "text": "BrightmetricAgent.exe",
+  "label": "file name"
+ },
+ {
+  "text": "command-and-control (C2)",
+  "label": "tactic"
+ },
+ {
+  "text": "d41d8cd98f00b204e9800998ecf8427e",
+  "label": "file hash"
+ },
+ {
+  "text": "d99941e4445efed5d4e407f91a9e5bba08d1be3f0dab065d1bfb4e70ab48d6526a730233d6889ba58de449f622e6a14e99dab853d40fc30a508627fd2735c973",
+  "label": "file hash"
+ },
+ {
+  "text": "df55591e730884470afba688e17c83fafb157ecf94c9f10a20e21f229434ea58b59f8eb771f8f9e29993f43f4969fe66dd913128822b534c9b1a677453dbb93c",
+  "label": "file hash"
+ },
+ {
+  "text": "discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "e41df636a36ac0cce38e7db5c2ce4d04a1a7f9bc274bdf808912d14067dc1ef478268035521d0d4b7bcf96facce7f515560b38a7ebe47995d861b9c482e07e25",
+  "label": "file hash"
+ },
+ {
+  "text": "eaef901b31b5835035b75302f94fee27288ce46971c6db6221ecbea9ba7ff9d0",
+  "label": "file hash"
+ },
+ {
+  "text": "edc0c63065e88ec96197c8d7a40662a15a812a9583dc6c82b18ecd7e43b13b70",
+  "label": "file hash"
+ },
+ {
+  "text": "f9943591918adeeeee7da80e4d985a49",
+  "label": "file hash"
+ },
+ {
+  "text": "Fast Reverse Proxy (FRP)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Fast Reverse Proxy Client (FRPC) tool",
+  "label": "hacking tool"
+ },
+ {
+  "text": "fd41134e8ead1c18ccad27c62a260aa6",
+  "label": "file hash"
+ },
+ {
+  "text": "ffb1d8ea3039d3d5eb7196d27f5450cac0ea4f34",
+  "label": "file hash"
+ },
+ {
+  "text": "ffdb3cc7ab5b01d276d23ac930eb21ffe3202d11",
+  "label": "file hash"
+ },
+ {
+  "text": "FRPC",
+  "label": "hacking tool"
+ },
+ {
+  "text": "FRPS",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ScanLine",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SMSvcService.exe",
+  "label": "file name"
+ },
+ {
+  "text": "submit@malware.us-cert.gov",
+  "label": "email address"
+ },
+ {
+  "text": "TLP: CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "UPX",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Volt Typhoon",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Z Shell (zsh)",
+  "label": "hacking tool"
+ }
+]

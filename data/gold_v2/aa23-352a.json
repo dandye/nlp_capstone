@@ -1,0 +1,430 @@
+[
+ {
+  "text": "/dev/urandom",
+  "label": "file path"
+ },
+ {
+  "text": "/vmfs/volumes",
+  "label": "file path"
+ },
+ {
+  "text": "/vmfs/volumes/",
+  "label": "file path"
+ },
+ {
+  "text": "0E408AED1ACF902A9F97ABF71CF0DD354024109C5D52A79054C421BE35D93549",
+  "label": "file hash"
+ },
+ {
+  "text": "1409E010675BF4A40DB0A845B60DB3AAE5B302834E80ADEEC884AEBC55ECCBF7",
+  "label": "file hash"
+ },
+ {
+  "text": "372F7B45A141BB0709D578BC716CBCA03104258822C4290CCBEB600223850158",
+  "label": "file hash"
+ },
+ {
+  "text": "3D86555ACAA19AEDDB5896071D1E3711B062EDBE",
+  "label": "file hash"
+ },
+ {
+  "text": "453257C3494ADDAFB39CB6815862403E827947A1E7737EB8168CD10522465DEB",
+  "label": "file hash"
+ },
+ {
+  "text": "47B7B2DD88959CD7224A5542AE8D5BCE928BFC986BF0D0321532A7515C244A1E",
+  "label": "file hash"
+ },
+ {
+  "text": "511F63455CA4F83B0347B65DDA17585AD02591A9F23D8E234E5CE1321AA3381A",
+  "label": "file hash"
+ },
+ {
+  "text": "6DE8DD5757F9A3AC5E2AC28E8A77682D7A29BE25C106F785A061DCF582A20DC6",
+  "label": "file hash"
+ },
+ {
+  "text": "75404543DE25513B376F097CEB383E8EFB9C9B95DA8945FD4AA37C7B2F226212",
+  "label": "file hash"
+ },
+ {
+  "text": "75B525B220169F07AECFB3B1991702FBD9A1E170CAF0040D1FCB07C3E819F54A",
+  "label": "file hash"
+ },
+ {
+  "text": "7A42F96599DF8090CF89D6E3CE4316D24C6C00E499C8557A2E09D61C00C11986",
+  "label": "file hash"
+ },
+ {
+  "text": "7DEA671BE77A2CA5772B86CF8831B02BFF0567BCE6A3AE023825AA40354F8ACA",
+  "label": "file hash"
+ },
+ {
+  "text": "859165041D75FBA3759C5533E324225F355C8A07B4645B984192AD6BEF06DB1A",
+  "label": "file hash"
+ },
+ {
+  "text": "90040340EE101CAC7831D7035230AC8AD4224D432E5636F34F13AA1C4A0C2041",
+  "label": "file hash"
+ },
+ {
+  "text": "967DAFF362E63FF45526F585B7944488ACE1BB5BB5B30FA40D56557F1C538D09",
+  "label": "file hash"
+ },
+ {
+  "text": "AdFind",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Archive Collected Data: \nArchive via Utility",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Bloodhound",
+  "label": "hacking tool"
+ },
+ {
+  "text": "C59F3C8D61D940B56436C14BC148C1FE98862921B8F7BAD97FBC96B31D71193C",
+  "label": "file hash"
+ },
+ {
+  "text": "C:/Users/Public/Music/",
+  "label": "file path"
+ },
+ {
+  "text": "Cobalt Strike",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "CVE-2018-13379",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2020-12812",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-41040",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-41082",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2024-57727",
+  "label": "cve identifier"
+ },
+ {
+  "text": "Data Encrypted for Impact",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "Domain Policy Modification: \nGroup Policy Modification",
+  "label": "attack technique name"
+ },
+ {
+  "text": "ESXi",
+  "label": "affected software product"
+ },
+ {
+  "text": "ESXi Hypervisors",
+  "label": "affected software product"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration Over \nAlternative Protocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Financial Theft",
+  "label": "attack technique name"
+ },
+ {
+  "text": "FortiOS",
+  "label": "affected software product"
+ },
+ {
+  "text": "fThe9C.exe",
+  "label": "file name"
+ },
+ {
+  "text": "GMER",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Grixba",
+  "label": "malware family"
+ },
+ {
+  "text": "GRXBA",
+  "label": "malware family"
+ },
+ {
+  "text": "GRXBA",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Gt_net.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Hi.exe",
+  "label": "file name"
+ },
+ {
+  "text": "HRsword.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "Impair Defenses: Disable or \nModify Tools",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Inbound Traffic Filtering",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Indicator Removal: Clear \nWindows Event Logs",
+  "label": "attack technique name"
+ },
+ {
+  "text": "IOBit",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "Lateral Tool Transfer",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Microsoft Exchange",
+  "label": "affected software product"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "OS Credential Dumping",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Outlook Web Access",
+  "label": "affected software product"
+ },
+ {
+  "text": "OWA",
+  "label": "affected software product"
+ },
+ {
+  "text": "PLAY",
+  "label": "malware family"
+ },
+ {
+  "text": "Play",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Play Ransomware Group",
+  "label": "threat actor group"
+ },
+ {
+  "text": "PLAY_Readme.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Playcrypt",
+  "label": "malware family"
+ },
+ {
+  "text": "PlayForESXi",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Plink",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerTool",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PsExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PSexesvc.exe",
+  "label": "file name"
+ },
+ {
+  "text": "ReadMe[.]txt",
+  "label": "file name"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "SimpleHelp",
+  "label": "affected software product"
+ },
+ {
+  "text": "SimpleHelp",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Software Discovery: Security \nSoftware Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "SVCHost.dll",
+  "label": "file name"
+ },
+ {
+  "text": "System Network \nConfiguration Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "SystemBC",
+  "label": "malware family"
+ },
+ {
+  "text": "T1003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1016",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1048",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1484.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1486",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1518.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1560.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1570",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1657",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0007",
+  "label": "tactic"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Unsecured Credentials",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Usysdiag.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "WinPEAS",
+  "label": "hacking tool"
+ },
+ {
+  "text": "WinRAR",
+  "label": "hacking tool"
+ },
+ {
+  "text": "WinSCP",
+  "label": "hacking tool"
+ }
+]

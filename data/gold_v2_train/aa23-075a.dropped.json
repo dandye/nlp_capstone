@@ -1,0 +1,137 @@
+[
+ {
+  "text": "<Ransomware ID>.README.txt",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "\\<Domain Name>\\sysvol\\<Domain Name>\\scripts\\<Lockbit 3.0 Filename>.exe",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Application Layer Protocol: File Transfer Protocols",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "C:\\ProgramData\\<Malware Extension>.bmp",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "C:\\ProgramData\\<Malware Extension>.ico",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Defacement: Internal Defacement",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Execution Guardrails: Environmental Keying",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exploit External Remote Services",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "HKCR\\<Malware Extension>\\DefaultIcon",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "HKCU\\Control Panel\\Desktop\\WallPaper",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\WINEVT\\Channels\\*",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\WINEVT\\Channels\\* \\ChannelAccess",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Microsoft Sysinternals ProcDump",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Microsoft Sysinternals ProDump",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Microsoft Sysinternals PsExec",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "OS Credential Dumping: LSASS Memory",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Remote Services: Remote Desktop Protocol",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "S0002",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "S0029",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "S0357",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "S0508",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "S1040",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "SoftPerfect Network Scanner",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "SOFTWARE\\Policies\\Microsoft\\Windows\\OOBE",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "System Location Discovery: System Language Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

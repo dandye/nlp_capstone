@@ -1,0 +1,590 @@
+[
+ {
+  "text": "%windows%\\Registration",
+  "label": "file path"
+ },
+ {
+  "text": "%windows%\\system32\\Com",
+  "label": "file path"
+ },
+ {
+  "text": "%windows%\\WinSxS\\",
+  "label": "file path"
+ },
+ {
+  "text": "%windows\\registration\\",
+  "label": "file path"
+ },
+ {
+  "text": "1.yar",
+  "label": "file name"
+ },
+ {
+  "text": "7zip",
+  "label": "affected software product"
+ },
+ {
+  "text": "< RANDOM_GUID >.<RANDOM_GUID>.crmlog",
+  "label": "file name"
+ },
+ {
+  "text": "<RANDOM_GUID>.<RANDOM_GUID>.crmlog",
+  "label": "file name"
+ },
+ {
+  "text": "Agent.BTZ",
+  "label": "malware family"
+ },
+ {
+  "text": "Application Layer Protocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Archive Collected Data",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Asymmetric Cryptography",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Automated Collection",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Carbon",
+  "label": "malware family"
+ },
+ {
+  "text": "Center 16",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Center 16 of Russia\u2019s Federal Security Service (FSB)",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Chinch",
+  "label": "malware family"
+ },
+ {
+  "text": "Cobra",
+  "label": "malware family"
+ },
+ {
+  "text": "comadmin.dat",
+  "label": "file name"
+ },
+ {
+  "text": "Compromise Infrastructure",
+  "label": "attack technique name"
+ },
+ {
+  "text": "ComRAT",
+  "label": "malware family"
+ },
+ {
+  "text": "CryptGenRandom",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Data Encoding",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Data Obfuscation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Data Staged",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Deploy Container",
+  "label": "attack technique name"
+ },
+ {
+  "text": "DLL Side-Loading",
+  "label": "attack technique name"
+ },
+ {
+  "text": "DNS",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Domain Trust Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Dragonfly",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Dynamic Linker Hijacking",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Encrypted Channel",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Epic Turla",
+  "label": "malware family"
+ },
+ {
+  "text": "FSB",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Hide Artifacts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "HighEntropy",
+  "label": "yara rule name"
+ },
+ {
+  "text": "HKLM:\\SOFTWARE\\Classes\\.wav\\OpenWithProgIds",
+  "label": "file path"
+ },
+ {
+  "text": "HKLM\\SOFTWARE\\Classes\\.wav\\OpenWithProgIds",
+  "label": "file path"
+ },
+ {
+  "text": "Installer Packages",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Inter-Process Communication",
+  "label": "attack technique name"
+ },
+ {
+  "text": "jpinst.exe",
+  "label": "file name"
+ },
+ {
+  "text": "jpsetup.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Keylogging",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Krypton",
+  "label": "malware family"
+ },
+ {
+  "text": "Lateral Tool Transfer",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Linux",
+  "label": "affected software product"
+ },
+ {
+  "text": "MacOS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Mail Protocols",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Malware",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Masquerading",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Microsoft Windows Cryptography API: Next Generation (CNG)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Modify Registry",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Mosquito",
+  "label": "malware family"
+ },
+ {
+  "text": "Multi-hop Proxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Multi-Stage Channels",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Native API",
+  "label": "attack technique name"
+ },
+ {
+  "text": "net use",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Network Connection Enumeration",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Network Service Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Network Share Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Network Sniffing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Non-Application Layer Protocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Non-Standard Encoding",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Notepad++",
+  "label": "affected software product"
+ },
+ {
+  "text": "Obfuscated Files or Information",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Obtain Capabilities",
+  "label": "attack technique name"
+ },
+ {
+  "text": "OpenSSL",
+  "label": "hacking tool"
+ },
+ {
+  "text": "OS Credential Dumping",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PeIconSizes",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Penquin",
+  "label": "malware family"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "ping",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerShell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Protocol Impersonation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Protocol Tunneling",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Rootkit",
+  "label": "attack technique name"
+ },
+ {
+  "text": "SECURITY\\Policy\\Secrets\\n",
+  "label": "file path"
+ },
+ {
+  "text": "Service Execution",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Snake",
+  "label": "malware family"
+ },
+ {
+  "text": "Software Packing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Stage Capabilities",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Symmetric Cryptography",
+  "label": "attack technique name"
+ },
+ {
+  "text": "T0840",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1001.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1014",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1040",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1055.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1056.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1074",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1083",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1095",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1104",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1106",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1112",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1119",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1132",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1132.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1135",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1140",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1482",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1546.016",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1547.006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1559",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1560.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1564",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1569.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1570",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1572",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1573",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1573.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1573.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1574.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1584",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1587.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1588",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1608",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1610",
+  "label": "attack technique id"
+ },
+ {
+  "text": "Tavdig",
+  "label": "malware family"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Turla",
+  "label": "malware family"
+ },
+ {
+  "text": "Turla",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Uroburos",
+  "label": "malware family"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Venomous Bear",
+  "label": "malware family"
+ },
+ {
+  "text": "Volatility",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Volatility3",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Waterbug",
+  "label": "malware family"
+ },
+ {
+  "text": "Web Protocols",
+  "label": "attack technique name"
+ },
+ {
+  "text": "WerFault.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Windows",
+  "label": "affected software product"
+ },
+ {
+  "text": "Wipbot",
+  "label": "malware family"
+ }
+]

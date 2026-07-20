@@ -1,0 +1,1250 @@
+[
+ {
+  "text": "Account Discovery: \nLocal Account",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Acquire \nInfrastructure: \nBotnet",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Active Directory",
+  "label": "affected software product"
+ },
+ {
+  "text": "AD FS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Advanced IP Scanner",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Application Window",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Archive Collected \nData",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Archive Collected \nData: Archive via \nUtility",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Azure",
+  "label": "affected software product"
+ },
+ {
+  "text": "Azure Active Directory",
+  "label": "affected software product"
+ },
+ {
+  "text": "b1de37bf229890ac181bdef1ad8ee0c2",
+  "label": "file hash"
+ },
+ {
+  "text": "Brightmetricagent.exe",
+  "label": "file name"
+ },
+ {
+  "text": "BRONZE SILHOUETTE",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Browser Information",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Brute Force: \nPassword Cracking",
+  "label": "attack technique name"
+ },
+ {
+  "text": "C:\\users\\public\\",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\Public\\Documents",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\users\\public\\documents\\user.dat",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\Public\\pro",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\{redacted}\\AppData\\Local\\Google\\Chrome\\User Data\\",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\{redacted}\\AppData\\Local\\Microsoft\\Edge\\User Data\\",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\{redacted}\\Downloads\\History.zip",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\NTDS\\ntds.dit",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\System32\\",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\windows\\temp\\",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\tmp",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\tmp\\Active Directory",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\tmp\\Active Directory\\ntds.dit",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\tmp\\Active Directory\\ntds.jfm",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\tmp\\registry",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\{redacted}\\ \nlogins.ps1",
+  "label": "file path"
+ },
+ {
+  "text": "certutil",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Chrome",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco",
+  "label": "affected software product"
+ },
+ {
+  "text": "Citrix",
+  "label": "affected software product"
+ },
+ {
+  "text": "cmd",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "Collection and Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "Command and \nScripting Interpreter",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Command and \nScripting Interpreter: \nPowerShell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Command and \nScripting Interpreter: \nUnix Shell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "Compromise \nInfrastructure: \nBotnet",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Compromise \nInfrastructure: \nServer",
+  "label": "attack technique name"
+ },
+ {
+  "text": "comsvcs.dll",
+  "label": "file name"
+ },
+ {
+  "text": "comsvcs.dll",
+  "label": "hacking tool"
+ },
+ {
+  "text": "contact@cyber.gc.ca",
+  "label": "email address"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Credentials from \nPassword Stores",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Credentials from \nPassword Stores: \nCredentials from \nWeb Browsers",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Cybersecurity_Requests@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Data Staged",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "del",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Develop \nCapabilities: Exploits",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Direct Volume \nAccess",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "dnscmd",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Edge",
+  "label": "affected software product"
+ },
+ {
+  "text": "Encrypted Channel",
+  "label": "attack technique name"
+ },
+ {
+  "text": "EnergySRMA@hq.doe.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Exchange Online",
+  "label": "affected software product"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration Over \nAlternative Protocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Exploit Public\ufffeFacing Application",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Exploitation for \nPrivilege Escalation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "External Remote",
+  "label": "attack technique name"
+ },
+ {
+  "text": "fd41134e8ead1c18ccad27c62a260aa6",
+  "label": "file hash"
+ },
+ {
+  "text": "File and Directory",
+  "label": "attack technique name"
+ },
+ {
+  "text": "fofa",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Fortinet",
+  "label": "affected software product"
+ },
+ {
+  "text": "FRP",
+  "label": "hacking tool"
+ },
+ {
+  "text": "FRP clients",
+  "label": "hacking tool"
+ },
+ {
+  "text": "gait",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Gather Victim \nIdentity Information",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Gather Victim \nIdentity Information: \nEmail Addresses",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Gather Victim \nNetwork Information",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Gather Victim Host \nInformation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Gather Victim Org \nInformation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "gdi32.dll",
+  "label": "file name"
+ },
+ {
+  "text": "gdiplus.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Get-EventLog",
+  "label": "hacking tool"
+ },
+ {
+  "text": "GMAIL",
+  "label": "affected software product"
+ },
+ {
+  "text": "Google Calendar",
+  "label": "affected software product"
+ },
+ {
+  "text": "Google Chat",
+  "label": "affected software product"
+ },
+ {
+  "text": "Google Chrome",
+  "label": "affected software product"
+ },
+ {
+  "text": "Google Classroom",
+  "label": "affected software product"
+ },
+ {
+  "text": "Google Drive and Docs",
+  "label": "affected software product"
+ },
+ {
+  "text": "Google Meet",
+  "label": "affected software product"
+ },
+ {
+  "text": "group",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Groups for Business",
+  "label": "affected software product"
+ },
+ {
+  "text": "history.zip",
+  "label": "file name"
+ },
+ {
+  "text": "Identifying and Mitigating Living Off the Land Techniques",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Impacket",
+  "label": "hacking tool"
+ },
+ {
+  "text": "incidents@ncsc.govt.nz",
+  "label": "email address"
+ },
+ {
+  "text": "Indicator Removal: \nClear Persistence",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Indicator Removal: \nClear Windows \nEvent Logs",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Indicator Removal: \nFile Deletion",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Ingress Tool \nTransfer",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Insidious Taurus",
+  "label": "threat actor group"
+ },
+ {
+  "text": "ipconfig",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Ivanti",
+  "label": "affected software product"
+ },
+ {
+  "text": "KV Botnet",
+  "label": "malware family"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "ldifde",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Living off the Land Detection",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Living Off the Land Techniques",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Living off the Land to Evade Detection",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Local State",
+  "label": "file name"
+ },
+ {
+  "text": "Log Enumeration",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Login Data",
+  "label": "file name"
+ },
+ {
+  "text": "logins.ps1",
+  "label": "file name"
+ },
+ {
+  "text": "logoff",
+  "label": "hacking tool"
+ },
+ {
+  "text": "LOTL Activity",
+  "label": "attack technique name"
+ },
+ {
+  "text": "LOTL techniques",
+  "label": "attack technique name"
+ },
+ {
+  "text": "makecab",
+  "label": "hacking tool"
+ },
+ {
+  "text": "MAR-10448362-1.v1",
+  "label": "file name"
+ },
+ {
+  "text": "Masquerading: \nMatch Legitimate \nName or Location",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Microsoft Active Directory",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Defender for Office 365",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Entra ID",
+  "label": "affected software product"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "MiniDump",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Modify Registry",
+  "label": "attack technique name"
+ },
+ {
+  "text": "move",
+  "label": "hacking tool"
+ },
+ {
+  "text": "net start",
+  "label": "hacking tool"
+ },
+ {
+  "text": "net time",
+  "label": "hacking tool"
+ },
+ {
+  "text": "net user",
+  "label": "hacking tool"
+ },
+ {
+  "text": "net user/group/use",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NETGEAR",
+  "label": "affected software product"
+ },
+ {
+  "text": "netsh",
+  "label": "hacking tool"
+ },
+ {
+  "text": "netstat",
+  "label": "hacking tool"
+ },
+ {
+  "text": "netstta",
+  "label": "hacking tool"
+ },
+ {
+  "text": "network service",
+  "label": "attack technique name"
+ },
+ {
+  "text": "nltest",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Notes.txt",
+  "label": "file name"
+ },
+ {
+  "text": "NTDS.dit",
+  "label": "file name"
+ },
+ {
+  "text": "ntdsutil",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Obfuscated Files or \nInformation: \nSoftware Packing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Obtain Capabilities: \nExploits",
+  "label": "attack technique name"
+ },
+ {
+  "text": "OneDrive for Business",
+  "label": "affected software product"
+ },
+ {
+  "text": "Oracle Management Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "OS Credential \nDumping: LSASS \nMemory",
+  "label": "attack technique name"
+ },
+ {
+  "text": "OS Credential \nDumping: NTDS",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Paessler Router Traffic Grapher (PRTG)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Pass the Hash",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Pass the Ticket",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Peripheral Device",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Permission Groups",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "ping",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Power BI",
+  "label": "affected software product"
+ },
+ {
+  "text": "Power Platform",
+  "label": "affected software product"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "Process Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Proxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Proxy: Internal \nProxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Proxy: Multi-hop \nProxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PRTG",
+  "label": "affected software product"
+ },
+ {
+  "text": "PSExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Pulse Secure",
+  "label": "affected software product"
+ },
+ {
+  "text": "PuTTY",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Query Registry",
+  "label": "attack technique name"
+ },
+ {
+  "text": "query user",
+  "label": "hacking tool"
+ },
+ {
+  "text": "quser",
+  "label": "hacking tool"
+ },
+ {
+  "text": "rar.exe",
+  "label": "file name"
+ },
+ {
+  "text": "rar.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "RDP",
+  "label": "affected software product"
+ },
+ {
+  "text": "RDP",
+  "label": "attack technique name"
+ },
+ {
+  "text": "rdpservice.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "reg query/reg save",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Remote Service \nSession Hijacking",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote Services: \nCloud Services",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote Services: \nRemote Desktop \nProtocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remove-Item",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Resource Development",
+  "label": "tactic"
+ },
+ {
+  "text": "ronf.exe",
+  "label": "file name"
+ },
+ {
+  "text": "rult3uil.log",
+  "label": "file name"
+ },
+ {
+  "text": "ScanLine",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Screen Capture",
+  "label": "attack technique name"
+ },
+ {
+  "text": "SCuBAGear",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Search Open \nWebsites/Domains",
+  "label": "attack technique name"
+ },
+ {
+  "text": "SharePoint Online",
+  "label": "affected software product"
+ },
+ {
+  "text": "SMB",
+  "label": "affected software product"
+ },
+ {
+  "text": "SMBv3",
+  "label": "affected software product"
+ },
+ {
+  "text": "SMSvcService.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Software Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "SolarWinds Orion",
+  "label": "affected software product"
+ },
+ {
+  "text": "SYSTEM",
+  "label": "file name"
+ },
+ {
+  "text": "System Binary \nProxy Execution",
+  "label": "attack technique name"
+ },
+ {
+  "text": "system information",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System Location",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System Network \nConfiguration \nDiscovery: Internet \nConnection",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System Owner/User",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System Service",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System Time",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System32",
+  "label": "file path"
+ },
+ {
+  "text": "systeminfo",
+  "label": "hacking tool"
+ },
+ {
+  "text": "systeminfo.dat",
+  "label": "file name"
+ },
+ {
+  "text": "T1003.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1007",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1010",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1012",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1016",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1016.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.007",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1033",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1047",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1048",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1057",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1068",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1069",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.009",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1074",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1082",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1083",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1112",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1113",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1120",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1124",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1217",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1218",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1518",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1550",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1555",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1555.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1560",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1560.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1563",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1573",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1583.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1584.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1584.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1587.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1588.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1589",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1589.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1590",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1591",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1592",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1593",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1594",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1614",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1654",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0009",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0010",
+  "label": "tactic"
+ },
+ {
+  "text": "taskkill",
+  "label": "hacking tool"
+ },
+ {
+  "text": "tasklist",
+  "label": "hacking tool"
+ },
+ {
+  "text": "tasklist /v",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Teams",
+  "label": "affected software product"
+ },
+ {
+  "text": "Thumbs.db",
+  "label": "file name"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "ttt.dat",
+  "label": "file name"
+ },
+ {
+  "text": "type",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Ultimate Packer for Executables (UPX)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "UNC3236",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Unsecured \nCredentials",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Unsecured \nCredentials: Private \nKeys",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Use Alternate \nAuthentication \nMaterial",
+  "label": "attack technique name"
+ },
+ {
+  "text": "user",
+  "label": "attack technique name"
+ },
+ {
+  "text": "user.dat",
+  "label": "file name"
+ },
+ {
+  "text": "users\\{redacted}\\appdata\\local\\Google\\Chrome\\UserData\\default\\History",
+  "label": "file path"
+ },
+ {
+  "text": "users\\{redacted}\\downloads\\History.zip",
+  "label": "file path"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Valid Accounts: \nCloud Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Vanguard Panda",
+  "label": "threat actor group"
+ },
+ {
+  "text": "vCenter",
+  "label": "affected software product"
+ },
+ {
+  "text": "VMware vCenter",
+  "label": "affected software product"
+ },
+ {
+  "text": "Volt Typhoon",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Voltzite",
+  "label": "threat actor group"
+ },
+ {
+  "text": "vssadmin",
+  "label": "hacking tool"
+ },
+ {
+  "text": "watercyberta@epa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "wevtutil",
+  "label": "hacking tool"
+ },
+ {
+  "text": "whoami",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Windows \nManagement \nInstrumentation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Windows Management \nInstrumentation Console (WMIC)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Windows Management Instrumentation (WMI)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Windows Management, Instrumentation",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Windows PowerShell",
+  "label": "affected software product"
+ },
+ {
+  "text": "wmic",
+  "label": "hacking tool"
+ },
+ {
+  "text": "wminc",
+  "label": "hacking tool"
+ },
+ {
+  "text": "xcopy",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Z Shell (zsh)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Zeek",
+  "label": "hacking tool"
+ }
+]

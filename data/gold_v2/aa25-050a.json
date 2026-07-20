@@ -1,0 +1,482 @@
+[
+ {
+  "text": "0a5c4ad3ec240fbfd00bdc1d36bd54eb",
+  "label": "file hash"
+ },
+ {
+  "text": "625bd7275e1892eac50a22f8b4a6355d",
+  "label": "file hash"
+ },
+ {
+  "text": "a2fd181f57548c215ac6891d000ec6b9",
+  "label": "file hash"
+ },
+ {
+  "text": "ac58a214ce7deb3a578c10b97f93d9c3",
+  "label": "file hash"
+ },
+ {
+  "text": "asauribe@tutanota.com",
+  "label": "email address"
+ },
+ {
+  "text": "c3b8f6d102393b4542e9f951c9435255",
+  "label": "file hash"
+ },
+ {
+  "text": "c9e35b5c1dc8856da25965b385a26ec4",
+  "label": "file hash"
+ },
+ {
+  "text": "Cobalt Strike",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Cobalt Strike Beacon",
+  "label": "malware family"
+ },
+ {
+  "text": "Cobalt Strike Team Servers",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Cring.exe",
+  "label": "file name"
+ },
+ {
+  "text": "cringghost@skiff.com",
+  "label": "email address"
+ },
+ {
+  "text": "crptbackup@skiff.com",
+  "label": "email address"
+ },
+ {
+  "text": "d1c5e7b8e937625891707f8b4b594314",
+  "label": "file hash"
+ },
+ {
+  "text": "d3crypt@onionmail.org",
+  "label": "email address"
+ },
+ {
+  "text": "d3svc@tuta.io",
+  "label": "email address"
+ },
+ {
+  "text": "db38ef2e3d4d8cb785df48f458b35090",
+  "label": "file hash"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "Domain Account",
+  "label": "attack technique name"
+ },
+ {
+  "text": "ef6a213f59f3fbee2894bd6734bbaed2",
+  "label": "file hash"
+ },
+ {
+  "text": "ElysiumO.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Encrypted Channel",
+  "label": "attack technique name"
+ },
+ {
+  "text": "eternalnightmare@tutanota.com",
+  "label": "email address"
+ },
+ {
+  "text": "evilcorp@skiff.com",
+  "label": "email address"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "ff52fdf84448277b1bc121f592f753c5",
+  "label": "file hash"
+ },
+ {
+  "text": "fileunlock@onionmail.org",
+  "label": "email address"
+ },
+ {
+  "text": "fortihooks@protonmail.com",
+  "label": "email address"
+ },
+ {
+  "text": "genesis1337@tutanota.com",
+  "label": "email address"
+ },
+ {
+  "text": "Ghost",
+  "label": "malware family"
+ },
+ {
+  "text": "Ghost",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Ghost.exe",
+  "label": "file name"
+ },
+ {
+  "text": "ghost1998@tutamail.com",
+  "label": "email address"
+ },
+ {
+  "text": "ghostbackup@skiff.com",
+  "label": "email address"
+ },
+ {
+  "text": "ghosts1337@skiff.com",
+  "label": "email address"
+ },
+ {
+  "text": "ghosts1337@tuta.io",
+  "label": "email address"
+ },
+ {
+  "text": "ghostsbackup@skiff.com",
+  "label": "email address"
+ },
+ {
+  "text": "Hidden Window",
+  "label": "attack technique name"
+ },
+ {
+  "text": "hsharada@skiff.com",
+  "label": "email address"
+ },
+ {
+  "text": "iex.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "Inhibit System Recovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "IOX",
+  "label": "hacking tool"
+ },
+ {
+  "text": "isx.txt",
+  "label": "file name"
+ },
+ {
+  "text": "just4money@tutanota.com",
+  "label": "email address"
+ },
+ {
+  "text": "kellyreiff@tutanota.com",
+  "label": "email address"
+ },
+ {
+  "text": "kev1npt@tuta.io",
+  "label": "email address"
+ },
+ {
+  "text": "Ladon 911",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Local Account",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Locker.exe",
+  "label": "file name"
+ },
+ {
+  "text": "lockhelp1998@skiff.com",
+  "label": "email address"
+ },
+ {
+  "text": "main.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Mega.nz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Network Share",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "PowerShell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "pro.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Process Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "r.heisler@skiff.com",
+  "label": "email address"
+ },
+ {
+  "text": "rainbowforever@skiff.com",
+  "label": "email address"
+ },
+ {
+  "text": "rainbowforever@tutanota.com",
+  "label": "email address"
+ },
+ {
+  "text": "Remote System",
+  "label": "attack technique name"
+ },
+ {
+  "text": "report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "retryit1998@mailfence.com",
+  "label": "email address"
+ },
+ {
+  "text": "retryit1998@tutamail.com",
+  "label": "email address"
+ },
+ {
+  "text": "rsacrpthelp@skiff.com",
+  "label": "email address"
+ },
+ {
+  "text": "rsahelp@protonmail.com",
+  "label": "email address"
+ },
+ {
+  "text": "sdghost@onionmail.org",
+  "label": "email address"
+ },
+ {
+  "text": "Security Software",
+  "label": "attack technique name"
+ },
+ {
+  "text": "shadowghost@skiff.com",
+  "label": "email address"
+ },
+ {
+  "text": "shadowghosts@tutanota.com",
+  "label": "email address"
+ },
+ {
+  "text": "ShapNBTScan",
+  "label": "hacking tool"
+ },
+ {
+  "text": "sock.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Software Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "sp.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Standard Encoding",
+  "label": "attack technique name"
+ },
+ {
+  "text": "summerkiller@mailfence.com",
+  "label": "email address"
+ },
+ {
+  "text": "summerkiller@tutanota.com",
+  "label": "email address"
+ },
+ {
+  "text": "T1003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1018",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1041",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1047",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1057",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1068",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1098",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1132.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1134.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1135",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1486",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1490",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1518",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1518.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1564.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1567.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1573",
+  "label": "attack technique id"
+ },
+ {
+  "text": "Web Protocols",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Web Shell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "webroothooks@tutanota.com",
+  "label": "email address"
+ },
+ {
+  "text": "Windows Command Shell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Windows Management Instrumentation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "WMI",
+  "label": "hacking tool"
+ },
+ {
+  "text": "x86.log",
+  "label": "file name"
+ }
+]

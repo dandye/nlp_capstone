@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a",
+  "title": "Iran-Based Threat Actor Exploits VPN Vulnerabilities",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA20-259A",
+  "release_date": "2020-09-15T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

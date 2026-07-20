@@ -1,0 +1,454 @@
+[
+ {
+  "text": ".bash_history",
+  "label": "file name"
+ },
+ {
+  "text": "/etc/shadow",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/splunkforwarder/bin/splunkd",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/splunkforwarder/splunkd",
+  "label": "file path"
+ },
+ {
+  "text": "/usr/local/bin/sudo",
+  "label": "file path"
+ },
+ {
+  "text": "Access Token Manipulation: \nToken Impersonation/Theft",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Access Token Manipulation: Make \nand Impersonate Token",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Active Directory",
+  "label": "affected software product"
+ },
+ {
+  "text": "application domain hijacking",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Application Layer Protocol: Web \nProtocols",
+  "label": "attack technique name"
+ },
+ {
+  "text": "at",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Beacon Object File (BOF)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "bloodhound.zip",
+  "label": "file name"
+ },
+ {
+  "text": "Brute Force: Password Cracking",
+  "label": "attack technique name"
+ },
+ {
+  "text": "C:\\Program Files (x86)\\Google\\Update\\*",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows",
+  "label": "file path"
+ },
+ {
+  "text": "chmod",
+  "label": "hacking tool"
+ },
+ {
+  "text": "chmod/chown",
+  "label": "hacking tool"
+ },
+ {
+  "text": "chown",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Credentialed Access",
+  "label": "tactic"
+ },
+ {
+  "text": "cron",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CVE-2022-21587",
+  "label": "cve identifier"
+ },
+ {
+  "text": "Data from Local System",
+  "label": "attack technique name"
+ },
+ {
+  "text": "DCSync",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Defensive Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "domain fronting",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Domain Trust Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "dsquery.exe",
+  "label": "file name"
+ },
+ {
+  "text": "dsquery.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "File and Directory Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "File and Directory Permissions \nModification: Linux and Mac File \nand Directory Permissions \nModification",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Gather Victim Identity Inform",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Gather Victim Identity Information: \nEmployee Names",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Gather Victim Network Information: \nDNS",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Gather Victim Org Information: \nIdentity Roles",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Hijack Execution Flow: \nAppDomainManager",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Hijack Execution Flow: Path \nInterception by PATH Environment \nVariable",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Indicator Removal: Timestomp",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "kerberoastable",
+  "label": "attack technique name"
+ },
+ {
+  "text": "kerberoasted",
+  "label": "attack technique name"
+ },
+ {
+  "text": "kerberoasting",
+  "label": "attack technique name"
+ },
+ {
+  "text": "last",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "ldapsearch",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Masquerading: Masquerade Task \nor Service",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Non-Standard Port",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Obfuscated Files or Information",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Oracle Web Applications Desktop Integrator",
+  "label": "affected software product"
+ },
+ {
+  "text": "OS Credential Dumping: DCSync",
+  "label": "attack technique name"
+ },
+ {
+  "text": "pass-the-hash",
+  "label": "attack technique name"
+ },
+ {
+  "text": "pass-the-ticket",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "Proxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Proxy: Domain Fronting",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "Remote Services: SSH",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "sc.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Scheduled Task/Job: At",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Scheduled Task/Job: Cron",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Search Victim-Owned Websites",
+  "label": "attack technique name"
+ },
+ {
+  "text": "SOCKS proxy",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Solaris",
+  "label": "affected software product"
+ },
+ {
+  "text": "splunkd",
+  "label": "file name"
+ },
+ {
+  "text": "SSH",
+  "label": "hacking tool"
+ },
+ {
+  "text": "sudo",
+  "label": "hacking tool"
+ },
+ {
+  "text": "system center operations manager (SCOM)",
+  "label": "affected software product"
+ },
+ {
+  "text": "T1003.006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1053.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1053.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078.002",
+  "label": "tactic"
+ },
+ {
+  "text": "T1083",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1134.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1134.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1222.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1482",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1550.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1550.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1571",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1574.007",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1574.014",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1589.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1590.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1591.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1594",
+  "label": "attack technique id"
+ },
+ {
+  "text": "timestomp",
+  "label": "hacking tool"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "touch",
+  "label": "hacking tool"
+ },
+ {
+  "text": "touch -r",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Unsecured Credentials: Bash \nHistory",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Use Alternate Authentication \nMaterial: Pass the Hash",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Use Alternate Authentication \nMaterial: Pass the Ticket",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Valid Accounts: Domain Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Windows",
+  "label": "affected software product"
+ }
+]

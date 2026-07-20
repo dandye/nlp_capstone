@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-183a",
+  "title": "Defending Against Malicious Cyber Activity Originating from Tor",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA20-183A",
+  "release_date": "2020-07-01T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

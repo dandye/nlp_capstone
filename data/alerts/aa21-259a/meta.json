@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-259a",
+  "title": "APT Actors Exploiting Newly Identified Vulnerability in ManageEngine ADSelfService Plus",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA21-259A",
+  "release_date": "2021-09-16T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

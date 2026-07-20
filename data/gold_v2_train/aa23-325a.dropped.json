@@ -1,0 +1,42 @@
+[
+ {
+  "text": "51.91.79[.].17",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "81.19.135[.]*",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "9b6b722ba4a691a2fe21747cd5b8a2d18811a173413d4934949047e04e40b30a",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "cc21c77e1ee7e916c9c48194fad083b2d4b2023d\nf703e544ffb2d6a0bfc90a63",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CVE 2023-4966",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "ed5d694d561c97b4d70efe934936286fe562addf\n7d6836f795b336d9791a5c44",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "lateral movement",
+  "label": "tactic",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "winmysqladmin.exe",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ }
+]

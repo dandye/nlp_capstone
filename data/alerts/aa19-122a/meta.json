@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa19-122a",
+  "title": "New Exploits for Unsecure SAP Systems",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA19-122A",
+  "release_date": "2019-05-02T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

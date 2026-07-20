@@ -1,0 +1,434 @@
+[
+ {
+  "text": "08375e2d187ee53ed263ee6529645e03ead1a8e77afd723a3e0495201452d415",
+  "label": "file hash"
+ },
+ {
+  "text": "11415ac829c17bd8a9c4cef12c3fbc23095cbb3113c89405e489ead5138384cd",
+  "label": "file hash"
+ },
+ {
+  "text": "11d8b9be14097614dedd68839c85e3e8feec08cdab675a5e89c5b055a6a68bad",
+  "label": "file hash"
+ },
+ {
+  "text": "1228a2269610fcd20d6b0cf982b759b4c7612f34",
+  "label": "file hash"
+ },
+ {
+  "text": "137[.]184[.]0[.]0",
+  "label": "ip address"
+ },
+ {
+  "text": "137[.]184[.]130[.]162",
+  "label": "ip address"
+ },
+ {
+  "text": "137[.]184[.]130[.]164",
+  "label": "ip address"
+ },
+ {
+  "text": "137[.]184[.]255[.]255",
+  "label": "ip address"
+ },
+ {
+  "text": "144492284bcbc0110d34a2b9a44bef90ed0d6cda746df6058b49d3789b0f851d",
+  "label": "file hash"
+ },
+ {
+  "text": "144[.]96[.]103[.]245",
+  "label": "ip address"
+ },
+ {
+  "text": "1594142927[.]995679[.]png",
+  "label": "file name"
+ },
+ {
+  "text": "1596686310[.]434117[.]png",
+  "label": "file name"
+ },
+ {
+  "text": "1596835329[.]5015914[.]png",
+  "label": "file name"
+ },
+ {
+  "text": "1596923477[.]4946315[.]png",
+  "label": "file name"
+ },
+ {
+  "text": "1597974061[.]4531896[.]png",
+  "label": "file name"
+ },
+ {
+  "text": "1665128935[.]8063045[.]dll",
+  "label": "file name"
+ },
+ {
+  "text": "1665129315.9536858.dll",
+  "label": "file name"
+ },
+ {
+  "text": "1665129315[.]9536858[.]dll",
+  "label": "file name"
+ },
+ {
+  "text": "1665130178.9134793.dll",
+  "label": "file name"
+ },
+ {
+  "text": "1665130178[.]9134793[.]dll",
+  "label": "file name"
+ },
+ {
+  "text": "1665131078.6907752.dll",
+  "label": "file name"
+ },
+ {
+  "text": "1665131078[.]6907752[.]dll",
+  "label": "file name"
+ },
+ {
+  "text": "1665132690.6040645.dll",
+  "label": "file name"
+ },
+ {
+  "text": "1665132690[.]6040645[.]dll",
+  "label": "file name"
+ },
+ {
+  "text": "1665214140.9324195.dll",
+  "label": "file name"
+ },
+ {
+  "text": "1665214140[.]9324195[.]dll",
+  "label": "file name"
+ },
+ {
+  "text": "1665909724[.]4648924[.]dll",
+  "label": "file name"
+ },
+ {
+  "text": "1666006114.5570521.txt",
+  "label": "file name"
+ },
+ {
+  "text": "1666006114[.]5570521[.]txt",
+  "label": "file name"
+ },
+ {
+  "text": "1667465048.8995082.dll",
+  "label": "file name"
+ },
+ {
+  "text": "1667465048[.]8995082[.]dll",
+  "label": "file name"
+ },
+ {
+  "text": "1667465147.4282858.dll",
+  "label": "file name"
+ },
+ {
+  "text": "1667465147[.]4282858[.]dll",
+  "label": "file name"
+ },
+ {
+  "text": "1667466391[.]0658665[.]dll",
+  "label": "file name"
+ },
+ {
+  "text": "184[.]168[.]104[.]171",
+  "label": "ip address"
+ },
+ {
+  "text": "1fed0766f564dc05a119bc7fa0b6670f0da23504e23ece94a5ae27787b674cd2",
+  "label": "file hash"
+ },
+ {
+  "text": "20898eaa33a893dde2bde5f58673ca9795019133150b3d5f201a20d0f28e0f4e9606f19ed2e96181a28e58ff4ba9f52609f0f6326b94570a29c1ed1af3e95f25",
+  "label": "file hash"
+ },
+ {
+  "text": "29a1aef7393f2bdea60cbc69b50506ec1ee23f862b3856e4469385dfa7fd47e38d6ad7fb746fde8e6f1f9a74d309552b1dab3896d5c60fc14ba87d6ee32331ac",
+  "label": "file hash"
+ },
+ {
+  "text": "2e35304a354cf3737b6ff21a78f71005cb7143a8284fc0155cdd793edd206c48bbe89f02f035cd960d49cd6e9877077a90b0bacda6cafd880be0a95042223577",
+  "label": "file hash"
+ },
+ {
+  "text": "45[.]76[.]0[.]0",
+  "label": "ip address"
+ },
+ {
+  "text": "45[.]77[.]212[.]0",
+  "label": "ip address"
+ },
+ {
+  "text": "45[.]77[.]212[.]12",
+  "label": "ip address"
+ },
+ {
+  "text": "45[.]77[.]213[.]255",
+  "label": "ip address"
+ },
+ {
+  "text": "45[.]77[.]255[.]255",
+  "label": "ip address"
+ },
+ {
+  "text": "508dd87110cb5bf5d156a13c2430c215035db216f20f546e4acec476e8d55370",
+  "label": "file hash"
+ },
+ {
+  "text": "524d38ff7936f5c509b67099d1a2e04e0869a9e3431a1901cfe6720112e77ac01e3d94812a7ee7b82b09c31ee0b101ff2a7e68bc7504a7ab8cd9f84ba719e931",
+  "label": "file hash"
+ },
+ {
+  "text": "533bfde3f801f7e1c7b519dcb07e7f21e6546306",
+  "label": "file hash"
+ },
+ {
+  "text": "5ca0fcea7c0a4e12081cc5848ea74fd7933c599c",
+  "label": "file hash"
+ },
+ {
+  "text": "5cbba90ba539d4eb6097169b0e9acf40b8c4740a01ddb70c67a8fb1fc3524570",
+  "label": "file hash"
+ },
+ {
+  "text": "6a2291e077c476d03ffe98b6f3228c82c5b451e4",
+  "label": "file hash"
+ },
+ {
+  "text": "6cbc2e9114dba4f5ba37dbeec3de5610abfc2a23e2c3d74b5943d88392235fe741dca73bb560bb33e366d2d780708e7b7dc40186c46148b45761bb32034c67ff",
+  "label": "file hash"
+ },
+ {
+  "text": "707d22cacdbd94a3e6dc884242c0565bdf10a0be42990cd7a5497b124474889b",
+  "label": "file hash"
+ },
+ {
+  "text": "72f7d4d3b9d2e406fa781176bd93e8deee0fb1598b67587e1928455b66b73911",
+  "label": "file hash"
+ },
+ {
+  "text": "74544d31cbbf003bc33e7099811f62a37110556b6c1a644393fddd0bac753730",
+  "label": "file hash"
+ },
+ {
+  "text": "75221233a7dd7c5084a7d57084fd8d43",
+  "label": "file hash"
+ },
+ {
+  "text": "78a926f899320ee6f05ab96f17622fb68e674296689e8649c95f95dade91e933",
+  "label": "file hash"
+ },
+ {
+  "text": "7b195c18042ab5c3ed9ebdc66800aec39e29f726",
+  "label": "file hash"
+ },
+ {
+  "text": "7d165f6029eae067785fdb9af53385170d790e52",
+  "label": "file hash"
+ },
+ {
+  "text": "815d262d38a26d5695606d03d5a1a49b9c00915ead1d8a2c04eb47846100e93f",
+  "label": "file hash"
+ },
+ {
+  "text": "833e9cf75079ce796ef60fc7039a0b098be4ce8d259ffa53fe2855df110b2e5d",
+  "label": "file hash"
+ },
+ {
+  "text": "853e8388c9a72a7a54129151884da46075d45a5bcd19c37a7857e268137935aa",
+  "label": "file hash"
+ },
+ {
+  "text": "8a5fc2b8ecb7ac6c0db76049d7e09470dbc24f1a90026a431285244818866505",
+  "label": "file hash"
+ },
+ {
+  "text": "8e33e1e407fc9ff537b63be3ab78cb40",
+  "label": "file hash"
+ },
+ {
+  "text": "98b513886879300679d634fa4e1cd27e",
+  "label": "file hash"
+ },
+ {
+  "text": "a0ab222673d35d750a0290db1b0ce890b9d40c2ab67bfebb62e1a006e9f2479c",
+  "label": "file hash"
+ },
+ {
+  "text": "a14e2209136dad4f824c6f5986ec5d73d9cc7c86006fd2ceabe34de801062f6b",
+  "label": "file hash"
+ },
+ {
+  "text": "a31374d97f0b4e32d14a839b7e943f2385820cd4174114675fa217b921bbbd92792a829ccef9c4bdbc01efa5d8f654a5684527ada02b415fe5bc04384934086c",
+  "label": "file hash"
+ },
+ {
+  "text": "abuse[@]constant[.]com",
+  "label": "email address"
+ },
+ {
+  "text": "abuse[@]vultr[.]com",
+  "label": "email address"
+ },
+ {
+  "text": "b4222cffcdb9fb0eda5aa1703a067021bedd8cf7180cdfc5454d0f07d7eaf18f",
+  "label": "file hash"
+ },
+ {
+  "text": "c1127046e07137180c41cc1914e52ee7",
+  "label": "file hash"
+ },
+ {
+  "text": "C:\\inetpub\\temp",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\windows\\temp",
+  "label": "file path"
+ },
+ {
+  "text": "cd6c11f89b392988e0de3ffe048a561b",
+  "label": "file hash"
+ },
+ {
+  "text": "CISA_10413062_01",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10413062_04",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10413062_06",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10413062_07",
+  "label": "yara rule name"
+ },
+ {
+  "text": "compromises-data-availability",
+  "label": "tactic"
+ },
+ {
+  "text": "d5b0ee2931ada3f3c51a201433e9b907d4efdbb88fb3825613f6ed16e80be2ddb4d23ccc8ee5d1af14ee13045b6d80f2909d007d016c8cf0436b0462fcb92732",
+  "label": "file hash"
+ },
+ {
+  "text": "d69ac887ecc2b714b7f5e59e95a4e8ed2466bed753c4ac328931212c46050b35",
+  "label": "file hash"
+ },
+ {
+  "text": "d9273a16f979adee1afb6e55697d3b7ab42fd75051786f8c67a6baf46c4c19c2",
+  "label": "file hash"
+ },
+ {
+  "text": "D:\\inetpub\\temp",
+  "label": "file path"
+ },
+ {
+  "text": "ded299dfdd68608084b8183c6d48b7a5",
+  "label": "file hash"
+ },
+ {
+  "text": "dedf082f523dfcb75dee0480a2d8a087e3231f89fa34fcd2b7f74866a7b6608f",
+  "label": "file hash"
+ },
+ {
+  "text": "e044bce06ea49d1eed5e1ec59327316481b8339c3b6e1aecfbb516f56d66e913",
+  "label": "file hash"
+ },
+ {
+  "text": "e12c91e1f30740ed95b9a005c8d7bd17c57d0665",
+  "label": "file hash"
+ },
+ {
+  "text": "e1bb93514f221e5c7ab14eb7793eebd4b10c9008",
+  "label": "file hash"
+ },
+ {
+  "text": "e45ad91f12188a7c3d4891b70e1ee87a3f23eb981804ea72cd23f1d5e331ff5a",
+  "label": "file hash"
+ },
+ {
+  "text": "E:\\inetpub\\temp",
+  "label": "file path"
+ },
+ {
+  "text": "eab5832db04ad82eb07364e743d4506e5511937bd5f4c7b4d6383ec88df5a20b70f228382ccffd64b005e8b186cdef7d7cd138144a8f9a434594069c49c84434",
+  "label": "file hash"
+ },
+ {
+  "text": "exfiltrates-data",
+  "label": "tactic"
+ },
+ {
+  "text": "f5cafe99bccb9d813909876fa536cc980c45687d0f411c5f4b5346dcf6b304e4",
+  "label": "file hash"
+ },
+ {
+  "text": "f6f47911ac32afd786a765dcb1f26722",
+  "label": "file hash"
+ },
+ {
+  "text": "fdef4ea27c8634c9aa94f1a16844d62c",
+  "label": "file hash"
+ },
+ {
+  "text": "IIS Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Multi-OS_ReverseShell[.]exe",
+  "label": "file name"
+ },
+ {
+  "text": "network[@]constant[.]com",
+  "label": "email address"
+ },
+ {
+  "text": "Progress Telerik",
+  "label": "affected software product"
+ },
+ {
+  "text": "small[.]aspx",
+  "label": "file name"
+ },
+ {
+  "text": "small[.]txt",
+  "label": "file name"
+ },
+ {
+  "text": "SortVistaCompat",
+  "label": "file name"
+ },
+ {
+  "text": "submit@malware.us-cert.gov",
+  "label": "email address"
+ },
+ {
+  "text": "TLP: CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "XEReverseShell[.]exe",
+  "label": "file name"
+ },
+ {
+  "text": "xesmartshell[.]tmp",
+  "label": "file name"
+ },
+ {
+  "text": "xesvrs[.]exe",
+  "label": "file name"
+ }
+]

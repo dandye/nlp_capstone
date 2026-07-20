@@ -1,0 +1,122 @@
+[
+ {
+  "text": "105e72e1f1e3af8942e0e77e1294f74cd0518f7d601e4e2f20f7ed9db3cd1c67739c31e085e028eafe0394af74b2fbeb6ffbffb67d7731023a04c53a6784924e",
+  "label": "file hash"
+ },
+ {
+  "text": "3LXJyA6Gf.exe",
+  "label": "file name"
+ },
+ {
+  "text": "3LXJyAv6Gf.exe",
+  "label": "file name"
+ },
+ {
+  "text": "5449f3f141958de2d1140bc8323f5ac95c203287",
+  "label": "file hash"
+ },
+ {
+  "text": "5588286a702e0c36c8318be0b164fa8c",
+  "label": "file hash"
+ },
+ {
+  "text": "7d75244449fb5c25d8f196a43a6eb9e453652b2185392376e7d44c21bd8431e7",
+  "label": "file hash"
+ },
+ {
+  "text": "C:\\ProgramData",
+  "label": "file path"
+ },
+ {
+  "text": "CFF Explorer",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Cheatengine-x86_64",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CISA_10445155_01",
+  "label": "yara rule name"
+ },
+ {
+  "text": "command-and-control",
+  "label": "tactic"
+ },
+ {
+  "text": "IDA Pro",
+  "label": "hacking tool"
+ },
+ {
+  "text": "IgtyXEQuCEvAM.JSONIP",
+  "label": "file name"
+ },
+ {
+  "text": "Obsidian debugger",
+  "label": "hacking tool"
+ },
+ {
+  "text": "OllyDbg",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Process Explorer",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Process Monitor",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ProcessHacker",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Radare2",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Resource Hacker",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Rock Debugger",
+  "label": "hacking tool"
+ },
+ {
+  "text": "submit@malware.us-cert.gov",
+  "label": "email address"
+ },
+ {
+  "text": "TLP: CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "trojan",
+  "label": "tactic"
+ },
+ {
+  "text": "TrueBot",
+  "label": "malware family"
+ },
+ {
+  "text": "Win64/Agent.BVF",
+  "label": "malware family"
+ },
+ {
+  "text": "WinDbg",
+  "label": "hacking tool"
+ },
+ {
+  "text": "X64dbg",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Zeta Debugger",
+  "label": "hacking tool"
+ }
+]

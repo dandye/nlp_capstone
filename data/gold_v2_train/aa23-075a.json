@@ -1,0 +1,386 @@
+[
+ {
+  "text": "%SYSTEM32%\\dllhost.exe",
+  "label": "file path"
+ },
+ {
+  "text": "%SystemRoot%\\Temp\\<LockBit3.0 Filename>.exe",
+  "label": "file path"
+ },
+ {
+  "text": "ADMIN$\\Temp\\<LockBit3.0 Filename>.exe",
+  "label": "file path"
+ },
+ {
+  "text": "Blackcat",
+  "label": "malware family"
+ },
+ {
+  "text": "Blackmatter",
+  "label": "malware family"
+ },
+ {
+  "text": "Boot or Logo Autostart Execution",
+  "label": "attack technique name"
+ },
+ {
+  "text": "C:\\Windows\\System32\\dllhost.exe",
+  "label": "file path"
+ },
+ {
+  "text": "Chocolatey",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Cobalt Strike",
+  "label": "hacking tool"
+ },
+ {
+  "text": "command and control",
+  "label": "tactic"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Data Destruction",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Data Encrypted for Impact",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "dllhost.exe",
+  "label": "file name"
+ },
+ {
+  "text": "drive-by compromise",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "EXFILTRATION",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration Over Web Service",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Exploit Public-Facing Application",
+  "label": "attack technique name"
+ },
+ {
+  "text": "exploitation of public-facing applications",
+  "label": "attack technique name"
+ },
+ {
+  "text": "FileZilla",
+  "label": "hacking tool"
+ },
+ {
+  "text": "GPUpdate",
+  "label": "hacking tool"
+ },
+ {
+  "text": "HKCR\\. <Malware Extension>",
+  "label": "file path"
+ },
+ {
+  "text": "Impacket",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "Indicator Removal: File Deletion",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Inhibit System Recovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "INITIAL ACCESS",
+  "label": "tactic"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "LockBit",
+  "label": "malware family"
+ },
+ {
+  "text": "LockBit 2.0",
+  "label": "malware family"
+ },
+ {
+  "text": "LockBit 3.0",
+  "label": "malware family"
+ },
+ {
+  "text": "LockBit 3.0",
+  "label": "threat actor group"
+ },
+ {
+  "text": "LockBit Black",
+  "label": "malware family"
+ },
+ {
+  "text": "LSASS.exe",
+  "label": "file name"
+ },
+ {
+  "text": "MEGA",
+  "label": "hacking tool"
+ },
+ {
+  "text": "MEGA Ltd MegaSync",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Metasploit",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Network Service Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "NetworkShares.xml",
+  "label": "file name"
+ },
+ {
+  "text": "Ngrok",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Obfuscated Files or Information",
+  "label": "attack technique name"
+ },
+ {
+  "text": "persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "phishing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Plink",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "privilege escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "Protocol Tunnel",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PsExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PuTTY Link (Plink)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "rclone",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Registry.pol",
+  "label": "file name"
+ },
+ {
+  "text": "Report@cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Service Stop",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Services.xml",
+  "label": "file name"
+ },
+ {
+  "text": "SOC@cisecurity.org",
+  "label": "email address"
+ },
+ {
+  "text": "Software Deployment Tools",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Splashtop",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Stealbit",
+  "label": "hacking tool"
+ },
+ {
+  "text": "System Information Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "T1003.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1048",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1072",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1082",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1189",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1480.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1485",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1486",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1489",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1490",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1491.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1547",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1567",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1567.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1572",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1614.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0010",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TLP: CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "valid accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "WinSCP",
+  "label": "hacking tool"
+ }
+]

@@ -1,0 +1,157 @@
+[
+ {
+  "text": "2a10:1fc0:7::f19c[:]3",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "88.172[.]70",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "9b3",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": ":f656[:]929f",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Account Manipulation: SSH Authorized Keys",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Acquire Infrastructure: Virtual Private Servers",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Beijing Huanyu Tianqiong Information Technology Co., Ltd.",
+  "label": "threat actor group",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Brute Force: Password Cracking",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Cisco IOS XE Software",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Command and Scripting Interpreter: Network Device CLI",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Command and Scripting Interpreter: Python",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Compromise Infrastructure: Network Devices",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Container Administration Command",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Create Account: Local Account",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "CVE 2023-20198",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Data from Configuration Repository: Network Device Configuration Dump",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Data from Configuration Repository: SNMP (MIB Dump)",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exploit Public-Facing Application",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exploitation for Privilege Escalation",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Gather Victim Network Information: Network Topology",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Impair Defenses: Disable or Modify System Firewall",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Indicator Removal: Clear Persistence",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Microsoft Exchange",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Modify Authentication Process",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Network Boundary Bridging",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Obfuscated Files or Information",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Obfuscated Files or Information: Command Obfuscation",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Obtain Capabilities: Exploits",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "System Information Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "System Network Configuration Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Web Services Management Agent (WSMA)",
+  "label": "hacking tool",
+  "reason": "not verbatim in document"
+ }
+]

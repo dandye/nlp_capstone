@@ -1,0 +1,67 @@
+[
+ {
+  "text": "Componente de software de servidor: Web Shell",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Credenciales de lugares de guardado de contrase\u00f1as",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Descubrimiento de grupos de permisos: grupos de dominios",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Descubrimiento de grupos de permisos: grupos locales",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Descubrimiento de informaci\u00f3n del sistema",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Descubrimiento de la configuraci\u00f3n de la red del sistema",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Descubrimiento del propietario/usuario del sistema",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Eliminaci\u00f3n del indicador: borrar registros de eventos de Windows",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Explotaci\u00f3n de aplicaciones p\u00fablicas",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Fuerza bruta: pulverizaci\u00f3n de contrase\u00f1as",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Int\u00e9rprete de comandos y l\u00edneas de comandos: PowerShell",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Int\u00e9rprete de comandos y l\u00edneas de comandos: Shell de comandos de Windows",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Vuelco de credenciales del sistema operativo (operating system, OS): NTDS",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

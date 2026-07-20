@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-304a",
+  "title": "Iranian Advanced Persistent Threat Actor Identified Obtaining Voter Registration Data",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA20-304A",
+  "release_date": "2020-10-30T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

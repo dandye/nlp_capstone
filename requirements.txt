@@ -1,0 +1,10 @@
+# CPU / default environment (.venv) — scraper, text normalization, gold
+# conversion, curation webapps, span validators, census. No torch here.
+# ML deps (torch/transformers/gliner/docling/anthropic) live in requirements-ml.txt.
+
+httpx[http2]>=0.27
+beautifulsoup4>=4.12
+lxml>=5.0
+pypdf>=4.0
+click>=8.0
+rich>=13.0

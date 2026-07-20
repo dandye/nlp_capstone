@@ -1,0 +1,506 @@
+[
+ {
+  "text": "185.202.0[.]111",
+  "label": "ip address"
+ },
+ {
+  "text": "1saas.exe",
+  "label": "file name"
+ },
+ {
+  "text": "2704e269fb5cf9a02070a0ea07d82dc9d87f2cb95e60cb71d6c6d38b01869f66",
+  "label": "file hash"
+ },
+ {
+  "text": "32a674b59c3f9a45efde48368b4de7e0e76c19e06b2f18afb6638d1a080b2eb3",
+  "label": "file hash"
+ },
+ {
+  "text": "482754d66d01aa3579f007c2b3c3d0591865eb60ba60b9c28c66fe6f4ac53c52",
+  "label": "file hash"
+ },
+ {
+  "text": "518544e56e8ccee401ffa1b0a01a10ce23e49ec21ec441c6c7c3951b01c1b19c",
+  "label": "file hash"
+ },
+ {
+  "text": "58626a9bfb48cd30acd0d95debcaefd188ae794e1e0072c5bde8adae9bccafa6",
+  "label": "file hash"
+ },
+ {
+  "text": "8Base",
+  "label": "threat actor group"
+ },
+ {
+  "text": "9215550ce3b164972413a329ab697012e909d543e8ac05d9901095016dd3fc6c",
+  "label": "file hash"
+ },
+ {
+  "text": "a91491f45b851a07f91ba5a200967921bf796d38677786de51a4a8fe5ddeafd2",
+  "label": "file hash"
+ },
+ {
+  "text": "Ahpdate.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Angry IP Scanner",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Archive Collected Data",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Asynchronous Procedure Call",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Bloodhound",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Brute Force",
+  "label": "attack technique name"
+ },
+ {
+  "text": "c0539fd02ca0184925a932a9e926c681dc9c81b5de4624250f2dd885ca5c4763",
+  "label": "file hash"
+ },
+ {
+  "text": "cmd.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "Create Process with Token",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Data Encrypted for Impact",
+  "label": "attack technique name"
+ },
+ {
+  "text": "deep-dive-into-phobos-ransomware.txt",
+  "label": "file name"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "Domain Account",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Embedded Payloads",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Establish Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Exec.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration to Cloud Storage",
+  "label": "attack technique name"
+ },
+ {
+  "text": "External Remote Services",
+  "label": "attack technique name"
+ },
+ {
+  "text": "f3be35f8b8301e39dd3dffc9325553516a085c12dc15494a5e2fce73c77069ed",
+  "label": "file hash"
+ },
+ {
+  "text": "FAUST",
+  "label": "malware family"
+ },
+ {
+  "text": "fc4b14250db7f66107820ecc56026e6be3e8e0eb2d428719156cf1c53ae139c6",
+  "label": "file hash"
+ },
+ {
+  "text": "File and Directory Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "File Transfer Protocols",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Financial Theft",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "Impair Defenses",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Ingress Tool Transfer",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Inhibit System Recovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Malicious File",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Mega.io",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Mimikatz",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Mshta",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Native API",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Nirsoft",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Obtain Capabilities: Tool",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Passview",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "Phishing for Information",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Phobos",
+  "label": "malware family"
+ },
+ {
+  "text": "Phobos",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Phobos actors",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Phobos.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Portable Executable Injection",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PowerTool",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "Process Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Process Hacker",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "Remote Access Software",
+  "label": "attack technique name"
+ },
+ {
+  "text": "report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Resource Development",
+  "label": "tactic"
+ },
+ {
+  "text": "Scanning IP Blocks",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Sharphound",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Smokeloader",
+  "label": "malware family"
+ },
+ {
+  "text": "Software Packing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System Information Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "T1001.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027.009",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1047",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1048",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1055.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1055.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1057",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1082",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1083",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1106",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1134.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1134.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1140",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1204.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1218.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1219",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1486",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1490",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1547.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1555",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1555.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1555.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1560",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1562.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1567.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1585",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1588.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1593",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1595.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1598",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1657",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0010",
+  "label": "attack technique id"
+ },
+ {
+  "text": "Universal Virus Sniffer",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Windows Command Shell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Windows Management Instrumentation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Windows Management Instrumentation command-line utility (WMIC)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "WinSCP",
+  "label": "hacking tool"
+ }
+]

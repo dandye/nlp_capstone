@@ -1,0 +1,98 @@
+[
+ {
+  "text": "APT28",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Cisco IOS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Cisco routers",
+  "label": "affected software product"
+ },
+ {
+  "text": "CVE-2017-6742",
+  "label": "cve identifier"
+ },
+ {
+  "text": "Default Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Empire",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Fancy Bear",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Gather victim \nnetwork \ninformation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Initial \nAccess",
+  "label": "tactic"
+ },
+ {
+  "text": "Jaguar Tooth",
+  "label": "malware family"
+ },
+ {
+  "text": "Pawn \nStorm",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Powershell Empire",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Python versions of Empire",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Reconnais\nsance",
+  "label": "tactic"
+ },
+ {
+  "text": "Reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "ROMMON",
+  "label": "affected software product"
+ },
+ {
+  "text": "Sofacy",
+  "label": "threat actor group"
+ },
+ {
+  "text": "STRONTIUM",
+  "label": "threat actor group"
+ },
+ {
+  "text": "T1078.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1590",
+  "label": "attack technique id"
+ },
+ {
+  "text": "the Sednit Gang",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ }
+]

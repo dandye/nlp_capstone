@@ -1,0 +1,67 @@
+[
+ {
+  "text": "127.0.01",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "8bec893519f204b573c33d54537b093c52df01b3d8c518af08ee94947",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "CEV-2021-43207",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Data from Network Shared Drive",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exfiltration Over Alternative Protocol",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exfiltration Over Web Service",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Gather Victim Host Information",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Gather Victim Org Information",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "QuietRAT",
+  "label": "malware family",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Search Open Technical Databases",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "T1021.\n002",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "T1587.\n001",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "T1587.\n004",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ }
+]

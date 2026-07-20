@@ -1,0 +1,270 @@
+[
+ {
+  "text": "/windows/system32/config/\nsystemprofile/appdata/roa\nming/tor/",
+  "label": "file path"
+ },
+ {
+  "text": "/windows/temp/\nsocks.exe",
+  "label": "file path"
+ },
+ {
+  "text": "/windows/temp/servers.txt",
+  "label": "file path"
+ },
+ {
+  "text": "102.130.112[.]157",
+  "label": "ip address"
+ },
+ {
+  "text": "172.106.112[.]46",
+  "label": "ip address"
+ },
+ {
+  "text": "176.97.76[.]163",
+  "label": "ip address"
+ },
+ {
+  "text": "192.160.102[.]164",
+  "label": "ip address"
+ },
+ {
+  "text": "192.184.35[.]216",
+  "label": "ip address"
+ },
+ {
+  "text": "194.87.82[.]7",
+  "label": "ip address"
+ },
+ {
+  "text": "195.123.246[.]20",
+  "label": "ip address"
+ },
+ {
+  "text": "198.50.191[.]95",
+  "label": "ip address"
+ },
+ {
+  "text": "206.197.244[.]75",
+  "label": "ip address"
+ },
+ {
+  "text": "216.122.175[.]114",
+  "label": "ip address"
+ },
+ {
+  "text": "4591187629.exe",
+  "label": "file name"
+ },
+ {
+  "text": "46.4.20[.]30",
+  "label": "ip address"
+ },
+ {
+  "text": "5.188.206[.]14",
+  "label": "ip address"
+ },
+ {
+  "text": "5.8.18[.]233",
+  "label": "ip address"
+ },
+ {
+  "text": "5.8.18[.]240",
+  "label": "ip address"
+ },
+ {
+  "text": "80.94.95[.]103",
+  "label": "ip address"
+ },
+ {
+  "text": "89.105.216[.]106",
+  "label": "ip address"
+ },
+ {
+  "text": "92.118.36[.]199",
+  "label": "ip address"
+ },
+ {
+  "text": "[app-path]/server/logs/*.*",
+  "label": "file path"
+ },
+ {
+  "text": "AA23-131A.stix",
+  "label": "file name"
+ },
+ {
+  "text": "Atera RMM",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Bl00dy Gang",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Bl00dy Gang Ransomware",
+  "label": "malware family"
+ },
+ {
+  "text": "Bl00dy Gang Ransomware",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Bl00dy Gang ransomware actors",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Bl00dy Ransomware Gang",
+  "label": "threat actor group"
+ },
+ {
+  "text": "cmd",
+  "label": "hacking tool"
+ },
+ {
+  "text": "cmd.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Cobalt Strike Beacon",
+  "label": "malware family"
+ },
+ {
+  "text": "Cobalt Strike Beacons",
+  "label": "malware family"
+ },
+ {
+  "text": "Cobalt Strike C2",
+  "label": "malware family"
+ },
+ {
+  "text": "CVE-2023-27350",
+  "label": "cve identifier"
+ },
+ {
+  "text": "decrypt.support@privyonline[.]com",
+  "label": "email address"
+ },
+ {
+  "text": "DiceLoader",
+  "label": "malware family"
+ },
+ {
+  "text": "fimaribahundqf@gmx[.]com",
+  "label": "email address"
+ },
+ {
+  "text": "Invoke-WebRequest",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ld.txt",
+  "label": "file name"
+ },
+ {
+  "text": "main-office@data-highstream[.]com",
+  "label": "email address"
+ },
+ {
+  "text": "msiexec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "nethelper.exe",
+  "label": "file name"
+ },
+ {
+  "text": "PaperCut",
+  "label": "affected software product"
+ },
+ {
+  "text": "PaperCut Application Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "PaperCut MF",
+  "label": "affected software product"
+ },
+ {
+  "text": "PaperCut MF/NG",
+  "label": "affected software product"
+ },
+ {
+  "text": "PaperCut MF/NG Vulnerability",
+  "label": "yara rule name"
+ },
+ {
+  "text": "PaperCut NG",
+  "label": "affected software product"
+ },
+ {
+  "text": "PaperCut Print Management Software",
+  "label": "affected software product"
+ },
+ {
+  "text": "pc-app.exe",
+  "label": "file name"
+ },
+ {
+  "text": "powershell.exe",
+  "label": "file name"
+ },
+ {
+  "text": "powershell.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "prepalkeinuc0u@gmx[.]com",
+  "label": "email address"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "revsocks",
+  "label": "hacking tool"
+ },
+ {
+  "text": "server.log",
+  "label": "file name"
+ },
+ {
+  "text": "servers.txt",
+  "label": "file name"
+ },
+ {
+  "text": "setup.msi",
+  "label": "file name"
+ },
+ {
+  "text": "Site Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "socks.exe",
+  "label": "file name"
+ },
+ {
+  "text": "svchost.exe",
+  "label": "file name"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Tor",
+  "label": "hacking tool"
+ },
+ {
+  "text": "tpyrcne@onionmail[.]org",
+  "label": "email address"
+ },
+ {
+  "text": "TrueBot",
+  "label": "malware family"
+ },
+ {
+  "text": "update.dll",
+  "label": "file name"
+ }
+]

@@ -1,0 +1,758 @@
+[
+ {
+  "text": "\"C:\\pstools\\psexec.exe\"",
+  "label": "file path"
+ },
+ {
+  "text": "%SystemRoot%\\NTDS\\ntds.dit",
+  "label": "file path"
+ },
+ {
+  "text": "..\\backup\\210829-020000.zip",
+  "label": "file path"
+ },
+ {
+  "text": "..\\webapps\\adssp\\html\\Lock.lic",
+  "label": "file path"
+ },
+ {
+  "text": "0.0.0.0",
+  "label": "ip address"
+ },
+ {
+  "text": "127.0.0.1",
+  "label": "ip address"
+ },
+ {
+  "text": "3a9d8bb85fbcfe92bae79d5ab18e4bca9eaf36cea70086e8d1ab85336c83945f",
+  "label": "file hash"
+ },
+ {
+  "text": "3c2fe308c0a563e06263bbacf793bbe9b2259d795fcc36b953793a7e499e7f71",
+  "label": "file hash"
+ },
+ {
+  "text": "41e5181b9553bbe33d91ee204fe1d2ca321ac123f9147bb475c0ed32f9488597",
+  "label": "file hash"
+ },
+ {
+  "text": "472ccfb865c81704562ea95870f60c08ef00bcd2ca1d7f09352398c05be5d05d",
+  "label": "file hash"
+ },
+ {
+  "text": "66a19f7d2547a8a85cee7a62d0b6114fd31afdee090bd43f36b89470238393d7",
+  "label": "file hash"
+ },
+ {
+  "text": "7z.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "<filename>.bat",
+  "label": "file name"
+ },
+ {
+  "text": "<path specified in command>\\Active Directory\\ntds.dit",
+  "label": "file path"
+ },
+ {
+  "text": "<path specified in command>\\Active Directory\\ntds.jfm",
+  "label": "file path"
+ },
+ {
+  "text": "<path specified in command>\\registry\\SECURITY",
+  "label": "file path"
+ },
+ {
+  "text": "<path specified in command>\\registry\\SYSTEM",
+  "label": "file path"
+ },
+ {
+  "text": "\\\\127.0.0.1\\ADMIN$\\",
+  "label": "file path"
+ },
+ {
+  "text": "\\\\127.0.0.1\\ADMIN$\\<timestamp value>",
+  "label": "file path"
+ },
+ {
+  "text": "\\\\127.0.0.1\\C$",
+  "label": "file path"
+ },
+ {
+  "text": "\\\\127.0.0.1\\IPC$",
+  "label": "file path"
+ },
+ {
+  "text": "\\\\<redacted>\\c$\\users\\public\\Appfile\\registry\\SYSTEM",
+  "label": "file path"
+ },
+ {
+  "text": "\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy3\\Windows\\NTD \nS\\ntds.dit",
+  "label": "file path"
+ },
+ {
+  "text": "aa23-144a.stix_.xml",
+  "label": "file name"
+ },
+ {
+  "text": "Acceso a credenciales",
+  "label": "tactic"
+ },
+ {
+  "text": "Acceso inicial",
+  "label": "tactic"
+ },
+ {
+  "text": "Active Directory",
+  "label": "affected software product"
+ },
+ {
+  "text": "arp",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ASUS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Awen",
+  "label": "malware family"
+ },
+ {
+  "text": "backup.bat",
+  "label": "file name"
+ },
+ {
+  "text": "billagent.exe",
+  "label": "file name"
+ },
+ {
+  "text": "billaudit.exe",
+  "label": "file name"
+ },
+ {
+  "text": "c7fee7a3ffaf0732f42d89c4399cbff219459ae04a81fc6eff7050d53bd69b99",
+  "label": "file hash"
+ },
+ {
+  "text": "C:\\Perflogs",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\Administrator\\Desktop\\Win.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\Public",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\users\\public\\Appfile",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Users\\{REDACTED}\\.ssh\\known_hosts",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\users\\{REDACTED}\\appdata\\roaming\\Mozilla\\firefox\\profiles",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\[a-zA-Z]{8}.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\System32\\cmdbak.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\system32\\pcwrun.exe",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\temp\\*",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\temp\\*.exe",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\temp\\<filename>.bat",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\<filename>.tmp",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\temp\\<filename>.txt",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\temp\\cisco_up.txt",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\Windows\\temp\\DMBC2C61.tmp",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\windows\\temp\\hp",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\windows\\Temp\\McAfee_Logs",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\pro",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\temp\\putty.log",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\t",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\tmp",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\tmp.log",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\tmp\\",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\Windows\\temp\\{REDACTED}",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\temp\\{REDACTED}.7z",
+  "label": "file path"
+ },
+ {
+  "text": "c:\\windows\\temp\\{REDACTED}.tmp",
+  "label": "file path"
+ },
+ {
+  "text": "certutil",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Cisco RV",
+  "label": "affected software product"
+ },
+ {
+  "text": "cisco_up.exe",
+  "label": "file name"
+ },
+ {
+  "text": "cl64.exe",
+  "label": "file name"
+ },
+ {
+  "text": "cmd",
+  "label": "hacking tool"
+ },
+ {
+  "text": "cmd.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Comando y control",
+  "label": "tactic"
+ },
+ {
+  "text": "contact@cyber.gc.ca",
+  "label": "email address"
+ },
+ {
+  "text": "curl",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CustomFRPClient",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CVE-2021-27860",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-40539",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CybersecurityReports@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "d6ebde42457fe4b2a927ce53fc36f465f0000da931cfab9b79a36083e914ceca",
+  "label": "file hash"
+ },
+ {
+  "text": "d:\\{REDACTED}",
+  "label": "file path"
+ },
+ {
+  "text": "D:\\{REDACTED}\\",
+  "label": "file path"
+ },
+ {
+  "text": "D:\\{REDACTED}\\xcopy",
+  "label": "file path"
+ },
+ {
+  "text": "Descubrimiento",
+  "label": "tactic"
+ },
+ {
+  "text": "DIB_Defense@cyber.nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "dnscmd",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Draytek Vigor",
+  "label": "affected software product"
+ },
+ {
+  "text": "DSInternals",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Earthworm",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ee8df354503a56c62719656fae71b3502acf9f87951c55ffd955feec90a11484",
+  "label": "file hash"
+ },
+ {
+  "text": "ef09b8ff86c276e9b475a6ae6b54f08ed77e09e169f7fc0872eb1d427ee27d31",
+  "label": "file hash"
+ },
+ {
+  "text": "Ejecuci\u00f3n",
+  "label": "tactic"
+ },
+ {
+  "text": "Eliminaci\u00f3n del indicador",
+  "label": "attack technique name"
+ },
+ {
+  "text": "EncryptJSP",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Evasi\u00f3n de defensa",
+  "label": "tactic"
+ },
+ {
+  "text": "f4dd44bc19c19056794d29151a5b1bb76afd502388622e24c863a8494af147dd",
+  "label": "file hash"
+ },
+ {
+  "text": "fatedier",
+  "label": "hacking tool"
+ },
+ {
+  "text": "FatPipe IPVPN/MPVPN/WARP",
+  "label": "affected software product"
+ },
+ {
+  "text": "FatPipe WARP, IPVPN, MPVPN",
+  "label": "affected software product"
+ },
+ {
+  "text": "fe95a382b4f879830e2666473d662a24b34fccf34b6b3505ee1b62b32adafa15",
+  "label": "file hash"
+ },
+ {
+  "text": "FgDump",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Fortinet Fortigate",
+  "label": "affected software product"
+ },
+ {
+  "text": "FRP",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Fuerza bruta",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Get-EventLog",
+  "label": "hacking tool"
+ },
+ {
+  "text": "HACKTOOL_FRPClient",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Impacket",
+  "label": "hacking tool"
+ },
+ {
+  "text": "incidents@ncsc.govt.nz",
+  "label": "email address"
+ },
+ {
+  "text": "Instrumentaci\u00f3n de administraci\u00f3n de Windows",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Invoke-NinjaCopy",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ipconfig",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ldifde",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ldifde.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "M365",
+  "label": "affected software product"
+ },
+ {
+  "text": "makecab",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ManageEngine ADSelfService Plus",
+  "label": "affected software product"
+ },
+ {
+  "text": "MediaRelations@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Metasploit",
+  "label": "hacking tool"
+ },
+ {
+  "text": "mimikatz.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "nc.exe",
+  "label": "file name"
+ },
+ {
+  "text": "net",
+  "label": "hacking tool"
+ },
+ {
+  "text": "net user/group/use",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Netgear Prosafe",
+  "label": "affected software product"
+ },
+ {
+  "text": "netsh",
+  "label": "hacking tool"
+ },
+ {
+  "text": "netstat",
+  "label": "hacking tool"
+ },
+ {
+  "text": "nltest",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ntds.dit",
+  "label": "file name"
+ },
+ {
+  "text": "ntds.jfm",
+  "label": "file name"
+ },
+ {
+  "text": "ntdsutil",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Ntdsutil.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "OpenSSH",
+  "label": "affected software product"
+ },
+ {
+  "text": "Persistencia",
+  "label": "tactic"
+ },
+ {
+  "text": "PortProxy",
+  "label": "hacking tool"
+ },
+ {
+  "text": "PowerShell",
+  "label": "affected software product"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Proxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Proxy inverso r\u00e1pido (frp)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Proxy: Proxy externo",
+  "label": "attack technique name"
+ },
+ {
+  "text": "putty",
+  "label": "hacking tool"
+ },
+ {
+  "text": "rar.exe",
+  "label": "file name"
+ },
+ {
+  "text": "rar.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "realvnc",
+  "label": "hacking tool"
+ },
+ {
+  "text": "reg",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Report@cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "req query/save",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Secretsdump.py",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ShellJSP",
+  "label": "yara rule name"
+ },
+ {
+  "text": "SMSvcService.exe",
+  "label": "file name"
+ },
+ {
+  "text": "SolarWinds",
+  "label": "affected software product"
+ },
+ {
+  "text": "ss.dat",
+  "label": "file name"
+ },
+ {
+  "text": "sy.dat",
+  "label": "file name"
+ },
+ {
+  "text": "systeminfo",
+  "label": "hacking tool"
+ },
+ {
+  "text": "T1003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1016",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1033",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1047",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1069.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1069.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1082",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1555",
+  "label": "attack technique id"
+ },
+ {
+  "text": "tasklist",
+  "label": "hacking tool"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "update.bat",
+  "label": "file name"
+ },
+ {
+  "text": "update.exe",
+  "label": "file name"
+ },
+ {
+  "text": "vm3dservice.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Volcado de credenciales de OS",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Volt Typhoon",
+  "label": "threat actor group"
+ },
+ {
+  "text": "vssadmin",
+  "label": "hacking tool"
+ },
+ {
+  "text": "watchdogd.exe",
+  "label": "file name"
+ },
+ {
+  "text": "wevtutil",
+  "label": "hacking tool"
+ },
+ {
+  "text": "whoami",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Win.exe",
+  "label": "file name"
+ },
+ {
+  "text": "Windows",
+  "label": "affected software product"
+ },
+ {
+  "text": "WMI",
+  "label": "hacking tool"
+ },
+ {
+  "text": "wmic",
+  "label": "hacking tool"
+ },
+ {
+  "text": "wmiexec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "wmiexec.py",
+  "label": "hacking tool"
+ },
+ {
+  "text": "WmiPreSV.exe",
+  "label": "file name"
+ },
+ {
+  "text": "WmiPrvSE.exe",
+  "label": "file name"
+ },
+ {
+  "text": "xcopy",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Zyxel USG",
+  "label": "affected software product"
+ }
+]

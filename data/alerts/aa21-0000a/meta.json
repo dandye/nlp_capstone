@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-0000a",
+  "title": "ATT&CK Table for Sophisticated Spearphishing Campaign CSA",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA21-0000A",
+  "release_date": "2021-05-28T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

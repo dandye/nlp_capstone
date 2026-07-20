@@ -1,0 +1,117 @@
+[
+ {
+  "text": "%SystemDrive%\\Windows\\System32\\winevt\\logs\\Windows PowerShell",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Acquire Infrastructure: Virtual Private Server",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Active Scanning: Vulnerability Scanning",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_w3wp.exe_d538da447d49df5862c37684118d0c25c2eff_9e3fd63b_cab_0c3ee656",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_w3wp.exe_d538da447d49df5862c37684118d0c25c2eff_9e3fd63b_cab_0c3ee656\\\\memory.hdmp",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_w3wp.exe_d538da447d49df5862c37684118d0c25c2eff_9e3fd63b_cab_0c3ee656\\\\triagedump.dmp",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "C:\\\\Windows\\\\Temp\\\\WERE3F6.tmp.appcompat.txt",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "C:\\\\Windows\\\\Temp\\\\WERE639.tmp.WERInternalMetadata.xml",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue\\AppCrash_w3wp.exe",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "C:\\Windows\\Temp\\1664175639.65719.dll",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Command and Scripting Interpreter: Python",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "CVE\ufffe2019-18935",
+  "label": "cve identifier",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "hivnd[.]com",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Masquerading: Match Legitimate Name or Location",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Progress Telerik user interface (UI) for ASP.NET AJAX",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Server Software Component: Web Shell",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "System Network Configuration Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Telerik UI for ASP.NET AJAX (2009.3.1.1208.35)",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Telerik UI for ASP.NET AJAX Q2 2013 SP1 (version 2013.2.717)",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "WERE3F6.tmp.appcompat.txt",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "WERE639.tmp.WERInternalMetadata.xml",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "xegroups[.]com",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "xework[.]com",
+  "label": "ip address",
+  "reason": "failed format validator"
+ }
+]

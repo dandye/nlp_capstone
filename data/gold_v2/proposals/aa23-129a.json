@@ -1,0 +1,55 @@
+[
+ {
+  "text": "ping",
+  "label": "hacking tool",
+  "reject": true
+ },
+ {
+  "text": "Turla2",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Turla2",
+  "label": "malware family"
+ },
+ {
+  "text": "keylogger",
+  "label": "tactic"
+ },
+ {
+  "text": "CPG 2.A: Changing Default Passwords",
+  "label": "UNK"
+ },
+ {
+  "text": "CPG 2.B: Requiring Minimum Password Strength",
+  "label": "UNK"
+ },
+ {
+  "text": "CPG 2.C: Requiring Unique Credentials",
+  "label": "UNK"
+ },
+ {
+  "text": "CPG 2.E Separating User and Privileged Accounts",
+  "label": "UNK"
+ },
+ {
+  "text": "CPG 2.F. Network Segmentation",
+  "label": "UNK"
+ },
+ {
+  "text": "CPG 2.H Implementing Phishing Resistant MFA",
+  "label": "UNK"
+ },
+ {
+  "text": "CPG 4.C. Deploy Security.txt Files",
+  "label": "UNK"
+ },
+ {
+  "text": "Federal Bureau of Investigation",
+  "label": "UNK"
+ },
+ {
+  "text": "National Security Agency",
+  "label": "UNK"
+ }
+]

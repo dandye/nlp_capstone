@@ -1,0 +1,282 @@
+[
+ {
+  "text": "%TMP%\\<folder>\\extracted_at_0xe5c8f00.exe",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "0e3a14638456f4451fe8d76fdc04e591fba942c2f16da31857ca66293a58a4c3",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "1285aa7e6ee729be808c46c069e30a9ee9ce34287151076ba81a0bea0508ff7e",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "1505.003",
+  "label": "attack technique id",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "194.33.40[.]104",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "194.33.40[.]164",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "198.12.76[.]214",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "198.27.75[.]110",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "206.221.182[.]106",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "209.127.116[.]122",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "209.127.4[.]22",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "209.222.103[.]170",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "2c8d58f439c708c28ac4ad4a0e9f93046cf076fc6e5ab1088e8943c0909acbc4",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "45.227.253[.]133",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "45.227.253[.]147",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "45.227.253[.]50",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "45.227.253[.]6",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "45.227.253[.]82",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "45.56.165[.]248",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "5.149.248[.]68",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "5.149.250[.]74",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "5.149.250[.]92",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "5.188.86[.]114",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "5.188.86[.]250",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "5.188.87[.]194",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "5.188.87[.]226",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "5.188.87[.]27",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "5.252.23[.]116",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "5.252.25[.]88",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "5.34.180[.]205",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "62.112.11[.]57",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "62.182.82[.]19",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "62.182.85[.]234",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "66.85.26[.]215",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "66.85.26[.]234",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "66.85.26[.]248",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "79.141.160[.]83",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "84.234.96[.]104",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "84.234.96[.]31",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "89.39.104[.]118",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "89.39.105[.]108",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "91.202.4[.]76",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "91.222.174[.]95",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "91.229.76[.]187",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "93.190.142[.]131",
+  "label": "ip address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "a8569c78af187d603eecdc5faec860458919349eef51091893b705f466340ecd",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "c042ad2947caf4449295a51f9d640d722b5a6ec6957523ebf68cddb87ef3545c",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "c9b874d54c18e895face055eeb6faa2da7965a336d70303d0bd6047bec27a29d",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "cf23ea0d63b4c4c348865cefd70c35727ea8c82ba86d56635e488d816e60ea45x",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "d5bbcaa0c3eeea17f12a5cc3dbcaffff423d00562acb694561841bcfe984a3b7",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "eb9f5cbe71f9658d38fb4a7aa101ad40534c4c93ee73ef5f6886d89159b0e2c2",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "f2f08e4f108aaffaadc3d11bad24abdd625a77e0ee9674c4541b562c78415765",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "ff8c8c8bfba5f2ba2f8003255949678df209dbff95e16f23c338cfa0fd1b885",
+  "label": "file hash",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Fortra/Linoma GoAnywhere MFT",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Hijack Execution Flow: DLL Side\u00ad-Loading",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "http://hiperfdhaus[.]com",
+  "label": "ip address",
+  "reason": "failed format validator"
+ }
+]

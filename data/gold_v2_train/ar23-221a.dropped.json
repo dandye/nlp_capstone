@@ -1,0 +1,17 @@
+[
+ {
+  "text": "29a41174eb...",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "3f26a13f02...",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Barracuda Email Security Gateway (ESG)",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ }
+]

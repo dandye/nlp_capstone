@@ -1,0 +1,17 @@
+[
+ {
+  "text": "adversary-in-the-middle attack",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "living-off-the-land techniques",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "SQL Express",
+  "label": "affected software product",
+  "reason": "not verbatim in document"
+ }
+]

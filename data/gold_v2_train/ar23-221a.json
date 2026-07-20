@@ -1,0 +1,158 @@
+[
+ {
+  "text": "/sbin/BarracudaMailService",
+  "label": "file path"
+ },
+ {
+  "text": "/usr/bin/clear",
+  "label": "file path"
+ },
+ {
+  "text": "021c28dfd1a4136a6aa80fb86546655f4b0b8a9c528af157edc556074922553d58fa793b061a18316783b8b74eb38d3e08c5ece4eecc8fa4953ac0a556595cca",
+  "label": "file hash"
+ },
+ {
+  "text": "0ea36676bd7169bcbf432f721c4edb5fde0a46a9",
+  "label": "file hash"
+ },
+ {
+  "text": "0f4307b5f48c193c1036b56b3cf569f79cb8fc2306f8f796d5548bcd5a96fc52127d2186d980c71d5917eb6d6026e92405a3cd453011503515e2e4f3311201c3",
+  "label": "file hash"
+ },
+ {
+  "text": "10efa7fe69e43c189033006010611e84394569571c4f08ea1735073d6433be81",
+  "label": "file hash"
+ },
+ {
+  "text": "191e16b564c66b3db67f837e1dc5eac98ff9b9ef",
+  "label": "file hash"
+ },
+ {
+  "text": "29a41174eb9a39e0ad712ed5063c561e9c2e1db1f8f6b04b2ca369a6efc3ac9b",
+  "label": "file hash"
+ },
+ {
+  "text": "2d841cb153bebcfdee5c54472b017af2",
+  "label": "file hash"
+ },
+ {
+  "text": "3f26a13f023ad0dcd7f2aa4e7771bba74910ee227b4b36ff72edc5f07336f115",
+  "label": "file hash"
+ },
+ {
+  "text": "45b79949276c9cb9cf5dc72597dc1006",
+  "label": "file hash"
+ },
+ {
+  "text": "4aef99afc89062387b4987d49e5128ae37a3c25b59f05ccf324e593c67a8f5bd96e1f883d77225dbd0cc9456d736c90dd890bbead6082a14ae9f06abf07f87d8",
+  "label": "file hash"
+ },
+ {
+  "text": "4ca4f582418b2cc0626700511a6315c0",
+  "label": "file hash"
+ },
+ {
+  "text": "5ce46efc6b28bd94955138833dc97916957dbde1",
+  "label": "file hash"
+ },
+ {
+  "text": "5f5b8cc4d297c8d46a26732ae47c6ac80338b7be97a078a8e1b6eefd1120a5e5",
+  "label": "file hash"
+ },
+ {
+  "text": "69935a1ce0240edf42dbe24535577140601bcf3226fa01e4481682f6de22d192",
+  "label": "file hash"
+ },
+ {
+  "text": "71e0aaaf8981782ccb09331548d2458671d1dd65433052e44583ece98fffda9b6f0a3805d6d9c653dd0e1378602a7c1a3b0482a563b6644af49c908876ec1a3b",
+  "label": "file hash"
+ },
+ {
+  "text": "7a791d4d7e55d7a2fdc08ac0f22ab7ae068fdf26",
+  "label": "file hash"
+ },
+ {
+  "text": "83ca636253fd1eb898b244855838e2281f257bbe8ead428b69528fc50b60ae9c",
+  "label": "file hash"
+ },
+ {
+  "text": "85c5b6c408e4bdb87da6764a75008adf",
+  "label": "file hash"
+ },
+ {
+  "text": "8849a3273e0362c45b4928375d196714224ec22cb1d2df5d029bf57349860347",
+  "label": "file hash"
+ },
+ {
+  "text": "9bb7addd96f99a29658aca9800b66046823c5ef0755e29012983db6f06a999cf",
+  "label": "file hash"
+ },
+ {
+  "text": "BarracudaMailService",
+  "label": "file name"
+ },
+ {
+  "text": "BarracudaMailService.old",
+  "label": "file name"
+ },
+ {
+  "text": "cd00r",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CISA_10452108_01",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10452108_02",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_10454006_10",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CVE-2023-2868",
+  "label": "cve identifier"
+ },
+ {
+  "text": "libpcap",
+  "label": "hacking tool"
+ },
+ {
+  "text": "QuoVadis_Root_CA_1_G3.pem",
+  "label": "file name"
+ },
+ {
+  "text": "resize_reisertab",
+  "label": "file name"
+ },
+ {
+  "text": "rverify",
+  "label": "file name"
+ },
+ {
+  "text": "SEASPY",
+  "label": "malware family"
+ },
+ {
+  "text": "SUBMARINE",
+  "label": "malware family"
+ },
+ {
+  "text": "submit@malware.us-cert.gov",
+  "label": "email address"
+ },
+ {
+  "text": "TLP: CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "WHIRLPOOL",
+  "label": "malware family"
+ }
+]

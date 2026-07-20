@@ -1,0 +1,146 @@
+[
+ {
+  "text": "@CyberAveng3rs",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Brute Force",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "contact@cyber.gc.ca",
+  "label": "email address"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "CyberAv3ngers",
+  "label": "threat actor group"
+ },
+ {
+  "text": "CyberAveng3rs",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Cybersecurity_Requests@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "CybersecurityReports@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Defacement: \nInternal \nDefacement",
+  "label": "attack technique name"
+ },
+ {
+  "text": "human machine interfaces (HMIs)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "IRGC",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Islamic Revolutionary Guard Corps (IRGC)",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "PLC/HMI devices",
+  "label": "affected software product"
+ },
+ {
+  "text": "SayCISA@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "SOC@cisecurity.org",
+  "label": "email address"
+ },
+ {
+  "text": "T1078.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1110",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1491.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1499",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1531",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1565.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Unitronics",
+  "label": "affected software product"
+ },
+ {
+  "text": "Unitronics devices",
+  "label": "affected software product"
+ },
+ {
+  "text": "Unitronics PLC",
+  "label": "affected software product"
+ },
+ {
+  "text": "Unitronics PLC devices",
+  "label": "affected software product"
+ },
+ {
+  "text": "Unitronics PLCs",
+  "label": "affected software product"
+ },
+ {
+  "text": "Unitronics Vision Series devices",
+  "label": "affected software product"
+ },
+ {
+  "text": "Unitronics Vision Series PLCs",
+  "label": "affected software product"
+ },
+ {
+  "text": "Valid Accounts: \nDefault Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "VisiLogic software",
+  "label": "affected software product"
+ },
+ {
+  "text": "Vision series PLC/HMI devices",
+  "label": "affected software product"
+ },
+ {
+  "text": "vulnerability@cisa.dhs.gov",
+  "label": "email address"
+ }
+]

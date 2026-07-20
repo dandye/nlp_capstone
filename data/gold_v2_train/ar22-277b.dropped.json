@@ -1,0 +1,62 @@
+[
+ {
+  "text": "1536:d0X1BkgxVXJyBaUihWutqQQ4znsWgcdqydbPX:O7XMBOs41znqypP",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "1536:xy98XehX2k0xfXGxGKt5mzvOOIE3CYzahbdoZJI7Vq:xRX0X90KNtevUXYzahbdfq",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "3:pSMk0eR2Hxm+yn:pSMFeR2Vy",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "52072a8f99...",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "52072a8f99dacd5c293fccd051eab95516d8b",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "6144:BTMoU0+zvvLIpa8bo5GOc1G41vupWn2rwRGekPHZLZKA1UnmOlm:XUDvvsc80AOc1GYvAW2EGtH5ZKAKmOQ",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "C:\\Program Files (x86)\\Common Files\\windefenders\\msmpenge.exe",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "CLEAR",
+  "label": "tlp classification",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "df847abbfa...",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "f1a2791eeb...",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "f2ba8b8aab...",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "hxxps[:]//104.168.236.46/api/v2/ajax",
+  "label": "ip address",
+  "reason": "failed format validator"
+ }
+]

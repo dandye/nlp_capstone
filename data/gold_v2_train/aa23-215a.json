@@ -1,0 +1,346 @@
+[
+ {
+  "text": "ADC and Gateway",
+  "label": "affected software product"
+ },
+ {
+  "text": "Apache Log4j",
+  "label": "affected software product"
+ },
+ {
+  "text": "Apache\u2019s Log4j library",
+  "label": "affected software product"
+ },
+ {
+  "text": "BIG IP",
+  "label": "affected software product"
+ },
+ {
+  "text": "BIG-IP",
+  "label": "affected software product"
+ },
+ {
+  "text": "Citrix Gateway",
+  "label": "affected software product"
+ },
+ {
+  "text": "contact@cyber.gc.ca",
+  "label": "email address"
+ },
+ {
+  "text": "CVE-2018-13379",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2019-19781",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2020-5902",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-26084",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-31207",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-34473",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-34523",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2021-40539",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-1388",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-22954",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-22960",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-26134",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2022-30190",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CWE-119",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-121",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-20",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-22",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-269",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-287",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-306",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-330",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-400",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-416",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-434",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-444",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-502",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-610",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-74",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-787",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-79",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-89",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-917",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-918",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-94",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "Cybersecurity_Requests@nsa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "CyWatch@fbi.gov",
+  "label": "email address"
+ },
+ {
+  "text": "Email Security",
+  "label": "affected software product"
+ },
+ {
+  "text": "Exchange Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Fortinet SSL VPNs",
+  "label": "affected software product"
+ },
+ {
+  "text": "FortiOS",
+  "label": "affected software product"
+ },
+ {
+  "text": "FortiOS and FortiProxy",
+  "label": "affected software product"
+ },
+ {
+  "text": "FortiProxy",
+  "label": "affected software product"
+ },
+ {
+  "text": "FortiSwitchManager",
+  "label": "affected software product"
+ },
+ {
+  "text": "Golden Ticket attacks",
+  "label": "attack technique name"
+ },
+ {
+  "text": "HTTP Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "incidents@ncsc.govt.nz",
+  "label": "email address"
+ },
+ {
+  "text": "Internet \nCommunication \nManager (ICM)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Kerberoasting",
+  "label": "attack technique name"
+ },
+ {
+  "text": "lateral movement",
+  "label": "tactic"
+ },
+ {
+  "text": "Log4j",
+  "label": "affected software product"
+ },
+ {
+  "text": "Log4j2",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Client Access Service (CAS)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Exchange email servers",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Exchange Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Internet Information Services (IIS)",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Office",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Office/WordPad",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Support Diagnostic Tool",
+  "label": "affected software product"
+ },
+ {
+  "text": "NetScaler ADC",
+  "label": "affected software product"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Pulse Secure VPN",
+  "label": "affected software product"
+ },
+ {
+  "text": "QNAP NAS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Remote Desktop Services",
+  "label": "affected software product"
+ },
+ {
+  "text": "report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "SD-WAN WANOP appliance",
+  "label": "affected software product"
+ },
+ {
+  "text": "SMA 100 Series \nAppliances",
+  "label": "affected software product"
+ },
+ {
+  "text": "SQL injection",
+  "label": "attack technique name"
+ },
+ {
+  "text": "SSLVPN SMA100",
+  "label": "affected software product"
+ },
+ {
+  "text": "Tanzu Spring Cloud",
+  "label": "affected software product"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "WebLogic Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows CSRSS",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows Management Instrumentation (WMI)",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Windows Server",
+  "label": "affected software product"
+ },
+ {
+  "text": "WinRM",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Zimbra \nCollaboration Suite",
+  "label": "affected software product"
+ },
+ {
+  "text": "Zimbra Collaboration Suite",
+  "label": "affected software product"
+ },
+ {
+  "text": "Zoho ManageEngine ADSelfService Plus",
+  "label": "affected software product"
+ }
+]

@@ -1,0 +1,7 @@
+[
+ {
+  "text": "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\<random_string>",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ }
+]

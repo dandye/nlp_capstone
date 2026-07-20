@@ -1,0 +1,350 @@
+[
+ {
+  "text": "/dev/tcp/",
+  "label": "file path"
+ },
+ {
+  "text": "/mi/tomcat/webapps/mifs/401.jsp",
+  "label": "file path"
+ },
+ {
+  "text": "/mi/tomcat/webapps/mifs/baseURL.jsp",
+  "label": "file path"
+ },
+ {
+  "text": "/mi/tomcat/webapps/mifs/css/css.css",
+  "label": "file path"
+ },
+ {
+  "text": "/mi/tomcat/webapps/mifs/session.jsp",
+  "label": "file path"
+ },
+ {
+  "text": "/mifs/rs/api/v2/",
+  "label": "file path"
+ },
+ {
+  "text": "/mifs/rs/api/v2/featureusage",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp",
+  "label": "file path"
+ },
+ {
+  "text": "/tmp/web-install.jar",
+  "label": "file path"
+ },
+ {
+  "text": "004b71ebeb4808b6dfdc4e58b95c4b307985c08118c45c02a34cd56ff697259199698989af0725d63802dfc785a72e416d2db5875edd1a0fa80ae01a282b2007",
+  "label": "file hash"
+ },
+ {
+  "text": "065c1c2fb17ba1c3f882bead409215df612673cd455698768ed71412f9190ba3",
+  "label": "file hash"
+ },
+ {
+  "text": "07956b3a830bd0885202d9bc7a5b5a5927acf1c5584830ebc1011849f41b1077c3d6e3c2a6e94e36a338fc6b540c4b736751775e7069df4b257fa3786c1140a2",
+  "label": "file hash"
+ },
+ {
+  "text": "100.26.51.59",
+  "label": "ip address"
+ },
+ {
+  "text": "150.241.71.231",
+  "label": "ip address"
+ },
+ {
+  "text": "19b4df629f5b15e5ff742c70d2c7dc4dac29a7ce",
+  "label": "file hash"
+ },
+ {
+  "text": "1b1dda5e8e26da568559e0577769697c624df30e",
+  "label": "file hash"
+ },
+ {
+  "text": "27.25.148.183",
+  "label": "ip address"
+ },
+ {
+  "text": "2a96ce17ed8a025dd72f3729c247dfdb5b0a19a4",
+  "label": "file hash"
+ },
+ {
+  "text": "2bd61ce5bdd258c7dcbef53aedb1b018b8e0ae26",
+  "label": "file hash"
+ },
+ {
+  "text": "32f5c3c1582a77c004b1511c77454678",
+  "label": "file hash"
+ },
+ {
+  "text": "37.219.84.22",
+  "label": "ip address"
+ },
+ {
+  "text": "45.38.17.43",
+  "label": "ip address"
+ },
+ {
+  "text": "47.120.74.19",
+  "label": "ip address"
+ },
+ {
+  "text": "4cd26b298b448db6b26d91b8cf7ac169d693a0dad4f184742463db872b809b91d462ab4659bb21474578e3202bfc92b0db18716db6b4c3c24b3f9e7f2fccce27",
+  "label": "file hash"
+ },
+ {
+  "text": "5.181.159.149",
+  "label": "ip address"
+ },
+ {
+  "text": "5e9d283b483b8d5c637baf7cfdda0e08",
+  "label": "file hash"
+ },
+ {
+  "text": "6d7e85862f925e83f6d0c29e291765548fac721a",
+  "label": "file hash"
+ },
+ {
+  "text": "6ec2169312feb9fde0b17e244b32c37d",
+  "label": "file hash"
+ },
+ {
+  "text": "75.170.92.132",
+  "label": "ip address"
+ },
+ {
+  "text": "82.132.235.212",
+  "label": "ip address"
+ },
+ {
+  "text": "83.229.126.234",
+  "label": "ip address"
+ },
+ {
+  "text": "8387a7ce9f2520d8956747fd247b19af",
+  "label": "file hash"
+ },
+ {
+  "text": "88.194.29.21",
+  "label": "ip address"
+ },
+ {
+  "text": "8b87a881f6f81afb596d3f98abef4225315e26bf",
+  "label": "file hash"
+ },
+ {
+  "text": "91.193.19.109",
+  "label": "ip address"
+ },
+ {
+  "text": "9808ab3ddfb9ab4fe3af1b5d1f6a638bc03788e0",
+  "label": "file hash"
+ },
+ {
+  "text": "a51943a8381e67aca4b8296c9df0b05450525b5b27efbf873fd54a7f68febb503e1eb088d287e3561137fd33d3772dd879a3f00b09285a67f215f7a420e7ffcd",
+  "label": "file hash"
+ },
+ {
+  "text": "aa2cfeeca6c8e7743ad1a5996fe5ccc3d52e901d",
+  "label": "file hash"
+ },
+ {
+  "text": "ac389c8b7f3d2fcf4fd73891f881b12b8343665b",
+  "label": "file hash"
+ },
+ {
+  "text": "AR25-260A/B SIGMA YAML",
+  "label": "file name"
+ },
+ {
+  "text": "b1b1cf33b8d3da35293d6b74c378f0cd9452a4351e26d07c896c4d9a8257ef89",
+  "label": "file hash"
+ },
+ {
+  "text": "b618057de9a8bba95440f23b9cf6374cc66f2acd127b3d478684b22d8f11e00b",
+  "label": "file hash"
+ },
+ {
+  "text": "c1f60ca5a5f7b94ab7122718a44b46de16c69d22c2eb62ce2948cab14bc78d50",
+  "label": "file hash"
+ },
+ {
+  "text": "c2046523f1cb487a473b0a46a5a4a957f1b3200a",
+  "label": "file hash"
+ },
+ {
+  "text": "chmod",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CISA_251126_01",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_251126_02",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_251126_03",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_251126_04",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_251126_05",
+  "label": "yara rule name"
+ },
+ {
+  "text": "com.mobileiron.service",
+  "label": "file path"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "contact@cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "curl",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CVE-2025-4427",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2025-4428",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CWE-288",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "dce8faf5fcf5998b6802995914caa988ee1ebd92",
+  "label": "file hash"
+ },
+ {
+  "text": "defense evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "df501b238854d6579cafebeba82581a728e89ed1f6cd0da54c79ef4eb6f4f9fd",
+  "label": "file hash"
+ },
+ {
+  "text": "dig",
+  "label": "hacking tool"
+ },
+ {
+  "text": "e33103767524879293d1b576a8b6257d",
+  "label": "file hash"
+ },
+ {
+  "text": "ec3880dfdc23a06cc1d97153963c3b0bd64db0469069e8dc3395101d12c65bcdcf87e5eac967ddf0b6be7e1dd6e8faaa233224f9f76a90f44f0e9df320d051a3",
+  "label": "file hash"
+ },
+ {
+  "text": "evilClassName",
+  "label": "file name"
+ },
+ {
+  "text": "f780151c151b6cec853a278b4e847ef2af3dbc5d",
+  "label": "file hash"
+ },
+ {
+  "text": "Ivanti EPMM",
+  "label": "affected software product"
+ },
+ {
+  "text": "Ivanti Mobile Management Systems",
+  "label": "affected software product"
+ },
+ {
+  "text": "MAR-251126.r1.v1.CLEAR",
+  "label": "file name"
+ },
+ {
+  "text": "Masquerading",
+  "label": "attack technique name"
+ },
+ {
+  "text": "persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "ping",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ReflectUtil.class",
+  "label": "file name"
+ },
+ {
+  "text": "SecurityHandlerWanListener",
+  "label": "file name"
+ },
+ {
+  "text": "SecurityHandlerWanListener.class",
+  "label": "file name"
+ },
+ {
+  "text": "T1027.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027.009",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027.013",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1140",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1573.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1620",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TLP CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "web-install.jar",
+  "label": "file name"
+ },
+ {
+  "text": "WebAndroidAppInstaller.class",
+  "label": "file name"
+ },
+ {
+  "text": "wget",
+  "label": "hacking tool"
+ }
+]

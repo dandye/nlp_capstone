@@ -1,0 +1,326 @@
+[
+ {
+  "text": "/api/v2/ajax",
+  "label": "file path"
+ },
+ {
+  "text": "0605362190a9cb04a7392c7eae3ef79964a76ea68dc03dfabe6ec8f445f1c355772f2ca8166cbee73188e57bff06b74fb2cfa59869cb4461fffe1c3589856554",
+  "label": "file hash"
+ },
+ {
+  "text": "104.168.236.46",
+  "label": "ip address"
+ },
+ {
+  "text": "14d493033fc147f67601753310725b2b",
+  "label": "file hash"
+ },
+ {
+  "text": "182f35372e9fd050b6e0610238bcd9fd",
+  "label": "file hash"
+ },
+ {
+  "text": "1d30fb579e0dba09b24669a5a981652f1f6404d2f536e8e640c48585b3035d0826fed15279568400418c19849e17489baccd18e35b53f8cdbc196a0dd5abd496",
+  "label": "file hash"
+ },
+ {
+  "text": "2139727f6ccf1b15d0f96e805001b2fc",
+  "label": "file hash"
+ },
+ {
+  "text": "2304803a4ce5a785e19eb0b45efb7065",
+  "label": "file hash"
+ },
+ {
+  "text": "3822119e846581669481aba79308c57c",
+  "label": "file hash"
+ },
+ {
+  "text": "3c7beb8978feac9ba8f5bab0656242232471bf7d",
+  "label": "file hash"
+ },
+ {
+  "text": "40fc8b1a691339b9fa1526970ff2a2e1d3f899d7",
+  "label": "file hash"
+ },
+ {
+  "text": "4109ac08bdc8591c7b46348eb1bca85d",
+  "label": "file hash"
+ },
+ {
+  "text": "52072a8f99dacd5c293fccd051eab95516d8b880cd2bc5a7e0f4a30d008e22a7",
+  "label": "file hash"
+ },
+ {
+  "text": "56474f45eed25ab86ac9d17b6afb69e0dee07fe507fc5ac4e22ebae0d124700c533dc2adaaaf4be096a5dab27f7f88c21b290cca600576dbf8f10482f2f62d8b",
+  "label": "file hash"
+ },
+ {
+  "text": "615729d1383743a91b8baf309f1a8232",
+  "label": "file hash"
+ },
+ {
+  "text": "624b09cd367db7ebfc510aab51f95791",
+  "label": "file hash"
+ },
+ {
+  "text": "6423d1c324522bfd2b65108b554847ac4ab02479",
+  "label": "file hash"
+ },
+ {
+  "text": "73a0737f1475d88793ad42fc04bef1ab",
+  "label": "file hash"
+ },
+ {
+  "text": "7655ff65f74f08ee2c54f44e5ef8f098",
+  "label": "file hash"
+ },
+ {
+  "text": "7fb23c6b4db90b55694bdd1cc5c1b4c706a4e181",
+  "label": "file hash"
+ },
+ {
+  "text": "84f09d192ec90542ede22c370836ffa6",
+  "label": "file hash"
+ },
+ {
+  "text": "8885c137e1772d11b48e71da92aa3d3c",
+  "label": "file hash"
+ },
+ {
+  "text": "98ccfff2af4ccaa3335f63592a1fba02",
+  "label": "file hash"
+ },
+ {
+  "text": "9d8d7d7bb357ee37a6ae71c5140f28b9",
+  "label": "file hash"
+ },
+ {
+  "text": "9dcc89a0d16e36145bb07924ca260dfe",
+  "label": "file hash"
+ },
+ {
+  "text": "\\cmd.exe",
+  "label": "file path"
+ },
+ {
+  "text": "\\Device\\NamedPipe\\testpipe",
+  "label": "file path"
+ },
+ {
+  "text": "\\HKEY_CURRENT_USER\\",
+  "label": "file path"
+ },
+ {
+  "text": "\\HKEY_LOCAL_MACHINE\\",
+  "label": "file path"
+ },
+ {
+  "text": "\\pipe\\testpipe",
+  "label": "file path"
+ },
+ {
+  "text": "a4fc8d9199bcb8669008e62d5dc7d675",
+  "label": "file hash"
+ },
+ {
+  "text": "a89421fb59d33658892123b94906aa72",
+  "label": "file hash"
+ },
+ {
+  "text": "abuse@namecheap.com",
+  "label": "email address"
+ },
+ {
+  "text": "Archive Collected Data",
+  "label": "attack technique name"
+ },
+ {
+  "text": "b66afb12e84aa5ce621a6635837cadba",
+  "label": "file hash"
+ },
+ {
+  "text": "C:\\Program Files (x86)\\Common Files\\",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\ProgramData\\",
+  "label": "file path"
+ },
+ {
+  "text": "clip.log",
+  "label": "file name"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "command-and-control",
+  "label": "tactic"
+ },
+ {
+  "text": "config.ini",
+  "label": "file name"
+ },
+ {
+  "text": "Create or Modify System Process",
+  "label": "attack technique name"
+ },
+ {
+  "text": "CyberArk Viewfinity",
+  "label": "affected software product"
+ },
+ {
+  "text": "df847abbfac55fb23715cde02ab52cbe59f14076f9e4bd15edbe28dcecb2a348",
+  "label": "file hash"
+ },
+ {
+  "text": "efea9b8a7b6b7cfa31814af4ffe45fab68d159a6239271b632166b2f6b44af8a4e1cc559fa56537ec4142e0484031a9b79034d4e5a8cbbf1d5250b86370cdfcf",
+  "label": "file hash"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration Over Web Service",
+  "label": "attack technique name"
+ },
+ {
+  "text": "explorer.exe",
+  "label": "file name"
+ },
+ {
+  "text": "f1a2791eebaea183f399110c9e8ae11c67f5bebf93a5573d1ac3c56fc71b2230",
+  "label": "file hash"
+ },
+ {
+  "text": "f2ba8b8aabf73020febd3a925276d52ce88f295537fe57723df714c13f5a8780",
+  "label": "file hash"
+ },
+ {
+  "text": "Hijack Execution Flow: DLL Side-Loading",
+  "label": "attack technique name"
+ },
+ {
+  "text": "HyperBro",
+  "label": "malware family"
+ },
+ {
+  "text": "Impacket",
+  "label": "hacking tool"
+ },
+ {
+  "text": "kernel32",
+  "label": "file name"
+ },
+ {
+  "text": "Kernel32.dll",
+  "label": "file name"
+ },
+ {
+  "text": "key.log",
+  "label": "file name"
+ },
+ {
+  "text": "log.log",
+  "label": "file name"
+ },
+ {
+  "text": "LuckyMouse",
+  "label": "threat actor group"
+ },
+ {
+  "text": "msiexec.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "msmpeng.exe",
+  "label": "file name"
+ },
+ {
+  "text": "msmpenge.exe",
+  "label": "file name"
+ },
+ {
+  "text": "ntdll",
+  "label": "file name"
+ },
+ {
+  "text": "ntdll.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "Reg",
+  "label": "hacking tool"
+ },
+ {
+  "text": "runas",
+  "label": "hacking tool"
+ },
+ {
+  "text": "sc.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+  "label": "file path"
+ },
+ {
+  "text": "submit@malware.us-cert.gov",
+  "label": "email address"
+ },
+ {
+  "text": "svchost.exe",
+  "label": "file name"
+ },
+ {
+  "text": "T1543.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1560.000",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1567.000",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1574.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "taskmgr",
+  "label": "file name"
+ },
+ {
+  "text": "thumb.dat",
+  "label": "file name"
+ },
+ {
+  "text": "TLP: CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "vf_host.exe",
+  "label": "file name"
+ },
+ {
+  "text": "vftrace.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Viewfinity",
+  "label": "affected software product"
+ }
+]

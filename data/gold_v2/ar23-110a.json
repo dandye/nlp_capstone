@@ -1,0 +1,70 @@
+[
+ {
+  "text": "3CXDesktopApp",
+  "label": "affected software product"
+ },
+ {
+  "text": "3CXDESKTOPAPP",
+  "label": "malware family"
+ },
+ {
+  "text": "9099c4f970b04400b1b9db283ba60850e806217a3fbceba8bac5168621ad1994cf2c5a77e4ff7639c1660eba79504a5de684e0c7e3e746d3c8fe60111f436428",
+  "label": "file hash"
+ },
+ {
+  "text": "\\\\3CXDesktopApp\\\\config.json",
+  "label": "file path"
+ },
+ {
+  "text": "Brave",
+  "label": "affected software product"
+ },
+ {
+  "text": "c9f452576b2430814821da0223a535c8",
+  "label": "file hash"
+ },
+ {
+  "text": "cad1120d91b812acafef7175f949dd1b09c6c21a",
+  "label": "file hash"
+ },
+ {
+  "text": "Chrome",
+  "label": "affected software product"
+ },
+ {
+  "text": "CISA_10435108_01",
+  "label": "yara rule name"
+ },
+ {
+  "text": "e2ef455e92b3cb5a4c0f3093191d0bfb4fe3ff961e2a403feaa26060a298c70f",
+  "label": "file hash"
+ },
+ {
+  "text": "Edge",
+  "label": "affected software product"
+ },
+ {
+  "text": "Firefox",
+  "label": "affected software product"
+ },
+ {
+  "text": "ICONICSTEALER",
+  "label": "malware family"
+ },
+ {
+  "text": "infostealer.dll",
+  "label": "file name"
+ },
+ {
+  "text": "submit@malware.us-cert.gov",
+  "label": "email address"
+ },
+ {
+  "text": "TLP: CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ }
+]

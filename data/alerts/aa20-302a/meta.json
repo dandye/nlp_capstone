@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-302a",
+  "title": "Ransomware Activity Targeting the Healthcare and Public Health Sector",
+  "advisory_type": "Cybersecurity Advisory",
+  "alert_code": "AA20-302A",
+  "release_date": "2020-10-28T12:00:00Z",
+  "stix_url": null,
+  "pdf_url": null
+}

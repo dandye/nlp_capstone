@@ -1,0 +1,37 @@
+[
+ {
+  "text": "25165824:d1AuQ/FFyK8db8kdjeyPpiMh5gbiwcfYjh+dkfaeLq4H/LLhtf:Q/FoK8rteknh54ZcfvdkfpnLhtf",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "7d75244449...",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "7d75244449fb5c25d8f196a43a6eb9e453652b",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "dremmfyttrred[.]com",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "dremmfyttrred[.]com/dns.php",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "droogggdhfhf[.]com",
+  "label": "ip address",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "droogggdhfhf[.]com/gate.php",
+  "label": "ip address",
+  "reason": "failed format validator"
+ }
+]

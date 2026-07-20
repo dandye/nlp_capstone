@@ -1,0 +1,287 @@
+[
+ {
+  "text": "009247.3183-377.3183.1bf6c.19446.2@bxss.me",
+  "label": "email address",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "00a726760c1ed0",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "\\\\{IP Address}\\sharefolder\\1.pst",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Acquire Infrastructure: Virtual Private Server",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Active Scanning: Scanning IP Blocks",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Active Scanning: Vulnerability Scanning",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Afgyyppsysmtddhvhhaw.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Application Layer Protocol: DNS",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Application Layer Protocol: Web Protocols",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Archive Collected Data",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Brute Force: Password Spraying",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Bxqbsyxfkjzmhdtfceoak.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Clsrncpbaucrabuobcpale.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Command and Scripting Interpreter: PowerShell",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Data from Information Repositories: Confluence",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "dd2431b1f",
+  "label": "file hash",
+  "reason": "failed format validator"
+ },
+ {
+  "text": "Ejcpaujkmvjndgqznimmkgd.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Esalfjyraquwfxcgufwzip.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Exploit Public\u25adFacing Application",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Gather Victim Network Information: DNS",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Hisvswmeswmnqbvzpoxzx.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "hxxps://cdn.discordapp.com/attachments/928503440139771947/930108637681184768/Tbopbh.jpg",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Icyjkszdzgoxdfuwptkwxo.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Ingress Tool Transfer",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Kbuqtmznmodjzvxvwxcvho.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Krewcizfplntbwcqawfhtfpd.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Mbkzrkfasxgxtzhgpgsehip.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Mlfampnfnmjvjnahkrawwqd.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Mzhyeemgqbmamubqn.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Network Service Discovery",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Non-Application Layer Protocol",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Noubvdigjlwsnqiylzgikkk.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Nykfvwmchighqwcguabvgq.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Obtain Capabilities: Exploits",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Obtain Capabilities: Malware",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Ohtvepefcjnchrrasokn.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "OS Credential Dumping: LSASS Memory",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "OS Credential Dumping: Security Account Manager",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Owxtabfdqhkaahhwsgkatuu.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Poezcjhvkzgmnyqljpbte.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Proxy: Multi-hop Proxy",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Rvyqctymumtudroyae.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Search Open Technical Databases: Scan Databases",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Server Software Component: Web Shell",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Sxkdxclqmxnmjgedhgagl.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Unsecured Credentials: Credentials in Files",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Uqhznlcagzyoqrbyylnnwn.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Use Alternate Authentication Material: Pass the Hash",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Uslrfkxccdyetfdxmaokbhv.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Usr/local/www/apache24/data/-redacted-/plugins/authentication/joomla/10oomla.php",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "usr/local/www/apache24/data/-redacted-/plugins/extension/10oomla/10oomla.php",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Usr/local/www/apache24/data/-redacted-/plugins/privacy/contact/contact.php",
+  "label": "file path",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Valid Accounts: Default Accounts",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Wqwpawlulyrsrjcbvuvddeud.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Wqxpgvsgvhygmfbziucxcuh.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Xqblktvxmnxrzwiuqdfxzrd.dll",
+  "label": "file name",
+  "reason": "not verbatim in document"
+ }
+]

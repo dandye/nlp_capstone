@@ -1,0 +1,42 @@
+[
+ {
+  "text": "Acquire Infrastructure: Virtual Private Server",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Active Scanning: Vulnerability Scanning",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Brute Force: Password Spraying",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Device Restart/Shutdown",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Gather Victim Organization Information",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Internet Accessible Device",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Loss of Productivity and Revenue",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ },
+ {
+  "text": "Manipulation of Control",
+  "label": "attack technique name",
+  "reason": "not verbatim in document"
+ }
+]

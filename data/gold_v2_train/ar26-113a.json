@@ -1,0 +1,226 @@
+[
+ {
+  "text": "/dev/null",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/cisco/config/platform/rmdb/CSP_MOUNT_LIST",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/cisco/config/platform/rmdb/CSP_MOUNT_LIST.tmp",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/cisco/platform/logs/var/log/",
+  "label": "file path"
+ },
+ {
+  "text": "/opt/cisco/platform/logs/var/log/svc_samcore.log",
+  "label": "file path"
+ },
+ {
+  "text": "/usr/bin/lina_cs",
+  "label": "file path"
+ },
+ {
+  "text": "Adaptive Security Appliance (ASA)",
+  "label": "affected software product"
+ },
+ {
+  "text": "ASA",
+  "label": "affected software product"
+ },
+ {
+  "text": "chmod",
+  "label": "hacking tool"
+ },
+ {
+  "text": "chown",
+  "label": "hacking tool"
+ },
+ {
+  "text": "CISA_261290_01",
+  "label": "yara rule name"
+ },
+ {
+  "text": "CISA_261290_02",
+  "label": "yara rule name"
+ },
+ {
+  "text": "Cisco Firepower",
+  "label": "affected software product"
+ },
+ {
+  "text": "contact@cisa.dhs.gov",
+  "label": "email address"
+ },
+ {
+  "text": "CSP_MOUNT_LIST",
+  "label": "file name"
+ },
+ {
+  "text": "CSP_MOUNT_LIST.tmp",
+  "label": "file name"
+ },
+ {
+  "text": "CVE-2025-20333",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CVE-2025-20362",
+  "label": "cve identifier"
+ },
+ {
+  "text": "CWE-120",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "CWE-862",
+  "label": "cwe identifier"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Firepower Threat Defense (FTD)",
+  "label": "affected software product"
+ },
+ {
+  "text": "FIRESTARTER",
+  "label": "malware family"
+ },
+ {
+  "text": "FTD",
+  "label": "affected software product"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "libstdc++.so",
+  "label": "file name"
+ },
+ {
+  "text": "LINA",
+  "label": "file name"
+ },
+ {
+  "text": "lina_cs",
+  "label": "file name"
+ },
+ {
+  "text": "LINE VIPER",
+  "label": "malware family"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "Process Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Process Injection",
+  "label": "attack technique name"
+ },
+ {
+  "text": "RayInitiator",
+  "label": "malware family"
+ },
+ {
+  "text": "Remote Access Tools",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Secure Firewall",
+  "label": "affected software product"
+ },
+ {
+  "text": "svc_samcore.log",
+  "label": "file name"
+ },
+ {
+  "text": "T1036.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1055",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1057",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1082",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1133",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1219",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1222",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1543",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1546.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1547",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1564",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "touch -r",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ }
+]

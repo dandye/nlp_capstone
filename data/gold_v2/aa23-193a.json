@@ -1,0 +1,62 @@
+[
+ {
+  "text": "Azure Active Directory",
+  "label": "affected software product"
+ },
+ {
+  "text": "Exchange Online",
+  "label": "affected software product"
+ },
+ {
+  "text": "Exchange Online Outlook",
+  "label": "affected software product"
+ },
+ {
+  "text": "M365",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft 365",
+  "label": "affected software product"
+ },
+ {
+  "text": "Microsoft Exchange Online",
+  "label": "affected software product"
+ },
+ {
+  "text": "OneDrive for Business",
+  "label": "affected software product"
+ },
+ {
+  "text": "Outlook Online",
+  "label": "affected software product"
+ },
+ {
+  "text": "Power BI",
+  "label": "affected software product"
+ },
+ {
+  "text": "Power Platform",
+  "label": "affected software product"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "SharePoint Online",
+  "label": "affected software product"
+ },
+ {
+  "text": "Storm-0558",
+  "label": "threat actor group"
+ },
+ {
+  "text": "Teams",
+  "label": "affected software product"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ }
+]

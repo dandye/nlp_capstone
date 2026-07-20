@@ -1,0 +1,426 @@
+[
+ {
+  "text": "/cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/iedit.cfc",
+  "label": "file path"
+ },
+ {
+  "text": "1.dat",
+  "label": "file name"
+ },
+ {
+  "text": "125.227.50[.]97",
+  "label": "ip address"
+ },
+ {
+  "text": "158.101.73[.]241",
+  "label": "ip address"
+ },
+ {
+  "text": "2021 Update 5",
+  "label": "affected software product"
+ },
+ {
+  "text": "75a8ceded496269e9877c2d55f6ce13551d93ff4",
+  "label": "file hash"
+ },
+ {
+  "text": "9126b8320d18a52b1315d5ada08e1c380d18806b",
+  "label": "file hash"
+ },
+ {
+  "text": "a3acb9f79647f813671c1a21097a51836b0b95397ebc9cd178bc806e1773c864",
+  "label": "file hash"
+ },
+ {
+  "text": "Adobe ColdFusion",
+  "label": "affected software product"
+ },
+ {
+  "text": "Adobe ColdFusion v2016.0.0.3",
+  "label": "affected software product"
+ },
+ {
+  "text": "Adobe ColdFusion v2021.0.0.2",
+  "label": "affected software product"
+ },
+ {
+  "text": "attrib.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "b6818d2d5cbd902ce23461f24fc47e24937250e6",
+  "label": "file hash"
+ },
+ {
+  "text": "be332b6e2e2ed9e1e57d8aafa0c00aa77d4b8656",
+  "label": "file hash"
+ },
+ {
+  "text": "blank.jsp",
+  "label": "file name"
+ },
+ {
+  "text": "C:\\IBM",
+  "label": "file path"
+ },
+ {
+  "text": "C:\\Windows\\System32",
+  "label": "file path"
+ },
+ {
+  "text": "Certutil",
+  "label": "hacking tool"
+ },
+ {
+  "text": "ColdFusion",
+  "label": "affected software product"
+ },
+ {
+  "text": "ColdFusion 11",
+  "label": "affected software product"
+ },
+ {
+  "text": "ColdFusion 2016",
+  "label": "affected software product"
+ },
+ {
+  "text": "ColdFusion 9",
+  "label": "affected software product"
+ },
+ {
+  "text": "ColdFusion version 2018",
+  "label": "affected software product"
+ },
+ {
+  "text": "ColdFusion version 8",
+  "label": "affected software product"
+ },
+ {
+  "text": "coldfusion.exe",
+  "label": "file name"
+ },
+ {
+  "text": "coldfusion.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "conf.txt",
+  "label": "file name"
+ },
+ {
+  "text": "config.cfm",
+  "label": "file name"
+ },
+ {
+  "text": "config.jsp",
+  "label": "file name"
+ },
+ {
+  "text": "Connection.jsp",
+  "label": "file name"
+ },
+ {
+  "text": "Connection_jsp.class",
+  "label": "file name"
+ },
+ {
+  "text": "Connection_jsp.java",
+  "label": "file name"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "CVE-2023-26360",
+  "label": "cve identifier"
+ },
+ {
+  "text": "d.jsp",
+  "label": "file name"
+ },
+ {
+  "text": "d.jsp",
+  "label": "malware family"
+ },
+ {
+  "text": "d.txt",
+  "label": "file name"
+ },
+ {
+  "text": "D:\\$RECYCLE.BIN",
+  "label": "file path"
+ },
+ {
+  "text": "d_jsp.class",
+  "label": "file name"
+ },
+ {
+  "text": "d_jsp.java",
+  "label": "file name"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "Domain Trust",
+  "label": "attack technique name"
+ },
+ {
+  "text": "edge.exe",
+  "label": "file name"
+ },
+ {
+  "text": "edge.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "eee.exe",
+  "label": "file name"
+ },
+ {
+  "text": "esentutl",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Esentutl.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "File and Directory",
+  "label": "attack technique name"
+ },
+ {
+  "text": "fscan.exe",
+  "label": "file name"
+ },
+ {
+  "text": "fscan.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "hiddenfield.jsp",
+  "label": "file name"
+ },
+ {
+  "text": "hiddenfield_jsp.class",
+  "label": "file name"
+ },
+ {
+  "text": "hiddenfield_jsp.java",
+  "label": "file name"
+ },
+ {
+  "text": "ID",
+  "label": "hacking tool"
+ },
+ {
+  "text": "iedit.cfc",
+  "label": "file name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Internet Information Services",
+  "label": "affected software product"
+ },
+ {
+  "text": "localgroup",
+  "label": "hacking tool"
+ },
+ {
+  "text": "msedge.dll",
+  "label": "file name"
+ },
+ {
+  "text": "net user",
+  "label": "hacking tool"
+ },
+ {
+  "text": "net user\n/domain",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Network Service",
+  "label": "attack technique name"
+ },
+ {
+  "text": "nltest",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "RC.exe",
+  "label": "file name"
+ },
+ {
+  "text": "RC.exe",
+  "label": "hacking tool"
+ },
+ {
+  "text": "RCDLL.dll",
+  "label": "file name"
+ },
+ {
+  "text": "Report@cisa.gov",
+  "label": "email address"
+ },
+ {
+  "text": "sam.zip",
+  "label": "file name"
+ },
+ {
+  "text": "sec.zip",
+  "label": "file name"
+ },
+ {
+  "text": "seed.properties",
+  "label": "file name"
+ },
+ {
+  "text": "Software Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "sys.zip",
+  "label": "file name"
+ },
+ {
+  "text": "System Information",
+  "label": "attack technique name"
+ },
+ {
+  "text": "system.cfm",
+  "label": "file name"
+ },
+ {
+  "text": "SYSVOL",
+  "label": "file path"
+ },
+ {
+  "text": "T1003.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1003.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1016.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1036.008",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.007",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1070.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1082",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1083",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1140",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1482",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1484.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1518",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1564.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "Tas9er/ByPassGodzilla",
+  "label": "hacking tool"
+ },
+ {
+  "text": "tat.cfm",
+  "label": "file name"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "version 2016",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows",
+  "label": "affected software product"
+ }
+]

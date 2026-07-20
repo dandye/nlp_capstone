@@ -1,0 +1,790 @@
+[
+ {
+  "text": ".bashrc",
+  "label": "file name"
+ },
+ {
+  "text": "Abuse Elevation Control \nMechanism: Sudo and Sudo \nCaching",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Account Access Removal",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Account Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Account Discovery: Domain Account",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Account Manipulation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Acquire Infrastructure",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Active Directory",
+  "label": "affected software product"
+ },
+ {
+  "text": "Active Scanning",
+  "label": "attack technique name"
+ },
+ {
+  "text": "AD",
+  "label": "affected software product"
+ },
+ {
+  "text": "adversary-in-the-middle",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Ansible Tower",
+  "label": "affected software product"
+ },
+ {
+  "text": "Application Layer Protocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "asktgs",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Boot or Logon Initialization Scripts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Boot or Logon Initialization Scripts: \nNetwork Logon Script",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Censys",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Cobalt Strike",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Collection",
+  "label": "tactic"
+ },
+ {
+  "text": "Command and Control",
+  "label": "tactic"
+ },
+ {
+  "text": "Command and Scripting Interpreter",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Command and Scripting Interpreter: \nPython",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Create Account: Domain Account",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Create Account: Local Account",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Credential Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Data from Information Repositories",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Data from Network Shared Drive",
+  "label": "attack technique name"
+ },
+ {
+  "text": "DCSync",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Defense Evasion",
+  "label": "tactic"
+ },
+ {
+  "text": "DFSCoerce.py",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Discovery",
+  "label": "tactic"
+ },
+ {
+  "text": "domain fronting",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Domain Trust Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Encrypted Channel",
+  "label": "attack technique name"
+ },
+ {
+  "text": "escalate privileges",
+  "label": "tactic"
+ },
+ {
+  "text": "Event Triggered Execution: Unix \nShell Configuration Modification",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Execution",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration",
+  "label": "tactic"
+ },
+ {
+  "text": "Exfiltration Over Alternative Protocol",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Exploit Public-Facing Application",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Gather Victim Identity Information: \nEmail Addresses",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Gather Victim Identity Information: \nEmployee Names",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Gather Victim Network Information",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Gather Victim Network Information: \nIP Addresses",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Gather Victim Network Information: \nNetwork Security Appliances",
+  "label": "attack technique name"
+ },
+ {
+  "text": "golden ticket",
+  "label": "attack technique name"
+ },
+ {
+  "text": "golden tickets",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Group Policy Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "ifup-post",
+  "label": "file name"
+ },
+ {
+  "text": "Impact",
+  "label": "tactic"
+ },
+ {
+  "text": "Ingress Tool Transfer",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Initial Access",
+  "label": "tactic"
+ },
+ {
+  "text": "Kerberoasting",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Kerberos",
+  "label": "affected software product"
+ },
+ {
+  "text": "Lateral Movement",
+  "label": "tactic"
+ },
+ {
+  "text": "Linux",
+  "label": "affected software product"
+ },
+ {
+  "text": "Mythic",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NetLocalGroupEnum",
+  "label": "hacking tool"
+ },
+ {
+  "text": "NetLocalGroupGetMembers",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Network Service Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Network Sniffing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "NTLM-relay",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Obfuscated Files or Information: \nBinary Padding",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Obtain Capabilities: Tool",
+  "label": "attack technique name"
+ },
+ {
+  "text": "OS Credential Dumping: DCSync",
+  "label": "attack technique name"
+ },
+ {
+  "text": "pass-the-ticket",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Permission Groups Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Permission Groups Discovery: \nDomain Groups",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Permission Groups Discovery: Local \nGroups",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Persistence",
+  "label": "tactic"
+ },
+ {
+  "text": "PFX file",
+  "label": "file name"
+ },
+ {
+  "text": "Phishing",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Phishing: Spearphishing Link",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PowerShell",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Privilege Escalation",
+  "label": "tactic"
+ },
+ {
+  "text": "Process Injection",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Proxy: Domain Fronting",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Proxy: External Proxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Proxy: Internal Proxy",
+  "label": "attack technique name"
+ },
+ {
+  "text": "PSExec",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Python",
+  "label": "hacking tool"
+ },
+ {
+  "text": "reconnaissance",
+  "label": "tactic"
+ },
+ {
+  "text": "RedEye",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Reflective Code Loading",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote Services: SMB/Windows \nAdmin Shares",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote Services: SSH",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Remote System Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Resource Development",
+  "label": "tactic"
+ },
+ {
+  "text": "reverse DNS lookups",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Rubeus",
+  "label": "hacking tool"
+ },
+ {
+  "text": "S4U2Self",
+  "label": "attack technique name"
+ },
+ {
+  "text": "S4U2self abuse",
+  "label": "attack technique name"
+ },
+ {
+  "text": "SCCM",
+  "label": "affected software product"
+ },
+ {
+  "text": "Scheduled Task/Job: Cron",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Search Open Technical Databases: \nDNS/Passive DNS",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Search Open Technical Databases: \nScan Databases",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Search Open Websites/Domains",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Server Software Component: Web \nShell",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Shodan",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Sliver",
+  "label": "hacking tool"
+ },
+ {
+  "text": "Sliver",
+  "label": "malware family"
+ },
+ {
+  "text": "Software Deployment Tools",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Steal or Forge Authentication \nCertificates",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Steal or Forge Kerberos Tickets: \nGolden Ticket",
+  "label": "attack technique name"
+ },
+ {
+  "text": "sudoers file",
+  "label": "file name"
+ },
+ {
+  "text": "System Network Configuration \nDiscovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System Owner/User Discovery",
+  "label": "attack technique name"
+ },
+ {
+  "text": "System Services: Service Execution",
+  "label": "attack technique name"
+ },
+ {
+  "text": "T1003.006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1016",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1018",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1021.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1027.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1033",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1037",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1037.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1039",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1040",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1046",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1048",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1053.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1055",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1059.006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1069",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1069.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1069.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1071.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1072",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1078.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1080",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1087.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1090.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1098",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1105",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1136.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1187",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1190",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1204",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1204.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1213",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1482",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1505.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1531",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1546.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1548.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1552.004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1558.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1566.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1569.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1573",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1583",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1588.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1589.002",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1589.003",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1590",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1590.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1590.006",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1593",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1595",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1596.001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1596.005",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1615",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1620",
+  "label": "attack technique id"
+ },
+ {
+  "text": "T1649",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0001",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0003",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0004",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0006",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0008",
+  "label": "attack technique id"
+ },
+ {
+  "text": "TA0010",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0011",
+  "label": "tactic"
+ },
+ {
+  "text": "TA0043",
+  "label": "attack technique id"
+ },
+ {
+  "text": "Taint Shared Content",
+  "label": "attack technique name"
+ },
+ {
+  "text": "TLP:CLEAR",
+  "label": "tlp classification"
+ },
+ {
+  "text": "Unconstrained Delegation",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Unsecured Credentials: Bash \nHistory",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Unsecured Credentials: Credentials \nIn Files",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Unsecured Credentials: Private \nKeys",
+  "label": "attack technique name"
+ },
+ {
+  "text": "User Execution",
+  "label": "attack technique name"
+ },
+ {
+  "text": "User Execution: Malicious File",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Valid Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Valid Accounts: Domain Accounts",
+  "label": "attack technique name"
+ },
+ {
+  "text": "Windows",
+  "label": "affected software product"
+ },
+ {
+  "text": "Windows Server 2012 R2",
+  "label": "affected software product"
+ },
+ {
+  "text": "WMI",
+  "label": "hacking tool"
+ }
+]

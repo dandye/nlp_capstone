@@ -1,0 +1,380 @@
+\pdfoutput=1
+\documentclass[11pt]{article}
+\usepackage[review]{acl2023}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{booktabs}
+\usepackage{xcolor}
+
+\newcommand{\pending}[1]{\textcolor{red}{\textbf{[PENDING: #1]}}}
+
+\title{Weakly-Supervised Domain Adaptation for Cyber Threat Intelligence Named Entity Recognition: A Comparison of Span-Matching and Token-Classification Architectures}
+
+\author{Daniel Dye \\
+  NLP Capstone, MS in Artificial Intelligence \\
+  University of South Florida \\
+  \texttt{[email]} }
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Cyber threat intelligence (CTI) reports contain entity types with no
+general-domain analogue --- ATT\&CK technique identifiers, file hashes, TLP
+markings, threat actor aliases --- and zero-shot named entity recognition
+(NER) models perform poorly on them in systematic, structural ways. We
+fine-tune \textsc{GLiNER}, a zero-shot span-matching NER model, on a silver
+corpus derived from ensemble agreement between a high-precision
+dictionary annotator (STIX indicators, MITRE ATT\&CK, IOC regexes) and
+zero-shot GLiNER itself, requiring no human-labeled training data. On a
+held-out, document-level test split of CISA advisories, fine-tuning raises
+micro-F1 from 0.20 to 0.67, with the largest gains on structured types
+(technique IDs 0.24$\to$0.99, file hashes 0.04$\to$0.66). We further compare
+this span-matching architecture against a directly comparable
+token-classification baseline (RoBERTa) fine-tuned on the identical weak
+labels and scored with the identical evaluation harness, and against a
+frontier LLM (Gemini) run zero-shot on full documents. \pending{finalize
+abstract numbers once RoBERTa-large/SecureBERT and the gold audit
+complete}.
+\end{abstract}
+
+\section{Introduction}
+
+Cyber threat intelligence reports --- government advisories, malware
+analyses, incident write-ups --- are the primary vehicle by which defenders
+share knowledge, yet extracting structured information from them remains
+largely manual. Named entity recognition over CTI text must handle entity
+types with no general-domain analogue: ATT\&CK technique identifiers, file
+hashes, TLP markings, YARA rule names, threat actor aliases. Modern
+zero-shot span-matching models such as GLiNER \citep{zaratiana2024gliner}
+promise NER without task-specific training data, but their performance on
+security text is poor in systematic, structural ways.
+
+Human annotation at scale is expensive in this domain because it requires
+security expertise. This motivates our central question: can weak
+supervision derived from \emph{ensemble agreement} between independent,
+imperfect annotators close the domain gap without any human labeling? We
+build a silver-labeled corpus from agreement between a dictionary annotator
+(structured, high-precision on IOCs) and zero-shot GLiNER (semantic,
+higher-recall on contextual entities), fine-tune GLiNER on the result, and
+evaluate rigorously against a held-out, document-level test split.
+
+We ask four research questions:
+
+\begin{description}
+  \item[RQ1] Does ensemble-agreement weak supervision close the domain gap
+    between zero-shot and fine-tuned GLiNER?
+  \item[RQ2] Which entity types benefit most from such fine-tuning, and
+    does the answer depend on model architecture (span-matching vs.\
+    token-classification) under the identical weak labels?
+  \item[RQ3] Do the base model's documented failure modes --- confusing
+    technique IDs with file hashes, tagging defender organizations as
+    threat actors --- survive fine-tuning?
+  \item[RQ4] How does fine-tuned GLiNER's quality/latency/cost trade-off
+    compare to a frontier LLM run zero-shot on the same task?
+\end{description}
+
+Our contribution extends the original weak-supervision result with a
+controlled architecture comparison: we fine-tune RoBERTa
+\citep{liu2019roberta}, a token-classification model with no zero-shot
+span-matching prior, on the \emph{identical} silver labels, and score it
+with the identical document-level evaluation harness used for GLiNER. This
+isolates architecture from data --- both models see the same weak
+supervision, so any systematic difference in what they learn (e.g.\ which
+label types they refuse to predict) is attributable to the modeling
+approach, not the training signal.
+
+\section{Related Work}
+
+GLiNER \citep{zaratiana2024gliner} treats NER as matching natural-language
+entity-type descriptions against learned span embeddings, enabling
+zero-shot extraction of arbitrary types; its schema-driven successor
+GLiNER2 \citep{zaratiana2025gliner2} unifies NER with classification and
+structured extraction in one model. Distant supervision for NER
+\citep{devlin2019bert} was formalized for open-domain text by BOND
+\citep{liang2020bond}, which fine-tunes a token classifier on
+knowledge-base-derived labels then self-trains through a teacher-student
+loop to denoise them --- the same failure modes we target with ensemble
+agreement (incomplete and noisy weak labels) motivate BOND's two-stage
+design.
+
+Cybersecurity-specific NER corpora suffer acutely from schema fragmentation:
+\citet{schmidt2025labelunification} show that naively unifying four
+CTI datasets under a coarse shared label set \emph{hurts} performance
+relative to single-dataset training, while \citet{echchammakhy2025cyberner}
+demonstrate that principled, STIX-anchored harmonization recovers a 30\%
+relative F1 gain over the same naive union --- evidence that \emph{how}
+labels are unified matters as much as how much data is unified.
+\citet{deka2024attacker} extend the entity-type inventory to
+attribution-specific concepts (impact, course-of-action) with
+deliberately long, sentence-level spans, and find instruction-fine-tuned
+LLMs outperform encoder taggers on their benchmark --- the inverse of the
+pattern this paper reports on our IOC-heavy corpus, suggesting the
+LLM-vs-encoder trade-off is span-length- and entity-type-dependent rather
+than universal. \citet{alam2024ctibench} benchmark LLMs directly on CTI
+tasks including entity extraction, providing the frontier-model baseline
+methodology RQ4 adapts. A fuller treatment of the method landscape appears
+in our companion survey (\texttt{paper/survey.md}, this repository).
+
+\section{Data and Method}
+
+\subsection{Pipeline and Silver Corpus}
+
+We scrape approximately 5{,}000 CISA cybersecurity advisories and apply a
+three-layer weak-supervision ensemble to 313 advisory PDFs (converted to
+markdown via docling): (1) a dictionary/regex layer over STIX indicator
+bundles and IOC patterns, (2) a MITRE ATT\&CK lookup (\textasciitilde
+2{,}400 entities: groups, tools, malware, technique IDs), and (3) zero-shot
+GLiNER itself, run over the same text. Training supervision is the
+\emph{agreement} between the dictionary layer and GLiNER's zero-shot
+predictions, plus dictionary-only spans forced positive as hard negatives
+so the model learns structured patterns the base model's zero-shot pass
+already missed. This yields 16 CTI-specific labels across
+\pending{confirm final chunk/entity counts from create\_training\_data.py
+--stats} chunks from 82 densely-annotated advisories.
+
+\subsection{Split}
+
+We split by advisory \emph{document}, not by chunk, before chunking for
+training --- 66 advisories train / 8 validation / 8 test --- so that
+overlapping text windows from the same document cannot appear on both
+sides of the split. This was a deliberate fix: chunk-level splitting
+leaks document context (shared boilerplate, repeated entity mentions)
+across the train/test boundary and inflates apparent performance.
+
+\subsection{Models}
+
+\paragraph{Zero-shot GLiNER.} \texttt{urchade/gliner\_medium-v2.1}, run
+with no fine-tuning, as the baseline RQ1 measures against.
+
+\paragraph{Fine-tuned GLiNER.} The same checkpoint, fine-tuned on the
+silver corpus (5 epochs, LR 5e-5, effective batch 32).
+
+\paragraph{RoBERTa (this paper's architecture-comparison contribution).}
+\texttt{roberta-base} \citep{liu2019roberta}, fine-tuned as a standard BIO
+token classifier on the identical silver labels. Because gold spans are
+word-level and RoBERTa's tokenizer is subword-based, we tag the first
+wordpiece of each word and mask continuation wordpieces from the loss.
+Corpus chunks range from 22 to 292 words, and long or hash-heavy chunks
+fragment into more wordpieces than a single 512-token window admits under
+naive truncation; we instead tokenize with overlapping sliding windows
+(\textasciitilde510-wordpiece budget, adaptive overlap) so every word is
+covered by at least one window, and take each word's predicted tag from
+the window in which it sits most centrally at inference time. We further
+train \texttt{roberta-large} and SecureBERT
+\citep{aghaei2022securebert} --- a RoBERTa-architecture model
+domain-pretrained on security text --- under the identical recipe, to
+separate the effect of model scale from domain-pretraining.
+\pending{roberta-large / SecureBERT results pending training completion}
+
+\paragraph{Frontier LLM (RQ4).} Gemini 3.5 Flash, run zero-shot with no
+fine-tuning, on full documents via chunked inference (15{,}000-character
+windows, 500-character overlap, entities merged across chunk boundaries).
+
+\subsection{Evaluation}
+
+All models are scored with the same document-level harness: predictions
+from overlapping chunks are merged back to document-global token indices
+before matching, so entities in chunk-overlap regions are not
+double-counted. We report strict (exact span-and-label match) and relaxed
+(label match plus span overlap) micro/macro precision, recall, and F1.
+Crucially, RoBERTa and GLiNER are scored with the \emph{same} scoring
+implementation (\texttt{scraper/evaluate.py}) so the comparison in
+Section~\ref{sec:results} is not an artifact of different matching rules.
+
+\section{Results}
+\label{sec:results}
+
+\subsection{RQ1/RQ2: Weak Supervision Closes the Gap, Unevenly}
+
+Table~\ref{tab:zeroshot-vs-finetuned} shows zero-shot GLiNER improving from
+0.20 to 0.67 micro-F1 after fine-tuning on the silver corpus, with the
+largest absolute gains concentrated in structured, dictionary-friendly
+types --- confirming RQ2's hypothesis. Technique IDs and file hashes, where
+zero-shot GLiNER is near-unusable (F1 0.24 and 0.04, precision as low as
+0.02 for hashes), reach 0.99 and 0.66 after fine-tuning. Semantic types
+with sparser or noisier weak supervision (tactic, threat actor group,
+attack technique name) improve but remain the weakest categories
+(F1 0.13--0.36).
+
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{lrrr|rrr|r}
+\toprule
+ & \multicolumn{3}{c|}{Zero-shot} & \multicolumn{3}{c|}{Fine-tuned} & \\
+Label & P & R & F1 & P & R & F1 & $n$ \\
+\midrule
+malware family            & 0.55 & 0.29 & 0.38 & 0.94 & 0.56 & 0.70 & 575 \\
+tlp classification        & 0.70 & 0.19 & 0.30 & 0.93 & 0.65 & 0.76 & 335 \\
+attack technique id       & 0.42 & 0.17 & 0.24 & 0.99 & 1.00 & 0.99 & 295 \\
+file hash                 & 0.02 & 0.08 & 0.04 & 0.53 & 0.90 & 0.66 &  79 \\
+cve identifier             & 0.56 & 0.94 & 0.70 & 0.85 & 1.00 & 0.92 &  50 \\
+tactic                    & 0.00 & 0.00 & 0.00 & 0.16 & 0.85 & 0.27 &  47 \\
+threat actor group        & 0.03 & 0.48 & 0.06 & 0.25 & 0.60 & 0.36 &  25 \\
+file name                 & 0.10 & 0.47 & 0.16 & 0.12 & 0.60 & 0.21 &  15 \\
+attack technique name     & 0.05 & 0.08 & 0.06 & 0.08 & 0.42 & 0.13 &  12 \\
+hacking tool               & 0.01 & 0.25 & 0.01 & 0.06 & 0.62 & 0.10 &   8 \\
+cwe identifier              & 0.00 & 0.00 & 0.00 & 0.25 & 1.00 & 0.40 &   1 \\
+\midrule
+\textbf{Micro} & 0.17 & 0.24 & 0.20 & 0.62 & 0.71 & \textbf{0.67} & 1442 \\
+\bottomrule
+\end{tabular}
+\caption{Zero-shot vs.\ fine-tuned GLiNER, strict span+label match, full-document test set (8 held-out advisories, 1{,}442 gold spans). Labels with zero support in the test set omitted.}
+\label{tab:zeroshot-vs-finetuned}
+\end{table*}
+
+\subsection{RQ2 (continued): Architecture Comparison Under Identical Weak Labels}
+
+Table~\ref{tab:architecture} compares fine-tuned GLiNER against
+\texttt{roberta-base}, trained on the \emph{identical} silver corpus and
+scored with the identical harness. RoBERTa achieves a higher overall
+micro-F1 (0.74 vs.\ 0.67) but the aggregate number conceals an important
+qualitative difference: RoBERTa is precision-heavy (0.91 vs.\ 0.62) and
+recall-light (0.62 vs.\ 0.71), and --- most notably --- predicts
+\emph{zero} entities of four types GLiNER at least attempts: \emph{tactic},
+\emph{threat actor group}, \emph{file name}, and \emph{attack technique
+name}, all types with fewer than 50 training examples. We attribute this
+to architectural differences in how each model handles class imbalance: a
+softmax classification head must learn a discriminative weight vector per
+label and, under severe imbalance, can learn to never fire on rare
+classes; GLiNER's span-matching mechanism instead embeds label
+\emph{names} into the same representation space as spans, which
+generalizes to few-shot labels rather than requiring per-label
+discriminative capacity. This is consistent with GLiNER's original
+zero-shot motivation \citep{zaratiana2024gliner} and suggests the
+architectural choice matters independently of the fine-tuning data ---
+answering RQ2's architecture-dependence question in the affirmative.
+\pending{roberta-large and SecureBERT rows once training completes ---
+tests whether scale or domain pretraining recovers the zero-prediction
+labels}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Model & P & R & F1 & Macro F1 \\
+\midrule
+GLiNER (fine-tuned)  & 0.62 & \textbf{0.71} & 0.67 & 0.34 \\
+RoBERTa-base (fine-tuned) & \textbf{0.91} & 0.62 & \textbf{0.74} & \textbf{0.46} \\
+\pending{RoBERTa-large} & & & & \\
+\pending{SecureBERT} & & & & \\
+\bottomrule
+\end{tabular}
+\caption{Architecture comparison, identical silver labels, identical evaluation harness. Strict span+label, full-document test set.}
+\label{tab:architecture}
+\end{table}
+
+\subsection{RQ4: Comparison to a Frontier LLM}
+
+Table~\ref{tab:frontier} compares fine-tuned GLiNER against Gemini 3.5
+Flash run zero-shot on full documents. Fine-tuned GLiNER outperforms
+Gemini by 11 F1 points (0.67 vs.\ 0.56) while being approximately 600$\times$
+faster at inference ($<$0.1s vs.\ 66s per document) and free to run
+locally. Gemini's per-label profile shows it is competitive on structured
+patterns (TLP 0.97, technique IDs 0.93, CVE IDs 0.92) --- these are not a
+frontier-model weakness --- but weak on file hashes (0.48) and tactics
+(0.00), and its precision on threat actor group (0.18 at 0.92 recall)
+suggests many of its ``false positives'' are entities our dictionary gold
+labels miss rather than genuine model errors (see hand-audit notes,
+Section~\ref{sec:limitations}).
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Model & F1 & Latency & Cost \\
+\midrule
+GLiNER (fine-tuned) & \textbf{0.67} & $<$0.1s & free \\
+Gemini 3.5 Flash & 0.56 & 66s & \textasciitilde\$0.0001/doc \\
+GLiNER (zero-shot) & 0.20 & $<$0.1s & free \\
+GLiNER2 (zero-shot) & 0.07 & 6.3s & free \\
+\bottomrule
+\end{tabular}
+\caption{Full-document, apples-to-apples comparison. Gemini via Vertex AI, thinking disabled, chunked inference merged across chunk boundaries.}
+\label{tab:frontier}
+\end{table}
+
+\section{Analysis: Do the Failure Modes Survive Fine-Tuning? (RQ3)}
+\label{sec:rq3}
+
+We searched raw per-span predictions (not aggregate metrics) on the test
+set for the two failure modes the proposal targeted. Both are
+\emph{eliminated} by fine-tuning.
+
+\paragraph{Technique-ID/hash confusion.} Zero-shot GLiNER mislabels 10
+gold \emph{attack technique id} spans as \emph{file hash} in our test
+set --- e.g.\ \texttt{T1095}, \texttt{T1587.001}, \texttt{T1610},
+\texttt{T1140}, \texttt{T1564}, all misread as hash-shaped tokens. The
+fine-tuned model produces \emph{zero} such confusions. This is consistent
+with Table~\ref{tab:zeroshot-vs-finetuned}: technique-ID F1 rises from
+0.24 to 0.99, and the confusion pattern is the dominant zero-shot error
+this label suffers from.
+
+\paragraph{Defender-as-actor.} Zero-shot GLiNER predicts \emph{threat
+actor group} for \texttt{CISA} and \texttt{FBI} in one test advisory
+(both false positives --- neither is gold-labeled an actor, correctly).
+The fine-tuned model makes zero such predictions on any defender or
+government organization name in the test set.
+
+\paragraph{Nuance: the label's precision problem is broader than these
+two patterns.} Eliminating both documented failure modes does not make
+\emph{threat actor group} a solved label. Zero-shot makes 402 predictions
+for this type with 370 false positives (precision 0.08 in this raw count,
+consistent with Table~\ref{tab:zeroshot-vs-finetuned}'s 0.03); most of
+the non-defender-org false positives are generic-word overgeneration
+(\texttt{"Adversaries"} predicted repeatedly) or real threat-actor names
+absent from our dictionary-derived gold (e.g.\ \texttt{"FSB"} --- a
+gold-recall gap, not a model error). Fine-tuning reduces this to 59
+predictions with 35 false positives; the remaining errors are a
+different, narrower problem --- entities like \texttt{"CL0P"} and
+\texttt{"Turla2"} that plausibly \emph{are} real actor/malware mentions
+our silver labels simply did not capture, echoing the same gold-recall
+caveat noted for Gemini in Table~\ref{tab:frontier}'s discussion. In
+short: RQ3's two \emph{specific}, named failure modes are fully resolved
+by fine-tuning; the label's general precision challenge is a separate,
+partially gold-quality-driven issue that the planned audit
+(Section~\ref{sec:limitations}) is designed to disentangle.
+
+\section{Limitations}
+\label{sec:limitations}
+
+\paragraph{Circular silver evaluation.} Our test-set gold labels are
+themselves silver (dictionary/MITRE-derived), and fine-tuned GLiNER is
+trained toward agreement with a closely related signal, so evaluating
+against silver labels risks overstating quality where the model has
+learned to reproduce silver-label \emph{noise} rather than genuine
+entities. We identify a concrete instance: the PDF footer artifact
+``Page'' is silver-annotated as a malware family 160 times, and the
+fine-tuned model reproduces this error. \pending{Gold audit --- a blind,
+hand-judged sample of \textasciitilde300 predicted spans across models ---
+is in progress and will report honest precision independent of silver
+label noise; results pending.}
+
+\paragraph{Small test set.} Eight held-out advisories (1{,}442 gold spans)
+is small enough that five labels have zero test-set support and several
+more have fewer than 15 examples; per-label numbers for rare types should
+be read as indicative, not precise.
+
+\paragraph{Windowing artifacts in the RoBERTa comparison.} RoBERTa's
+sliding-window inference resolves each word's tag from whichever window
+contains it most centrally, which is a heuristic, not a principled
+ensembling method; a small fraction of predictions near window boundaries
+may be affected.
+
+\section{Conclusion}
+
+\pending{Final conclusion pending completion of RQ2's architecture
+extension (RoBERTa-large, SecureBERT), RQ3's failure-mode probes, and the
+gold audit.}
+
+\bibliography{capstone}
+\bibliographystyle{acl_natbib}
+
+\end{document}
