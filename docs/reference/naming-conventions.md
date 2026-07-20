@@ -91,10 +91,10 @@ originals = [f for f in slug_dir.glob("*.md") if not f.name.endswith(derived)]
 ```
 
 `frontier_llm_utils.is_derived_md()` and the globs in
-`create_training_data.py`, `ner_annotate.py`, and `emit_versions.py` all
+`gold_to_training.py`, `llm_gold.py`, and `emit_versions.py` all
 enforce this. `load_clean_text(slug, …)` reads the pre-generated
-`{base}.clean.md` directly rather than re-deriving it — see
-[the annotation pipeline docs](../pipeline/annotation.md).
+`{base}.clean.md` directly rather than re-deriving it — see the pipeline
+section of `CLAUDE.md`.
 
 ## Gold-label outputs
 
