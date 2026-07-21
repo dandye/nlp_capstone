@@ -91,6 +91,11 @@ def main() -> None:
                              "mid-epoch; CPU is slower but reliable.")
     parser.add_argument("--split-out", default="data/split_slugs.json",
                         help="Where to write the document-level split manifest")
+    parser.add_argument("--split-in", default=None,
+                        help="Reuse an existing {train,val,test} slug manifest "
+                             "instead of computing a fresh random split — use "
+                             "this to pin val/test to the same documents other "
+                             "models were scored on, so results are comparable.")
     parser.add_argument("--dry-run",  action="store_true",
                         help="Print dataset stats and exit without training")
     args = parser.parse_args()
@@ -104,11 +109,34 @@ def main() -> None:
 
     print(f"Loading {train_path}…")
     records = load_jsonl(train_path)
-    train, val, test, split = split_by_slug(records, seed=args.seed)
-    print(f"Split (by advisory): "
-          f"{len(split['train'])} train / {len(split['val'])} val / "
-          f"{len(split['test'])} test documents "
-          f"({len(train)}/{len(val)}/{len(test)} chunks)")
+
+    if args.split_in:
+        split = json.loads(Path(args.split_in).read_text(encoding="utf-8"))
+        member = {s: name for name, ss in split.items() for s in ss}
+        buckets: dict[str, list[dict]] = {"train": [], "val": [], "test": []}
+        unmatched = set()
+        for rec in records:
+            name = member.get(rec["slug"])
+            if name is None:
+                unmatched.add(rec["slug"])
+                continue
+            buckets[name].append(rec)
+        if unmatched:
+            print(f"WARNING: {len(unmatched)} slugs in {train_path} not present "
+                  f"in {args.split_in}, excluded from training: "
+                  f"{sorted(unmatched)[:5]}{'...' if len(unmatched) > 5 else ''}",
+                  file=sys.stderr)
+        train, val, test = buckets["train"], buckets["val"], buckets["test"]
+        print(f"Split (reused from {args.split_in}): "
+              f"{len(split['train'])} train / {len(split['val'])} val / "
+              f"{len(split['test'])} test documents "
+              f"({len(train)}/{len(val)}/{len(test)} chunks)")
+    else:
+        train, val, test, split = split_by_slug(records, seed=args.seed)
+        print(f"Split (by advisory): "
+              f"{len(split['train'])} train / {len(split['val'])} val / "
+              f"{len(split['test'])} test documents "
+              f"({len(train)}/{len(val)}/{len(test)} chunks)")
 
     split_path = Path(args.split_out)
     split_path.parent.mkdir(parents=True, exist_ok=True)
