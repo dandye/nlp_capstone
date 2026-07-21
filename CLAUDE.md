@@ -128,11 +128,25 @@ data/
 │   ├── proposals/          human curation output
 │   ├── split.json          train/val/test partition (small set)
 │   ├── split_full.json     train/val/test partition (full set)
-│   └── results/            regenerable scoring/training artifacts (old labels)
+│   ├── split_full_gliner.json  same split + 66 train slugs filled in,
+│   │                       for finetune_gliner.py --split-in
+│   └── results/            regenerable scoring/training artifacts —
+│                           mix of old-label and current LLM-gold results;
+│                           filename prefix disambiguates (see below)
 ├── gold_v2_train/          train-doc gold: {slug}.json (66 docs)
+├── papers/                 reference-paper library backing paper/survey.md
+│                           and the capstone bibliography: {arxiv-id}-{slug}.md
+│                           (docling-converted, tracked) + matching .pdf
+│                           (gitignored, 85MB, copied from scrape_cisa)
 └── evals/                  external benchmark (MalwareTextDB-1.0) for
                             cross-domain eval; not yet wired into any module
 ```
+
+`data/gold_v2/results/` filename convention: `trained-*.json` = model retrained
+on current LLM gold and scored on it (the numbers the paper reports);
+`rescored-*.json` / `full-rescored-*.json` = an *old*, dictionary-silver-trained
+checkpoint merely rescored against current gold (RQ1's circularity
+demonstration, not a fair architecture comparison on its own).
 
 A gold file is a JSON **list** of `{text, label}` entities; config/result
 files in the same dir are JSON objects. `gold_to_training` distinguishes by
@@ -224,10 +238,26 @@ Don't go looking for a test runner; those two modules are the checks.
 
 ## Deliverable
 
-`paper/capstone/` — the ACL-format capstone paper. Headline finding:
-against honest LLM+human gold, GLiNER's span-matching architecture retains
-zero-shot generalization to entity classes the training labels never
-covered, while a softmax head predicts only what it saw. Under the old
-circular silver eval this was invisible. All model numbers currently in the
-paper reference the OLD noisy labels and must be regenerated after
-retraining on the clean LLM gold.
+`paper/capstone/` — the ACL-format capstone paper. `paper/survey.md` (41-paper
+literature synthesis) and `paper/notes/` (bibliography, reading log,
+discovery log, taxonomy) back it; `data/papers/` holds the underlying
+reference PDFs + docling `.md` conversions.
+
+All four architectures (RoBERTa-base, RoBERTa-large, SecureBERT, GLiNER)
+are now trained and scored on the current LLM-gold pipeline — see
+`data/gold_v2/results/trained-*.json`, no numbers in the paper are stale.
+
+Headline finding, revised: SecureBERT (0.71 strict F1) is the best
+performer; GLiNER (0.56), once fairly retrained on the identical gold, is
+the *weakest* of the four — the opposite of this project's earlier working
+hypothesis. That earlier hypothesis (span-matching retains zero-shot
+generalization better than a softmax head) came from comparing an
+*un*retrained GLiNER checkpoint against retrained token classifiers
+(`data/gold_v2/results/RESCORE_FINDINGS.md`) — a training-data confound,
+not an architecture effect. Do not cite the old hypothesis as the paper's
+finding; it's now the paper's RQ1/RQ4 cautionary example instead.
+
+Remaining open items: the frontier-LLM comparison (RQ4 second half, in
+progress — `data/frontier_results/`) and the blind gold audit
+(`paper/capstone/gold_audit.md`, needs the principal's own human judgment,
+not to be filled in by an LLM).

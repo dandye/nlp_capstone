@@ -31,5 +31,9 @@ data/alerts/**/*.md
 # External benchmark dataset (MalwareTextDB-1.0, ~25MB, own license; unwired)
 data/evals/
 
+# Reference-paper library (data/papers/): track the docling .md conversions,
+# not the raw PDFs (85MB, each paper's own copyright/license applies)
+data/papers/*.pdf
+
 # OS cruft
 .DS_Store
