@@ -39,15 +39,21 @@ the evaluation split. We fine-tune three token-classification encoders ---
 RoBERTa-base, RoBERTa-large \citep{liu2019roberta}, and SecureBERT
 \citep{aghaei2022securebert}, a RoBERTa-architecture model domain-pretrained
 on security text --- on this gold and evaluate all three with an identical
-document-level harness. SecureBERT is the best performer (0.71 strict
-micro-F1), ahead of RoBERTa-base (0.66) and RoBERTa-large (0.65), showing
-domain pretraining matters more than parameter count on this task. All
-three models are near-perfect on dictionary-shaped structured types
-(attack technique id, CVE identifier, TLP classification, email address)
-and substantially weaker on semantic types with fewer, more varied training
-examples (threat actor group, hacking tool). \pending{a GLiNER checkpoint
-retrained on the identical LLM gold, and the corresponding architecture
-comparison, is in progress and will be added once training completes}.
+document-level harness, alongside GLiNER \citep{zaratiana2024gliner}, a
+zero-shot span-matching architecture, fine-tuned on the identical gold.
+SecureBERT is the best performer (0.71 strict micro-F1), ahead of
+RoBERTa-base (0.66) and RoBERTa-large (0.65), showing domain pretraining
+matters more than parameter count on this task; GLiNER trails all three
+token classifiers once retrained on the same honest gold (0.56). This
+reverses this project's own working hypothesis: an earlier comparison
+that scored an \emph{un}retrained GLiNER checkpoint against retrained
+token classifiers found GLiNER ahead by 9--15 points and attributed it to
+architecture, a comparison this paper shows was not controlled for
+training data and does not hold once it is. All three token classifiers
+are near-perfect on dictionary-shaped structured types (attack technique
+id, CVE identifier, TLP classification, email address) and substantially
+weaker on semantic types with fewer, more varied training examples
+(threat actor group, hacking tool).
 \end{abstract}
 
 \section{Introduction}
@@ -107,12 +113,11 @@ We ask four research questions:
 \end{description}
 
 RQ1--RQ3 are answered here with data trained and scored on the current
-LLM-gold pipeline. RQ4 requires a GLiNER checkpoint retrained on the
-identical gold, which is in progress and reported as \pending{} throughout;
-the frontier-LLM comparison is deferred to future work for the same
-reason --- the Gemini numbers from the prior weak-supervision iteration of
-this project are not comparable to the current gold and are not reported
-here.
+LLM-gold pipeline; so is RQ4's architecture half, with a GLiNER checkpoint
+retrained on the identical gold (\S\ref{sec:rq4}). RQ4's frontier-LLM half
+remains \pending{}: the Gemini numbers from the prior weak-supervision
+iteration of this project are not comparable to the current gold and are
+not reported here.
 
 \section{Related Work}
 
@@ -238,11 +243,19 @@ architecture and fine-tuning recipe are held identical to RoBERTa-base, any
 difference between the two isolates the effect of domain-adaptive
 pretraining from the effect of the fine-tuning data or procedure.
 
-\paragraph{GLiNER (pending).} \texttt{urchade/gliner\_medium-v2.1}
-\citep{zaratiana2024gliner}, zero-shot span-matching, is being fine-tuned
-on the identical LLM-gold training split at the time of writing. We report
-comparisons to it once training completes (\S\ref{sec:results},
-\S\ref{sec:limitations}).
+\paragraph{GLiNER \citep{zaratiana2024gliner}.} \texttt{urchade/gliner\_medium-v2.1},
+zero-shot span-matching, fine-tuned on the identical LLM-gold training
+split: 5 epochs, LR 5e-5, effective batch 32 (batch 8, gradient
+accumulation 4), best checkpoint selected by validation loss (GLiNER's
+trainer reports no span-level F1 during training; that is computed
+separately with the same harness used for the token classifiers). Unlike
+the token classifiers, GLiNER handles its own tokenization and length
+limits internally rather than using the sliding-window scheme in
+\S\ref{sec:evaluation}; several of the longest test-set chunks were
+truncated at its 384-token limit, which we note as a limitation
+(\S\ref{sec:limitations}) rather than paper over, since it plausibly
+disadvantages GLiNER specifically on labels that skew toward the end of
+long chunks.
 
 \paragraph{Frontier LLM (future work).} A zero-shot frontier-LLM baseline
 on the current gold, in the style of \citet{alam2024ctibench}, is deferred
@@ -278,11 +291,14 @@ annotator didn't also produce, so silver scoring rewarded them for learning
 the dictionary's blind spots along with its correct patterns. For
 reference, the old GLiNER checkpoint (fine-tuned on the same dictionary
 silver labels, not yet retrained on the current gold) drops by a smaller
-margin, 0.666 to 0.540 (19\% relative). Whether that reflects a genuine
-architectural advantage in span-matching generalization or is an artifact
-of GLiNER's own training data being marginally less circular is exactly
-the question RQ4 needs a GLiNER checkpoint retrained on \emph{this} gold to
-answer, and is left pending.
+margin, 0.666 to 0.540 (19\% relative) --- the asymmetry that motivated an
+earlier, informal version of this project's RQ4 hypothesis: that
+span-matching architectures generalize better than token classifiers once
+evaluation is honest. \S\ref{sec:rq4} retrains GLiNER on the identical
+gold and shows this smaller drop was not architectural after all; it
+reflects GLiNER's old training data happening to be less circular than
+the token classifiers' relative to \emph{this specific honest eval set},
+not an architecture effect that survives a controlled retrain.
 
 \begin{table}[t]
 \centering
@@ -335,12 +351,24 @@ Model & P & R & F1 & F1 (relaxed) \\
 RoBERTa-base & 0.71 & 0.61 & 0.659 & 0.683 \\
 RoBERTa-large & 0.71 & 0.60 & 0.648 & 0.697 \\
 SecureBERT & \textbf{0.73} & \textbf{0.70} & \textbf{0.712} & \textbf{0.758} \\
-GLiNER & \multicolumn{4}{c}{\pending{retraining on identical gold in progress}} \\
+GLiNER & 0.51 & 0.61 & 0.56 & 0.58 \\
 \bottomrule
 \end{tabular}
-\caption{Token-classification architecture comparison, identical LLM-gold training and evaluation labels, identical evaluation harness. Micro P/R/F1, 8-document test split, 1{,}995 gold spans.}
+\caption{Architecture comparison, identical LLM-gold training and evaluation labels, identical evaluation harness. Micro P/R/F1, 8-document test split, 1{,}995 gold spans.}
 \label{tab:architecture}
 \end{table}
+
+Once retrained on this same gold, GLiNER (0.56 strict / 0.58 relaxed) trails
+every token classifier, including RoBERTa-large. Its macro-F1 (0.62 strict)
+sits well above its own micro-F1, the same pattern RoBERTa-large showed
+above --- reasonably consistent type coverage dragged down by weak
+performance on a few high-volume labels, most strikingly \emph{ip address}
+(F1 0.03, recall 0.02; \S\ref{sec:rq4} discusses why). This directly
+answers the question raised in \S\ref{sec:results}'s RQ1 discussion: the old
+GLiNER checkpoint's smaller circular-to-honest drop (Table~\ref{tab:circular-vs-honest})
+was not evidence of an architectural generalization advantage. Retrained
+under the identical procedure applied to the token classifiers, GLiNER is
+the weakest of the four models on this task.
 
 \subsection{RQ3: Which Entity Types Remain Hard}
 \label{sec:rq3}
@@ -402,17 +430,68 @@ cwe identifier               &   4 & 1.00 & 1.00 & 1.00 \\
 \label{tab:per-label}
 \end{table}
 
-\subsection{RQ4: Architecture and Frontier Comparisons (Pending)}
+\subsection{RQ4: Architecture Comparison Resolved; Frontier Comparison Pending}
 \label{sec:rq4}
 
-The two remaining comparisons this paper is designed to make --- fine-tuned
-GLiNER against the token-classification fleet above, and a zero-shot
-frontier LLM against the same fleet, both under identical LLM-gold
-evaluation --- require artifacts not yet available: a GLiNER checkpoint
-retrained on the current gold (in progress) and a frontier-LLM rerun on
-the current gold (not yet performed; the prior Gemini numbers were scored
-against dictionary-silver gold and are not reported here to avoid
-repeating RQ1's circularity mistake). We report both once available.
+GLiNER was fine-tuned on the identical LLM-gold training split used for
+the three token classifiers (5 epochs, LR 5e-5, effective batch 32; best
+checkpoint by validation loss) and scored with the identical harness on
+the identical 8-document test split. Table~\ref{tab:architecture}'s
+result is unambiguous: GLiNER (0.56 strict F1) is the weakest of the four
+architectures tested, behind RoBERTa-large (0.65), RoBERTa-base (0.66),
+and SecureBERT (0.71). This resolves the question RQ1 raised and this
+project's own prior working hypothesis did not survive controlled
+retraining --- \S\ref{sec:results} already sketches why: the old GLiNER
+checkpoint's smaller circular-to-honest drop reflected its old training
+data's relationship to \emph{this} eval set, not a property of span-matching
+architecture that a fair retrain preserves.
+
+Table~\ref{tab:gliner-per-label} shows GLiNER is not uniformly weak --- it
+matches or nearly matches the token classifiers on several structured
+labels (attack technique id 0.99, cwe identifier 1.00, cve identifier
+0.96) --- but is markedly worse on \emph{file path} (0.42 vs.\ 0.83--0.84
+for the token classifiers) and catastrophically worse on \emph{ip address}
+(0.03 vs.\ 0.85--0.92), a label none of the three token classifiers found
+difficult. We do not have a confident explanation for the \emph{ip
+address} collapse specifically; one contributing factor we can document
+rather than fully attribute is that GLiNER handles its own tokenization
+and truncates at a 384-token limit rather than using the token
+classifiers' sliding-window scheme (\S\ref{sec:data-method}) --- several of
+the longest test-set chunks were silently truncated during evaluation,
+which could plausibly cost recall on labels that cluster late in long
+chunks (IOC tables often appear near the end of CISA advisories), but we
+have not verified IP addresses specifically follow that pattern here, and
+flag this as a concrete follow-up rather than a settled explanation.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrr}
+\toprule
+Label & GLiNER F1 & Best token clf.\ F1 \\
+\midrule
+ip address                 & 0.03 & 0.92 (SecBERT) \\
+file path                  & 0.42 & 0.84 (Base/SecBERT) \\
+threat actor group         & 0.29 & 0.42 (Large) \\
+hacking tool                & 0.38 & 0.51 (SecBERT) \\
+malware family              & 0.47 & 0.65 (SecBERT) \\
+file name                  & 0.46 & 0.81 (Large) \\
+tactic                     & 0.56 & 0.63 (Large) \\
+attack technique name       & 0.50 & 0.57 (Base/SecBERT) \\
+attack technique id        & 0.99 & 0.99 (SecBERT) \\
+cve identifier               & 0.96 & 0.96 (Large) \\
+cwe identifier                & 1.00 & 1.00 (all) \\
+\bottomrule
+\end{tabular}
+\caption{GLiNER strict F1 vs.\ the best-performing token classifier per label (selected labels; full 16-label GLiNER results in \texttt{data/gold\_v2/results/trained-gliner-v2.json}).}
+\label{tab:gliner-per-label}
+\end{table}
+
+The frontier-LLM comparison remains pending: a zero-shot rerun on the
+current gold, in the style of \citet{alam2024ctibench}, has not been
+performed, and the prior Gemini numbers were scored against
+dictionary-silver gold and are not reported here to avoid repeating RQ1's
+circularity mistake.
 
 \section{Limitations}
 \label{sec:limitations}
@@ -448,13 +527,20 @@ word's tag from whichever sliding window contains it most centrally at
 inference time, which is a heuristic, not a principled ensembling method;
 a small fraction of predictions near window boundaries may be affected.
 
-\paragraph{RQ4 incomplete.} The architecture comparison against GLiNER and
-the frontier-LLM comparison both require artifacts not yet produced
-(\S\ref{sec:rq4}); until the GLiNER checkpoint is retrained on identical
-gold, the smaller circular-to-honest drop it showed in
-Table~\ref{tab:circular-vs-honest} cannot be attributed to architecture
-rather than to its training data happening to be less circular than the
-token classifiers'.
+\paragraph{GLiNER truncation, not windowing.} Unlike the token classifiers,
+GLiNER's own tokenizer truncates rather than sliding-windows long input,
+and several of the longest test-set chunks were truncated at its
+384-token limit during evaluation. We do not currently know how much of
+GLiNER's per-label weakness (\S\ref{sec:rq4}), particularly the sharp
+\emph{ip address} drop, is attributable to this versus a genuine
+architecture/data effect; disentangling the two --- e.g.\ by re-chunking
+GLiNER's input at a shorter budget matching its limit, mirroring the
+token classifiers' windowing --- is left to future work.
+
+\paragraph{Frontier-LLM comparison (RQ4) incomplete.} A zero-shot rerun
+on the current gold has not been performed (\S\ref{sec:rq4}); the prior
+Gemini numbers were scored against the old dictionary-silver gold and are
+not comparable.
 
 \section{Conclusion}
 
@@ -475,11 +561,20 @@ core of this task regardless of training volume (RQ3).
 
 The architecture question this project set out to answer --- whether
 GLiNER's span-matching design generalizes better than a token classifier's
-softmax head once measured honestly --- is not yet answered. \pending{RQ4
-is pending a GLiNER checkpoint retrained on the identical LLM-gold labels
-(training in progress) and a frontier-LLM rerun on the same gold; both
-will be reported once available, along with the blind gold-audit results
-(\S\ref{sec:limitations}).}
+softmax head once measured honestly --- is answered, and not in the
+direction this project's own earlier, uncontrolled comparison suggested.
+Retrained on the identical honest gold and scored with the identical
+harness, GLiNER (0.56 F1) is the weakest of the four architectures
+tested, behind every token classifier including RoBERTa-large (RQ4). The
+apparent GLiNER advantage in Table~\ref{tab:circular-vs-honest} was an
+artifact of comparing a retrained token classifier against an
+\emph{un}retrained span-matching model --- a reminder that the same
+circularity discipline this paper applies to silver-vs-honest gold
+(RQ1) has to be applied just as strictly to any two checkpoints being
+compared, or a training-data confound can masquerade as an architecture
+finding. \pending{The frontier-LLM comparison and the blind gold-audit
+results (\S\ref{sec:limitations}) remain outstanding and will be
+reported once available.}
 
 \bibliography{capstone}
 \bibliographystyle{acl_natbib}
