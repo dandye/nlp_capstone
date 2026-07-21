@@ -49,8 +49,6 @@ def main() -> None:
                         help="Directory with {slug}/{slug}.md files")
     parser.add_argument("--output-file", required=True,
                         help="Output spans JSONL file")
-    parser.add_argument("--max-text-len", type=int, default=4000,
-                        help="Max text length (must match inference)")
     args = parser.parse_args()
 
     # Load entities
@@ -73,15 +71,19 @@ def main() -> None:
             print(f"  ⚠ {slug}: markdown not found, skipping", file=sys.stderr)
             continue
 
-        inference_text = (
-            full_text[:args.max_text_len]
-            if len(full_text) > args.max_text_len
-            else full_text
-        )
-
-        # Extract spans from entities
+        # Match against the FULL document text, not a truncated window --
+        # frontier_infer.py's --chunk-size mode runs inference over the
+        # entire document in overlapping windows, so entities can legitimately
+        # come from anywhere in the text. Matching against a truncated
+        # `inference_text` (this used to default to the first 4000 chars,
+        # mirroring the old single-window truncation mode) silently dropped
+        # every entity found past that point AND miscomputed token offsets
+        # for the ones that did match, since they were indexed into the
+        # truncated string instead of the full-document token space gold
+        # spans use. Matching against full_text is correct in both modes:
+        # it's a superset of whatever text was actually sent to the model.
         entities = record.get("entities", [])
-        pred_spans = extract_entities_from_response(inference_text, entities)
+        pred_spans = extract_entities_from_response(full_text, entities)
 
         # Write spans record
         spans_records.append(
@@ -89,8 +91,7 @@ def main() -> None:
                 "slug": slug,
                 "model": record["model"],
                 "full_text_len": len(full_text),
-                "inference_text_len": len(inference_text),
-                "token_count": len(inference_text.split()),
+                "token_count": len(full_text.split()),
                 "entities_count": len(entities),
                 "pred_spans": sorted([(s, e, l) for s, e, l in pred_spans]),
                 "spans_count": len(pred_spans),

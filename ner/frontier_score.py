@@ -34,14 +34,8 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-from .frontier_llm_utils import (
-    LABELS,
-    Span,
-    gold_document_spans,
-    load_records,
-    load_split,
-    score_spans,
-)
+from .evaluate import Scorer, gold_document_spans, print_table
+from .frontier_llm_utils import Span, load_records, load_split
 
 
 def load_predictions(path: Path) -> list[dict]:
@@ -58,19 +52,6 @@ def load_predictions(path: Path) -> list[dict]:
 def spans_from_tuples(spans_list: list[list]) -> set[Span]:
     """Convert list of [start, end, label] tuples to set of Span tuples."""
     return {(s, e, l) for s, e, l in spans_list}
-
-
-def print_table(name: str, report: dict) -> None:
-    """Pretty-print scoring results."""
-    print(f"\n{name}")
-    print(f"  {'label':<30} {'P':>6} {'R':>6} {'F1':>6} {'support':>8}")
-    for label, m in sorted(
-        report["per_label"].items(), key=lambda x: -x[1]["support"]
-    ):
-        print(f"  {label:<30} {m['P']:>6.2f} {m['R']:>6.2f} "
-              f"{m['F1']:>6.2f} {m['support']:>8}")
-    mi = report["micro"]
-    print(f"  {'MICRO':<30} {mi['P']:>6.2f} {mi['R']:>6.2f} {mi['F1']:>6.2f}")
 
 
 def main() -> None:
@@ -110,44 +91,43 @@ def main() -> None:
         if rec["slug"] in subset_slugs:
             by_doc[rec["slug"]].append(rec)
 
-    # Collect gold and pred spans per document
-    all_gold: dict[str, set[Span]] = {}
-    all_pred: dict[str, set[Span]] = {}
+    # Score document-by-document into a shared accumulator -- the same
+    # pattern ner/evaluate.py's own main() uses for every other model, so
+    # this is literally the same scoring code, not a parallel
+    # reimplementation that merely computes the same formulas.
+    pred_by_slug = {p["slug"]: p for p in predictions}
     model_latencies = []
     model_tokens = 0
 
-    pred_by_slug = {p["slug"]: p for p in predictions}
-
+    strict = Scorer()
+    relaxed = Scorer()
     for slug, doc_records in sorted(by_doc.items()):
         gold_spans = gold_document_spans(doc_records)
 
         if slug in pred_by_slug:
             pred_record = pred_by_slug[slug]
             pred_spans = spans_from_tuples(pred_record["pred_spans"])
-            all_pred[slug] = pred_spans
             model_latencies.append(pred_record["latency_sec"])
             model_tokens += pred_record.get("tokens", 0)
 
-            # Restrict gold to the token window the model actually saw:
-            # inference truncates the clean text, so tokens beyond token_count
-            # were never shown to the model and can't be recalled.
+            # Restrict gold to the token window the model actually saw. With
+            # --chunk-size inference (full-document coverage), token_count
+            # covers the whole document and this is a no-op; it only bites
+            # for the older single-window truncation mode, where tokens
+            # beyond token_count were never shown to the model.
             window = pred_record.get("token_count")
             if window:
                 gold_spans = {s for s in gold_spans if s[1] < window}
         else:
-            all_pred[slug] = set()
+            pred_spans = set()
 
-        all_gold[slug] = gold_spans
+        strict.add_strict(gold_spans, pred_spans)
+        relaxed.add_relaxed(gold_spans, pred_spans)
 
-    # Compute scores (strict matching: exact span + label), namespacing
-    # spans by slug so identical spans in different documents don't collapse.
-    # Slug goes LAST so score_spans' label lookup (s[2]) still works.
-    total_gold = {(s[0], s[1], s[2], slug) for slug, spans in all_gold.items() for s in spans}
-    total_pred = {(s[0], s[1], s[2], slug) for slug, spans in all_pred.items() for s in spans}
-
-    strict_scores = score_spans(total_gold, total_pred)
-
-    print_table("STRICT (exact span + label)", strict_scores)
+    strict_report = strict.report()
+    relaxed_report = relaxed.report()
+    print_table("STRICT (exact span + label)", strict_report)
+    print_table("RELAXED (overlap + label)", relaxed_report)
 
     # Print latency stats
     if model_latencies:
@@ -161,8 +141,9 @@ def main() -> None:
         out = {
             "model": model_name,
             "subset": args.subset,
-            "n_documents": len(all_gold),
-            "strict": strict_scores,
+            "n_documents": len(by_doc),
+            "strict": strict_report,
+            "relaxed": relaxed_report,
             "latency": {
                 "total_sec": round(sum(model_latencies), 1),
                 "avg_per_doc_sec": round(
