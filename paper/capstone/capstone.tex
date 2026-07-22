@@ -53,7 +53,19 @@ training data and does not hold once it is. All three token classifiers
 are near-perfect on dictionary-shaped structured types (attack technique
 id, CVE identifier, TLP classification, email address) and substantially
 weaker on semantic types with fewer, more varied training examples
-(threat actor group, hacking tool).
+(threat actor group, hacking tool). Widening the comparison to a true
+zero-shot frontier LLM (Gemini 3.5 Flash) on the same gold complicates the
+local-model story further: it beats every fine-tuned local model on F1
+(0.795 vs.\ SecureBERT's 0.712), at a cost of 94.5s average latency per
+document and a metered per-token API bill against SecureBERT's 1.8s,
+free, fully offline inference --- a 51$\times$ speed gap for 8 points of
+F1. GLiNER, despite being the other local model, does not share in that
+speed advantage: at 59.7s per document it is only 1.6$\times$ faster than
+the cloud API and is dominated by SecureBERT on both accuracy and speed.
+We report these trade-offs honestly rather than reshaping them to fit
+either a ``bigger model wins'' or a ``local wins'' narrative; which side
+matters depends on deployment context, not on which result is more
+convenient.
 \end{abstract}
 
 \section{Introduction}
@@ -112,12 +124,12 @@ We ask four research questions:
     identical honest gold, and to a frontier LLM run zero-shot?
 \end{description}
 
-RQ1--RQ3 are answered here with data trained and scored on the current
-LLM-gold pipeline; so is RQ4's architecture half, with a GLiNER checkpoint
-retrained on the identical gold (\S\ref{sec:rq4}). RQ4's frontier-LLM half
-remains \pending{}: the Gemini numbers from the prior weak-supervision
-iteration of this project are not comparable to the current gold and are
-not reported here.
+All four research questions are answered here with data trained and
+scored on the current LLM-gold pipeline: RQ4's architecture half with a
+GLiNER checkpoint retrained on the identical gold, and its frontier-LLM
+half with a zero-shot Gemini 3.5 Flash rerun on the same gold and harness
+(\S\ref{sec:rq4}) --- the prior iteration's Gemini numbers, scored against
+dictionary-silver gold, are superseded and not reported.
 
 \section{Related Work}
 
@@ -147,10 +159,12 @@ the entity-type inventory to attribution-specific concepts (impact,
 course-of-action) with deliberately long, sentence-level spans, and find
 instruction-fine-tuned LLMs outperform encoder taggers on their
 benchmark, motivating our use of an LLM as the \emph{annotator} rather
-than the deployed extractor. \citet{alam2024ctibench} benchmark LLMs
-directly on CTI tasks including entity extraction, providing the
-frontier-model baseline methodology RQ4's future-work extension will
-adapt.
+than the deployed extractor --- though \S\ref{sec:rq4} finds the same
+LLM-outperforms-encoder pattern holds even as a deployed zero-shot
+extractor on our corpus, so that choice turns out to be about
+deployment cost, not about where an LLM can add value. \citet{alam2024ctibench}
+benchmark LLMs directly on CTI tasks including entity extraction,
+providing the frontier-model baseline methodology RQ4 adapts.
 
 LLM-as-annotator is itself an active line of work distinct from
 LLM-as-extractor: rather than running a frontier model zero-shot at
@@ -257,10 +271,15 @@ truncated at its 384-token limit, which we note as a limitation
 disadvantages GLiNER specifically on labels that skew toward the end of
 long chunks.
 
-\paragraph{Frontier LLM (future work).} A zero-shot frontier-LLM baseline
-on the current gold, in the style of \citet{alam2024ctibench}, is deferred
-to future work; the Gemini numbers from the prior pipeline iteration are
-scored against dictionary-silver gold and are not comparable here.
+\paragraph{Frontier LLM.} Gemini 3.5 Flash, run zero-shot with no
+fine-tuning, in the style of \citet{alam2024ctibench}. Full documents are
+covered by overlapping 15{,}000-character windows (500-character overlap)
+so nothing is truncated, unlike GLiNER's fixed token limit above; per-window
+entity proposals are merged by exact text+label match before scoring, since
+a single entity mention can legitimately recur across overlap regions.
+Thinking is disabled (\texttt{thinking\_budget=0}): NER needs no reasoning
+tokens, and hidden thinking output is what made early informal runs both
+slow and expensive.
 
 \subsection{Evaluation}
 \label{sec:evaluation}
@@ -430,7 +449,7 @@ cwe identifier               &   4 & 1.00 & 1.00 & 1.00 \\
 \label{tab:per-label}
 \end{table}
 
-\subsection{RQ4: Architecture Comparison Resolved; Frontier Comparison Pending}
+\subsection{RQ4: Architecture and Frontier Comparisons}
 \label{sec:rq4}
 
 GLiNER was fine-tuned on the identical LLM-gold training split used for
@@ -487,11 +506,83 @@ cwe identifier                & 1.00 & 1.00 (all) \\
 \label{tab:gliner-per-label}
 \end{table}
 
-The frontier-LLM comparison remains pending: a zero-shot rerun on the
-current gold, in the style of \citet{alam2024ctibench}, has not been
-performed, and the prior Gemini numbers were scored against
-dictionary-silver gold and are not reported here to avoid repeating RQ1's
-circularity mistake.
+\subsection{RQ4 (continued): A Frontier LLM Wins on F1 --- at a Cost}
+
+Table~\ref{tab:frontier} compares Gemini 3.5 Flash, run zero-shot with no
+fine-tuning, against the best fine-tuned local model (SecureBERT) on the
+identical test set and harness. Gemini wins on quality: 0.795 strict /
+0.803 relaxed micro-F1, roughly 8 points above SecureBERT's 0.712 / 0.758,
+and macro-F1 tells the same story (0.791 vs.\ 0.738) --- this is not an
+artifact of a few high-volume labels dominating a support-weighted
+average. This is the inverse of what motivated this project's original
+premise (that a small fine-tuned model could match a frontier model on a
+narrow domain task); we report it because it is true, not because it is
+convenient.
+
+The cost is real and asymmetric, but --- a genuine surprise --- it is
+\emph{not} evenly distributed across the local models. Table~\ref{tab:frontier}
+measures wall-clock inference on the same 8 documents, same hardware
+(Apple Silicon, CPU/MPS, no batching), for every model in this paper.
+SecureBERT is not just the most accurate local model; it is also by far
+the fastest, averaging 1.8s per document --- 51$\times$ faster than
+Gemini, with no network call, no per-token billing, no rate limits, and
+free once the checkpoint is downloaded. RoBERTa-large is a further step
+down on both axes (0.648 F1, 7.8s/doc, 12$\times$ faster than Gemini).
+GLiNER, however, breaks the pattern this project expected: despite
+running entirely locally, it averages \textbf{59.7s per document} ---
+only 1.6$\times$ faster than a cloud API call, and dramatically slower
+than either token classifier. Span-matching against a label-embedding
+space is architecturally more expensive per token than a per-token
+softmax head, and that cost shows up directly here: GLiNER is dominated
+on \emph{both} accuracy and speed by SecureBERT, with none of the
+``worse but free'' trade-off that would make it a defensible choice
+locality alone. Whether Gemini's F1 advantage over SecureBERT is worth
+its cost depends entirely on deployment context --- a SOC triaging
+thousands of advisories per day cannot pay cloud-API latency and cost at
+that multiplier; a one-off deep-dive on a handful of critical advisories
+plausibly can --- but for GLiNER specifically, there is no such
+trade-off to weigh: SecureBERT beats it on every axis measured.
+RoBERTa-base's original local checkpoint was not preserved for
+re-measurement (only its evaluation results were retained); given its
+architecture and training recipe are identical to RoBERTa-large's, its
+latency is expected to fall in the same range but is not independently
+confirmed here.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrr}
+\toprule
+Model & Strict F1 & Relaxed F1 & Avg.\ latency/doc \\
+\midrule
+Gemini 3.5 Flash & \textbf{0.795} & \textbf{0.803} & 94.5s (7.2--538.7s) \\
+SecureBERT & 0.712 & 0.758 & \textbf{1.8s} (0.4--5.2s) \\
+RoBERTa-large & 0.648 & 0.697 & 7.8s (1.1--30.1s) \\
+RoBERTa-base & 0.659 & 0.683 & \pending{not re-measured; see text} \\
+GLiNER & 0.560 & 0.580 & 59.7s (12.3--171.6s) \\
+\bottomrule
+\end{tabular}
+\caption{All five architectures, identical LLM-gold evaluation, identical harness, 8-document test split. Latency is wall-clock document-level inference on identical hardware (Apple Silicon, no batching) for local models, and real API round-trip time for Gemini (\S\ref{sec:evaluation}) --- not directly comparable across the network/local boundary in a strict apples-to-apples sense, but both are genuine end-to-end costs a deployment would actually pay.}
+\label{tab:frontier}
+\end{table}
+
+Two pipeline bugs surfaced and were fixed while producing this
+comparison, both worth naming because they illustrate the same lesson as
+RQ1: an unverified evaluation harness produces confidently wrong numbers.
+First, span extraction matched entity text against a 4000-character
+truncation window left over from an earlier, non-chunked inference mode;
+with full-document chunked inference, this silently dropped roughly
+72\% of Gemini's correctly-identified entities before scoring ever saw
+them (732 raw entities $\to$ 203 matched spans). Fixed to match against
+the full document, spans recovered from 203 to 2{,}318 (gold, like this
+pipeline, credits every occurrence of a repeated entity mention, not just
+the first). Second, frontier scoring used a parallel, independently
+written implementation of strict P/R/F1 instead of the shared
+\texttt{ner.evaluate.Scorer} used for every other model in this paper ---
+mathematically equivalent once checked, but a maintenance hazard and a
+literal violation of this paper's own ``identical scoring implementation
+across models'' claim (\S\ref{sec:evaluation}). Both are fixed in the
+current pipeline; the numbers above reflect the fix.
 
 \section{Limitations}
 \label{sec:limitations}
@@ -537,10 +628,14 @@ architecture/data effect; disentangling the two --- e.g.\ by re-chunking
 GLiNER's input at a shorter budget matching its limit, mirroring the
 token classifiers' windowing --- is left to future work.
 
-\paragraph{Frontier-LLM comparison (RQ4) incomplete.} A zero-shot rerun
-on the current gold has not been performed (\S\ref{sec:rq4}); the prior
-Gemini numbers were scored against the old dictionary-silver gold and are
-not comparable.
+\paragraph{Single frontier model, single sample, one threshold choice.}
+\S\ref{sec:rq4} compares against one frontier model (Gemini 3.5 Flash) at
+one point in time and one prompt; we did not sweep prompt variants,
+temperature, or few-shot examples, and a different frontier model or
+prompt could plausibly close some of the 8-point F1 gap. Cost and latency
+figures are similarly a single measurement (one API tier, one region, one
+day's network conditions), not a stable production benchmark across load
+or over time.
 
 \section{Conclusion}
 
@@ -572,7 +667,28 @@ artifact of comparing a retrained token classifier against an
 circularity discipline this paper applies to silver-vs-honest gold
 (RQ1) has to be applied just as strictly to any two checkpoints being
 compared, or a training-data confound can masquerade as an architecture
-finding. \pending{The frontier-LLM comparison and the blind gold-audit
+finding.
+
+Widening the comparison to a frontier LLM completes the picture and
+complicates the tidy ``local wins'' narrative this project expected
+going in: zero-shot Gemini 3.5 Flash beats every fine-tuned local
+model on F1, including SecureBERT (0.795 vs.\ 0.712 strict), at the cost
+of 94.5s average latency per document and a metered per-token API bill
+against SecureBERT's 1.8s, free, offline inference --- 51$\times$ faster
+for 8 fewer points of F1 (RQ4). That trade-off is real but at least
+legible: it is a straightforward speed/cost-for-quality exchange. GLiNER
+complicates the story differently, in a way that has no such
+justification --- at 59.7s per document it gives up nearly all of the
+local-deployment speed advantage (1.6$\times$ over Gemini, not
+51$\times$) while also trailing SecureBERT on F1, so it is not ``worse
+but free and fast''; on this task, measured this way, it is simply
+dominated. Neither of these trade-offs is free, and which one matters
+depends on the deployment context, not on which number a project hoped
+to see. Producing
+this comparison honestly also meant catching and fixing two evaluation-harness
+bugs (\S\ref{sec:rq4}) that would otherwise have quietly misreported it ---
+the same discipline RQ1 required of the silver-vs-honest gold comparison,
+applied here to a frontier-vs-local one. \pending{The blind gold-audit
 results (\S\ref{sec:limitations}) remain outstanding and will be
 reported once available.}
 

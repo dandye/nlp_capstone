@@ -198,12 +198,16 @@ If no clear matches, return an empty array: []
 
 def call_ollama_model(text: str, model_name: str, ollama_base: str = "http://localhost:11434") -> dict:
     """Call Ollama model for NER."""
+    # Ollama tags use "name:tag", not "name-tag" -- the dash-style entries
+    # below were never verified against an actually-pulled model and don't
+    # match real Ollama Hub naming (found when gemma3:27b needed adding).
     model_map = {
-        "gemma-2-27b": "gemma2-27b",
-        "gemma-4-9b-qat": "gemma4-9b-qat",
-        "gemma-4-12b-qat": "gemma4-12b-qat",
-        "gemma-4-27b-qat": "gemma4-27b-qat",
-        "gemma-4-e2b-qat": "gemma4-e2b-qat",
+        "gemma-2-27b": "gemma2:27b",
+        "gemma-4-9b-qat": "gemma4:9b-qat",
+        "gemma-4-12b-qat": "gemma4:12b-qat",
+        "gemma-4-27b-qat": "gemma4:27b-qat",
+        "gemma-4-e2b-qat": "gemma4:e2b-qat",
+        "gemma3-27b": "gemma3:27b",
         "qwen-3.6-27b": "qwen3.6:27b",
     }
     ollama_model = model_map.get(model_name, model_name)
@@ -237,7 +241,10 @@ If no clear matches, return an empty array: []
                 "stream": False,
                 "temperature": 0.1,
             },
-            timeout=300,
+            # A single 15k-char chunk measured at 368s on gemma3:27b locally
+            # (~5 tok/s generation); 300s would time out mid-chunk on
+            # anything but the shortest documents.
+            timeout=1800,
         )
         response.raise_for_status()
         result = response.json()
