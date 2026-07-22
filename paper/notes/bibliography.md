@@ -154,13 +154,11 @@ Chen (UIUC), Li (UIUC), Song (Columbia), Guo (UCSD). April 2024. **READ 2026-07-
 
 ---
 
-## Prior biomedical NER papers (BOND-derived, cited in principal's message)
+## Prior biomedical NER papers (distant supervision, cited in principal's message)
 
-Two additional entries referenced as using BOND's distant-supervision paradigm in biomedical contexts:
-- **"Named Entity Recognition for Cancer Immunology Research Using Distant Supervision"** (2022, ACL Anthology, BioNLP shared task)
-- **"Knowledge-Driven Drug-Use Named Entity Recognition with Distant Supervision"** (NSF grant cited; no arXiv/DOI provided)
-
-Both are BOND-cited adaptations rather than novel architectures; full annotation deferred pending URL confirmation. **Action:** principal to provide arXiv/DOI links or extracted text for these two to enable formal bibliography entry.
+Two entries referenced as biomedical distant-supervision NER:
+- **"Named Entity Recognition for Cancer Immunology Research Using Distant Supervision"** (Trieu et al., BioNLP 2022) — **RESOLVED 2026-07-22 (Sweep 6): retrieved and fully annotated below** (`acl-2022.bionlp-1.17`). Note the framing correction: the paper does *not* build on or extend BOND — it cites Liang et al. 2020 once, in Related Work, as adjacent prior art. It is a UniProtKB-dictionary distant-supervision method in its own right, not a BOND adaptation.
+- **"Knowledge-Driven Drug-Use Named Entity Recognition with Distant Supervision"** (NSF grant cited; no arXiv/DOI provided) — still deferred pending a URL.
 
 ---
 
@@ -730,3 +728,220 @@ Hanks, Maiden, Ranade, Finin, Joshi (UMBC). ICML workshop 2022.
 ---
 
 
+
+## Sweep 6 arrivals (2026-07-22) — reference backfill
+
+The entries below backfill papers the survey already cites or the discovery
+ledger already held; grounded in the docling-converted source text, numbers
+spot-checked against source. Not new scope acceptances (the 25-cap governs
+scope, not citation backfill).
+
+---
+
+## 2204.02685 — SecureBERT: A Domain-Specific Language Model for Cybersecurity
+Ehsan Aghaei, Xi Niu, Waseem Shadid (UNC Charlotte), Ehab Al-Shaer (Carnegie Mellon). arXiv 2022.
+
+**Summary.** RoBERTa-base retrained on a large cybersecurity corpus to capture domain connotations (homographs like "virus," "worm," "honeypot") that general-English encoders miss — either OOV jargon or words carrying a different meaning than in general English.
+
+**Method.** Built on RoBERTa-base (12 layers, 12 heads, 768 hidden). Two components: (1) a custom BPE tokenizer of the same size as RoBERTa's (50,265 tokens) — 32,592 shared with RoBERTa, 17,673 cybersecurity-unique (firewall, ransomware, phishing, mysql, obfuscated); (2) a weight-adjustment scheme adding zero-mean Gaussian noise (σ=0.01) to RoBERTa's embedding weights for shared tokens, biasing them away from general-English meaning without discarding it, while new tokens get Xavier init. Pretraining corpus: 1.1B words from blogs/news, articles, survey papers, reports, books, Wikipedia-cyber, videos. Dynamic MLM, RoBERTa hyperparameters, 250,000 steps / ~100h on 8 V100s, batch 18.
+
+**Findings.** MLM (17,341-record MITRE-derived test set): SecureBERT beats RoBERTa-base, RoBERTa-large, and SciBERT on noun/verb hit-rate@topN — including the 355M RoBERTa-large. Ablation shows the weight adjustment is what drives cyber-correct homograph predictions. General-English retention (Rotten Tomatoes sentiment): SecureBERT-modified 67.23% acc / 67.10 F1, within ~2.2% of RoBERTa-base (69.46 / 69.12). NER on MalwareTextDB (39 APT reports, 4 tags Action/Subject/Object/Modifier): SecureBERT-modified P85.24/R88.10/**F86.65** — best of the four vs RoBERTa-base (86.20), SciBERT (84.49).
+
+**Relevance.** First of the survey's three §5.3 domain-pretrained encoders, and the backbone of this project's best fine-tuned model (SecureBERT, 0.71 strict F1 on the LLM gold — the capstone's headline). The tokenizer-plus-noise recipe and the paper's own NER evidence are load-bearing for §5.3, not just background. Note the paper's own NER benchmark uses a general APT-report tagging scheme (Action/Subject/Object/Modifier), not CTI entity types (CVE, malware family, TTPs) — the gap this project's LLM-gold pipeline targets.
+
+**Artifacts.** GitHub: github.com/ehsanaghaei/SecureBERT (footnote 3). No license stated in extracted text.
+
+---
+
+## 2212.02974 — CySecBERT: A Domain-Adapted Language Model for the Cybersecurity Domain
+Markus Bayer, Philipp Kuehn, Ramin Shanehsaz, Christian Reuter (PEASEC, TU Darmstadt). arXiv 2022.
+
+**Summary.** bert-base-uncased further pretrained (DAPT) on a curated multi-source cybersecurity corpus, explicitly engineered to balance domain adaptation against catastrophic forgetting; evaluated on 15 domain tasks plus SuperGLUE against BERT and CyBERT (Ranade et al. 2021).
+
+**Method.** DAPT on bert-base-uncased. Corpus combines four stylistically diverse sources: blogs (151k posts, 169M tokens), arXiv cs.CR papers (16k papers, 167M tokens), NVD vulnerability descriptions (171k entries, 12M tokens, unfiltered as expert text), Twitter (~4M tweets, 179M tokens). Total 528M tokens / 4.3M entries — deliberately kept to ~10% of BERT's pretraining size to mitigate forgetting. LR 2e-5, 30 epochs, batch 64 on 4 V100s, 10k warmup steps.
+
+**Findings.** Word similarity (cloze F1): BERT 0.4382, CyBERT 0.4861, CySecBERT **0.6382**. NER on NVD-derived tagging (software version/name, attack complexity): CySecBERT best on all three (SV 0.9302, SN 0.8871, AC 0.3472) — but AC is weak for all models on limited data. Relevance classification (CySecAlert): CySecBERT 0.8883 vs BERT 0.8779. Specialized CTI (MS Exchange): 0.8869 (+0.027 over BERT). Catastrophic-forgetting check (SuperGLUE): 0.5468 vs BERT 0.6010, a ~-0.05 drop judged non-catastrophic.
+
+**Relevance.** Second of the §5.3 domain encoders. Pretrained on a deliberately heterogeneous corpus (blogs + arXiv + NVD + Twitter) and built on vanilla BERT rather than SecureBERT's RoBERTa base — a genuinely different corpus-and-base choice for the comparison table. **Framing correction: the extracted text never mentions SecureBERT** — CySecBERT is benchmarked only against CyBERT and vanilla BERT. Do not assert a CySecBERT-vs-SecureBERT comparison without an independent source. NER evidence is present but narrow (NVD-field tagging, AC F1 as low as 0.33).
+
+**Artifacts.** Abstract states dataset and model are "made publicly available"; no repository URL/name/license in the extracted text — record as stated-available, no confirmable link.
+
+---
+
+## 2305.08596 — DarkBERT: A Language Model for the Dark Side of the Internet
+Youngjin Jin, Seungwon Shin (KAIST); Eugene Jang, Jian Cui, Jin-Woo Chung, Yongjae Lee (S2W Inc.). arXiv 2023.
+
+**Summary.** RoBERTa-base pretrained on a large filtered Dark Web (Tor) corpus, motivated by lexical/structural divergence of Dark Web text from Surface Web pretraining data; evaluated on Dark Web page/thread classification and cyber use cases — not span NER.
+
+**Method.** Initialized from roberta-base; pretrained on Tor pages seeded from Ahmia + onion lists (6.1M pages raw). Filtering: character-count (500–10k chars) → 5.43M; category balancing via a 9-category CoDA-trained classifier (pornography was 41.7% of raw), reducing the smallest:largest category ratio from 70-fold to 7-fold; minhash dedup. Final corpus 1,732,529 pages / 5.83GB. Sensitive identifiers (emails, URLs, IPs, crypto addresses, 38+-char strings incl. hashes) masked for ethics. Two variants (raw vs preprocessed), ~20k steps / ~15 days each on 4 A100 80GB.
+
+**Findings.** Dark Web activity classification (CoDA cased): DarkBERT-preprocessed **94.29** F1 vs RoBERTa 93.31, BERT-uncased 92.75. Ransomware leak-site detection: DarkBERT-preprocessed F1 **84.11** vs RoBERTa 44.31 (sharp drop), BERT-uncased 70.77. Noteworthy-thread detection: DarkBERT-preprocessed F1 **54.17** vs RoBERTa 18.71. **The paper evaluates no span-level NER anywhere** — all extrinsic tasks are page/thread-level classification plus a fill-mask keyword task.
+
+**Relevance.** Third of the §5.3 domain encoders and the clearest case of within-family domain divergence: pretrained on Tor HTML text, so its lexical strengths (drug slang inference) are orthogonal to CTI-report language. Given the total absence of NER evaluation, cite it in the survey as a domain-adaptation *methodology* comparison (corpus filtering/dedup/category-balancing pipeline), not as NER evidence.
+
+**Artifacts.** Access-restricted by design: only the preprocessed model was to be released (deferred to conference time); the Dark Web corpus is explicitly not released; DUTA/CoDA eval sets available on request for academic use only. No GitHub/HF link named in the extracted text.
+
+---
+
+## 2204.05754 — CyNER: A Python Library for Cybersecurity Named Entity Recognition
+Md Tanvirul Alam, Dipkamal Bhusal, Nidhi Rastogi (RIT); Youngja Park (IBM T. J. Watson). arXiv 2022.
+
+**Summary.** Open-source Python library for cybersecurity NER combining transformer classifiers, regex heuristics for IOCs, and off-the-shelf generic NER (Flair, spaCy) with configurable priority merging; ships with an annotated corpus.
+
+**Method.** ~60 threat-intel reports (2018–2021, MITRE ATT&CK "software" category, Android malware), manually BRAT-annotated by trained graduate students. Five classes: malware, indicator, system, organization, vulnerability. Split 40/10/10 docs; 106,991 tokens, 4,530 tagged entities, BIO. Models: BERT/RoBERTa/XLM-RoBERTa (base+large) fine-tuned via tner (20 epochs, seq 128, single V100). Heuristic layer: regex for FilePath/Email/SHA/CVE/IPv4; default merge order Heuristic > Transformer > Flair > spaCy.
+
+**Findings.** Test span micro-F1: XLM-RoBERTa-large P75.30/R78.07/**F76.66** (best); BERT-large 73.07; BERT-base 69.77; RoBERTa-base collapses to 39.69 (and RoBERTa-large 38.91). Per-class (XLM-R-large): Vulnerability F88.89, Indicator F82.27, Malware F77.39, System F74.84, Organization F64.98 (weakest).
+
+**Relevance.** Feeds §4 (Datasets) and §3 (schema fragmentation) — a compact five-class ontology distinct from other CTI schemas, illustrating taxonomy divergence. Its dataset is one of the four merged by the label-unification (2507.13870) and CyberNER (2510.26499) harmonization studies, and is the CyNER corpus used by the hard/easy-discrimination paper (Sensors 25(24):7627).
+
+**Artifacts.** github.com/aiforsec/CyNER (pip-installable), demo video on YouTube. No license stated in extracted text.
+
+---
+
+## acl-P17-1143 — MalwareTextDB: A Database for Annotated Malware Articles
+Swee Kiat Lim, Aldrian Obaja Muis, Wei Lu (SUTD); Chen Hui Ong (DSO National Laboratories). ACL 2017 (pp. 1557–1567).
+
+**Summary.** First database of annotated malware reports, built around the MAEC vocabulary, plus five downstream tasks (sentence relevance, token/relation/attribute-label prediction, malware-signature prediction) with baselines.
+
+**Method.** 39 APT reports from APTnotes (of 384 available, 2014), 6,819 sentences (2,080 relevant). BRAT annotation in three cumulative stages: token labels (Action/Subject/Object/Modifier), relation labels (SubjAction/ActionObj/ActionMod/ModObj), and 444 MAEC attribute labels across ActionName (211), Capability (20), StrategicObjectives (65), TacticalObjectives (148). Models: SVM/Naive Bayes (relevance, attributes), CRF++ (token labels, Brown clusters from 126 reports), rule-based (relations). 60/20/20 doc split, 5 runs.
+
+**Findings.** Token-label inter-annotator Cohen's κ = 0.36 ("rather difficult"). Task 1 relevance: NB F63.2, SVM F60.5. Task 2 token labels (strict): best avg F40.3. Task 3 relations (rule-based, 38 test docs): avg **F89.3**. Task 4 attributes: best category Capability F41.8; of 444 labels, 190 never occur and 50 occur once — extreme sparsity. Task 5 signatures: annotation features beat text (SVM F59.2 vs 47.2).
+
+**Relevance.** Foundational dataset/schema paper for §4; its four-tier MAEC-derived scheme (token/relation/attribute) is a relation-and-capability-centric structure that broadens the §3 fragmentation discussion beyond flat label sets. On licensing, the paper states only intent for "public release" and points to statnlp.org/research/re/ — no explicit license, consistent with AnnoCTR's Table-1 observation that MalwareTextDB's license is unclear. This repo holds MalwareTextDB-1.0 locally at `data/evals/` for cross-domain eval.
+
+**Artifacts.** Intended for public release; details at statnlp.org/research/re/. No explicit license in extracted text.
+
+---
+
+## aaai-CASIE — CASIE: Extracting Cybersecurity Event Information from Text
+Taneeya Satyapanich, Francis Ferraro, Tim Finin (UMBC). AAAI 2020.
+
+**Summary.** Neural system extracting cybersecurity *events* (not flat entities) from news text for eventual KG integration; introduces a richly event-annotated corpus and a four-stage pipeline (nugget detection, argument detection, role linking, realis).
+
+**Method.** ~5,000 Cyberwire articles (2017–2019); ~1,000 event-mentioning articles annotated by three experts with majority vote. Five event subtypes — Attack.Databreach, Attack.Phishing, Attack.Ransom, Discover.Vulnerability, Patch.Vulnerability — with 20 argument role types (Attacker, Victim, Tool, CVE, Vulnerable-System, etc.). Model: hybrid BiLSTM-CRF for nugget/argument detection with location attention, fed CoreNLP + DBpedia Spotlight + Wikidata features and four embedding variants (incl. BERT-base); separate FC net for role linking; two-step realis classifier. 8-fold CV, 900 train / 100 test, TAC span-overlap metric.
+
+**Findings.** Cohen's κ = 0.81; all five event types have >1,000 instances (vs 70% of ACE-2005 types under 100). Best nugget detection (pre-built BERT) P79.60/R80.28/**F79.94**; best argument detection **F74.76**. Per-argument extremes: Money F93.3, CVE F88.0, Patch F81.3 (high); GPE F44.7, Capabilities F51.2 (low). Realis micro-avg F77.65.
+
+**Relevance.** CASIE is EVENT extraction, not NER — the survey's boundary case defining the scope edge. Present it as the point where flat span-labeling (CyNER, MalwareTextDB, Bridges) gives way to structured event frames with semantic roles and a realis dimension, motivating why it's discussed but excluded from head-to-head NER-model comparisons.
+
+**Artifacts.** Corpus, annotations, and code stated public at github.com/Ebiquity/CASIE. No explicit license in extracted text.
+
+---
+
+## 1308.4941 — Automatic Labeling for Entity Extraction in Cyber Security
+Robert A. Bridges, Corinne L. Jones, Michael D. Iannacone, Kelly M. Testa, John R. Goodall (Oak Ridge National Laboratory). arXiv 2013.
+
+**Summary.** Automated ("distant"/database-linked) labeling that generates a large cybersecurity NER training corpus by matching text to structured vulnerability-database records (NVD, MS Security Bulletin, Metasploit), then trains a fast Maximum Entropy tagger — explicitly a response to the cost of manual annotation.
+
+**Method.** Sources linked via CVE-ID: NVD descriptions (2010–2013, the bulk), MS Security Bulletin fields, Metasploit exploit descriptions. Labeling = database-field matching + heuristic regex (version ranges, filenames, camelCase identifiers) + a CWE-mined term gazetteer ("buffer overflow," "execute arbitrary code," "XSS"). Label set: software vendor/product/version/language, vulnerability name (CVE-ID), software symbol, vulnerability relevant term; IOB-tagged. Corpus >850,000 tokens. Model: history-based MaxEnt (averaged perceptron, greedy decode), Python then Apache OpenNLP, two chained classifiers. Supervised experiments on a 15,192-description NVD subset, 5-fold 80/20.
+
+**Findings.** Auto-labeling accuracy vs hand-labeled samples (excluding the dictionary "relevant term" to avoid inflation): NVD P99%/R77.8%/**F.875**; MS-Bulletin F.778; Metasploit F.691. Supervised tagger at full data: OpenNLP domain-labels P0.989/R0.993/F0.991/Acc0.994, training <29s. Vs Joshi et al.'s hand-labeled CRF baseline (~1/30th the data): F1 .799 — attributed partly to the larger auto-produced training set.
+
+**Relevance.** The earliest auto-labeling / distant-supervision work in security NER in this bibliography — direct ancestor of the BOND-style weak supervision the survey covers in §5.4. Labels came entirely from structured DB fields (via CVE-ID) plus regex and a CWE gazetteer, no LLM or human seed. Its own reported auto-labeling accuracy (P 95.3–99.4%, R 54.3–77.8% across the three sources) is a useful early data point for the survey's silver-label-reliability discussion — contrast with this project's finding that dictionary/distant silver labels were too noisy to evaluate against directly.
+
+**Artifacts.** Corpus (>850k tokens) + Python/OpenNLP code stated public at github.com/stucco/auto-labeled-corpus. No explicit license in extracted text.
+
+---
+
+## usenix-2025-Buechel — SoK: Automated TTP Extraction from CTI Reports — Are We There Yet?
+Marvin Büchel, Tommaso Paladini, Stefano Longari, Michele Carminati, Stefano Zanero, Hodaya Binyamini, Gal Engelberg, Dan Klein, Giancarlo Guizzardi, Marco Caselli, Andrea Continella, Maarten van Steen, Andreas Peter, Thijs van Ede (Oldenburg; Politecnico di Milano; NEC Labs Europe; U. Twente; Accenture Labs; Siemens). USENIX Security 2025.
+
+**Summary.** SoK on automated TTP extraction from CTI reports, systematizing 40+ papers across NER, classification, and generative-LLM families. Because prior work uses incomparable custom ontologies and private data, the authors reimplement each family's *core methods* and benchmark them in one unified setting (shared ATT&CK ontology, shared public datasets, shared metric).
+
+**Method.** Collection: DBLP + Scholar, post-2015 → 1223 papers → 440 relevant → +38 via citation expansion. Three families: (1) NER — rule/hybrid pipelines (Table 1: AttacKG, Extractor, TTPDrill, CASIE, ThreatKG, etc.); (2) Classification — embedder + classifier head (labeled) or STS (unlabeled), Table 2 ~24 works; (3) Generative — prompt-based (FSP, RAG) vs weight-based (SFT), Table 3, 9 works. Empirical harness: ATT&CK Enterprise v14.1 on TRAM2 (150 CTRs, 50 technique labels) and AnnoCTR (120 CTRs, 133 labels, word-level). Metric: per-document multi-label P/R/F1. Generation via Llama3.1-8B-Instruct+LoRA and RAG via Qwen2-7B; also reproduces three published systems (AttacKG, LADDER, aCTIon).
+
+**Findings.** Headline: even for the top-50 most common TTPs the best solutions reach ~80% precision at ~66% recall; for rarer TTPs precision drops below 40% in realistic settings. Closed-set (TRAM2): NER F1 62.19%, Classification 71.41%, Generation 72.50% (Generation edges Classification by +1.09%). Open-set (AnnoCTR, growing label sets): both Generation and Classification are inferior to NER on every subset — the ranking *inverts* vs closed-set. "Traditional NLP approaches still notably outperform modern embedder-based and generative NLP approaches" in realistic settings. CTI-domain pretraining is not consistently better (best TRAM2 = a general model; best AnnoCTR = a CTI model). Reproduction check: their core-method reimplementations generally beat the originals' reported numbers on AnnoCTR, so published optimizations "do not seem to generalize well." Conclusion: TTP extraction "cannot yet realistically cover the entire ATT&CK framework... held back not by a lack of innovation... but by a lack of high quality datasets."
+
+**Relevance.** The comparative-evaluation anchor for the survey's §6 — it covers all three families the section positions against, and its "are we there yet?" answer is explicitly negative (no family reliably breaks a ~70% F1 ceiling; realistic open-set is worse; traditional NER *beats* generative/embedder methods once labels aren't pre-constrained). This resolves the survey's "(watch list)" parenthetical: Büchel is USENIX Security 2025. **Framing correction: it does NOT release a dataset called "CTIfecta"** — that string is absent from the text; its contribution is a unified empirical harness over pre-existing TRAM2 + AnnoCTR plus reimplementations. Any claim that Büchel releases CTIfecta should be dropped (CTIfecta belongs to the Haque et al. 2604.07470 replication).
+
+**Artifacts.** Source code, models, and datasets public at doi.org/10.5281/zenodo.15608555 (stated open-science release).
+
+---
+
+## fruct-2025-Yadulla — Enhanced Cybersecurity Entity Recognition Using DeBERTa, Transformer-CNN Hybrids, and BiLSTM-Softmax
+Akhila Reddy Yadulla, Vinay Kumar Kasula, Abdullah Alshboul (University of the Cumberlands). FRUCT'37, 2025.
+
+**Summary.** A DeBERTa-TransformerCNN-BiLSTM architecture for cybersecurity entity recognition (six types), replacing the usual CRF output layer with BiLSTM-Softmax + Viterbi decoding, benchmarked against 12 baseline NER architectures. The paper's own numbers are internally inconsistent between its results table and its prose (documented below).
+
+**Method.** DeBERTa char embeddings → Transformer-CNN hybrid (residual + batchnorm) → BiLSTM-Softmax BIO tagging → Viterbi at inference. Adadelta, Leaky ReLU, dropout 0.3, 6 residual blocks, batch 128, 256 feature maps, TensorFlow. Dataset: a **custom** corpus from Wooyun Vulnerability DB, Freebuf, and NVD — **not** AttackER (AttackER is cited only as reference [4]). Six types PER/LOC/ORG/SW/RT/VUL-ID (Table I header says "Real-Time" for RT, prose says "Relevant Term" — inconsistent as printed). 154,802 entities (107,733/15,676/31,393), 70/10/20 split. 12 baselines (6 word2vec + 6 BERT-char).
+
+**Findings.** Proposed model: Accuracy 98.17% (highest of 13) but Precision 88.98/Recall 89.43/**F1 87.21** — **loses on F1/recall** to plain BERT-LSTM-CRF (F1 90.60) and BERT-RDCNN-CRF (F1 90.41). Weakest baselines: CRF F78.42, LSTM F82.16. **Documented internal inconsistency:** §V prose cites BERT-LSTM-CRF at "recall 91.07% / F1 89.88%" and claims deltas of +0.89% recall / +0.22% F1 vs the proposed model — neither matches the quoted values nor Table III's 92.15/90.60 row. SW and VUL-ID are the hardest categories (SW best precision only ~50.26%). Reported as printed, not reconciled.
+
+**Relevance.** A recent §5.3 architecture comparison — but **not** AttackER-based (custom Wooyun/Freebuf/NVD corpus, non-standard 6-label schema not mapping onto this project's 16 labels). The finding of interest is negative: a more complex hybrid *underperforms* a simpler BERT+LSTM+CRF on the primary NER metrics. Given "Indian embeddings"/"Indian characters" terminology (almost certainly a mistranslation of "Chinese," matching the Chinese source sites) and the table-vs-prose arithmetic mismatch, cite cautiously and flag the discrepancy if used.
+
+**Artifacts.** Code stated "available for download on GitHub" — no URL/name in extracted text.
+
+---
+
+## 2508.01059 — Llama-3.1-FoundationAI-SecurityLLM-8B-Instruct Technical Report
+Weerawardhena, Kassianik, Nelson, Saglam, Vellore, Priyanshu, Vijay, et al. (Foundation AI — Cisco; Yale; Carnegie Mellon). Technical report, arXiv 2508.01059, 2025.
+
+**Summary.** Instruction-tuned, chat-capable cybersecurity LLM (SFT + preference tuning) on the authors' continual-pretrained Foundation-Sec-8B base (Llama 3.1-8B). Outperforms Llama 3.1-8B-Instruct on CTI benchmarks, competitive with GPT-4o-mini, and best-in-class among cybersecurity LLMs on general instruction-following/human-preference benchmarks.
+
+**Method.** Llama 3.1-8B-based; base-model pretraining corpus size lives in the prior report (arXiv:2504.21039), not this one; post-training data described only qualitatively (synthetic data, rejection sampling, difficulty grading, verification). The report also audits cybersecurity-content proportions and benchmark contamination in eight open post-training datasets. Eval: security benchmarks (CTIBench MCQA/RCM/VSP, CyberMetric-500, SecBench, SecEval) at temp 0.3 over 10 trials; general via OLMES; persona via PersonaGym; safety via 400 HarmBench prompts.
+
+**Findings.** CTIBench-RCM 0.692 (↑24% vs Llama-3.1-8B-Instruct), beating GPT-4o-mini (0.655) and Llama-3.1-70B-Instruct (0.623); CTIBench-MCQA 0.644; CTIBench-VSP 0.802. AlpacaEval 2 35.45 (↑45%; "next-best cyber model has less than half the win-rate"); IFEval 0.811. MMLU 0.602 (↓11%). PersonaGym 4.58 — highest of all compared incl. Claude 3.5 Sonnet (4.51). Safety: 92% alone / 99% with LlamaGuard. Contamination audit validates the method (Primus-Reasoning shows 79–91% overlap with CTIBench-RCM; other datasets <5%).
+
+**Relevance.** A security-domain continual-pretraining LLM (Llama-3.1 base) — the generative-side analogue of encoder-family domain pretraining (SecureBERT), an 8B open-weights "domain-adapt then specialize" comparator for §5.6. Important: **it does not evaluate NER/extraction** — NER appears only in §2.2's related-work framing, where the authors call existing cyber benchmarks skewed toward "narrowly scoped tasks like classification... NER... and summarization" and position their own suite as broader. Useful as a domain-LLM economics baseline, supplies no direct NER numbers.
+
+**Artifacts.** Model public at huggingface.co/fdtn-ai/Foundation-Sec-8B-Instruct.
+
+---
+
+## 2408.06272 — A RAG-Based Question-Answering Solution for Cyber-Attack Investigation and Attribution
+Sampath Rajapaksha, Ruby Rani, Erisa Karafili (University of Southampton). arXiv 2408.06272, 2024.
+
+**Summary.** First RAG-based QA system for cyber-attack investigation and attribution, using AttackER's underlying document corpus (with entity annotations stripped) as the retrieval base and an open-source LLM (Mistral) as generator; evaluated against GPT-3.5 and GPT-4o, reported more reliable because it cites sources and avoids their outdated-knowledge/hallucination failures.
+
+**Method.** Knowledge base: 202 documents from AttackER (Deka et al.) — Mandiant, Malwarebytes, Talos, MITRE, Securelist, Trend Micro — keeping only site/URL/text, "removing the annotated entities." SBERT embeddings in FAISS, top-k cosine retrieval, Mistral-7B generator (Llama-2-7b-chat, Zephyr-7b also supported), Streamlit app on HF Spaces. 280 QA pairs (factual/contrastive/inferential), 170 evaluated with RAGAS (faithfulness, answer relevancy, context precision/recall, correctness).
+
+**Findings.** Few-shot vs zero-shot: Answer Relevancy 0.9171 vs 0.8593; Faithfulness 0.6249 vs 0.5638; Answer Correctness 0.4356 vs 0.4081; slight context-precision trade-off. Vs GPT (qualitative): "GPT-3.5 exhibited more susceptibility to hallucination compared to GPT-4o" — a CVE-2023-34362 example where GPT-3.5 first correctly declined (knowledge cutoff) then fabricated on re-run. Authors conclude their RAG QA "outperforms GPT-3.5 and GPT-4o due to its reliable answers and minimal model hallucination," crediting source provision.
+
+**Relevance.** Same author group as the AttackER NER dataset (Rajapaksha, Rani, Karafili), and it explicitly reuses AttackER — but only the raw document text, with entity annotations deliberately discarded to repurpose the corpus as a RAG knowledge base. A clean illustration of the survey's KG/downstream boundary: an NER-annotated CTI corpus repurposed for downstream QA/attribution once the entity layer is stripped, rather than an NER method itself.
+
+**Artifacts.** Code: github.com/sampathrajapaksha/RAG-based-QA. App: huggingface.co/spaces/rubypnchl/Question_Answer_Engine.
+
+---
+
+## 2304.10428 — GPT-NER: Named Entity Recognition via Large Language Models
+Shuhe Wang, Xiaofei Sun, Xiaoya Li, Rongbin Ouyang, Fei Wu, Tianwei Zhang, Jiwei Li, Guoyin Wang (Peking U.; Shannon.AI; Zhejiang U.; NTU; Amazon). arXiv 2304.10428, 2023.
+
+**Summary.** Reformulates NER as text generation to close the gap between LLMs' generative nature and NER's sequence-labeling framing: entities are marked in-place with `@@...##` tokens rather than via position indices or per-token labels. A self-verification stage asks the LLM to confirm each extracted span, countering over-confident hallucination on NULL inputs.
+
+**Method.** GPT-3 (davinci-003), temp 0. Prompt = task description + few-shot demonstrations (`@@##` marker format) + input; each entity type queried separately (N-class → N queries) due to the 4,096-token limit. Three demonstration-retrieval strategies: random, sentence-level (SimCSE) kNN, entity-level embedding kNN. Self-verification prompt ("Is 'X' a location entity?") with its own kNN demos, zero- and few-shot. Evaluated on CoNLL2003, OntoNotes5.0 (flat), ACE2004/2005, GENIA (nested), plus a CoNLL2003 low-resource study (8/100/1K/10K sentences).
+
+**Findings.** Full CoNLL2003: random 72.62 → sentence-level 84.36 → entity-level 89.97 → +self-verification (few-shot) 90.91; supervised SOTA 94.6. Full OntoNotes: 61.58 → 81.73 → 82.20. Nested ACE2004: 48.4 → 73.62 → 74.2. **Output-format ablation (CoNLL2003, 32-shot): the `@@##` scheme scores F1 92.68 vs BMES 29.75 vs Entity+Position 38.73** — the other formats collapse on correctly-aligned/indexed output. Low-resource: with 8 training sentences GPT-NER F1 ≈ 60 while the supervised baseline is ≈ 0. (Note: the text's zero/few-shot self-verification pair 84.97/85.91 does not match Table 2's 89.97/90.91 few-shot row — reproduced verbatim, inconsistency unresolved in source.)
+
+**Relevance.** The canonical generative-NER reformulation for §5.6: entity-marker output format, kNN demonstration retrieval (entity-level dominates), and self-verification as hallucination mitigation. Its format ablation (92.68 vs 29.75 vs 38.73 on identical data) is direct, quantified support for the survey's output-format-sensitivity thread — and converges with the generative-NER format finding in 2601.17898 (offset-based output collapses). The low-resource result (F1 ≈60 at 8 examples) anchors the few-shot generalization narrative.
+
+**Artifacts.** Code: github.com/ShuheWang1998/GPT-NER.
+
+---
+
+## acl-2022.bionlp-1.17 — Named Entity Recognition for Cancer Immunology Research Using Distant Supervision
+Hai-Long Trieu, Makoto Miwa, Sophia Ananiadou (AIRC/AIST; Toyota Technological Institute; U. Manchester NaCTeM). BioNLP Workshop @ ACL 2022.
+
+**Summary.** An automatically annotated NER dataset for cancer-immunology entities (cell_type, cytokine, transcription factor) built by dictionary matching against UniProtKB, since manual data is scarce (the TCRE eval set has only 89 documents). A span-based SciBERT NER model is trained on the distant data and evaluated on TCRE, with and without adding the small supervised set.
+
+**Method.** Two auto datasets from a UniProtKB-derived dictionary: KB-T-cell (386 docs; cytokine/TF by strict dictionary match, cell_type by a JNLPBA-trained NER model) and Dic-T-cell (761 docs; re-annotating JNLPBA proteins as cytokine/TF via the dictionary). Eval set TCRE 89 docs. Model: span-based classifier over SciBERT sub-word representations, 3-fold CV, entity-level micro P/R/F.
+
+**Findings.** Enhanced-KB-NER (distant + TCRE) beats Supervised-NER by 2–5 F-points across folds (e.g. Fold-1 73.26 vs 67.78). Distant-only models underperform supervised by ~5–7 points but beat the pure dictionary Matching-NER baseline (F 49.76/50.17/49.12) by 11–15 points. Per-type gains skew to transcription factor (+11–22 points). Merging both datasets (KB-Dic-NER) *decreases* performance vs KB-NER alone despite ~2× data. TF/CY from distant-only models are weak/unstable (some folds predict zero correct TF).
+
+**Relevance.** A clean cross-domain analogue to CTI's low-resource problem for §5.4: few manual docs for specialized types (89-doc TCRE ≈ scarce CTI gold), a domain KB (UniProtKB) substituting for hand annotation, noisy auto-labels framed as acceptable scaffolding that — combined with a small supervised seed — beats supervised-only training. **Framing correction: this paper does NOT build on or extend BOND** — it cites Liang et al. 2020 once in Related Work as adjacent prior art. It is a UniProtKB distant-supervision method in its own right, not a BOND adaptation.
+
+**Artifacts.** None found in extracted text (only a UniProt query URL and a third-party BERT-dependency GitHub link, not the paper's own data/code).
+
+---
+
+## 2411.05057 — A Brief History of Named Entity Recognition
+Monica Munnangi (University of Massachusetts, Amherst). Survey (arXiv 2411.05057; the text notes the survey was performed in 2020).
+
+**Summary.** Short survey tracing NER from its 1996 origin (Grishman) through rule-based, feature-engineered ML, and deep-learning approaches, plus evaluation metrics, datasets/tools, and semi-/unsupervised directions. Background/positioning material, not a method paper.
+
+**Method.** N/A (survey) — synthesizes prior literature; no original experiments.
+
+**Findings (periodization).** Rule-based → feature-engineered ML (from ~2007) → deep learning (RNN/BiLSTM-CRF, transformer pretraining). Rule-based methods "result in high precision and low recall" and "cannot be used in cross domains," yet are cited as still used by 67% of industry vendors (IBM study, Chiticariu et al. 2013). Deep-learning models "proved to be more robust to new domains and new data" but need large, expensive manual annotation. The survey stops at BiLSTM-CRF/transformer pretraining and does not discuss LLM-era NER — its §7 Future Directions instead gestures at semi-supervised, active-learning, domain-adaptation, and zero/few-shot methods.
+
+**Relevance.** Background for §2.2 (method eras): confirms a rule-based → statistical → deep-learning periodization, with a fourth "future" era of semi-/few-shot methods gestured at but not realized. Cite only for pre-LLM boundary framing — it predates and does not cover the LLM era. Keep the citation short: positioning, not a method contribution.
+
+**Artifacts.** None (references third-party tools NeuroNER, AllenNLP, CoreNLP, spaCy, but no artifact of its own).

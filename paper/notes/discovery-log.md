@@ -19,7 +19,7 @@ Anchors swept: 2311.08526 (GLiNER), 2404.07765 (AnnoCTR), 2510.26499 (CyberNER),
 ### Watch list (relevant, not on arXiv — cite as secondary if needed)
 
 - ~~**LETNER: Label-EfficienT NER for Cyber Threat Intelligence**~~ — **RESOLVED 2026-06-09: principal provided the ESWA PDF** (PII S0957417426013837). Filed as `eswa-2026-LETNER-label-efficient-CTI-NER.{pdf,md}` (pypdf extraction), bibliography entry complete. Principal-provided papers don't count against the 15-paper discovery cap. Acceptance count remains 5/15.
-- **SoK: Automated TTP Extraction from CTI Reports — Are We There Yet?** (2025, cites AnnoCTR) — an SoK overlapping our §6; MUST at least be acknowledged in related-surveys positioning. Hunt DOI/venue PDF next iteration.
+- ~~**SoK: Automated TTP Extraction from CTI Reports — Are We There Yet?** (2025, cites AnnoCTR) — an SoK overlapping our §6; MUST at least be acknowledged in related-surveys positioning. Hunt DOI/venue PDF next iteration.~~ — **RESOLVED 2026-07-22 (Sweep 6): USENIX Security 2025; retrieved as `usenix-2025-Buechel-SoK-TTP-extraction.{pdf,md}`.**
 - **CyBERTa: hybrid self-updating ATT&CK extraction** (2026, cites AnnoCTR) — venue-only.
 - **CTIExpert: Expert-Level CTI Extraction for KG construction** (2026, cites CTIBench) — venue-only.
 
