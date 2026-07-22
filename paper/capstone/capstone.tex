@@ -19,9 +19,10 @@
 Cyber threat intelligence (CTI) reports contain entity types with no
 general-domain analogue---ATT\&CK technique identifiers, file hashes, TLP
 markings, threat actor aliases---that off-the-shelf named entity recognition
-(NER) models handle poorly. Prior work in this space, including an earlier
-iteration of this project, evaluates against \emph{silver} labels produced by
-the same class of dictionary/rule annotator being improved upon. We show that
+(NER) models handle poorly. Prior work in this space commonly evaluates
+against \emph{silver} labels produced by the same class of dictionary/rule
+annotator being improved upon---as did the weak-supervision baseline this
+work replaces. We show that
 this evaluation is circular: a checkpoint that scores 0.74 F1 against
 dictionary-derived silver labels falls to 0.35 against independently produced
 gold, because the silver labels share the model's blind spots rather than
@@ -38,11 +39,10 @@ fine-tuned on the identical gold. SecureBERT performs best (0.71 strict
 micro-F1), ahead of RoBERTa-base (0.66) and RoBERTa-large (0.65), indicating
 that domain-adaptive pretraining matters more than parameter count on this
 task. GLiNER, once retrained on the same independent gold, is the weakest of
-the four (0.56). This reverses the project's earlier working hypothesis: a
-prior comparison that scored an \emph{un}retrained GLiNER checkpoint against
-retrained token classifiers found GLiNER ahead by 9--15 points and attributed
-the difference to architecture---a comparison that was not controlled for
-training data and does not hold once it is. All three token classifiers
+the four (0.56)---reversing a preliminary comparison that had scored an
+\emph{un}retrained GLiNER checkpoint against retrained token classifiers,
+found it ahead by 9--15 points, and attributed the difference to
+architecture; controlled for training data, the effect disappears. All three token classifiers
 approach ceiling on pattern-structured types (attack technique IDs, CVE
 identifiers, TLP markings, email addresses) and remain substantially weaker
 on open-vocabulary semantic types (threat actor group, hacking tool).
@@ -72,22 +72,24 @@ knowledge, yet extracting structured information from them remains largely
 manual. Named entity recognition over CTI text must handle entity types with
 no general-domain analogue: ATT\&CK technique identifiers, file hashes, TLP
 markings, YARA rule names, threat actor aliases. Human annotation at scale is
-expensive in this domain because it requires security expertise, which
-motivated an earlier iteration of this project to avoid it entirely: build a
-\emph{silver}-labeled corpus from agreement between a dictionary/regex
-annotator (STIX indicators, MITRE ATT\&CK lookups) and zero-shot GLiNER
-\citep{zaratiana2024gliner} predictions, and evaluate against held-out silver
-labels produced by the same dictionary annotator.
+expensive in this domain because it requires security expertise. A common
+response---and the baseline strategy this work replaces---is to avoid human
+annotation entirely: build a \emph{silver}-labeled corpus from agreement
+between a dictionary/regex annotator (STIX indicators, MITRE ATT\&CK
+lookups) and zero-shot GLiNER \citep{zaratiana2024gliner} predictions, and
+evaluate against held-out silver labels produced by the same dictionary
+annotator.
 
 That evaluation is circular, and the gap it hides is large. A blind human
-audit of predicted spans found the dictionary annotator's own gold-recall to
-be materially incomplete---it misses real entities the dictionary never
-encoded---so a model that learns to reproduce the dictionary's blind spots is
-rewarded, not penalized, by silver-label scoring. We confirm this
-quantitatively: rescoring an existing dictionary-silver-trained checkpoint
-against independently produced gold drops its score from 0.74 to 0.35 F1
-(Section~\ref{sec:results}). The checkpoints did not degrade; the yardstick
-changed.
+audit of predicted spans (Section~\ref{sec:rq1}) found the dictionary
+annotator's own gold-recall to be materially incomplete---half of the spans
+the silver evaluation scored as model false positives were correct entities
+under direct human judgment---so a model that learns to reproduce the
+dictionary's blind spots is rewarded, not penalized, by silver-label
+scoring. We confirm the effect end to end: rescoring a
+dictionary-silver-trained checkpoint against independently produced gold
+drops its score from 0.74 to 0.35 F1 (Section~\ref{sec:results}). The
+checkpoints did not degrade; the yardstick changed.
 
 This finding motivates the pipeline described here. Rather than avoiding
 human involvement entirely, we move it to where it is cheapest to apply
@@ -137,7 +139,7 @@ open-domain text by BOND \citep{liang2020bond}, which fine-tunes a BERT-based
 token classifier \citep{devlin2019bert} on knowledge-base-derived labels and
 then denoises them through a teacher--student self-training loop. The failure
 modes BOND targets---incomplete and noisy weak labels---are the same failure
-modes that motivated this project's move away from dictionary supervision.
+modes that motivate this work's move away from dictionary supervision.
 
 Cybersecurity-specific NER corpora suffer acutely from schema fragmentation:
 \citet{schmidt2025labelunification} show that naively unifying four CTI
@@ -210,7 +212,7 @@ The training split contains 6{,}701 gold entities across 66 advisories; the
 evaluation split (8 validation, 8 test advisories) contains 1{,}995 gold
 spans in the test set alone once chunked for scoring
 (Section~\ref{sec:evaluation}). This is roughly 3.5$\times$ the raw entity
-volume of the prior dictionary-silver pipeline's test set on the same page
+volume of the dictionary-silver baseline's test set on the same page
 count, because dictionary/regex annotation structurally omits several
 semantic label types (e.g., \emph{affected software product}, \emph{hacking
 tool}) that an LLM reader identifies from context.
@@ -220,8 +222,8 @@ tool}) that an LLM reader identifies from context.
 We split by advisory \emph{document}, not by chunk, before chunking for
 training---66 advisories train / 8 validation / 8 test---so that overlapping
 text windows from the same document cannot appear on both sides of the
-split. This is a deliberate fix carried over from the prior pipeline
-iteration: chunk-level splitting leaks document context (shared boilerplate,
+split. This is a deliberate fix carried over from the baseline pipeline:
+chunk-level splitting leaks document context (shared boilerplate,
 repeated entity mentions) across the train/test boundary and inflates
 apparent performance.
 
@@ -291,8 +293,9 @@ Section~\ref{sec:results} is not an artifact of different matching rules.
 \label{sec:results}
 
 \subsection{RQ1: Circular vs.\ Independent Evaluation}
+\label{sec:rq1}
 
-Table~\ref{tab:circular-vs-independent} rescores the prior pipeline's
+Table~\ref{tab:circular-vs-independent} rescores the baseline pipeline's
 checkpoints---trained on dictionary-silver labels, previously reported at
 0.74 and 0.76 F1---against the current, independently produced LLM+human
 gold, on the same 8 test advisories (1{,}995 gold spans) used throughout
@@ -305,14 +308,28 @@ them for learning the dictionary's blind spots along with its correct
 patterns. For reference, the old GLiNER checkpoint (fine-tuned on the same
 dictionary-silver labels, not yet retrained on the current gold) drops by a
 smaller margin, 0.666 to 0.540 (19\% relative)---the asymmetry that
-motivated an earlier, informal version of this project's RQ4 hypothesis:
-that span-matching architectures generalize better than token classifiers
-once evaluation is no longer circular. Section~\ref{sec:rq4} retrains GLiNER
-on the identical gold and shows that the smaller drop was not architectural:
-it reflects GLiNER's old training data happening to be less circular than
-the token classifiers' relative to \emph{this specific independent
-evaluation set}, not an architecture effect that survives a controlled
-retrain.
+motivated an initial, informal hypothesis for RQ4: that span-matching
+architectures generalize better than token classifiers once evaluation is
+no longer circular. Section~\ref{sec:rq4} retrains GLiNER on the identical
+gold and shows that the smaller drop was not architectural: it reflects
+GLiNER's old training data happening to be less circular than the token
+classifiers' relative to \emph{this specific independent evaluation set},
+not an architecture effect that survives a controlled retrain.
+
+The rescoring shows the size of the gap; a blind human audit establishes
+which side of the measurement was wrong. Three hundred predictions from the
+two baseline models were judged blind to model identity, each against the
+source text alone, with the sample deliberately stratified toward spans the
+silver evaluation had scored as false positives (205 of 300). Half of those
+silver-flagged ``false positives'' (103/205, 50.2\%) were correct entities
+under direct human judgment---59\% for the fine-tuned token classifier and
+43\% for zero-shot GLiNER---while the silver evaluation's true-positive
+verdicts were overwhelmingly confirmed (87\% and 96\%, respectively). The
+silver gold was not merely noisy: half of the errors it attributed to the
+models were entities it simply did not contain, which is precisely the
+failure mode a model trained on the same dictionary is rewarded for
+reproducing. The judged audit sheet, model-identity key, and scoring script
+are included in the released artifacts (Section~\ref{sec:artifacts}).
 
 \begin{table}[t]
 \centering
@@ -463,8 +480,8 @@ harness on the identical 8-document test split.
 Table~\ref{tab:architecture}'s result is unambiguous: GLiNER (0.56 strict
 F1) is the weakest of the four architectures tested, behind RoBERTa-large
 (0.65), RoBERTa-base (0.66), and SecureBERT (0.71). This resolves the
-question RQ1 raised, and the project's prior working hypothesis does not
-survive controlled retraining. Section~\ref{sec:results} sketches why: the
+question RQ1 raised: the initial hypothesis does not survive controlled
+retraining. Section~\ref{sec:results} sketches why: the
 old GLiNER checkpoint's smaller circular-vs-independent drop reflected its
 old training data's relationship to \emph{this} evaluation set, not a
 property of span-matching architecture that a fair retrain preserves.
@@ -521,9 +538,9 @@ identical test set and harness. Gemini wins on quality: 0.795 strict /
 0.803 relaxed micro-F1, roughly 8 points above SecureBERT's 0.712 / 0.758,
 and macro-F1 shows the same ordering (0.791 vs.\ 0.738)---the advantage is
 not an artifact of a few high-volume labels dominating a support-weighted
-average. This outcome is the inverse of the project's original premise
-(that a small fine-tuned model could match a frontier model on a narrow
-domain task), and we report it as measured.
+average. This outcome is the inverse of the premise that motivated the
+fine-tuned fleet (that a small fine-tuned model could match a frontier
+model on a narrow domain task), and we report it as measured.
 
 The cost is real and asymmetric, and---unexpectedly---it is not evenly
 distributed across the local models. Table~\ref{tab:frontier} measures
@@ -611,17 +628,17 @@ Section~\ref{sec:results} should therefore be read as ``evaluated without
 circularity,'' not as ``free of all annotator bias''; only the measurement
 side of that distinction is currently guaranteed.
 
-\paragraph{Blind gold audit not yet complete.} A blind,
-model-identity-hidden judgment sheet of 300 predicted spans
-(\path{paper/capstone/gold_audit.md}) is prepared but not yet
-human-scored. Once complete, it will report per-model precision independent
-of both the dictionary-silver noise that motivated this pipeline change and
-any residual bias in the LLM-primary gold itself, since a human judges each
-span directly against the source text rather than against either
-annotator's labels.
+\paragraph{No blind audit of the LLM-primary gold.} The blind human audit
+in Section~\ref{sec:rq1} covers baseline-era predictions and silver-gold
+verdicts; no equivalent model-identity-blind audit has been run over the
+current pipeline's gold or the retrained models' predictions. The current
+gold is human-checked only through the val/test curation pass, which is
+exhaustive over those documents but not blind. The audit protocol and
+tooling (\path{ner.audit_webapp}, \path{ner.score_audit}) transfer
+directly; applying them to the LLM-primary gold is future work.
 
 \paragraph{Test set size.} Eight held-out advisories (1{,}995 gold spans in
-the test set) is larger than the prior pipeline's test set (1{,}442
+the test set) is larger than the silver baseline's test set (1{,}442
 dictionary-silver spans) and covers label types dictionary annotation
 structurally could not, but the lowest-support labels (\emph{cwe
 identifier}, $n=4$; \emph{yara rule name}, $n=9$) still have too few
@@ -670,10 +687,10 @@ types---most visibly \emph{malware family} and \emph{threat actor
 group}---remain the hard core of this task regardless of training volume
 (RQ3).
 
-The architecture question this project set out to answer---whether GLiNER's
+The architecture question this work set out to answer---whether GLiNER's
 span-matching design generalizes better than a token classifier's softmax
 head once measured without circularity---is answered, and not in the
-direction the project's earlier, uncontrolled comparison suggested.
+direction the earlier, uncontrolled comparison suggested.
 Retrained on the identical independent gold and scored with the identical
 harness, GLiNER (0.56 F1) is the weakest of the four architectures tested,
 behind every token classifier including RoBERTa-large (RQ4). The apparent
@@ -699,9 +716,7 @@ than trading accuracy for speed. Producing this comparison rigorously also
 required catching and fixing two evaluation-harness defects
 (Section~\ref{sec:rq4}) that would otherwise have quietly misreported
 it---the same discipline RQ1 required of the silver-vs-independent gold
-comparison, applied to a frontier-vs-local one. The blind gold-audit
-results (Section~\ref{sec:limitations}) remain outstanding and will be
-reported once available.
+comparison, applied to a frontier-vs-local one.
 
 \section{Future Work}
 \label{sec:future-work}
@@ -749,7 +764,11 @@ The per-model scores reported in every table are committed as JSON under
 \path{data/gold_v2/results/} (\path{trained-*.json} for models
 retrained on the current gold, \path{rescored-*.json} for the RQ1
 circularity rescoring) and \path{data/frontier_results/} (Gemini
-entities, spans, and scores).
+entities, spans, and scores). The blind-audit artifacts backing
+Section~\ref{sec:rq1}---the judged sheet
+(\path{paper/capstone/gold_audit.csv}), the model-identity key, and the
+scorer (\path{ner.score_audit})---are likewise included, along with the
+judging webapp (\path{ner.audit_webapp}).
 
 \paragraph{Models.} The fine-tuned checkpoints are published on the Hugging
 Face Hub:
