@@ -1,0 +1,1802 @@
+{
+ "A000": {
+  "label": "file name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "HRsword.exe"
+ },
+ "A001": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1027; punctuation only"
+ },
+ "A002": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "Python code fragment"
+ },
+ "A003": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "14-hex fragment of line-split SHA-256"
+ },
+ "A004": {
+  "label": "file name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "file extension (.vmsn), not a name"
+ },
+ "A005": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "fragment of technique title \"Ingress Tool Transfer\""
+ },
+ "A006": {
+  "label": "cwe identifier",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "span is T1219 + footnote refs; wrong type"
+ },
+ "A007": {
+  "label": "malware family",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Snake"
+ },
+ "A008": {
+  "label": "affected software product",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Ivanti ZTA Gateways"
+ },
+ "A009": {
+  "label": "yara rule name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "\"ustart\" is Snake protocol token"
+ },
+ "A010": {
+  "label": "threat actor group",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic \"threat actors'\""
+ },
+ "A011": {
+  "label": "tlp classification",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "span includes \"CISA\"; TLP:CLEAR alone correct"
+ },
+ "A012": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "50-hex first half of line-split SHA-256"
+ },
+ "A013": {
+  "label": "ip address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "literal column word \"Ipv4\""
+ },
+ "A014": {
+  "label": "attack technique name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "MOVEit Transfer is a product; wrong type"
+ },
+ "A015": {
+  "label": "tactic",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "Lateral Tool Transfer is a technique (T1570)"
+ },
+ "A016": {
+  "label": "malware family",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Snake"
+ },
+ "A017": {
+  "label": "malware family",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "page furniture (\"Page\")"
+ },
+ "A018": {
+  "label": "ip address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic phrase \"IP address\""
+ },
+ "A019": {
+  "label": "email address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "phone number"
+ },
+ "A020": {
+  "label": "email address",
+  "verdict": "Y",
+  "confidence": "low",
+  "note": "defanged email; span carries markup artifact"
+ },
+ "A021": {
+  "label": "affected software product",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "SimpleHelp"
+ },
+ "A022": {
+  "label": "tactic",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Exfiltration (TA0010) table header"
+ },
+ "A023": {
+  "label": "malware family",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "page furniture"
+ },
+ "A024": {
+  "label": "attack technique name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic \"ransomware techniques\""
+ },
+ "A025": {
+  "label": "attack technique name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Shared Modules (T1129)"
+ },
+ "A026": {
+  "label": "affected software product",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "SimpleHelp RMM"
+ },
+ "A027": {
+  "label": "ip address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "literal \"Ipv4\""
+ },
+ "A028": {
+  "label": "threat actor group",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "NoName057(16)"
+ },
+ "A029": {
+  "label": "attack technique name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "fragment/typo of \"Exploitation of Remote Services\" (T1210)"
+ },
+ "A030": {
+  "label": "malware family",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Snake"
+ },
+ "A031": {
+  "label": "tactic",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "mitigation concept, not ATT&CK tactic"
+ },
+ "A032": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2023-34362"
+ },
+ "A033": {
+  "label": "attack technique name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "framework name \"ATT&CK\""
+ },
+ "A034": {
+  "label": "affected software product",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "FortiOS"
+ },
+ "A035": {
+  "label": "cwe identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CWE-89; punctuation only"
+ },
+ "A036": {
+  "label": "email address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "phone number"
+ },
+ "A037": {
+  "label": "ip address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "literal \"Ipv4\""
+ },
+ "A038": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A039": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1110.003"
+ },
+ "A040": {
+  "label": "tactic",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Defense Evasion"
+ },
+ "A041": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1070.001"
+ },
+ "A042": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2023-34362"
+ },
+ "A043": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T0812"
+ },
+ "A044": {
+  "label": "affected software product",
+  "verdict": "Y",
+  "confidence": "low",
+  "note": "OS name; \"affected\" reading weak in mitigation context"
+ },
+ "A045": {
+  "label": "file name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "file extension (.vswp)"
+ },
+ "A046": {
+  "label": "file path",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "/gsb/reports[.]php (defanged)"
+ },
+ "A047": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A048": {
+  "label": "file name",
+  "verdict": "Y",
+  "confidence": "low",
+  "note": "\"Comadmin\" names the file; canonical comadmin.dat"
+ },
+ "A049": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "50-hex first half of split SHA-256"
+ },
+ "A050": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2024-9379"
+ },
+ "A051": {
+  "label": "tactic",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic acronym \"TTPs\""
+ },
+ "A052": {
+  "label": "file name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "YARA string constant, not a file name"
+ },
+ "A053": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "16-hex tail of three-way-split SHA-256"
+ },
+ "A054": {
+  "label": "attack technique name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Screen Capture (T1113)"
+ },
+ "A055": {
+  "label": "attack technique name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "Snake \"Passive method\", not ATT&CK"
+ },
+ "A056": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A057": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A058": {
+  "label": "ip address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic phrase"
+ },
+ "A059": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1036"
+ },
+ "A060": {
+  "label": "malware family",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Snake"
+ },
+ "A061": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A062": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "\"1.yar\" is a bare file name; type boundary"
+ },
+ "A063": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A064": {
+  "label": "affected software product",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "WinSCP used as actor tool here; product/tool boundary"
+ },
+ "A065": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "Snake; malware family per gold convention"
+ },
+ "A066": {
+  "label": "malware family",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Snake"
+ },
+ "A067": {
+  "label": "yara rule name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "Suricata rule msg string"
+ },
+ "A068": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "username token"
+ },
+ "A069": {
+  "label": "tactic",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "technique title (T0840), not tactic"
+ },
+ "A070": {
+  "label": "attack technique name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic \"ATT&CK techniques\""
+ },
+ "A071": {
+  "label": "email address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A072": {
+  "label": "yara rule name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "advisory ID"
+ },
+ "A073": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "Python import token"
+ },
+ "A074": {
+  "label": "cwe identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CWE-22"
+ },
+ "A075": {
+  "label": "threat actor group",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "APT44"
+ },
+ "A076": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A077": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "log token \"sudo:\""
+ },
+ "A078": {
+  "label": "ip address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "literal \"Ipv4\""
+ },
+ "A079": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A080": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A081": {
+  "label": "file name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "WerFaultSvc is a service name, not a file"
+ },
+ "A082": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2024-8963"
+ },
+ "A083": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A084": {
+  "label": "ip address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "literal \"Ipv4\""
+ },
+ "A085": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "31-hex fragment of split MD5"
+ },
+ "A086": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A087": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2024-9380"
+ },
+ "A088": {
+  "label": "email address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A089": {
+  "label": "malware family",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "YARA metadata string \"ransomware\""
+ },
+ "A090": {
+  "label": "tactic",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic; technique-level at best"
+ },
+ "A091": {
+  "label": "hacking tool",
+  "verdict": "Y",
+  "confidence": "low",
+  "note": "PowerShell in actor-leveraged-tools table; canonical dual-use call"
+ },
+ "A092": {
+  "label": "file path",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "/dev/urandom"
+ },
+ "A093": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A094": {
+  "label": "yara rule name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "rule GRXBA declaration"
+ },
+ "A095": {
+  "label": "tactic",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Command and Control"
+ },
+ "A096": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2024-9380"
+ },
+ "A097": {
+  "label": "email address",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "defanged gmail"
+ },
+ "A098": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1140"
+ },
+ "A099": {
+  "label": "file name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "descriptive role (\"Snake Queue File\"), not literal name"
+ },
+ "A100": {
+  "label": "threat actor group",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "LummaC2 is malware"
+ },
+ "A101": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A102": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "low",
+  "note": "CVE-2024-8963 plus footnote markers in span"
+ },
+ "A103": {
+  "label": "file name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "SQL alias"
+ },
+ "A104": {
+  "label": "malware family",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "page furniture"
+ },
+ "A105": {
+  "label": "tlp classification",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "\"TLP:\" fragment of split \"TLP: CLEAR\""
+ },
+ "A106": {
+  "label": "threat actor group",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TA505"
+ },
+ "A107": {
+  "label": "file name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Usysdiag.exe"
+ },
+ "A108": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A109": {
+  "label": "attack technique id",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "TLP marking"
+ },
+ "A110": {
+  "label": "affected software product",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Ivanti CSA"
+ },
+ "A111": {
+  "label": "attack technique name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic phrase"
+ },
+ "A112": {
+  "label": "threat actor group",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "span \"CL0P actors\"; group name is CL0P alone"
+ },
+ "A113": {
+  "label": "malware family",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "page furniture"
+ },
+ "A114": {
+  "label": "threat actor group",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CARR"
+ },
+ "A115": {
+  "label": "file hash",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "full SHA-256"
+ },
+ "A116": {
+  "label": "affected software product",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Ivanti CSA"
+ },
+ "A117": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2022-41040"
+ },
+ "A118": {
+  "label": "tactic",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Persistence"
+ },
+ "A119": {
+  "label": "affected software product",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Ivanti Policy Secure"
+ },
+ "A120": {
+  "label": "malware family",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "SNAKE (section header mention)"
+ },
+ "A121": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2023-0669"
+ },
+ "A122": {
+  "label": "threat actor group",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "Snake is malware"
+ },
+ "A123": {
+  "label": "file name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "file extension (.nvram)"
+ },
+ "A124": {
+  "label": "threat actor group",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CL0P"
+ },
+ "A125": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2024-8963"
+ },
+ "A126": {
+  "label": "malware family",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "LummaC2"
+ },
+ "A127": {
+  "label": "tactic",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "TLP marking"
+ },
+ "A128": {
+  "label": "yara rule name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "page-furniture \"CLEAR\""
+ },
+ "A129": {
+  "label": "attack technique name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "\"Phishing:\" fragment of subtechnique title"
+ },
+ "A130": {
+  "label": "threat actor group",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Sector16"
+ },
+ "A131": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "Tor as network infrastructure here"
+ },
+ "A132": {
+  "label": "ip address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic phrase"
+ },
+ "A133": {
+  "label": "tactic",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic \"(TTPs)\""
+ },
+ "A134": {
+  "label": "attack technique name",
+  "verdict": "Y",
+  "confidence": "low",
+  "note": "\"SQL injection\": generic technique vs ATT&CK-title schema question"
+ },
+ "A135": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "username token"
+ },
+ "A136": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A137": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1570"
+ },
+ "A138": {
+  "label": "email address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A139": {
+  "label": "yara rule name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "Suricata msg"
+ },
+ "A140": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic \"typical path\""
+ },
+ "A141": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "username token"
+ },
+ "A142": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "psql: legitimate utility inside attacker code"
+ },
+ "A143": {
+  "label": "cve identifier",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "TLP marking"
+ },
+ "A144": {
+  "label": "email address",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "report@cisa.gov"
+ },
+ "A145": {
+  "label": "tlp classification",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "\"Role:\" token"
+ },
+ "A146": {
+  "label": "threat actor group",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "NoName057(16)"
+ },
+ "A147": {
+  "label": "malware family",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "\"Snake\""
+ },
+ "A148": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1572"
+ },
+ "A149": {
+  "label": "attack technique name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Lateral Tool Transfer"
+ },
+ "A150": {
+  "label": "email address",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "contact@cisa.dhs.gov"
+ },
+ "A151": {
+  "label": "ip address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "container id 0x3"
+ },
+ "A152": {
+  "label": "threat actor group",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic \"Threat actors\""
+ },
+ "A153": {
+  "label": "threat actor group",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CL0P"
+ },
+ "A154": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1564.002"
+ },
+ "A155": {
+  "label": "file name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "path-like URL string; name/path boundary"
+ },
+ "A156": {
+  "label": "threat actor group",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "\"FSB operators\"; FSB alone arguably the group"
+ },
+ "A157": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "Snake; malware family per gold convention"
+ },
+ "A158": {
+  "label": "tlp classification",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "\"CLEAR\" fragment of split marking"
+ },
+ "A159": {
+  "label": "affected software product",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "SimpleHelp"
+ },
+ "A160": {
+  "label": "ip address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic phrase"
+ },
+ "A161": {
+  "label": "attack technique id",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "TLP marking"
+ },
+ "A162": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "variable name"
+ },
+ "A163": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "14-hex tail of split hash"
+ },
+ "A164": {
+  "label": "file name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "\"1.yar\""
+ },
+ "A165": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "username token"
+ },
+ "A166": {
+  "label": "file hash",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "full SHA-256"
+ },
+ "A167": {
+  "label": "yara rule name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "PlayForESXi"
+ },
+ "A168": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "SQL column name"
+ },
+ "A169": {
+  "label": "tactic",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic lowercase \"impact\""
+ },
+ "A170": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1190"
+ },
+ "A171": {
+  "label": "file hash",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "quoted MD5"
+ },
+ "A172": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1190"
+ },
+ "A173": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "log token \"sudo:\""
+ },
+ "A174": {
+  "label": "hacking tool",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Obelisk scanner"
+ },
+ "A175": {
+  "label": "cve identifier",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "advisory ID"
+ },
+ "A176": {
+  "label": "yara rule name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "UNIX find command"
+ },
+ "A177": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A178": {
+  "label": "email address",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Report@cisa.gov"
+ },
+ "A179": {
+  "label": "file name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "LummaC2.exe; paren only"
+ },
+ "A180": {
+  "label": "yara rule name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "this mention names the infostealer, not the rule"
+ },
+ "A181": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A182": {
+  "label": "email address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "protocol name SMTP"
+ },
+ "A183": {
+  "label": "attack technique name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "generic lowercase \"phishing\" usage"
+ },
+ "A184": {
+  "label": "yara rule name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "Suricata msg"
+ },
+ "A185": {
+  "label": "attack technique name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "descriptive phrase"
+ },
+ "A186": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A187": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "psql (same class as A142)"
+ },
+ "A188": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T0840"
+ },
+ "A189": {
+  "label": "email address",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "report@cisa.gov"
+ },
+ "A190": {
+  "label": "file hash",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "quoted MD5"
+ },
+ "A191": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1046"
+ },
+ "A192": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A193": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2024-9379"
+ },
+ "A194": {
+  "label": "attack technique name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Application Shimming (T1546.011)"
+ },
+ "A195": {
+  "label": "cwe identifier",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "advisory ID"
+ },
+ "A196": {
+  "label": "threat actor group",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CL0P's (possessive)"
+ },
+ "A197": {
+  "label": "email address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "TLP marking"
+ },
+ "A198": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A199": {
+  "label": "email address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "phone number"
+ },
+ "A200": {
+  "label": "hacking tool",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Plink"
+ },
+ "A201": {
+  "label": "tactic",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Lateral Movement"
+ },
+ "A202": {
+  "label": "file hash",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "full SHA-256"
+ },
+ "A203": {
+  "label": "attack technique id",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "TA0010 is a tactic ID, not a technique ID"
+ },
+ "A204": {
+  "label": "tactic",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "Masquerading is a technique title"
+ },
+ "A205": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2022-41040"
+ },
+ "A206": {
+  "label": "tlp classification",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "\"TLP:\" fragment"
+ },
+ "A207": {
+  "label": "cwe identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CWE-77"
+ },
+ "A208": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1104"
+ },
+ "A209": {
+  "label": "file name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "HRsword here names the tool, not a file"
+ },
+ "A210": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "CAService.exe is a bare file name"
+ },
+ "A211": {
+  "label": "tactic",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Defense Evasion"
+ },
+ "A212": {
+  "label": "tactic",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "TLP marking"
+ },
+ "A213": {
+  "label": "email address",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "report@cisa.gov"
+ },
+ "A214": {
+  "label": "tactic",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic \"common tactics,\""
+ },
+ "A215": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code string"
+ },
+ "A216": {
+  "label": "file name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "SQL column"
+ },
+ "A217": {
+  "label": "file name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "jpsetup.exe"
+ },
+ "A218": {
+  "label": "attack technique name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "Snake ops mode"
+ },
+ "A219": {
+  "label": "cve identifier",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "advisory ID"
+ },
+ "A220": {
+  "label": "tactic",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "tail of technique title \"Service Execution\" (T1569.002)"
+ },
+ "A221": {
+  "label": "malware family",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "page furniture"
+ },
+ "A222": {
+  "label": "yara rule name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic \"YARA rules.\""
+ },
+ "A223": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A224": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "SQL column \"core,\""
+ },
+ "A225": {
+  "label": "file name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Werfault.exe"
+ },
+ "A226": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2024-8963"
+ },
+ "A227": {
+  "label": "tactic",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Persistence"
+ },
+ "A228": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1001"
+ },
+ "A229": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "DEWMODE web shell; malware family arguably"
+ },
+ "A230": {
+  "label": "malware family",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "FlawedGrace"
+ },
+ "A231": {
+  "label": "file name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "file extension (.vmsd)"
+ },
+ "A232": {
+  "label": "threat actor group",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "Snake is malware"
+ },
+ "A233": {
+  "label": "malware family",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "page furniture"
+ },
+ "A234": {
+  "label": "cwe identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CWE-78"
+ },
+ "A235": {
+  "label": "file hash",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "40-hex; doc's \"MD5\" caption wrong but label correct"
+ },
+ "A236": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "SQL column"
+ },
+ "A237": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2025-0282"
+ },
+ "A238": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2018-13379"
+ },
+ "A239": {
+  "label": "ip address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "literal \"Ipv4\""
+ },
+ "A240": {
+  "label": "file name",
+  "verdict": "Y",
+  "confidence": "low",
+  "note": "GUID.GUID.crmlog template pattern, not literal name"
+ },
+ "A241": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2023-34362"
+ },
+ "A242": {
+  "label": "malware family",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Play"
+ },
+ "A243": {
+  "label": "email address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "URL"
+ },
+ "A244": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1190"
+ },
+ "A245": {
+  "label": "tactic",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "fragment of subtechnique title"
+ },
+ "A246": {
+  "label": "yara rule name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "ustart"
+ },
+ "A247": {
+  "label": "affected software product",
+  "verdict": "Y",
+  "confidence": "low",
+  "note": "product named; context is config guidance, not compromise"
+ },
+ "A248": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "username token"
+ },
+ "A249": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A250": {
+  "label": "email address",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Report@cisa.gov"
+ },
+ "A251": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "ComRAT is an implant; malware family arguably"
+ },
+ "A252": {
+  "label": "cve identifier",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CVE-2024-9379"
+ },
+ "A253": {
+  "label": "yara rule name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CISA_10450442_01"
+ },
+ "A254": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "log token \"sudo:\""
+ },
+ "A255": {
+  "label": "threat actor group",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Turla"
+ },
+ "A256": {
+  "label": "attack technique name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "Snake ops mode fragment"
+ },
+ "A257": {
+  "label": "yara rule name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "ustart"
+ },
+ "A258": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A259": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "variable \"p\""
+ },
+ "A260": {
+  "label": "tactic",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic lowercase \"execution.\""
+ },
+ "A261": {
+  "label": "email address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A262": {
+  "label": "malware family",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Snake"
+ },
+ "A263": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "log token \"sudo:\""
+ },
+ "A264": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "\"Stage 2\" descriptor"
+ },
+ "A265": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "Volatility used defensively in context"
+ },
+ "A266": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A267": {
+  "label": "yara rule name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "\"Grixba:\" names the tool; rule name is GRXBA"
+ },
+ "A268": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A269": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "username token"
+ },
+ "A270": {
+  "label": "threat actor group",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic descriptor + leaked annotation markup in context"
+ },
+ "A271": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A272": {
+  "label": "attack technique name",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "\"Remote Services:\" prefix of subtechnique row; T1021 title arguably"
+ },
+ "A273": {
+  "label": "yara rule name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "ustart"
+ },
+ "A274": {
+  "label": "attack technique name",
+  "verdict": "Y",
+  "confidence": "low",
+  "note": "SQL injection (consistent with A134)"
+ },
+ "A275": {
+  "label": "file path",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A276": {
+  "label": "email address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "phone number"
+ },
+ "A277": {
+  "label": "tlp classification",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TLP:CLEAR"
+ },
+ "A278": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "psql"
+ },
+ "A279": {
+  "label": "file hash",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "literal \"MD5:\" label"
+ },
+ "A280": {
+  "label": "threat actor group",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "CL0P"
+ },
+ "A281": {
+  "label": "malware family",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Snake"
+ },
+ "A282": {
+  "label": "attack technique id",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "\"Passive operations,\""
+ },
+ "A283": {
+  "label": "threat actor group",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Storm-0558"
+ },
+ "A284": {
+  "label": "ip address",
+  "verdict": "N",
+  "confidence": "low",
+  "note": "span is IP plus URL path"
+ },
+ "A285": {
+  "label": "yara rule name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "rule GRXBA declaration position"
+ },
+ "A286": {
+  "label": "cve identifier",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "TLP marking"
+ },
+ "A287": {
+  "label": "affected software product",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Jenkins (genuinely vulnerable in context)"
+ },
+ "A288": {
+  "label": "yara rule name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "Suricata msg"
+ },
+ "A289": {
+  "label": "threat actor group",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "TA505"
+ },
+ "A290": {
+  "label": "attack technique id",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "T1547.006"
+ },
+ "A291": {
+  "label": "attack technique name",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "Snake ops mode"
+ },
+ "A292": {
+  "label": "malware family",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Snake"
+ },
+ "A293": {
+  "label": "file name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Pxaz.dll"
+ },
+ "A294": {
+  "label": "email address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "username \"admin\""
+ },
+ "A295": {
+  "label": "malware family",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "generic word \"ransomware\""
+ },
+ "A296": {
+  "label": "hacking tool",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A297": {
+  "label": "malware family",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "Snake"
+ },
+ "A298": {
+  "label": "email address",
+  "verdict": "N",
+  "confidence": "high",
+  "note": "code fragment"
+ },
+ "A299": {
+  "label": "file name",
+  "verdict": "Y",
+  "confidence": "high",
+  "note": "LummaC2.exe; paren only"
+ }
+}
