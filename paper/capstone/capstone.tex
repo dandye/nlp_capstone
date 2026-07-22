@@ -12,7 +12,7 @@
 
 \newcommand{\pending}[1]{\textcolor{red}{\textbf{[PENDING: #1]}}}
 
-\title{LLM-Primary Gold Annotation for Cyber Threat Intelligence Named Entity Recognition: Honest Evaluation of Token-Classification Architectures}
+\title{LLM-Primary Gold Annotation for Cyber Threat Intelligence Named Entity Recognition: Independent Evaluation of Token-Classification Architectures}
 
 \author{Daniel Dye \\
   NLP Capstone, MS in Artificial Intelligence \\
@@ -44,7 +44,7 @@ zero-shot span-matching architecture, fine-tuned on the identical gold.
 SecureBERT is the best performer (0.71 strict micro-F1), ahead of
 RoBERTa-base (0.66) and RoBERTa-large (0.65), showing domain pretraining
 matters more than parameter count on this task; GLiNER trails all three
-token classifiers once retrained on the same honest gold (0.56). This
+token classifiers once retrained on the same independent gold (0.56). This
 reverses this project's own working hypothesis: an earlier comparison
 that scored an \emph{un}retrained GLiNER checkpoint against retrained
 token classifiers found GLiNER ahead by 9--15 points and attributed it to
@@ -62,7 +62,7 @@ free, fully offline inference --- a 51$\times$ speed gap for 8 points of
 F1. GLiNER, despite being the other local model, does not share in that
 speed advantage: at 59.7s per document it is only 1.6$\times$ faster than
 the cloud API and is dominated by SecureBERT on both accuracy and speed.
-We report these trade-offs honestly rather than reshaping them to fit
+We report these trade-offs directly rather than reshaping them to fit
 either a ``bigger model wins'' or a ``local wins'' narrative; which side
 matters depends on deployment context, not on which result is more
 convenient.
@@ -92,7 +92,7 @@ blind spots is rewarded, not penalized, by silver-label scoring. We confirm
 this quantitatively: rescoring an existing dictionary-silver-trained
 checkpoint against independently-produced gold drops its score from 0.74 to
 0.35 F1 (\S\ref{sec:results}). The model did not get worse; the measurement
-got honest.
+stopped being circular.
 
 This motivates the pipeline described here. Rather than avoiding human
 involvement entirely, we move it to where it is cheapest to apply
@@ -110,18 +110,18 @@ We ask four research questions:
 
 \begin{description}
   \item[RQ1] How large is the gap between circular (dictionary-silver)
-    evaluation and honest (LLM-primary, human-curated) evaluation for a
+    evaluation and independent (LLM-primary, human-curated) evaluation for a
     model trained on the old weak-supervision pipeline?
-  \item[RQ2] Once both training and evaluation labels come from the honest
-    LLM-gold pipeline, does model scale (RoBERTa-base vs.\ RoBERTa-large)
-    or domain-adaptive pretraining (SecureBERT) matter more for
-    token-classification CTI NER?
+  \item[RQ2] Once both training and evaluation labels come from the
+    independent LLM-gold pipeline, does model scale (RoBERTa-base vs.\
+    RoBERTa-large) or domain-adaptive pretraining (SecureBERT) matter more
+    for token-classification CTI NER?
   \item[RQ3] Which entity types remain hard even after retraining on
-    honest gold, and does the pattern track training-example frequency,
-    structured-vs-semantic label type, or both?
+    independent gold, and does the pattern track training-example
+    frequency, structured-vs-semantic label type, or both?
   \item[RQ4] How does this fine-tuned token-classification fleet compare
     to a zero-shot span-matching architecture (GLiNER) retrained on the
-    identical honest gold, and to a frontier LLM run zero-shot?
+    identical independent gold, and to a frontier LLM run zero-shot?
 \end{description}
 
 All four research questions are answered here with data trained and
@@ -296,16 +296,16 @@ Section~\ref{sec:results} is not an artifact of different matching rules.
 \section{Results}
 \label{sec:results}
 
-\subsection{RQ1: Circular vs.\ Honest Evaluation}
+\subsection{RQ1: Circular vs.\ Independent Evaluation}
 
-Table~\ref{tab:circular-vs-honest} rescores the prior pipeline's checkpoints
+Table~\ref{tab:circular-vs-independent} rescores the prior pipeline's checkpoints
 --- trained on dictionary-silver labels, previously reported at 0.74 and
 0.76 F1 --- against the current, independently-produced LLM+human gold, on
 the same 8 test advisories (1{,}995 gold spans) used throughout this paper.
 Both token-classification checkpoints collapse: RoBERTa-base from 0.740 to
 0.351, SecureBERT from 0.755 to 0.393, roughly a 47--48\% relative drop.
-The model did not get worse; the measurement got honest --- these
-checkpoints were never evaluated against labels their own dictionary
+The model did not get worse; the measurement stopped being circular ---
+these checkpoints were never evaluated against labels their own dictionary
 annotator didn't also produce, so silver scoring rewarded them for learning
 the dictionary's blind spots along with its correct patterns. For
 reference, the old GLiNER checkpoint (fine-tuned on the same dictionary
@@ -313,52 +313,54 @@ silver labels, not yet retrained on the current gold) drops by a smaller
 margin, 0.666 to 0.540 (19\% relative) --- the asymmetry that motivated an
 earlier, informal version of this project's RQ4 hypothesis: that
 span-matching architectures generalize better than token classifiers once
-evaluation is honest. \S\ref{sec:rq4} retrains GLiNER on the identical
-gold and shows this smaller drop was not architectural after all; it
-reflects GLiNER's old training data happening to be less circular than
-the token classifiers' relative to \emph{this specific honest eval set},
-not an architecture effect that survives a controlled retrain.
+evaluation is no longer circular. \S\ref{sec:rq4} retrains GLiNER on the
+identical gold and shows this smaller drop was not architectural after
+all; it reflects GLiNER's old training data happening to be less circular
+than the token classifiers' relative to \emph{this specific independent
+eval set}, not an architecture effect that survives a controlled retrain.
 
 \begin{table}[t]
 \centering
 \small
 \begin{tabular}{lrrrr}
 \toprule
-Model & Circular F1 & Honest P & Honest R & Honest F1 \\
+Model & Circular F1 & Indep.\ P & Indep.\ R & Indep.\ F1 \\
 \midrule
 RoBERTa-base & 0.740 & 0.86 & 0.22 & 0.351 \\
 SecureBERT & 0.755 & 0.87 & 0.25 & 0.393 \\
 GLiNER (v1, ref.) & 0.666 & 0.65 & 0.46 & 0.540 \\
 \bottomrule
 \end{tabular}
-\caption{Checkpoints trained on the prior dictionary-silver pipeline, scored against the silver labels they were trained toward (``Circular'') vs.\ against independent LLM+human gold (``Honest''), strict span+label match, 8-document test split.}
-\label{tab:circular-vs-honest}
+\caption{Checkpoints trained on the prior dictionary-silver pipeline, scored against the silver labels they were trained toward (``Circular'') vs.\ against independent LLM+human gold (``Indep.''), strict span+label match, 8-document test split.}
+\label{tab:circular-vs-independent}
 \end{table}
 
-\subsection{RQ2: Scale vs.\ Domain Pretraining Under Honest Gold}
+\subsection{RQ2: Scale vs.\ Domain Pretraining Under Independent Gold}
 
 Table~\ref{tab:architecture} reports the three encoders after retraining on
-the LLM-gold training split and scoring against the same honest test gold.
-SecureBERT is the best performer (0.712 strict / 0.758 relaxed micro-F1),
-ahead of RoBERTa-base (0.659 / 0.683) and, notably, ahead of RoBERTa-large
-(0.648 / 0.697) despite RoBERTa-large having roughly 3$\times$ the
-parameters. Domain-adaptive pretraining recovers more honest-gold quality
-here than raw scale does. RoBERTa-large's higher relaxed-F1 and macro-F1
-alongside a \emph{lower} strict micro-F1 than RoBERTa-base is explained by
-the per-label pattern in \S\ref{sec:rq3}: RoBERTa-large predicts the right
-general region and type more consistently across labels (helping macro and
-relaxed matching) but regresses sharply on the single highest-volume label,
-\emph{malware family}, which drags support-weighted strict micro-F1 down.
+the LLM-gold training split and scoring against the same independent test
+gold. SecureBERT is the best performer (0.712 strict / 0.758 relaxed
+micro-F1), ahead of RoBERTa-base (0.659 / 0.683) and, notably, ahead of
+RoBERTa-large (0.648 / 0.697) despite RoBERTa-large having roughly
+3$\times$ the parameters. Domain-adaptive pretraining recovers more of
+the independent-gold quality here than raw scale does. RoBERTa-large's
+higher relaxed-F1 and macro-F1 alongside a \emph{lower} strict micro-F1
+than RoBERTa-base is explained by the per-label pattern in
+\S\ref{sec:rq3}: RoBERTa-large predicts the right general region and type
+more consistently across labels (helping macro and relaxed matching) but
+regresses sharply on the single highest-volume label, \emph{malware
+family}, which drags support-weighted strict micro-F1 down.
 
-Comparing back to Table~\ref{tab:circular-vs-honest}: retraining on honest
-gold closes most of the gap the circular evaluation had hidden.
-RoBERTa-base's honest score rises from 0.351 (old checkpoint) to 0.659
-(retrained) --- most of the way back to its old, circular 0.740 --- and
-SecureBERT's honest score (0.712) very nearly matches its old circular
-number (0.755). Fixing \emph{both} the training labels and the evaluation
-labels recovers almost all of the quality the circular number implied was
-already there; fixing only the evaluation labels (Table~\ref{tab:circular-vs-honest})
-is what made the models look like they had regressed.
+Comparing back to Table~\ref{tab:circular-vs-independent}: retraining on
+independent gold closes most of the gap the circular evaluation had
+hidden. RoBERTa-base's score against independent gold rises from 0.351
+(old checkpoint) to 0.659 (retrained) --- most of the way back to its
+old, circular 0.740 --- and SecureBERT's independent-gold score (0.712)
+very nearly matches its old circular number (0.755). Fixing \emph{both}
+the training labels and the evaluation labels recovers almost all of the
+quality the circular number implied was already there; fixing only the
+evaluation labels (Table~\ref{tab:circular-vs-independent}) is what made
+the models look like they had regressed.
 
 \begin{table}[t]
 \centering
@@ -384,7 +386,7 @@ above --- reasonably consistent type coverage dragged down by weak
 performance on a few high-volume labels, most strikingly \emph{ip address}
 (F1 0.03, recall 0.02; \S\ref{sec:rq4} discusses why). This directly
 answers the question raised in \S\ref{sec:results}'s RQ1 discussion: the old
-GLiNER checkpoint's smaller circular-to-honest drop (Table~\ref{tab:circular-vs-honest})
+GLiNER checkpoint's smaller circular-vs-independent drop (Table~\ref{tab:circular-vs-independent})
 was not evidence of an architectural generalization advantage. Retrained
 under the identical procedure applied to the token classifiers, GLiNER is
 the weakest of the four models on this task.
@@ -461,9 +463,9 @@ architectures tested, behind RoBERTa-large (0.65), RoBERTa-base (0.66),
 and SecureBERT (0.71). This resolves the question RQ1 raised and this
 project's own prior working hypothesis did not survive controlled
 retraining --- \S\ref{sec:results} already sketches why: the old GLiNER
-checkpoint's smaller circular-to-honest drop reflected its old training
-data's relationship to \emph{this} eval set, not a property of span-matching
-architecture that a fair retrain preserves.
+checkpoint's smaller circular-vs-independent drop reflected its old
+training data's relationship to \emph{this} eval set, not a property of
+span-matching architecture that a fair retrain preserves.
 
 Table~\ref{tab:gliner-per-label} shows GLiNER is not uniformly weak --- it
 matches or nearly matches the token classifiers on several structured
@@ -594,9 +596,9 @@ proposals have systematic blind spots of their own --- the same structural
 risk that motivated moving off the dictionary annotator in the first
 place, just with a different annotator --- training labels would inherit
 them even though the evaluation labels, being human-curated, would not.
-The results in \S\ref{sec:results} should be read as ``honestly evaluated,''
-not as ``free of all annotator bias''; only the measurement side of that
-distinction is currently guaranteed.
+The results in \S\ref{sec:results} should be read as ``evaluated without
+circularity,'' not as ``free of all annotator bias''; only the
+measurement side of that distinction is currently guaranteed.
 
 \paragraph{Blind gold audit not yet complete.} A blind, model-identity-hidden
 judgment sheet of 300 predicted spans (\texttt{paper/capstone/gold\_audit.md})
@@ -642,12 +644,13 @@ or over time.
 Evaluating against labels produced by the same annotator being improved
 upon is circular, and the gap it hides is not small: a checkpoint that
 scored 0.74--0.76 F1 against dictionary-silver gold scores 0.35--0.39
-against independently-produced gold (RQ1). Retraining on that same honest
-gold recovers most of the apparent quality --- SecureBERT reaches 0.71 F1,
-nearly matching its own old circular number --- showing the earlier result
-was not fabricated so much as measured against the wrong yardstick (RQ2).
-Domain-adaptive pretraining (SecureBERT) recovers more honest-gold quality
-than raw parameter count (RoBERTa-large), which notably regresses on the
+against independently-produced gold (RQ1). Retraining on that same
+independent gold recovers most of the apparent quality --- SecureBERT
+reaches 0.71 F1, nearly matching its own old circular number --- showing
+the earlier result was not fabricated so much as measured against the
+wrong yardstick (RQ2). Domain-adaptive pretraining (SecureBERT) recovers
+more independent-gold quality than raw parameter count (RoBERTa-large),
+which notably regresses on the
 single highest-volume label rather than improving on it. Structured,
 pattern-shaped entity types are essentially solved by all three
 architectures; open-vocabulary, context-dependent types --- most visibly
@@ -656,18 +659,18 @@ core of this task regardless of training volume (RQ3).
 
 The architecture question this project set out to answer --- whether
 GLiNER's span-matching design generalizes better than a token classifier's
-softmax head once measured honestly --- is answered, and not in the
-direction this project's own earlier, uncontrolled comparison suggested.
-Retrained on the identical honest gold and scored with the identical
-harness, GLiNER (0.56 F1) is the weakest of the four architectures
-tested, behind every token classifier including RoBERTa-large (RQ4). The
-apparent GLiNER advantage in Table~\ref{tab:circular-vs-honest} was an
-artifact of comparing a retrained token classifier against an
-\emph{un}retrained span-matching model --- a reminder that the same
-circularity discipline this paper applies to silver-vs-honest gold
-(RQ1) has to be applied just as strictly to any two checkpoints being
-compared, or a training-data confound can masquerade as an architecture
-finding.
+softmax head once measured without circularity --- is answered, and not
+in the direction this project's own earlier, uncontrolled comparison
+suggested. Retrained on the identical independent gold and scored with
+the identical harness, GLiNER (0.56 F1) is the weakest of the four
+architectures tested, behind every token classifier including
+RoBERTa-large (RQ4). The apparent GLiNER advantage in
+Table~\ref{tab:circular-vs-independent} was an artifact of comparing a
+retrained token classifier against an \emph{un}retrained span-matching
+model --- a reminder that the same circularity discipline this paper
+applies to silver-vs-independent gold (RQ1) has to be applied just as
+strictly to any two checkpoints being compared, or a training-data
+confound can masquerade as an architecture finding.
 
 Widening the comparison to a frontier LLM completes the picture and
 complicates the tidy ``local wins'' narrative this project expected
@@ -685,10 +688,11 @@ but free and fast''; on this task, measured this way, it is simply
 dominated. Neither of these trade-offs is free, and which one matters
 depends on the deployment context, not on which number a project hoped
 to see. Producing
-this comparison honestly also meant catching and fixing two evaluation-harness
-bugs (\S\ref{sec:rq4}) that would otherwise have quietly misreported it ---
-the same discipline RQ1 required of the silver-vs-honest gold comparison,
-applied here to a frontier-vs-local one. \pending{The blind gold-audit
+this comparison rigorously also meant catching and fixing two
+evaluation-harness bugs (\S\ref{sec:rq4}) that would otherwise have
+quietly misreported it --- the same discipline RQ1 required of the
+silver-vs-independent gold comparison, applied here to a frontier-vs-local
+one. \pending{The blind gold-audit
 results (\S\ref{sec:limitations}) remain outstanding and will be
 reported once available.}
 
