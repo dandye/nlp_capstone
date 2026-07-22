@@ -257,7 +257,16 @@ generalization better than a softmax head) came from comparing an
 not an architecture effect. Do not cite the old hypothesis as the paper's
 finding; it's now the paper's RQ1/RQ4 cautionary example instead.
 
-Remaining open items: the frontier-LLM comparison (RQ4 second half, in
-progress — `data/frontier_results/`) and the blind gold audit
-(`paper/capstone/gold_audit.md`, needs the principal's own human judgment,
-not to be filled in by an LLM).
+No open items remain. The frontier-LLM comparison is done
+(`data/frontier_results/`, Gemini 0.795 strict F1 vs SecureBERT 0.712).
+The blind gold audit turned out to be already human-judged (pre-repo,
+scrape_cisa era — the principal's own 300 judgments arrived in the initial
+import inside `gold_audit.csv`); it was scored via `ner.score_audit` on
+2026-07-21: 50.2% of silver-flagged false positives were correct entities
+(59% finetuned / 43% zeroshot), the quantitative basis for RQ1. The paper
+frames the dictionary-silver pipeline as a *studied baseline*, not project
+history, and states plainly that the current LLM gold has no blind audit
+(val/test curation only). `gold_audit.fable5.*` is a separate LLM triage
+(82% agreement with the human judgments) — never cite it as the human
+audit. The paper is ACM format (acmart sigconf,nonacm) with an Artifact
+Availability section linking the repo and HF checkpoints.
