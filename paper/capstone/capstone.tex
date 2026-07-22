@@ -703,6 +703,29 @@ comparison, applied to a frontier-vs-local one. The blind gold-audit
 results (Section~\ref{sec:limitations}) remain outstanding and will be
 reported once available.
 
+\section{Future Work}
+\label{sec:future-work}
+
+The per-label results (Section~\ref{sec:rq3}) suggest a concrete next step
+for the weakest, open-vocabulary semantic types: a gazetteer of canonical
+names and aliases for \emph{threat actor group} and \emph{hacking tool}.
+Both types have curated, actively maintained alias inventories---MITRE
+ATT\&CK group and software entries and MISP Galaxy threat-actor clusters
+each enumerate dozens of aliases per named intrusion set (e.g., APT28 /
+Fancy Bear / Sofacy / STRONTIUM)---and part of the observed difficulty is
+plausibly alias variety rather than genuinely novel vocabulary. Two design
+constraints follow from this paper's own findings. First, the gazetteer
+must enter the system strictly as inference-side model input (lookup
+features, gazetteer-aware decoding, or candidate reranking), never as a
+labeling source: using the same resource to produce or correct gold labels
+would reintroduce exactly the circularity RQ1 quantifies. Second, scored
+against the existing independent gold, a gazetteer provides a measurable
+decomposition of the remaining gap on these labels into alias-coverage
+error, which lookup can fix, and contextual-disambiguation error---e.g.,
+PowerShell as routine administration versus as a \emph{hacking tool} in an
+intrusion narrative---which it cannot, and which would then be isolated as
+the residual hard core of the task.
+
 \section{Artifact and Data Availability}
 \label{sec:artifacts}
 
