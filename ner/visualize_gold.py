@@ -1,7 +1,12 @@
 """
-Render the current gold labels (gliner_train.jsonl) as a single reviewable
-HTML page — built for the human quality pass BEFORE retraining on a
-regenerated corpus (2026-07-19 Phase 1 follow-up: verify first this time).
+Render the current gold labels as a single reviewable HTML page — built
+for the human quality pass BEFORE retraining on a regenerated corpus
+(2026-07-19 Phase 1 follow-up: verify first this time).
+
+Defaults cover the full LLM-gold corpus: data/gold_v2/eval.jsonl (16
+human-curated val/test docs) plus data/gold_v2/train.jsonl (66 LLM-only
+train docs), with subsets labeled via split_full_gliner.json. Regenerate
+either input with ner.gold_to_training if the gold changes.
 
 Shows exactly what the evaluation harness sees: chunks merged back to
 document-global token streams via chunk_start (same reconstruction as
@@ -17,7 +22,8 @@ Review affordances:
 
 Usage:
     PYTHONPATH=. python3 -m ner.visualize_gold \
-        [--data data/gliner_train.jsonl] [--out data/gold_review.html]
+        [--data data/gold_v2/eval.jsonl data/gold_v2/train.jsonl] \
+        [--out data/gold_review.html]
 """
 
 from __future__ import annotations
@@ -91,12 +97,13 @@ def render_doc_html(tokens: list[str], chosen: list, label_idx: dict[str, int]) 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[1])
-    ap.add_argument("--data", default="data/gliner_train.jsonl")
-    ap.add_argument("--split", default="data/split_slugs.json")
+    ap.add_argument("--data", nargs="+",
+                    default=["data/gold_v2/eval.jsonl", "data/gold_v2/train.jsonl"])
+    ap.add_argument("--split", default="data/gold_v2/split_full_gliner.json")
     ap.add_argument("--out", default="data/gold_review.html")
     args = ap.parse_args()
 
-    recs = [json.loads(l) for l in open(args.data, encoding="utf-8")]
+    recs = [json.loads(l) for p in args.data for l in open(p, encoding="utf-8")]
     split = json.loads(Path(args.split).read_text(encoding="utf-8"))
     subset_of = {s: name for name in split for s in split[name]}
 
