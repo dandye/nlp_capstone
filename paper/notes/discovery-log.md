@@ -73,6 +73,46 @@ Anchors swept: 2507.18546 (GLiNER2), 2408.05149 (AttackER), 2512.19414 (TTPrompt
 - Minerva (2602.00513): zero citers — too recent.
 - Bi-encoder (2602.18487): sweep not completed, Semantic Scholar rate-limited twice; retry in a future sweep.
 
+## Sweep 6 — 2026-07-22 — gap backfill retrieval (principal-requested)
+
+Not a discovery sweep: retrieval of papers the survey already cites or the
+ledger already held. **Does not count against the 25-paper acceptance cap**
+(cap governs scope additions; these are citation backfill). Parallel
+subagent retrieval; all PDFs verified (magic + title match) and
+docling-converted with image placeholders.
+
+### Retrieved (14 papers, PDF + md in data/papers/)
+
+| Paper | ID/venue | File |
+|-------|----------|------|
+| CyNER python library | arXiv 2204.05754 | 2204.05754-CyNER-python-library |
+| MalwareTextDB | ACL P17-1143 | acl-P17-1143-MalwareTextDB |
+| CASIE event extraction | AAAI 2020 | aaai-CASIE-cybersecurity-event-extraction |
+| Bridges auto-labeling | arXiv 1308.4941 | 1308.4941-Bridges-automatic-labeling-entity-extraction |
+| SecureBERT | arXiv 2204.02685 | 2204.02685-SecureBERT-domain-LM |
+| CySecBERT | arXiv 2212.02974 | 2212.02974-CySecBERT-domain-adapted-LM |
+| DarkBERT | arXiv 2305.08596 | 2305.08596-DarkBERT-dark-web-LM |
+| Foundation-Sec-8B tech report | arXiv 2508.01059 | 2508.01059-Foundation-Sec-8B-tech-report |
+| RAG QA attack attribution | arXiv 2408.06272 | 2408.06272-RAG-QA-attack-attribution |
+| Cancer-immunology DS-NER | ACL 2022.bionlp-1.17 | acl-2022.bionlp-1.17-cancer-immunology-DS-NER |
+| **Büchel SoK: Automated TTP Extraction — Are We There Yet?** | **USENIX Security 2025** (not on arXiv) | usenix-2025-Buechel-SoK-TTP-extraction |
+| Yadulla DeBERTa/Transformer-CNN CTI NER | FRUCT'37 2025 (CC BY-ND) | fruct-2025-Yadulla-CTI-entity-recognition-DeBERTa |
+| GPT-NER (orphan PDF, now converted) | arXiv 2304.10428 | 2304.10428-GPT-NER-LLM-prompting |
+| Brief History of NER (orphan PDF, now converted) | arXiv 2411.05057 | 2411.05057-Brief-history-of-NER |
+
+### Not retrieved (documented)
+
+- **APTNER** — IEEE CSCWD 2022, DOI 10.1109/CSCWD54268.2022.9776031; paywalled, no OA copy (arXiv/CORE/RG/GitHub exhausted; repo has dataset only). The 2204.05943 arXiv guess was wrong — not on arXiv.
+- **DNRTI** — IEEE TrustCom 2020, DOI 10.1109/TrustCom50675.2020.00252; paywalled; CORE downloadUrl is dead (BlobNotFound); repo has dataset only.
+- **CyberLLaMA** — Knowledge-Based Systems 328, DOI 10.1016/j.knosys.2025.114183; Unpaywall confirms closed, no preprint. Cite by DOI if used.
+- **Gill & Karafili attribution ontology** — FSI: Digital Investigation, DOI 10.1016/j.fsidi.2026.302102; **genuinely CC-BY gold OA** but ScienceDirect bot-gates non-browser clients — one-click manual browser download for the principal.
+
+### Still pending (unchanged from Sweep 5)
+
+- Bi-encoder (2602.18487) forward-citation sweep (S2 rate-limited).
+- "Knowledge-Driven Drug-Use NER with Distant Supervision" — still no ID/URL.
+- Bibliography annotation pass for the 14 new arrivals (separate task).
+
 ## Pending sweeps
 
 - Complete the bi-encoder (2602.18487) forward-citation sweep (rate-limited out this time).
