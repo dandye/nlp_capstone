@@ -1,31 +1,35 @@
 \pdfoutput=1
-\documentclass[sigconf,nonacm]{acmart}
-\settopmatter{printfolios=true}
+\documentclass[11pt]{article}
+\usepackage{acl2023}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{booktabs}
+\usepackage{xcolor}
 
 \title{Named Entity Recognition for Information Security and Cyber Threat
 Intelligence: A Survey}
 
-\author{Daniel Dye}
-\affiliation{%
-  \institution{Bellini College of Artificial Intelligence, Cybersecurity, and Computing, University of South Florida}
-  \city{Tampa}
-  \state{Florida}
-  \country{USA}}
-\email{ddye@usf.edu}
+\author{Daniel Dye \\
+  Bellini College of Artificial Intelligence, Cybersecurity, and Computing \\
+  University of South Florida \\
+  \texttt{ddye@usf.edu}}
 
 \begin{document}
 \sloppy
 % displaCy-style inline entity annotation: highlighted span + small-caps label
 \newcommand{\ent}[3]{\colorbox{#1}{\strut #2\,{\tiny\textsc{#3}}}}
 
-
+\maketitle
 
 \begin{abstract}
 
 Cyber threat intelligence is produced as natural language and consumed as structured data; named entity recognition and its downstream tasks — entity linking, relation extraction, TTP mapping, and knowledge-graph construction — form the extraction bottleneck between the two. We survey this pipeline across 41 works spanning classic sequence labeling, weak and distant supervision, zero-shot span matching (the GLiNER family), LLM-based generative extraction, data-centric methods, and the 2024-2026 wave of LLM-driven knowledge-graph construction, together with the taxonomies and ontologies (STIX, MITRE ATT\&CK, UCO) that serve as extraction type systems and the benchmarks that evaluate the results. Two findings organize the synthesis. First, fragmentation recurs at every level — annotation schemas, entity names, KG ontologies, vendor coverage — with empirical costs now quantified (cross-dataset F1 collapse; thousands of unreconciled actor aliases) and an economic root: convergence requires sharing the proprietary telemetry that justifies vendors' analytic claims. Second, the field's methodological diversity is largely a single response to one condition — expert annotation too expensive to scale — pursued by substituting existing structure for labels: knowledge bases as distant supervision, type descriptions as zero-shot prompts, canonical identifiers as verifiable rewards, and LLM-generated text as synthetic corpora. We catalog reproducible artifacts for every method, identify the benchmark gaps that matter operationally (consistency, calibration, relation extraction, label efficiency), and chart open problems from adversarial robustness of ingestion to schema-agnostic graph construction.
 
 \end{abstract}
-\maketitle
 \section{Introduction}
 
 Cyber threat intelligence (CTI) is produced and consumed primarily as natural language. Government advisories, vendor blog posts, incident reports, and malware analyses describe threat actors, malware families, exploited vulnerabilities, and adversary techniques in prose — and the security tooling that must act on this knowledge (detection rules, threat feeds, knowledge graphs, attack simulations) requires it as structured data. Named entity recognition sits at this bottleneck: it is the extraction step that turns a sentence like "Volt Typhoon used living-off-the-land binaries to evade detection" into typed, linkable objects:
@@ -89,7 +93,7 @@ The corpus landscape divides into a fragmented first generation and a consolidat
 \begin{table*}[t]
 \centering
 \footnotesize
-\begin{tabular}{p{3.4cm}p{2.7cm}p{2.4cm}p{2.6cm}p{1.8cm}p{3.2cm}}
+\begin{tabular}{p{2.9cm}p{2.3cm}p{2.0cm}p{2.2cm}p{1.5cm}p{2.6cm}}
 \toprule
 Corpus & Size & Entity types & Source texts & License & Notes \\
 \midrule
@@ -247,7 +251,7 @@ survey time.
 \begin{table*}[t]
 \centering
 \footnotesize
-\begin{tabular}{p{4.2cm}p{2.6cm}p{7.2cm}p{2.2cm}}
+\begin{tabular}{p{3.6cm}p{2.2cm}p{6.4cm}p{2.0cm}}
 \toprule
 Work & Type & Artifacts & License \\
 \midrule
@@ -296,7 +300,7 @@ surveyed papers (e.g., SecureBERT, UniNER, rcATT, TRAM) are cited as
 secondary sources; full reading notes for the 41-paper corpus are in the
 repository's \path{notes/bibliography.md}.
 
-\bibliographystyle{ACM-Reference-Format}
+\bibliographystyle{acl_natbib}
 \bibliography{survey}
 
 \end{document}
