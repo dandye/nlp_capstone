@@ -1,19 +1,25 @@
 \pdfoutput=1
-\documentclass[sigconf,nonacm]{acmart}
-\settopmatter{printfolios=true}
+\documentclass[11pt]{article}
+\usepackage{acl2023}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{xcolor}
 
-\title{LLM-Primary Gold Annotation for Cyber Threat Intelligence Named Entity Recognition: Independent Evaluation of Token-Classification Architectures}
-\titlenote{Code, data, and fine-tuned models are publicly available: \url{https://github.com/dandye/nlp_capstone}. See Section~\ref{sec:artifacts}.}
+\title{LLM-Primary Gold Annotation for Cyber Threat Intelligence Named Entity Recognition: Independent Evaluation of Token-Classification Architectures\thanks{Code, data, and fine-tuned models are publicly available: \url{https://github.com/dandye/nlp_capstone}. See Section~\ref{sec:artifacts}.}}
 
-\author{Daniel Dye}
-\affiliation{%
-  \institution{Bellini College of Artificial Intelligence, Cybersecurity, and Computing, University of South Florida}
-  \city{Tampa}
-  \state{Florida}
-  \country{USA}}
-\email{ddye@usf.edu}
+\author{Daniel Dye \\
+  Bellini College of Artificial Intelligence, Cybersecurity, and Computing \\
+  University of South Florida \\
+  \texttt{ddye@usf.edu}}
 
 \begin{document}
+\maketitle
 
 \begin{abstract}
 Cyber threat intelligence (CTI) reports contain entity types with no
@@ -54,11 +60,6 @@ trade-offs directly; the appropriate operating point depends on deployment
 context rather than on either a ``larger models win'' or a ``local models
 win'' generalization.
 \end{abstract}
-
-\keywords{named entity recognition, cyber threat intelligence, LLM-based
-annotation, evaluation methodology, domain-adaptive pretraining}
-
-\maketitle
 
 \section{Introduction}
 
@@ -328,7 +329,8 @@ are included in the released artifacts (Section~\ref{sec:artifacts}).
 
 \begin{table}[t]
 \centering
-\small
+\scriptsize
+\setlength{\tabcolsep}{3pt}
 \begin{tabular}{lrrrr}
 \toprule
 Model & Circular F1 & Indep.\ P & Indep.\ R & Indep.\ F1 \\
@@ -436,6 +438,7 @@ Table~\ref{tab:architecture}.
 \begin{table}[t]
 \centering
 \small
+\setlength{\tabcolsep}{3pt}
 \begin{tabular}{lrrrr}
 \toprule
 Label & $n$ & Base & Large & SecBERT \\
@@ -500,7 +503,8 @@ this as a concrete follow-up rather than a settled explanation.
 
 \begin{table}[t]
 \centering
-\small
+\footnotesize
+\setlength{\tabcolsep}{2pt}
 \begin{tabular}{lrr}
 \toprule
 Label & GLiNER F1 & Best token clf.\ F1 \\
@@ -573,7 +577,8 @@ the same range but is not independently confirmed here.
 
 \begin{table}[t]
 \centering
-\small
+\scriptsize
+\setlength{\tabcolsep}{3pt}
 \begin{tabular}{lrrr}
 \toprule
 Model & Strict F1 & Relaxed F1 & Avg.\ latency/doc \\
@@ -823,7 +828,7 @@ their model cards. Reruns should be expected to land near, not exactly
 on, the reported numbers.
 \endgroup
 
-\bibliographystyle{ACM-Reference-Format}
+\bibliographystyle{acl_natbib}
 \bibliography{capstone}
 
 \appendix
@@ -844,8 +849,8 @@ under \path{data/frontier_results/}.
 
 \begin{table}[t]
 \centering
-\footnotesize
-\setlength{\tabcolsep}{3pt}
+\scriptsize
+\setlength{\tabcolsep}{2pt}
 \begin{tabular}{lrrrrrr}
 \toprule
 Model & F1 & P & R & Macro & s/doc & Tokens \\
@@ -952,13 +957,12 @@ reasoning tokens are metered at the output rate, so the roughly
 6$\times$ token inflation flows directly into cost at any rate
 schedule.
 
-\begin{table}[t]
+\begin{table*}[t]
 \centering
 \footnotesize
-\setlength{\tabcolsep}{2pt}
 \begin{tabular}{lrrrrrrrrr}
 \toprule
-Label & 3.5F & Lite & 3.6m & 3.6t & K3 & H4.5 & Supp. \\
+Label & 3.5F & Lite & 3.6m & 3.6t & K3 & K2.6 & H4.5 & O4.8 & Supp. \\
 \midrule
 affected software product & 0.65 & 0.51 & 0.37 & 0.62 & 0.59 & 0.52 & 0.47 & 0.08 & 159 \\
 attack technique id & 0.99 & 0.99 & 0.99 & 0.99 & 0.98 & 0.99 & 0.97 & 0.98 & 297 \\
@@ -986,6 +990,6 @@ Kimi K3 (K3), Kimi K2.6 (K2.6), Claude Haiku 4.5 (H4.5), Claude Opus
 gemma3:27b is omitted for space; its per-label scores are in
 \texttt{data/frontier\_results/gemma3-27b-scores.json}.}
 \label{tab:frontier-extended-perlabel}
-\end{table}
+\end{table*}
 
 \end{document}
