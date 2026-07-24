@@ -46,8 +46,8 @@ CLAUDE_MODEL_IDS = {
 }
 
 
-def call_gemini(text: str, api_key: str) -> dict:
-    """Call Gemini 3.5 Flash for NER via the google-genai SDK.
+def call_gemini(text: str, api_key: str, model: str = "gemini-3.5-flash") -> dict:
+    """Call a Gemini model for NER via the google-genai SDK.
 
     Auth (pick one):
       - API key: GOOGLE_API_KEY / GEMINI_API_KEY (AI Studio billing + spend cap)
@@ -86,25 +86,40 @@ Return a valid JSON array:
 If no clear matches, return an empty array: []
 """
 
-    config = types.GenerateContentConfig(
-        temperature=0.0,
-        thinking_config=types.ThinkingConfig(thinking_budget=0),
-    )
+    # Thinking must stay OFF: hidden reasoning tokens bill at the output rate
+    # and made earlier runs ~50x more expensive. Older models take
+    # thinking_budget=0; Gemini 3.6+ rejects that and takes
+    # thinking_level="minimal" instead. Never fall back to a bare config —
+    # that silently re-enables default thinking.
+    # Gemma models (API-served, e.g. gemma-4-31b-it) have no thinking at
+    # all and reject any thinking_config; a bare config is safe for them.
+    if model.startswith("gemma"):
+        fallback_configs = [types.GenerateContentConfig(temperature=0.0)]
+    else:
+        fallback_configs = [
+            types.GenerateContentConfig(
+                temperature=0.0,
+                thinking_config=types.ThinkingConfig(thinking_budget=0),
+            ),
+            types.GenerateContentConfig(
+                temperature=0.0,
+                thinking_config=types.ThinkingConfig(thinking_level="minimal"),
+            ),
+        ]
 
     start = time.time()
-    try:
-        response = client.models.generate_content(
-            model="gemini-3.5-flash", contents=prompt, config=config
-        )
-    except Exception as e:
-        # Some models reject thinking_budget=0; retry once without it
-        if "thinking" in str(e).lower():
-            config = types.GenerateContentConfig(temperature=0.0)
+    response = None
+    for i, config in enumerate(fallback_configs):
+        try:
             response = client.models.generate_content(
-                model="gemini-3.5-flash", contents=prompt, config=config
+                model=model, contents=prompt, config=config
             )
-        else:
-            raise
+            break
+        except Exception as e:
+            error_str = str(e).lower()
+            is_config_error = "thinking" in error_str or "invalid_argument" in error_str or "400" in error_str
+            if not is_config_error or i == len(fallback_configs) - 1:
+                raise
     latency = time.time() - start
 
     # Parse JSON from response
@@ -193,6 +208,73 @@ If no clear matches, return an empty array: []
         entities = []
 
     tokens = response.usage.input_tokens + response.usage.output_tokens
+    return {"entities": entities, "latency_sec": latency, "tokens": tokens}
+
+
+def call_kimi(text: str, api_key: str, model: str = "kimi-k2.6") -> dict:
+    """Call a Kimi model (Moonshot) for NER via the OpenAI-compatible API.
+
+    Kimi doesn't reliably output JSON, so we ask for markdown lists and parse them.
+    Returns entities without character offsets (frontier_extract will locate them via text search).
+    """
+    from openai import OpenAI
+    import re
+
+    client = OpenAI(api_key=api_key, base_url="https://api.moonshot.ai/v1")
+
+    label_list = ", ".join(LABELS)
+    prompt = f"""Extract cybersecurity entities from this text. For each entity, list:
+- The exact text (verbatim from the text)
+- The label (one of: {label_list})
+
+Be strict: only extract clear matches. Use lowercase labels exactly as listed.
+
+Text:
+{text}
+
+Format your response as a list with one entity per line:
+Entity: [text] | Label: [label]
+Entity: [text] | Label: [label]
+
+If no matches, respond with: No entities found"""
+
+    start = time.time()
+    response = client.chat.completions.create(
+        model=model,
+        messages=[{"role": "user", "content": prompt}],
+        temperature=1.0,
+    )
+    latency = time.time() - start
+
+    result_text = response.choices[0].message.content.strip()
+
+    # Parse markdown-style entity list
+    # Format: "Entity: [text] | Label: [label]"
+    entities = []
+    for line in result_text.split('\n'):
+        line = line.strip()
+        if 'Entity:' in line and 'Label:' in line:
+            try:
+                # Extract entity text and label from "Entity: X | Label: Y" format
+                entity_part = line.split('Entity:')[1].split('|')[0].strip()
+                label_part = line.split('Label:')[1].strip()
+
+                # Clean up markdown formatting
+                entity_text = entity_part.strip('*`"\'')
+                label_text = label_part.strip('*`"\'').lower()
+
+                # Validate label
+                if label_text in LABELS:
+                    entities.append({
+                        "text": entity_text,
+                        "label": label_text,
+                        "start_char": 0,  # Placeholder; frontier_extract will find actual position
+                        "end_char": 0,
+                    })
+            except (IndexError, ValueError):
+                continue
+
+    tokens = response.usage.prompt_tokens + response.usage.completion_tokens
     return {"entities": entities, "latency_sec": latency, "tokens": tokens}
 
 
@@ -356,13 +438,27 @@ def main() -> None:
                         print("  ⚠ Set GOOGLE_API_KEY/GEMINI_API_KEY, or GOOGLE_GENAI_USE_VERTEXAI=true with ADC",
                               file=sys.stderr)
                         sys.exit(1)
-                    return call_gemini(chunk_text, api_key)
+                    return call_gemini(chunk_text, api_key, model_name)
                 elif model_name.startswith("claude"):
                     api_key = os.environ.get("ANTHROPIC_API_KEY")
                     if not api_key:
                         print("  ⚠ Set ANTHROPIC_API_KEY", file=sys.stderr)
                         sys.exit(1)
                     return call_claude(chunk_text, api_key, CLAUDE_MODEL_IDS.get(model_name, model_name))
+                elif model_name.startswith("kimi"):
+                    api_key = os.environ.get("MOONSHOT_API_KEY") or os.environ.get("KIMI_API_KEY")
+                    if not api_key:
+                        print("  ⚠ Set MOONSHOT_API_KEY (or KIMI_API_KEY)", file=sys.stderr)
+                        sys.exit(1)
+                    return call_kimi(chunk_text, api_key, model_name)
+                elif model_name.startswith("gemma-4"):
+                    # API-served Gemma (e.g. gemma-4-31b-it) goes through the
+                    # Gemini API; Ollama-style names (gemma3:27b) stay local.
+                    api_key = os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
+                    if not api_key:
+                        print("  ⚠ Set GOOGLE_API_KEY/GEMINI_API_KEY", file=sys.stderr)
+                        sys.exit(1)
+                    return call_gemini(chunk_text, api_key, model_name)
                 elif model_name.startswith("gemma") or model_name.startswith("qwen"):
                     return call_ollama_model(chunk_text, model_name, args.ollama_base)
                 print(f"  ⚠ Unknown model: {model_name}", file=sys.stderr)

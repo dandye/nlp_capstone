@@ -1,0 +1,222 @@
+{
+  "model": "gemini-3.6-flash",
+  "subset": "test",
+  "n_documents": 8,
+  "strict": {
+    "per_label": {
+      "affected software product": {
+        "P": 0.4684,
+        "R": 0.9308,
+        "F1": 0.6232,
+        "support": 159
+      },
+      "attack technique id": {
+        "P": 0.9867,
+        "R": 1.0,
+        "F1": 0.9933,
+        "support": 297
+      },
+      "attack technique name": {
+        "P": 0.7308,
+        "R": 0.9236,
+        "F1": 0.816,
+        "support": 144
+      },
+      "cve identifier": {
+        "P": 0.9322,
+        "R": 1.0,
+        "F1": 0.9649,
+        "support": 55
+      },
+      "cwe identifier": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "support": 4
+      },
+      "email address": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "support": 26
+      },
+      "file hash": {
+        "P": 0.9588,
+        "R": 1.0,
+        "F1": 0.9789,
+        "support": 93
+      },
+      "file name": {
+        "P": 0.656,
+        "R": 0.9213,
+        "F1": 0.7664,
+        "support": 89
+      },
+      "file path": {
+        "P": 0.7111,
+        "R": 0.8889,
+        "F1": 0.7901,
+        "support": 108
+      },
+      "hacking tool": {
+        "P": 0.6867,
+        "R": 0.4101,
+        "F1": 0.5135,
+        "support": 139
+      },
+      "ip address": {
+        "P": 0.9774,
+        "R": 1.0,
+        "F1": 0.9886,
+        "support": 130
+      },
+      "malware family": {
+        "P": 0.7126,
+        "R": 0.9795,
+        "F1": 0.825,
+        "support": 438
+      },
+      "tactic": {
+        "P": 0.5544,
+        "R": 0.964,
+        "F1": 0.7039,
+        "support": 111
+      },
+      "threat actor group": {
+        "P": 0.4344,
+        "R": 0.949,
+        "F1": 0.596,
+        "support": 157
+      },
+      "tlp classification": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "support": 36
+      },
+      "yara rule name": {
+        "P": 0.2571,
+        "R": 1.0,
+        "F1": 0.4091,
+        "support": 9
+      }
+    },
+    "micro": {
+      "P": 0.6933,
+      "R": 0.9278,
+      "F1": 0.7936
+    },
+    "macro_F1": 0.8106
+  },
+  "relaxed": {
+    "per_label": {
+      "affected software product": {
+        "P": 0.4873,
+        "R": 0.9686,
+        "F1": 0.6484,
+        "support": 159
+      },
+      "attack technique id": {
+        "P": 0.9867,
+        "R": 1.0,
+        "F1": 0.9933,
+        "support": 297
+      },
+      "attack technique name": {
+        "P": 0.7418,
+        "R": 0.9375,
+        "F1": 0.8282,
+        "support": 144
+      },
+      "cve identifier": {
+        "P": 0.9322,
+        "R": 1.0,
+        "F1": 0.9649,
+        "support": 55
+      },
+      "cwe identifier": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "support": 4
+      },
+      "email address": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "support": 26
+      },
+      "file hash": {
+        "P": 0.9588,
+        "R": 1.0,
+        "F1": 0.9789,
+        "support": 93
+      },
+      "file name": {
+        "P": 0.656,
+        "R": 0.9213,
+        "F1": 0.7664,
+        "support": 89
+      },
+      "file path": {
+        "P": 0.7111,
+        "R": 0.8889,
+        "F1": 0.7901,
+        "support": 108
+      },
+      "hacking tool": {
+        "P": 0.6867,
+        "R": 0.4101,
+        "F1": 0.5135,
+        "support": 139
+      },
+      "ip address": {
+        "P": 0.9774,
+        "R": 1.0,
+        "F1": 0.9886,
+        "support": 130
+      },
+      "malware family": {
+        "P": 0.7126,
+        "R": 0.9795,
+        "F1": 0.825,
+        "support": 438
+      },
+      "tactic": {
+        "P": 0.5544,
+        "R": 0.964,
+        "F1": 0.7039,
+        "support": 111
+      },
+      "threat actor group": {
+        "P": 0.4519,
+        "R": 0.9873,
+        "F1": 0.62,
+        "support": 157
+      },
+      "tlp classification": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "support": 36
+      },
+      "yara rule name": {
+        "P": 0.2571,
+        "R": 1.0,
+        "F1": 0.4091,
+        "support": 9
+      }
+    },
+    "micro": {
+      "P": 0.6985,
+      "R": 0.9348,
+      "F1": 0.7996
+    },
+    "macro_F1": 0.8144
+  },
+  "latency": {
+    "total_sec": 4808.5,
+    "avg_per_doc_sec": 601.064,
+    "total_tokens": 1410327
+  }
+}

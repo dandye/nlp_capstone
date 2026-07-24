@@ -1,0 +1,10 @@
+{
+  "start_epoch": 1784771994,
+  "end_epoch": 1784795884,
+  "total_seconds": 23890,
+  "steps": {
+    "step1_inference_wait_seconds": 23888,
+    "step2_extraction_seconds": 2,
+    "step3_scoring_seconds": 0
+  }
+}
