@@ -1,0 +1,27 @@
+paper := "capstone"
+survey := "survey"
+latex := "pdflatex -interaction=nonstopmode -halt-on-error"
+
+# Build both PDFs
+default: pdf survey-pdf
+
+# Build the capstone paper (pdflatex -> bibtex -> pdflatex x2)
+pdf:
+    {{latex}} {{paper}}.tex
+    bibtex {{paper}}
+    {{latex}} {{paper}}.tex
+    {{latex}} {{paper}}.tex
+
+# Build the survey (no BibTeX yet -- inline arXiv-ID citations)
+survey-pdf:
+    {{latex}} {{survey}}.tex
+    {{latex}} {{survey}}.tex
+
+# Regenerate survey.tex from survey.md
+survey-tex:
+    python3 md2tex_survey.py
+
+# Remove LaTeX build intermediates (keeps the PDFs)
+clean:
+    rm -f {{paper}}.aux {{paper}}.bbl {{paper}}.blg {{paper}}.log {{paper}}.out \
+          {{survey}}.aux {{survey}}.log {{survey}}.out
