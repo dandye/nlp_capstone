@@ -13,9 +13,23 @@ labels never covered, while a softmax head predicts only what it saw. See
 
 ## Quick start
 
+**Python version:** use Python 3.11–3.14 (the reference environment is
+3.14). On macOS, do **not** use the system `python3` — the Command Line
+Tools interpreter is Python 3.9 with pip 21, which resolves ancient
+package versions and then fails to compile `pyobjc-core` from source
+under current clang (`-Wdefault-const-init-var-unsafe` errors). Use a
+`uv`-, python.org-, or Homebrew-installed interpreter, and upgrade pip
+inside the venv before installing so dependencies land as prebuilt
+wheels:
+
 ```bash
-python3 -m venv .venv     && .venv/bin/pip install -r requirements.txt
-python3 -m venv .venv-ml  && .venv-ml/bin/pip install -r requirements-ml.txt
+python3.12 -m venv .venv
+.venv/bin/pip install -U pip
+.venv/bin/pip install -r requirements.txt
+
+python3.12 -m venv .venv-ml
+.venv-ml/bin/pip install -U pip
+.venv-ml/bin/pip install -r requirements-ml.txt
 
 # defect census over the current gold (CPU)
 PYTHONPATH=. .venv/bin/python3 -m ner.label_census
