@@ -122,8 +122,6 @@ All four research questions are answered with data trained and scored on the
 current LLM-gold pipeline: RQ4's architecture half with a GLiNER checkpoint
 retrained on the identical gold, and its frontier-LLM half with a zero-shot
 Gemini 3.5 Flash run on the same gold and harness (Section~\ref{sec:rq4}).
-The prior iteration's Gemini numbers, scored against dictionary-silver gold,
-are superseded and not reported.
 
 \section{Related Work}
 
@@ -394,7 +392,7 @@ test split, 1{,}995 gold spans.}
 \end{table}
 
 Once retrained on this same gold, GLiNER (0.56 strict / 0.58 relaxed) trails
-every token classifier, including RoBERTa-large. Its macro-F1 (0.62 strict)
+every token classifier. Its macro-F1 (0.62 strict)
 sits well above its own micro-F1, the same pattern RoBERTa-large shows
 above: reasonably consistent type coverage dragged down by weak performance
 on a few high-volume labels, most strikingly \emph{ip address} (F1 0.03,
@@ -714,8 +712,8 @@ GLiNER advantage in Table~\ref{tab:circular-vs-independent} was an artifact
 of comparing a retrained token classifier against an \emph{un}retrained
 span-matching model: a reminder that the same circularity discipline this
 paper applies to silver-vs-independent gold (RQ1) must be applied equally
-strictly to any two checkpoints being compared, or a training-data confound
-can masquerade as an architecture finding.
+strictly to any two checkpoints being compared, as training-set disparities
+can easily be mistaken for architectural gains.
 
 Extending the comparison to a frontier LLM completes the evaluation: zero-shot
 Gemini 3.5 Flash exceeds every fine-tuned local model on F1, including

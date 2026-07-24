@@ -35,7 +35,7 @@ Lange, Müller, et al. (Bosch CAI, MPI, Uni Augsburg). LREC-COLING 2024.
 ---
 
 ## 2507.13870 — Label Unification for Cross-Dataset Generalization in Cybersecurity NER
-Schmidt, Jalocha, Michelseen (ITU Copenhagen). 2025.
+Jałocha, Schmidt (Johan Hausted), Michelseen (ITU Copenhagen). 2025.
 
 **Summary.** Empirical study of what happens when you merge cybersecurity NER datasets by collapsing labels to a coarse shared set: it mostly fails, and the failure modes are diagnostic of the field's annotation inconsistency.
 
@@ -56,7 +56,7 @@ Ech-Chammakhy, Motii, Rabii, Azrara, Chbili (UM6P / Deloitte). 2025.
 
 **Method.** Five mapping strategies: consolidation (APT/HackOrg/THREAT_ACTOR → Threat-Actor), differentiation (Malware vs Tool vs Software), SCO mapping (IP → IPv4-Addr; FILE/MD5/SHA2 → File), ambiguity resolution by STIX definitions + manual review, exclusion (rare/unclear tags → O). BIOES→BIO normalization, rule-based cleaning, CoNLL-like release format.
 
-**Findings.** Models trained on harmonized corpus gain ~30% relative F1 over naive concatenation of the same data. Related-work synthesis: field progression rules/gazetteers → CRF → BiLSTM-CRF → transformer+CRF, with domain-pretrained encoders (SecureBERT, CySecBERT, DarkBERT). Explicitly frames Schmidt et al. as demonstrating that simplistic merging fails; positions ontology-driven harmonization as the fix.
+**Findings.** Models trained on harmonized corpus gain ~30% relative F1 over naive concatenation of the same data. Related-work synthesis: field progression rules/gazetteers → CRF → BiLSTM-CRF → transformer+CRF, with domain-pretrained encoders (SecureBERT, CySecBERT, DarkBERT). Explicitly frames Jałocha et al. as demonstrating that simplistic merging fails; positions ontology-driven harmonization as the fix.
 
 **Relevance.** Schemas § resolution arm of the fragmentation story; Datasets § (the corpus itself + Table I source stats). STIX 2.1 anchoring connects to this repo's pipeline (STIX-derived annotation) and to practitioner interoperability. Background § inherits its method-era progression. Open question it leaves: harmonization is still lossy (exclusion strategy discards source semantics) — feeds Open Problems.
 
@@ -201,7 +201,7 @@ Deka, Rajapaksha, Rani, Almutairi, Karafili (Southampton). 2024.
 
 **Findings.** Fine-tuned LLMs outperform encoder taggers on these long, context-heavy entity types — the inverse of the usual encoder-wins pattern, plausibly because sentence-length spans suit generative extraction. Positions itself against DNRTI/APTNER/CyNER as attribution-focused rather than IOC-focused.
 
-**Relevance.** Datasets § (comparison table row — resolves the 67k/79k token discrepancy question and explains Schmidt et al.'s long-span anomaly: AttackER's spans are long *by design*). Schemas § — second STIX-anchored schema after CyberNER, but with attribution extensions: evidence STIX alone doesn't cover analyst needs. TTP/attribution framing feeds §6.
+**Relevance.** Datasets § (comparison table row — resolves the 67k/79k token discrepancy question and explains Jałocha et al.'s long-span anomaly: AttackER's spans are long *by design*). Schemas § — second STIX-anchored schema after CyberNER, but with attribution extensions: evidence STIX alone doesn't cover analyst needs. TTP/attribution framing feeds §6.
 
 **Artifacts.** Available: dataset zenodo.org/records/10276922; models + data huggingface.co/Cyber-ThreaD. License: check Zenodo record (CC-BY expected, verify before corpus reuse).
 
