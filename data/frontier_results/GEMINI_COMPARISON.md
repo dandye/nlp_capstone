@@ -12,6 +12,7 @@
 | gemini-3.5-flash | **0.795** | 0.739 | 0.859 | 0.791 | 1.6m | 350,277 | $0.131 |
 | gemini-3.6-flash (default thinking) | **0.794** | 0.693 | 0.928 | 0.811 | 10.0m | 1,410,327 | $1.18 |
 | kimi-k3 | **0.761** | 0.652 | 0.913 | 0.784 | 18.6m | 434,025 | n/a** |
+| kimi-k2.6 | **0.761** | 0.658 | 0.902 | 0.787 | 31.2m | 571,714 | n/a** |
 | gemini-3.5-flash-lite | **0.752** | 0.694 | 0.822 | 0.762 | 0.5m | 210,533 | $0.020 |
 | gemini-3.6-flash (thinking minimal) | **0.707** | 0.564 | 0.946 | 0.773 | 1.1m | 231,260 | $0.078 |
 | claude-haiku-4.5 | **0.699** | 0.623 | 0.797 | 0.678 | 0.8m | 190,290 | $0.043 |
@@ -29,8 +30,8 @@ identical prompts, so the minimal run's input estimate (~185K) is taken as
 the thinking run's input, leaving ~1.23M output+thinking tokens; that
 yields $9.47 for the run — a token-derived figure, independent of
 account billing (which covered unrelated work and is not used here).
-\** Moonshot pricing not folded in; kimi-k3 also used a different output
-protocol (see below), so its cost is not directly comparable.
+\** Moonshot pricing not folded in; both Kimi models also used a different
+output protocol (see below), so their cost is not directly comparable.
 **claude-haiku-4.5 caveats:** (1) same-family bias — the gold was
 *proposed* by Claude Sonnet (then human-curated), so a Claude-family model
 may share span-boundary and label-choice conventions with the annotator;
@@ -72,11 +73,13 @@ threat actor group 0.60→0.51). So the earlier caveat's assumption that
 Cheap-and-fast 3.6-flash is *worse* than 3.5-flash-lite; thinking-on
 3.6-flash matches 3.5-flash at ~4x the cost.
 
-**kimi-k3 caveat:** Moonshot's API returned empty responses for any
-structured-output (JSON) request, so kimi-k3 emitted free-form
+**Kimi caveat (k3 and k2.6):** Moonshot's API returned empty responses for
+any structured-output (JSON) request, so both Kimi models emitted free-form
 `Entity | Label` lists that were located in the text by string search —
-same downstream extract/score path, but the model never saw the JSON-offset
-protocol the Gemini runs used. 18.6 m/doc is API latency, not compute depth.
+same downstream extract/score path, but the models never saw the JSON-offset
+protocol the Gemini runs used. Latency (18.6 m/doc k3, 31.2 m/doc k2.6) is
+API latency, not compute depth. Notably k2.6 and k3 score identically
+(0.761) despite the generation gap.
 
 ## Reading
 
@@ -99,24 +102,24 @@ protocol the Gemini runs used. 18.6 m/doc is API latency, not compute depth.
 
 ## Per-label strict F1
 
-| Label | 3.5-flash | 3.5-lite | 3.6-flash (min) | 3.6-flash (think) | kimi-k3 | haiku-4.5 | opus-4.8 | Support |
-|---|---|---|---|---|---|---|---|---|
-| affected software product | 0.65 | 0.51 | 0.37 | 0.62 | 0.59 | 0.47 | 0.08 | 159 |
-| attack technique id | 0.99 | 0.99 | 0.99 | 0.99 | 0.98 | 0.97 | 0.98 | 297 |
-| attack technique name | 0.75 | 0.72 | 0.65 | 0.82 | 0.69 | 0.44 | 0.81 | 144 |
-| cve identifier | 0.96 | 0.96 | 0.96 | 0.96 | 0.96 | 0.87 | 0.87 | 55 |
-| cwe identifier | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 4 |
-| email address | 0.98 | 0.95 | 1.00 | 1.00 | 1.00 | 0.95 | 0.91 | 26 |
-| file hash | 0.96 | 0.78 | 0.98 | 0.98 | 0.98 | 0.83 | 0.69 | 93 |
-| file name | 0.73 | 0.77 | 0.73 | 0.77 | 0.69 | 0.59 | 0.47 | 89 |
-| file path | 0.67 | 0.79 | 0.79 | 0.79 | 0.77 | 0.66 | 0.70 | 108 |
-| hacking tool | 0.43 | 0.44 | 0.49 | 0.51 | 0.37 | 0.44 | 0.51 | 139 |
-| ip address | 0.98 | 0.94 | 0.99 | 0.99 | 0.99 | 0.85 | 0.30 | 130 |
-| malware family | 0.87 | 0.82 | 0.80 | 0.82 | 0.82 | 0.85 | 0.75 | 438 |
-| tactic | 0.73 | 0.67 | 0.70 | 0.70 | 0.69 | 0.00 | 0.54 | 111 |
-| threat actor group | 0.62 | 0.44 | 0.51 | 0.60 | 0.61 | 0.60 | 0.51 | 157 |
-| tlp classification | 0.93 | 1.00 | 1.00 | 1.00 | 0.99 | 0.99 | 0.89 | 36 |
-| yara rule name | 0.41 | 0.41 | 0.41 | 0.41 | 0.41 | 0.33 | 0.41 | 9 |
+| Label | 3.5-flash | 3.5-lite | 3.6-flash (min) | 3.6-flash (think) | kimi-k3 | kimi-k2.6 | haiku-4.5 | opus-4.8 | Support |
+|---|---|---|---|---|---|---|---|---|---|
+| affected software product | 0.65 | 0.51 | 0.37 | 0.62 | 0.59 | 0.52 | 0.47 | 0.08 | 159 |
+| attack technique id | 0.99 | 0.99 | 0.99 | 0.99 | 0.98 | 0.99 | 0.97 | 0.98 | 297 |
+| attack technique name | 0.75 | 0.72 | 0.65 | 0.82 | 0.69 | 0.80 | 0.44 | 0.81 | 144 |
+| cve identifier | 0.96 | 0.96 | 0.96 | 0.96 | 0.96 | 0.96 | 0.87 | 0.87 | 55 |
+| cwe identifier | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 4 |
+| email address | 0.98 | 0.95 | 1.00 | 1.00 | 1.00 | 1.00 | 0.95 | 0.91 | 26 |
+| file hash | 0.96 | 0.78 | 0.98 | 0.98 | 0.98 | 0.98 | 0.83 | 0.69 | 93 |
+| file name | 0.73 | 0.77 | 0.73 | 0.77 | 0.69 | 0.77 | 0.59 | 0.47 | 89 |
+| file path | 0.67 | 0.79 | 0.79 | 0.79 | 0.77 | 0.78 | 0.66 | 0.70 | 108 |
+| hacking tool | 0.43 | 0.44 | 0.49 | 0.51 | 0.37 | 0.30 | 0.44 | 0.51 | 139 |
+| ip address | 0.98 | 0.94 | 0.99 | 0.99 | 0.99 | 0.99 | 0.85 | 0.30 | 130 |
+| malware family | 0.87 | 0.82 | 0.80 | 0.82 | 0.82 | 0.83 | 0.85 | 0.75 | 438 |
+| tactic | 0.73 | 0.67 | 0.70 | 0.70 | 0.69 | 0.66 | 0.00 | 0.54 | 111 |
+| threat actor group | 0.62 | 0.44 | 0.51 | 0.60 | 0.61 | 0.61 | 0.60 | 0.51 | 157 |
+| tlp classification | 0.93 | 1.00 | 1.00 | 1.00 | 0.99 | 1.00 | 0.99 | 0.89 | 36 |
+| yara rule name | 0.41 | 0.41 | 0.41 | 0.41 | 0.41 | 0.41 | 0.33 | 0.41 | 9 |
 
 ## Files
 
@@ -127,4 +130,3 @@ under the `gemini-3.6-flash-thinking-*` prefix; the unprefixed
 Reproduce via `ner.frontier_infer` → `ner.frontier_extract` →
 `ner.frontier_score` with
 `--split data/gold_v2/split_full.json --subset test --chunk-size 4000`.
-kimi-k2.6 is still running (4/8 docs) and will be appended when complete.

@@ -619,8 +619,9 @@ corrected code.
 
 Appendix~\ref{app:frontier-extended} extends this comparison with a wider
 zero-shot sweep on the identical harness and test split: two further
-Gemini variants, a reasoning-mode ablation, Kimi K3, Claude Haiku 4.5,
-Claude Opus 4.8, and a locally hosted open-weights gemma3:27b. None of
+Gemini variants, a reasoning-mode ablation, two Kimi models (K3 and
+K2.6), Claude Haiku 4.5, Claude Opus 4.8, and a locally hosted
+open-weights gemma3:27b. None of
 the additional models exceeds Gemini 3.5 Flash, so the comparison above
 is representative; the appendix material is complementary detail rather
 than a change to any conclusion here.
@@ -673,10 +674,10 @@ classifiers' windowing) is left to future work.
 
 \paragraph{Frontier comparison: single sample, one prompt per model.}
 The main text compares against one frontier model (Gemini 3.5 Flash) with
-one prompt; Appendix~\ref{app:frontier-extended} widens this to seven
+one prompt; Appendix~\ref{app:frontier-extended} widens this to eight
 additional zero-shot configurations (further Gemini variants, a
-reasoning-mode ablation, Kimi K3, Claude Haiku 4.5, Claude Opus 4.8, and
-a local gemma3:27b), none of which exceeds Gemini 3.5 Flash. Even so, every run
+reasoning-mode ablation, Kimi K3 and K2.6, Claude Haiku 4.5, Claude Opus
+4.8, and a local gemma3:27b), none of which exceeds Gemini 3.5 Flash. Even so, every run
 is a single sample with a single prompt; we did not sweep prompt
 variants, temperature, or few-shot examples, and a different prompt could
 plausibly close some of the 8-point F1 gap. Cost and latency figures are
@@ -845,6 +846,7 @@ Model & F1 & P & R & Macro & s/doc & Tokens \\
 Gemini 3.5 Flash & \textbf{0.795} & 0.739 & 0.859 & 0.791 & 94.5 & 350{,}277 \\
 Gemini 3.6 Flash (think.) & 0.794 & 0.693 & 0.928 & \textbf{0.811} & 601.1 & 1{,}410{,}327 \\
 Kimi K3 & 0.761 & 0.652 & 0.913 & 0.784 & 1{,}118.3 & 434{,}025 \\
+Kimi K2.6 & 0.761 & 0.658 & 0.902 & 0.787 & 1{,}872.4 & 571{,}714 \\
 Gemini 3.5 Flash-Lite & 0.752 & 0.694 & 0.822 & 0.762 & \textbf{30.7} & 210{,}533 \\
 Gemini 3.6 Flash (min.) & 0.707 & 0.564 & \textbf{0.946} & 0.773 & 68.5 & 231{,}260 \\
 Claude Haiku 4.5 & 0.699 & 0.623 & 0.797 & 0.678 & 50.8 & 190{,}290 \\
@@ -884,11 +886,13 @@ Flash needs default reasoning just to tie it.
 
 \paragraph{Protocol caveats.} Two models required deviations from the
 JSON-with-offsets output protocol the Gemini runs used, and their rows
-should be read with that in mind. \emph{Kimi K3} (Moonshot API) returned
-empty responses for any structured-output request, so it emitted
+should be read with that in mind. The \emph{Kimi} models (K3 and K2.6; Moonshot API) returned
+empty responses for any structured-output request, so both emitted
 free-form entity/label lists that were located in the document by string
-search before the shared extraction step; its 1{,}118\,s/document is
-API latency, not a statement about model depth. \emph{Claude Haiku 4.5}
+search before the shared extraction step; their per-document latencies
+(1{,}118 and 1{,}872\,s) are API latency, not a statement about model
+depth. Despite the generation gap the two score identically (0.761
+strict micro F1). \emph{Claude Haiku 4.5}
 carries a same-family caveat: the gold in this paper was proposed by
 Claude Sonnet 5 before human curation (Section~\ref{sec:data-method}), so a
 Claude-family model could plausibly share span-boundary and label-choice
@@ -944,33 +948,34 @@ schedule.
 \begin{table}[t]
 \centering
 \footnotesize
-\setlength{\tabcolsep}{2.5pt}
-\begin{tabular}{lrrrrrrrr}
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{lrrrrrrrrr}
 \toprule
 Label & 3.5F & Lite & 3.6m & 3.6t & K3 & H4.5 & Supp. \\
 \midrule
-affected software product & 0.65 & 0.51 & 0.37 & 0.62 & 0.59 & 0.47 & 0.08 & 159 \\
-attack technique id & 0.99 & 0.99 & 0.99 & 0.99 & 0.98 & 0.97 & 0.98 & 297 \\
-attack technique name & 0.75 & 0.72 & 0.65 & 0.82 & 0.69 & 0.44 & 0.81 & 144 \\
-cve identifier & 0.96 & 0.96 & 0.96 & 0.96 & 0.96 & 0.87 & 0.87 & 55 \\
-cwe identifier & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 4 \\
-email address & 0.98 & 0.95 & 1.00 & 1.00 & 1.00 & 0.95 & 0.91 & 26 \\
-file hash & 0.96 & 0.78 & 0.98 & 0.98 & 0.98 & 0.83 & 0.69 & 93 \\
-file name & 0.73 & 0.77 & 0.73 & 0.77 & 0.69 & 0.59 & 0.47 & 89 \\
-file path & 0.67 & 0.79 & 0.79 & 0.79 & 0.77 & 0.66 & 0.70 & 108 \\
-hacking tool & 0.43 & 0.44 & 0.49 & 0.51 & 0.37 & 0.44 & 0.51 & 139 \\
-ip address & 0.98 & 0.94 & 0.99 & 0.99 & 0.99 & 0.85 & 0.30 & 130 \\
-malware family & 0.87 & 0.82 & 0.80 & 0.82 & 0.82 & 0.85 & 0.75 & 438 \\
-tactic & 0.73 & 0.67 & 0.70 & 0.70 & 0.69 & 0.00 & 0.54 & 111 \\
-threat actor group & 0.62 & 0.44 & 0.51 & 0.60 & 0.61 & 0.60 & 0.51 & 157 \\
-tlp classification & 0.93 & 1.00 & 1.00 & 1.00 & 0.99 & 0.99 & 0.89 & 36 \\
-yara rule name & 0.41 & 0.41 & 0.41 & 0.41 & 0.41 & 0.33 & 0.41 & 9 \\
+affected software product & 0.65 & 0.51 & 0.37 & 0.62 & 0.59 & 0.52 & 0.47 & 0.08 & 159 \\
+attack technique id & 0.99 & 0.99 & 0.99 & 0.99 & 0.98 & 0.99 & 0.97 & 0.98 & 297 \\
+attack technique name & 0.75 & 0.72 & 0.65 & 0.82 & 0.69 & 0.80 & 0.44 & 0.81 & 144 \\
+cve identifier & 0.96 & 0.96 & 0.96 & 0.96 & 0.96 & 0.96 & 0.87 & 0.87 & 55 \\
+cwe identifier & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 4 \\
+email address & 0.98 & 0.95 & 1.00 & 1.00 & 1.00 & 1.00 & 0.95 & 0.91 & 26 \\
+file hash & 0.96 & 0.78 & 0.98 & 0.98 & 0.98 & 0.98 & 0.83 & 0.69 & 93 \\
+file name & 0.73 & 0.77 & 0.73 & 0.77 & 0.69 & 0.77 & 0.59 & 0.47 & 89 \\
+file path & 0.67 & 0.79 & 0.79 & 0.79 & 0.77 & 0.78 & 0.66 & 0.70 & 108 \\
+hacking tool & 0.43 & 0.44 & 0.49 & 0.51 & 0.37 & 0.30 & 0.44 & 0.51 & 139 \\
+ip address & 0.98 & 0.94 & 0.99 & 0.99 & 0.99 & 0.99 & 0.85 & 0.30 & 130 \\
+malware family & 0.87 & 0.82 & 0.80 & 0.82 & 0.82 & 0.83 & 0.85 & 0.75 & 438 \\
+tactic & 0.73 & 0.67 & 0.70 & 0.70 & 0.69 & 0.66 & 0.00 & 0.54 & 111 \\
+threat actor group & 0.62 & 0.44 & 0.51 & 0.60 & 0.61 & 0.61 & 0.60 & 0.51 & 157 \\
+tlp classification & 0.93 & 1.00 & 1.00 & 1.00 & 0.99 & 1.00 & 0.99 & 0.89 & 36 \\
+yara rule name & 0.41 & 0.41 & 0.41 & 0.41 & 0.41 & 0.41 & 0.33 & 0.41 & 9 \\
 \bottomrule
 \end{tabular}
 \caption{Per-label strict F1 for the extended sweep. Columns: Gemini 3.5
 Flash (3.5F), Gemini 3.5 Flash-Lite (Lite), Gemini 3.6 Flash at minimal
 reasoning (3.6m), Gemini 3.6 Flash with default reasoning (3.6t),
-Kimi K3 (K3), Claude Haiku 4.5 (H4.5); gold mention support (Supp.).
+Kimi K3 (K3), Kimi K2.6 (K2.6), Claude Haiku 4.5 (H4.5), Claude Opus
+4.8 (O4.8); gold mention support (Supp.).
 gemma3:27b is omitted for space; its per-label scores are in
 \texttt{data/frontier\_results/gemma3-27b-scores.json}.}
 \label{tab:frontier-extended-perlabel}
