@@ -759,6 +759,22 @@ PowerShell as routine administration versus as a \emph{hacking tool} in an
 intrusion narrative), which it cannot, and which would then be isolated as
 the residual hard core of the task.
 
+A second next step is external validation on an independently annotated
+corpus. AnnoCTR \citep{lange2024annoctr} is well suited to this: 400
+vendor-donated cyber threat reports with expert annotations for named
+entities and for MITRE ATT\&CK tactics and techniques (including the
+explicit/implicit mention distinction), released under CC-BY-SA 4.0, a
+license most earlier CTI corpora lack. Because AnnoCTR's gold was
+produced by a human expert with no involvement from this paper's
+annotation pipeline, it offers exactly the kind of evaluation this
+paper's methodology calls for but could not perform internally: a test
+of whether models fine-tuned on LLM-proposed gold generalize to labels
+whose provenance is fully independent of any LLM. The label schemas do
+not align one-to-one, so a mapping layer would be required, and the
+cross-corpus NER literature cautions that such mappings are themselves
+lossy; measuring how much of the transfer gap is schema mismatch versus
+genuine generalization failure is part of the value of the exercise.
+
 \section{Artifact and Data Availability}
 \label{sec:artifacts}
 
