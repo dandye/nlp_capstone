@@ -113,6 +113,13 @@ numbers: training is seeded but GPU kernels are not bit-deterministic,
 and an identical-recipe rerun has shifted strict micro F1 by ~0.02
 (the paper's 0.648 vs. a later 0.63 for RoBERTa-large).
 
+## Gold annotation viewer
+
+`data/gold_review.html` is a self-contained, read-only viewer of the full
+gold annotation set (19,519 spans across all advisories) — open it directly
+in a browser, no server needed. Regenerate it from the current gold with
+`PYTHONPATH=. .venv/bin/python3 -m ner.visualize_gold`.
+
 ## Published models
 
 All trained on the clean LLM gold (Claude Sonnet 5-proposed, human-curated
