@@ -46,5 +46,9 @@ docs/       reference docs
 
 ## Published models
 
-- https://huggingface.co/pzryathzsdhc/cti-ner-roberta-large
-- https://huggingface.co/pzryathzsdhc/cti-ner-securebert
+All trained on the clean LLM gold (Claude Sonnet 5-proposed, human-curated
+eval); each model card carries its measured scores:
+
+- https://huggingface.co/pzryathzsdhc/cti-ner-securebert (strict micro F1 0.71)
+- https://huggingface.co/pzryathzsdhc/cti-ner-roberta-large (0.63)
+- https://huggingface.co/pzryathzsdhc/cti-ner-gliner (0.560)

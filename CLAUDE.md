@@ -230,11 +230,15 @@ Don't go looking for a test runner; those two modules are the checks.
   trainers for GPU runs: `RoBERTa_Large_CTI_Colab.ipynb`,
   `SecureBERT_CTI_Colab.ipynb`, `gliner_cti_colab.ipynb`. The paired
   `ner/finetune_roberta_colab.py` is the script form.
-- Checkpoints are gitignored (`models/`, ~5.9GB) and published to HF Hub;
-  retraining repopulates them. Current published models were trained on the
-  **old noisy labels** and will be regenerated on the clean gold:
-  `huggingface.co/pzryathzsdhc/cti-ner-roberta-large` and
-  `.../cti-ner-securebert`.
+- Checkpoints are gitignored (`models/`) and published to HF Hub;
+  retraining repopulates them. All three published models are trained on
+  the **clean LLM gold** (re-pushed 2026-07-24; each model card carries its
+  measured scores): `huggingface.co/pzryathzsdhc/cti-ner-securebert`
+  (strict micro F1 0.71), `.../cti-ner-roberta-large` (0.63; the paper's
+  committed 0.648 is an earlier identical-recipe run — seed variance), and
+  `.../cti-ner-gliner` (0.560). The exact training corpus is committed as
+  `data/gliner_train.jsonl` + `data/split_slugs.json` (same bytes as the
+  notebooks' embedded copy).
 
 ## Deliverable
 
