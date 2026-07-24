@@ -6,10 +6,30 @@ frontier LLM (Claude Sonnet) reading the clean advisory text, then curated
 by a human. RoBERTa, SecureBERT, and GLiNER are trained and scored against
 that gold, with a frontier-LLM (Gemini) baseline for comparison.
 
-The headline finding: against honest LLM+human gold, GLiNER's span-matching
-architecture retains zero-shot generalization to entity classes the training
-labels never covered, while a softmax head predicts only what it saw. See
-`paper/capstone/` for the full write-up.
+The headline findings: evaluating against labels produced by the same
+dictionary/rule system being improved on is circular — a checkpoint scoring
+0.74 F1 against dictionary silver falls to 0.35 against independent gold.
+On honest LLM+human gold, domain-adaptive pretraining beats parameter
+count: SecureBERT is the best fine-tuned model (0.71 strict micro-F1),
+ahead of RoBERTa-base (0.66) and RoBERTa-large (0.65), while GLiNER —
+once fairly retrained on the identical gold — is the weakest of the four
+(0.56). A zero-shot frontier LLM (Gemini 3.5 Flash) tops them all on F1
+(0.795) at 51× the latency and metered cost. See `paper/capstone/` for the
+full write-up.
+
+## Repository
+
+Code, data, and papers live at **https://github.com/dandye/nlp_capstone**:
+
+```bash
+git clone https://github.com/dandye/nlp_capstone.git
+cd nlp_capstone
+```
+
+The two submitted PDFs build from this repo (ACL 2023 template):
+`paper/capstone/capstone.pdf` (the capstone report) and
+`paper/capstone/survey.pdf` (the literature survey). Fine-tuned
+checkpoints are on the HF Hub (see "Published models" below).
 
 ## Quick start
 
