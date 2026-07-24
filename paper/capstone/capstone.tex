@@ -17,32 +17,28 @@
 
 \begin{abstract}
 Cyber threat intelligence (CTI) reports contain entity types with no
-general-domain analogue---ATT\&CK technique identifiers, file hashes, TLP
-markings, threat actor aliases---that off-the-shelf named entity recognition
-(NER) models handle poorly. Prior work in this space commonly evaluates
+general-domain analogue: ATT\&CK technique identifiers, file hashes, TLP
+markings, threat actor aliases. Named entity recognition
+(NER) models handle these poorly. Prior work in this space commonly evaluates
 against \emph{silver} labels produced by the same class of dictionary/rule
-annotator being improved upon---as did the weak-supervision baseline this
-work replaces. We show that
+annotator being improved upon. However, our experiments showed that
 this evaluation is circular: a checkpoint that scores 0.74 F1 against
 dictionary-derived silver labels falls to 0.35 against independently produced
 gold, because the silver labels share the model's blind spots rather than
-measuring against them. We instead generate gold labels directly with a
-frontier LLM (Claude Sonnet), which reads full advisory text and proposes
+measuring against them. In this work, we instead generate gold labels directly with a
+frontier LLM (Claude Sonnet 5), which reads full advisory text and proposes
 exhaustive entity annotations under per-label span-format validators; a human
 curates the evaluation split. On this gold we fine-tune three
-token-classification encoders---RoBERTa-base, RoBERTa-large
+token-classification encoders: RoBERTa-base, RoBERTa-large
 \citep{liu2019roberta}, and SecureBERT \citep{aghaei2022securebert}, a
-RoBERTa-architecture model domain-pretrained on security text---and evaluate
+RoBERTa-architecture model domain-pretrained on security text. We evaluate
 all three with an identical document-level harness, alongside GLiNER
 \citep{zaratiana2024gliner}, a zero-shot span-matching architecture,
 fine-tuned on the identical gold. SecureBERT performs best (0.71 strict
 micro-F1), ahead of RoBERTa-base (0.66) and RoBERTa-large (0.65), indicating
 that domain-adaptive pretraining matters more than parameter count on this
 task. GLiNER, once retrained on the same independent gold, is the weakest of
-the four (0.56)---reversing a preliminary comparison that had scored an
-\emph{un}retrained GLiNER checkpoint against retrained token classifiers,
-found it ahead by 9--15 points, and attributed the difference to
-architecture; controlled for training data, the effect disappears. All three token classifiers
+the four (0.56). All three token classifiers
 approach ceiling on pattern-structured types (attack technique IDs, CVE
 identifiers, TLP markings, email addresses) and remain substantially weaker
 on open-vocabulary semantic types (threat actor group, hacking tool).
@@ -50,7 +46,7 @@ Extending the comparison to a true zero-shot frontier LLM (Gemini 3.5 Flash)
 on the same gold, the frontier model surpasses every fine-tuned local model
 on F1 (0.795 vs.\ SecureBERT's 0.712), at a cost of 94.5\,s mean latency per
 document and metered per-token API pricing, against SecureBERT's 1.8\,s,
-free, fully offline inference---a 51$\times$ speed difference for 8 points of
+free, fully offline inference: a 51$\times$ speed difference for 8 points of
 F1. GLiNER, although local, does not share that speed advantage: at 59.7\,s
 per document it is only 1.6$\times$ faster than the cloud API and is
 dominated by SecureBERT on both accuracy and latency. We report these
@@ -66,14 +62,14 @@ annotation, evaluation methodology, domain-adaptive pretraining}
 
 \section{Introduction}
 
-Cyber threat intelligence reports---government advisories, malware analyses,
-incident write-ups---are the primary vehicle by which defenders share
+Cyber threat intelligence reports (government advisories, malware analyses,
+incident write-ups) are the primary vehicle by which defenders share
 knowledge, yet extracting structured information from them remains largely
 manual. Named entity recognition over CTI text must handle entity types with
 no general-domain analogue: ATT\&CK technique identifiers, file hashes, TLP
 markings, YARA rule names, threat actor aliases. Human annotation at scale is
 expensive in this domain because it requires security expertise. A common
-response---and the baseline strategy this work replaces---is to avoid human
+response, and the baseline strategy this work replaces, is to avoid human
 annotation entirely: build a \emph{silver}-labeled corpus from agreement
 between a dictionary/regex annotator (STIX indicators, MITRE ATT\&CK
 lookups) and zero-shot GLiNER \citep{zaratiana2024gliner} predictions, and
@@ -82,24 +78,25 @@ annotator.
 
 That evaluation is circular, and the gap it hides is large. A blind human
 audit of predicted spans (Section~\ref{sec:rq1}) found the dictionary
-annotator's own gold-recall to be materially incomplete---half of the spans
+annotator's own gold-recall to be materially incomplete (half of the spans
 the silver evaluation scored as model false positives were correct entities
-under direct human judgment---so a model that learns to reproduce the
+under direct human judgment), so a model that learns to reproduce the
 dictionary's blind spots is rewarded, not penalized, by silver-label
 scoring. We confirm the effect end to end: rescoring a
 dictionary-silver-trained checkpoint against independently produced gold
 drops its score from 0.74 to 0.35 F1 (Section~\ref{sec:results}). The
-checkpoints did not degrade; the yardstick changed.
+drop reflects a change in the evaluation reference, not a change in the
+checkpoints themselves.
 
 This finding motivates the pipeline described here. Rather than avoiding
 human involvement entirely, we move it to where it is cheapest to apply
-correctly: a frontier LLM (Claude Sonnet) reads each advisory's full text and
+correctly: a frontier LLM (Claude Sonnet 5) reads each advisory's full text and
 proposes exhaustive gold-standard entity annotations, subject to per-label
 span-format validators at generation time; a human then curates the
 evaluation split (accepting, rejecting, or relabeling proposals), while the
 larger training split remains LLM-only. This approach is not free of human
 effort, but it replaces exhaustive first-pass annotation with targeted
-review---and, critically, it produces evaluation gold that is
+review; critically, it produces evaluation gold that is
 \emph{independent} of any dictionary or rule system a model might learn to
 imitate.
 
@@ -116,7 +113,7 @@ We ask four research questions:
   \item[RQ3] Which entity types remain hard even after retraining on
     independent gold, and does the pattern track training-example frequency,
     structured-vs-semantic label type, or both?
-  \item[RQ4] How does this fine-tuned token-classification fleet compare to
+  \item[RQ4] How does this set of fine-tuned token classifiers compare to
     a zero-shot span-matching architecture (GLiNER) retrained on the
     identical independent gold, and to a frontier LLM run zero-shot?
 \end{description}
@@ -138,7 +135,7 @@ extraction in one model. Distantly supervised NER was formalized for
 open-domain text by BOND \citep{liang2020bond}, which fine-tunes a BERT-based
 token classifier \citep{devlin2019bert} on knowledge-base-derived labels and
 then denoises them through a teacher--student self-training loop. The failure
-modes BOND targets---incomplete and noisy weak labels---are the same failure
+modes BOND targets (incomplete and noisy weak labels) are the same failure
 modes that motivate this work's move away from dictionary supervision.
 
 Cybersecurity-specific NER corpora suffer acutely from schema fragmentation:
@@ -146,7 +143,7 @@ Cybersecurity-specific NER corpora suffer acutely from schema fragmentation:
 datasets under a coarse shared label set \emph{hurts} performance relative to
 single-dataset training, while \citet{echchammakhy2025cyberner} demonstrate
 that principled, STIX-anchored harmonization recovers a 30\% relative F1 gain
-over the same naive union---evidence that \emph{how} labels are unified
+over the same naive union: evidence that \emph{how} labels are unified
 matters as much as how much data is unified. Our LLM-primary annotation
 pipeline sidesteps unification entirely by defining the label schema once and
 generating gold directly for it, rather than merging pre-existing dictionary
@@ -154,7 +151,7 @@ schemas. \citet{deka2024attacker} extend the entity-type inventory to
 attribution-specific concepts (impact, course-of-action) with deliberately
 long, sentence-level spans, and find instruction-fine-tuned LLMs outperform
 encoder taggers on their benchmark, motivating our use of an LLM as the
-\emph{annotator} rather than the deployed extractor---although
+\emph{annotator} rather than the deployed extractor, although
 Section~\ref{sec:rq4} finds the same LLM-outperforms-encoder pattern holds
 even for a deployed zero-shot extractor on our corpus, so that choice is
 ultimately one of deployment cost rather than of where an LLM can add value.
@@ -165,7 +162,7 @@ RQ4 adapts.
 LLM-as-annotator is itself an active line of work distinct from
 LLM-as-extractor: rather than running a frontier model zero-shot at inference
 time, we use it once, offline, to produce training and evaluation labels for
-smaller, cheaper, deployable encoders---a distillation-flavored setup, except
+smaller, cheaper, deployable encoders: a distillation-flavored setup, except
 that the teacher's output is explicitly checked (span-format validators,
 human curation) rather than trusted directly. The failure mode being guarded
 against is exactly the one BOND and the dictionary-silver approach share: an
@@ -177,7 +174,7 @@ student.
 
 \subsection{Pipeline}
 
-We scrape approximately 5{,}000 CISA cybersecurity advisories; each is
+We scrape approximately 300 CISA cybersecurity advisories; each is
 converted from PDF to markdown via docling, then stripped of layout artifacts
 and normalized (page-furniture deduplication, pagination removal, split-hash
 rejoining) to a clean, model-facing text version. For 82 of these advisories
@@ -186,7 +183,7 @@ labels\footnote{affected software product, attack technique id, attack
 technique name, cve identifier, cwe identifier, email address, file hash,
 file name, file path, hacking tool, ip address, malware family, tactic,
 threat actor group, tlp classification, yara rule name.} directly with a
-frontier LLM (Claude Sonnet): the model reads each advisory's full clean text
+frontier LLM (Claude Sonnet 5): the model reads each advisory's full clean text
 and proposes exhaustive entity spans, which are verbatim-matched back to the
 source text and rejected if they do not match exactly, and further gated by
 per-label span-format validators (hash length and character set, CVE/CWE/%
@@ -202,8 +199,8 @@ category (not used for training or evaluation directly) for real entities
 that fit no current label, which we use to identify candidate label types.
 Evaluation gold is therefore human-verified; training gold is not. We report
 this as a limitation (Section~\ref{sec:limitations}) but consider it
-acceptable because the LLM-primary approach's failure mode---proposing an
-entity a human would reject---is structurally different from the dictionary
+acceptable because the LLM-primary approach's failure mode (proposing an
+entity a human would reject) is structurally different from the dictionary
 approach's failure mode of \emph{never proposing} entire classes of entity
 for which it has no rule, and a human-verified evaluation set is positioned
 to catch either.
@@ -220,7 +217,7 @@ tool}) that an LLM reader identifies from context.
 \subsection{Split}
 
 We split by advisory \emph{document}, not by chunk, before chunking for
-training---66 advisories train / 8 validation / 8 test---so that overlapping
+training (66 advisories train / 8 validation / 8 test) so that overlapping
 text windows from the same document cannot appear on both sides of the
 split. This is a deliberate fix carried over from the baseline pipeline:
 chunk-level splitting leaks document context (shared boilerplate,
@@ -273,7 +270,7 @@ by overlapping 15{,}000-character windows (500-character overlap) so that no
 input is truncated, in contrast to GLiNER's fixed token limit above;
 per-window entity proposals are merged by exact text-and-label match before
 scoring, since a single entity mention can legitimately recur across overlap
-regions. Reasoning is disabled (\texttt{thinking\_budget=0}): NER requires
+regions. Reasoning is disabled (\path{thinking_budget=0}): NER requires
 no reasoning tokens, and hidden reasoning output made early informal runs
 both slow and expensive.
 
@@ -296,8 +293,8 @@ Section~\ref{sec:results} is not an artifact of different matching rules.
 \label{sec:rq1}
 
 Table~\ref{tab:circular-vs-independent} rescores the baseline pipeline's
-checkpoints---trained on dictionary-silver labels, previously reported at
-0.74 and 0.76 F1---against the current, independently produced LLM+human
+checkpoints (trained on dictionary-silver labels, previously reported at
+0.74 and 0.76 F1) against the current, independently produced LLM+human
 gold, on the same 8 test advisories (1{,}995 gold spans) used throughout
 this paper. Both token-classification checkpoints collapse: RoBERTa-base
 from 0.740 to 0.351, SecureBERT from 0.755 to 0.393, roughly a 47--48\%
@@ -307,7 +304,7 @@ own dictionary annotator did not also produce, so silver scoring rewarded
 them for learning the dictionary's blind spots along with its correct
 patterns. For reference, the old GLiNER checkpoint (fine-tuned on the same
 dictionary-silver labels, not yet retrained on the current gold) drops by a
-smaller margin, 0.666 to 0.540 (19\% relative)---the asymmetry that
+smaller margin, 0.666 to 0.540 (19\% relative): the asymmetry that
 motivated an initial, informal hypothesis for RQ4: that span-matching
 architectures generalize better than token classifiers once evaluation is
 no longer circular. Section~\ref{sec:rq4} retrains GLiNER on the identical
@@ -322,8 +319,8 @@ two baseline models were judged blind to model identity, each against the
 source text alone, with the sample deliberately stratified toward spans the
 silver evaluation had scored as false positives (205 of 300). Half of those
 silver-flagged ``false positives'' (103/205, 50.2\%) were correct entities
-under direct human judgment---59\% for the fine-tuned token classifier and
-43\% for zero-shot GLiNER---while the silver evaluation's true-positive
+under direct human judgment (59\% for the fine-tuned token classifier and
+43\% for zero-shot GLiNER), while the silver evaluation's true-positive
 verdicts were overwhelmingly confirmed (87\% and 96\%, respectively). The
 silver gold was not merely noisy: half of the errors it attributed to the
 models were entities it simply did not contain, which is precisely the
@@ -369,8 +366,8 @@ family}, which drags support-weighted strict micro-F1 down.
 Comparing back to Table~\ref{tab:circular-vs-independent}, retraining on
 independent gold closes most of the gap the circular evaluation had hidden.
 RoBERTa-base's score against independent gold rises from 0.351 (old
-checkpoint) to 0.659 (retrained)---most of the way back to its old,
-circular 0.740---and SecureBERT's independent-gold score (0.712) nearly
+checkpoint) to 0.659 (retrained), most of the way back to its old,
+circular 0.740, and SecureBERT's independent-gold score (0.712) nearly
 matches its old circular number (0.755). Correcting \emph{both} the
 training labels and the evaluation labels recovers almost all of the
 quality the circular number implied was already present; correcting only
@@ -399,7 +396,7 @@ test split, 1{,}995 gold spans.}
 Once retrained on this same gold, GLiNER (0.56 strict / 0.58 relaxed) trails
 every token classifier, including RoBERTa-large. Its macro-F1 (0.62 strict)
 sits well above its own micro-F1, the same pattern RoBERTa-large shows
-above---reasonably consistent type coverage dragged down by weak performance
+above: reasonably consistent type coverage dragged down by weak performance
 on a few high-volume labels, most strikingly \emph{ip address} (F1 0.03,
 recall 0.02; Section~\ref{sec:rq4} discusses possible causes). This directly
 answers the question raised in the RQ1 discussion: the old GLiNER
@@ -417,7 +414,7 @@ Structured, pattern-shaped labels are near-solved regardless of frequency:
 \emph{attack technique id}, \emph{cve identifier}, \emph{tlp
 classification}, and \emph{email address} all score 0.92--1.00 F1 across
 all three models, and even the lowest-support label in the test set
-(\emph{cwe identifier}, $n=4$) reaches 1.00 on every model---although at
+(\emph{cwe identifier}, $n=4$) reaches 1.00 on every model, although at
 that support level a single miss would swing the number by 0.25, so this
 particular result should be read as indicative rather than as evidence that
 CWE identification is solved.
@@ -486,10 +483,10 @@ old GLiNER checkpoint's smaller circular-vs-independent drop reflected its
 old training data's relationship to \emph{this} evaluation set, not a
 property of span-matching architecture that a fair retrain preserves.
 
-Table~\ref{tab:gliner-per-label} shows GLiNER is not uniformly weak---it
+Table~\ref{tab:gliner-per-label} shows GLiNER is not uniformly weak: it
 matches or nearly matches the token classifiers on several structured
 labels (attack technique id 0.99, cwe identifier 1.00, cve identifier
-0.96)---but is markedly worse on \emph{file path} (0.42 vs.\ 0.83--0.84 for
+0.96), but is markedly worse on \emph{file path} (0.42 vs.\ 0.83--0.84 for
 the token classifiers) and severely degraded on \emph{ip address} (0.03
 vs.\ 0.85--0.92), a label none of the three token classifiers found
 difficult. We do not have a confident explanation for the \emph{ip address}
@@ -536,23 +533,23 @@ Table~\ref{tab:frontier} compares Gemini 3.5 Flash, run zero-shot with no
 fine-tuning, against the best fine-tuned local model (SecureBERT) on the
 identical test set and harness. Gemini wins on quality: 0.795 strict /
 0.803 relaxed micro-F1, roughly 8 points above SecureBERT's 0.712 / 0.758,
-and macro-F1 shows the same ordering (0.791 vs.\ 0.738)---the advantage is
+and macro-F1 shows the same ordering (0.791 vs.\ 0.738): the advantage is
 not an artifact of a few high-volume labels dominating a support-weighted
 average. This outcome is the inverse of the premise that motivated the
-fine-tuned fleet (that a small fine-tuned model could match a frontier
+fine-tuned model set (that a small fine-tuned model could match a frontier
 model on a narrow domain task), and we report it as measured.
 
-The cost is real and asymmetric, and---unexpectedly---it is not evenly
+The cost is real and asymmetric, and, unexpectedly, it is not evenly
 distributed across the local models. Table~\ref{tab:frontier} measures
 wall-clock inference on the same 8 documents, on the same hardware (Apple
 Silicon, CPU/MPS, no batching), for every model in this paper. SecureBERT
 is not only the most accurate local model; it is also by far the fastest,
-averaging 1.8\,s per document---51$\times$ faster than Gemini, with no
+averaging 1.8\,s per document, 51$\times$ faster than Gemini, with no
 network call, no per-token billing, no rate limits, and no marginal cost
 once the checkpoint is downloaded. RoBERTa-large is a step down on both
 axes (0.648 F1, 7.8\,s/document, 12$\times$ faster than Gemini). GLiNER,
 however, departs from the expected pattern: despite running entirely
-locally, it averages 59.7\,s per document---only 1.6$\times$ faster than a
+locally, it averages 59.7\,s per document, only 1.6$\times$ faster than a
 cloud API call, and dramatically slower than either token classifier.
 Span-matching against a label-embedding space is architecturally more
 expensive per token than a per-token softmax head, and that cost is visible
@@ -560,11 +557,17 @@ directly here: GLiNER is dominated on \emph{both} accuracy and speed by
 SecureBERT, without the ``less accurate but free and fast'' trade-off that
 would make it a defensible choice on locality grounds. Whether Gemini's F1
 advantage over SecureBERT justifies its cost depends entirely on deployment
-context---a security operations center triaging thousands of advisories
+context (a security operations center triaging thousands of advisories
 per day cannot absorb cloud-API latency and cost at that multiplier,
 whereas a one-off deep analysis of a handful of critical advisories
-plausibly can---but for GLiNER specifically there is no such trade-off to
-weigh: SecureBERT surpasses it on every axis measured. RoBERTa-base's
+plausibly can), but for GLiNER specifically there is no such trade-off to
+weigh: SecureBERT surpasses it on every axis measured. Confidentiality
+sharpens the deployment argument further: the advisories studied here are
+public (TLP:CLEAR), but operational CTI routinely circulates under
+TLP:AMBER or TLP:RED handling restrictions that preclude submission to a
+third-party cloud API at any price. In such settings the local model is
+not the economical choice but the only admissible one, and the F1 gap is
+the cost of compliance rather than a trade-off to optimize. RoBERTa-base's
 original local checkpoint was not preserved for re-measurement (only its
 evaluation results were retained); given that its architecture and training
 recipe are identical to RoBERTa-large's, its latency is expected to fall in
@@ -580,7 +583,7 @@ Model & Strict F1 & Relaxed F1 & Avg.\ latency/doc \\
 Gemini 3.5 Flash & \textbf{0.795} & \textbf{0.803} & 94.5\,s (7.2--538.7\,s) \\
 SecureBERT & 0.712 & 0.758 & \textbf{1.8\,s} (0.4--5.2\,s) \\
 RoBERTa-large & 0.648 & 0.697 & 7.8\,s (1.1--30.1\,s) \\
-RoBERTa-base & 0.659 & 0.683 & --- \\
+RoBERTa-base & 0.659 & 0.683 & n/a \\
 GLiNER & 0.560 & 0.580 & 59.7\,s (12.3--171.6\,s) \\
 \bottomrule
 \end{tabular}
@@ -588,7 +591,7 @@ GLiNER & 0.560 & 0.580 & 59.7\,s (12.3--171.6\,s) \\
 harness, 8-document test split. Latency is wall-clock document-level
 inference on identical hardware (Apple Silicon, no batching) for local
 models, and real API round-trip time for Gemini
-(Section~\ref{sec:evaluation})---not directly comparable across the
+(Section~\ref{sec:evaluation}): not directly comparable across the
 network/local boundary in a strict sense, but both are genuine end-to-end
 costs a deployment would pay. RoBERTa-base latency was not re-measured
 because its local checkpoint was not preserved (see text).}
@@ -597,8 +600,8 @@ because its local checkpoint was not preserved (see text).}
 
 Two pipeline defects surfaced and were fixed while producing this
 comparison; both are worth documenting because they illustrate the same
-lesson as RQ1: an unverified evaluation harness produces confidently wrong
-numbers. First, span extraction matched entity text against a
+lesson as RQ1: an unverified evaluation harness produces incorrect
+numbers with no indication of error. First, span extraction matched entity text against a
 4000-character truncation window left over from an earlier, non-chunked
 inference mode; with full-document chunked inference, this silently dropped
 roughly 72\% of Gemini's correctly identified entities before scoring ever
@@ -608,11 +611,19 @@ this pipeline, credits every occurrence of a repeated entity mention, not
 only the first). Second, frontier scoring used a parallel, independently
 written implementation of strict P/R/F1 instead of the shared
 \texttt{ner.evaluate.Scorer} used for every other model in this
-paper---mathematically equivalent once checked, but a maintenance hazard
+paper: mathematically equivalent once checked, but a maintenance hazard
 and a literal violation of this paper's own ``identical scoring
 implementation across models'' claim (Section~\ref{sec:evaluation}). Both
 defects are fixed in the released pipeline; the numbers above reflect the
 corrected code.
+
+Appendix~\ref{app:frontier-extended} extends this comparison with a wider
+zero-shot sweep on the identical harness and test split: two further
+Gemini variants, a reasoning-mode ablation, Kimi K3, Claude Haiku 4.5,
+Claude Opus 4.8, and a locally hosted open-weights gemma3:27b. None of
+the additional models exceeds Gemini 3.5 Flash, so the comparison above
+is representative; the appendix material is complementary detail rather
+than a change to any conclusion here.
 
 \section{Limitations}
 \label{sec:limitations}
@@ -620,9 +631,9 @@ corrected code.
 \paragraph{Training gold is LLM-only, not human-verified.} Human curation
 is applied to the 16 validation/test advisories but not to the 66 training
 advisories (Section~\ref{sec:data-method}), for cost reasons. If Claude
-Sonnet's proposals have systematic blind spots of their own---the same
+Sonnet's proposals have systematic blind spots of their own (the same
 structural risk that motivated moving off the dictionary annotator, with a
-different annotator---training labels would inherit them even though the
+different annotator), training labels would inherit them even though the
 evaluation labels, being human-curated, would not. The results in
 Section~\ref{sec:results} should therefore be read as ``evaluated without
 circularity,'' not as ``free of all annotator bias''; only the measurement
@@ -656,66 +667,73 @@ and several of the longest test-set chunks were truncated at its 384-token
 limit during evaluation. We do not currently know how much of GLiNER's
 per-label weakness (Section~\ref{sec:rq4}), particularly the sharp \emph{ip
 address} drop, is attributable to this truncation versus a genuine
-architecture or data effect; disentangling the two---e.g., by re-chunking
+architecture or data effect; disentangling the two (e.g., by re-chunking
 GLiNER's input at a shorter budget matching its limit, mirroring the token
-classifiers' windowing---is left to future work.
+classifiers' windowing) is left to future work.
 
-\paragraph{Single frontier model, single sample, one configuration.}
-Section~\ref{sec:rq4} compares against one frontier model (Gemini 3.5
-Flash) at one point in time with one prompt; we did not sweep prompt
-variants, temperature, or few-shot examples, and a different frontier model
-or prompt could plausibly close some of the 8-point F1 gap. Cost and
-latency figures are similarly a single measurement (one API tier, one
-region, one day's network conditions), not a stable production benchmark
-across load or over time.
+\paragraph{Frontier comparison: single sample, one prompt per model.}
+The main text compares against one frontier model (Gemini 3.5 Flash) with
+one prompt; Appendix~\ref{app:frontier-extended} widens this to seven
+additional zero-shot configurations (further Gemini variants, a
+reasoning-mode ablation, Kimi K3, Claude Haiku 4.5, Claude Opus 4.8, and
+a local gemma3:27b), none of which exceeds Gemini 3.5 Flash. Even so, every run
+is a single sample with a single prompt; we did not sweep prompt
+variants, temperature, or few-shot examples, and a different prompt could
+plausibly close some of the 8-point F1 gap. Cost and latency figures are
+similarly a single measurement (one API tier, one region, one day's
+network conditions), not a stable production benchmark across load or
+over time.
 
 \section{Conclusion}
 
 Evaluating against labels produced by the same annotator being improved
-upon is circular, and the gap it hides is not small: a checkpoint that
+upon is circular, and the gap it conceals is substantial: a checkpoint that
 scored 0.74--0.76 F1 against dictionary-silver gold scores 0.35--0.39
 against independently produced gold (RQ1). Retraining on that same
-independent gold recovers most of the apparent quality---SecureBERT reaches
-0.71 F1, nearly matching its own old circular number---showing that the
-earlier result was not fabricated so much as measured against the wrong
-yardstick (RQ2). Domain-adaptive pretraining (SecureBERT) recovers more
+independent gold recovers most of the apparent quality (SecureBERT reaches
+0.71 F1, nearly matching its own old circular number), showing that the
+earlier result was not spurious; it was measured against an unsuitable
+reference (RQ2). Domain-adaptive pretraining (SecureBERT) recovers more
 independent-gold quality than raw parameter count (RoBERTa-large), which
 notably regresses on the single highest-volume label rather than improving
 on it. Structured, pattern-shaped entity types are essentially solved by
 all three encoder architectures; open-vocabulary, context-dependent
-types---most visibly \emph{malware family} and \emph{threat actor
-group}---remain the hard core of this task regardless of training volume
+types (most visibly \emph{malware family} and \emph{threat actor
+group}) remain the hard core of this task regardless of training volume
 (RQ3).
 
-The architecture question this work set out to answer---whether GLiNER's
+The architecture question this work set out to answer (whether GLiNER's
 span-matching design generalizes better than a token classifier's softmax
-head once measured without circularity---is answered, and not in the
+head once measured without circularity) is answered, and not in the
 direction the earlier, uncontrolled comparison suggested.
 Retrained on the identical independent gold and scored with the identical
 harness, GLiNER (0.56 F1) is the weakest of the four architectures tested,
 behind every token classifier including RoBERTa-large (RQ4). The apparent
 GLiNER advantage in Table~\ref{tab:circular-vs-independent} was an artifact
 of comparing a retrained token classifier against an \emph{un}retrained
-span-matching model---a reminder that the same circularity discipline this
+span-matching model: a reminder that the same circularity discipline this
 paper applies to silver-vs-independent gold (RQ1) must be applied equally
 strictly to any two checkpoints being compared, or a training-data confound
 can masquerade as an architecture finding.
 
-Extending the comparison to a frontier LLM completes the picture: zero-shot
+Extending the comparison to a frontier LLM completes the evaluation: zero-shot
 Gemini 3.5 Flash exceeds every fine-tuned local model on F1, including
 SecureBERT (0.795 vs.\ 0.712 strict), at the cost of 94.5\,s mean latency
 per document and metered per-token API pricing against SecureBERT's
-1.8\,s, free, offline inference---51$\times$ faster for 8 fewer points of
-F1 (RQ4). That trade-off is at least legible: a straightforward
+1.8\,s, free, offline inference: 51$\times$ faster for 8 fewer points of
+F1 (RQ4). That trade-off is at least well characterized: a straightforward
 speed-and-cost-for-quality exchange whose resolution depends on deployment
-context. GLiNER's position admits no such justification: at 59.7\,s per
+context, and one that data-handling policy can decide outright: material
+under TLP:AMBER or TLP:RED restrictions cannot be sent to a third-party
+API at any price, leaving the local model as the only admissible option
+for a substantial class of operational CTI. GLiNER's position admits no such justification: at 59.7\,s per
 document it forfeits nearly all of the local-deployment speed advantage
 (1.6$\times$ over Gemini, not 51$\times$) while also trailing SecureBERT on
 F1, so on this task, measured this way, it is dominated outright rather
 than trading accuracy for speed. Producing this comparison rigorously also
 required catching and fixing two evaluation-harness defects
 (Section~\ref{sec:rq4}) that would otherwise have quietly misreported
-it---the same discipline RQ1 required of the silver-vs-independent gold
+it: the same discipline RQ1 required of the silver-vs-independent gold
 comparison, applied to a frontier-vs-local one.
 
 \section{Future Work}
@@ -724,10 +742,10 @@ comparison, applied to a frontier-vs-local one.
 The per-label results (Section~\ref{sec:rq3}) suggest a concrete next step
 for the weakest, open-vocabulary semantic types: a gazetteer of canonical
 names and aliases for \emph{threat actor group} and \emph{hacking tool}.
-Both types have curated, actively maintained alias inventories---MITRE
+Both types have curated, actively maintained alias inventories: MITRE
 ATT\&CK group and software entries and MISP Galaxy threat-actor clusters
 each enumerate dozens of aliases per named intrusion set (e.g., APT28 /
-Fancy Bear / Sofacy / STRONTIUM)---and part of the observed difficulty is
+Fancy Bear / Sofacy / STRONTIUM), and part of the observed difficulty is
 plausibly alias variety rather than genuinely novel vocabulary. Two design
 constraints follow from this paper's own findings. First, the gazetteer
 must enter the system strictly as inference-side model input (lookup
@@ -736,9 +754,9 @@ labeling source: using the same resource to produce or correct gold labels
 would reintroduce exactly the circularity RQ1 quantifies. Second, scored
 against the existing independent gold, a gazetteer provides a measurable
 decomposition of the remaining gap on these labels into alias-coverage
-error, which lookup can fix, and contextual-disambiguation error---e.g.,
+error, which lookup can fix, and contextual-disambiguation error (e.g.,
 PowerShell as routine administration versus as a \emph{hacking tool} in an
-intrusion narrative---which it cannot, and which would then be isolated as
+intrusion narrative), which it cannot, and which would then be isolated as
 the residual hard core of the task.
 
 \section{Artifact and Data Availability}
@@ -749,14 +767,14 @@ results in this paper are publicly available.
 
 \begingroup\sloppy
 
-\paragraph{Code and data.} The complete pipeline---CISA scraper, text
+\paragraph{Code and data.} The complete pipeline is available at
+\url{https://github.com/dandye/nlp_capstone}: the CISA scraper, text
 normalization, LLM annotation (\path{ner.llm_gold}), human-curation
 webapp (\path{ner.hitl_ner}), training
 (\path{ner.finetune_roberta}, \path{ner.finetune_gliner}), frontier
 comparison (\path{ner.frontier_infer} / \path{ner.frontier_extract} /
 \path{ner.frontier_score}), and the shared evaluation harness
-(\path{ner.evaluate})---is available at
-\url{https://github.com/dandye/nlp_capstone}. Gold annotations are under
+(\path{ner.evaluate}). Gold annotations are under
 \path{data/gold_v2/} (evaluation, human-curated) and
 \path{data/gold_v2_train/} (training, LLM-only); the exact
 train/validation/test partition is \path{data/gold_v2/split_full.json}.
@@ -765,9 +783,9 @@ The per-model scores reported in every table are committed as JSON under
 retrained on the current gold, \path{rescored-*.json} for the RQ1
 circularity rescoring) and \path{data/frontier_results/} (Gemini
 entities, spans, and scores). The blind-audit artifacts backing
-Section~\ref{sec:rq1}---the judged sheet
+Section~\ref{sec:rq1} are likewise included: the judged sheet
 (\path{paper/capstone/gold_audit.csv}), the model-identity key, and the
-scorer (\path{ner.score_audit})---are likewise included, along with the
+scorer (\path{ner.score_audit}), along with the
 judging webapp (\path{ner.audit_webapp}).
 
 \paragraph{Models.} The fine-tuned checkpoints are published on the Hugging
@@ -783,5 +801,163 @@ runs themselves.
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{capstone}
+
+\appendix
+
+\section{Extended Zero-Shot Frontier Comparison}
+\label{app:frontier-extended}
+
+The main text (Section~\ref{sec:rq4}) compares a single frontier model,
+Gemini 3.5 Flash, against the fine-tuned local models. This appendix
+reports a wider zero-shot sweep run on the identical pipeline
+(\path{ner.frontier_infer} $\to$ \path{ner.frontier_extract} $\to$
+\path{ner.frontier_score}), identical 8-document test split, identical
+4{,}000-character chunking, and identical shared scorer
+(\path{ner.evaluate.Scorer}). It is complementary material: none of the
+additional models exceeds Gemini 3.5 Flash, so every main-text conclusion
+stands without it. Per-model entities, spans, and scores are committed
+under \path{data/frontier_results/}.
+
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & F1 & P & R & Macro & s/doc & Tokens \\
+\midrule
+Gemini 3.5 Flash & \textbf{0.795} & 0.739 & 0.859 & 0.791 & 94.5 & 350{,}277 \\
+Gemini 3.6 Flash (think.) & 0.794 & 0.693 & 0.928 & \textbf{0.811} & 601.1 & 1{,}410{,}327 \\
+Kimi K3 & 0.761 & 0.652 & 0.913 & 0.784 & 1{,}118.3 & 434{,}025 \\
+Gemini 3.5 Flash-Lite & 0.752 & 0.694 & 0.822 & 0.762 & \textbf{30.7} & 210{,}533 \\
+Gemini 3.6 Flash (min.) & 0.707 & 0.564 & \textbf{0.946} & 0.773 & 68.5 & 231{,}260 \\
+Claude Haiku 4.5 & 0.699 & 0.623 & 0.797 & 0.678 & 50.8 & 190{,}290 \\
+Claude Opus 4.8 & 0.420 & 0.285 & 0.795 & 0.652 & 116.9 & 247{,}576 \\
+gemma3:27b (local) & 0.240 & 0.146 & 0.690 & 0.379 & 3{,}114.0 & 89{,}909 \\
+\midrule
+SecureBERT (fine-tuned) & 0.712 & & & 0.738 & 1.8 & \\
+\bottomrule
+\end{tabular}
+\caption{Extended zero-shot sweep: strict micro P/R/F1, macro F1, mean
+API round-trip latency per document, and total tokens recorded across the
+8-document test split. Gemini token counts are
+\texttt{total\_token\_count} and therefore include hidden reasoning
+(``thinking'') tokens. gemma3:27b ran locally via Ollama on Apple
+Silicon; its latency is local inference time, not a network cost. The
+fine-tuned SecureBERT row from Table~\ref{tab:frontier} is repeated for
+reference.}
+\label{tab:frontier-extended}
+\end{table}
+
+\paragraph{Reasoning (``thinking'') configuration.} Gemini 3.5 Flash and
+3.5 Flash-Lite ran with \path{thinking_budget=0}, reasoning fully
+disabled. Gemini 3.6 Flash rejects that setting, so it appears twice: once
+with provider-default reasoning enabled and once at
+\path{thinking_level="minimal"}, the lowest level its API accepts
+(documented as lowest, not necessarily zero, so the no-reasoning
+conditions across model generations are close but not strictly
+identical). The pair is an unplanned ablation with a clear result:
+default reasoning costs roughly 6$\times$ the tokens and 9$\times$ the
+wall-clock time and buys $+0.087$ strict F1, almost entirely as precision
+(0.693 vs.\ 0.564; recall is flat at 0.93--0.95). The damage concentrates
+in open-vocabulary labels (\emph{affected software product} 0.62 to 0.37,
+\emph{attack technique name} 0.82 to 0.65, \emph{threat actor group} 0.60
+to 0.51), consistent with reasoning acting as a candidate filter.
+Notably, 3.5 Flash reaches 0.795 with reasoning fully off, while 3.6
+Flash needs default reasoning just to tie it.
+
+\paragraph{Protocol caveats.} Two models required deviations from the
+JSON-with-offsets output protocol the Gemini runs used, and their rows
+should be read with that in mind. \emph{Kimi K3} (Moonshot API) returned
+empty responses for any structured-output request, so it emitted
+free-form entity/label lists that were located in the document by string
+search before the shared extraction step; its 1{,}118\,s/document is
+API latency, not a statement about model depth. \emph{Claude Haiku 4.5}
+carries a same-family caveat: the gold in this paper was proposed by
+Claude Sonnet 5 before human curation (Section~\ref{sec:data-method}), so a
+Claude-family model could plausibly share span-boundary and label-choice
+conventions with the annotator. Despite that potential tailwind it scores
+below fine-tuned SecureBERT, and it exhibits the largest single-label
+failure in the sweep: it emitted 1 \emph{tactic} entity against 111 gold
+mentions (per-label F1 0.00). \emph{Claude Opus 4.8} (same same-family
+caveat) illustrates a different hazard, a model-behavior interaction with
+the harness itself: its strict micro F1 of 0.420 (precision 0.285, recall
+0.795, macro F1 0.652) is dominated by a handful of short generic strings
+it proposed as entities. On the Snake-malware advisory, which quotes C
+source code, it labeled the bare string ``C'' an \emph{affected software
+product}; the extraction step, which credits every text occurrence of a
+proposed entity, multiplied that single judgment into 372 false-positive
+spans, with ``Windows'', ``RDP'', and ``PowerShell'' behaving similarly
+(754 deduped entities became 5{,}563 spans, versus 2{,}551 for Haiku).
+Every model passes through the identical extraction step; the others
+do not emit bare generic tokens. This is the same lesson the
+main text draws twice (Section~\ref{sec:rq4}): under an
+occurrence-crediting harness, a single generic proposal is amplified
+into hundreds of false positives, which primarily depresses
+micro-averaged precision.
+
+\paragraph{Local zero-shot collapse.} gemma3:27b, the one locally hosted
+open-weights model in the sweep, collapses to 0.240 strict F1 (precision
+0.146) at 3{,}114\,s per document. The comparison with SecureBERT
+(0.712 at 1.8\,s) makes the deployment point from
+Section~\ref{sec:rq4} concrete: what makes a local model competitive on
+this task is fine-tuning on independent gold, not local hosting per se; a
+local model without fine-tuning combines frontier-level latency with
+sub-baseline accuracy.
+
+\paragraph{Cost.} Costs are estimated from recorded per-run token counts
+at published list rates (paid tier, July 2026: Gemini 3.5 Flash
+\$1.50/\$9.00 per million input/output tokens, 3.6 Flash \$1.50/\$7.50,
+3.5 Flash-Lite \$0.30/\$2.50, Claude Haiku 4.5 \$1.00/\$5.00; reasoning
+tokens bill at the output rate), not from account-level billing, which
+covered unrelated concurrent work and cannot be attributed to individual
+runs. Assuming an 80/20 input/output split, per-document estimates are
+roughly \$0.13 for 3.5 Flash, \$0.02 for Flash-Lite, \$0.08 for 3.6
+Flash at minimal reasoning, and \$0.04 for Claude Haiku 4.5. The
+default-reasoning 3.6 Flash run is decomposed differently: both 3.6
+Flash runs sent identical prompts, so the minimal run's input estimate
+(roughly 185K tokens) is taken as the reasoning run's input, leaving
+roughly 1.23M output-plus-reasoning tokens and a run cost near \$9.50,
+or \$1.18 per document, roughly 9$\times$ the cost of 3.5 Flash for a
+statistically indistinguishable F1. These are single-run estimates, not
+a pricing benchmark, but the reasoning multiplier is structural:
+reasoning tokens are metered at the output rate, so the roughly
+6$\times$ token inflation flows directly into cost at any rate
+schedule.
+
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Label & 3.5F & Lite & 3.6m & 3.6t & K3 & H4.5 & Supp. \\
+\midrule
+affected software product & 0.65 & 0.51 & 0.37 & 0.62 & 0.59 & 0.47 & 0.08 & 159 \\
+attack technique id & 0.99 & 0.99 & 0.99 & 0.99 & 0.98 & 0.97 & 0.98 & 297 \\
+attack technique name & 0.75 & 0.72 & 0.65 & 0.82 & 0.69 & 0.44 & 0.81 & 144 \\
+cve identifier & 0.96 & 0.96 & 0.96 & 0.96 & 0.96 & 0.87 & 0.87 & 55 \\
+cwe identifier & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 4 \\
+email address & 0.98 & 0.95 & 1.00 & 1.00 & 1.00 & 0.95 & 0.91 & 26 \\
+file hash & 0.96 & 0.78 & 0.98 & 0.98 & 0.98 & 0.83 & 0.69 & 93 \\
+file name & 0.73 & 0.77 & 0.73 & 0.77 & 0.69 & 0.59 & 0.47 & 89 \\
+file path & 0.67 & 0.79 & 0.79 & 0.79 & 0.77 & 0.66 & 0.70 & 108 \\
+hacking tool & 0.43 & 0.44 & 0.49 & 0.51 & 0.37 & 0.44 & 0.51 & 139 \\
+ip address & 0.98 & 0.94 & 0.99 & 0.99 & 0.99 & 0.85 & 0.30 & 130 \\
+malware family & 0.87 & 0.82 & 0.80 & 0.82 & 0.82 & 0.85 & 0.75 & 438 \\
+tactic & 0.73 & 0.67 & 0.70 & 0.70 & 0.69 & 0.00 & 0.54 & 111 \\
+threat actor group & 0.62 & 0.44 & 0.51 & 0.60 & 0.61 & 0.60 & 0.51 & 157 \\
+tlp classification & 0.93 & 1.00 & 1.00 & 1.00 & 0.99 & 0.99 & 0.89 & 36 \\
+yara rule name & 0.41 & 0.41 & 0.41 & 0.41 & 0.41 & 0.33 & 0.41 & 9 \\
+\bottomrule
+\end{tabular}
+\caption{Per-label strict F1 for the extended sweep. Columns: Gemini 3.5
+Flash (3.5F), Gemini 3.5 Flash-Lite (Lite), Gemini 3.6 Flash at minimal
+reasoning (3.6m), Gemini 3.6 Flash with default reasoning (3.6t),
+Kimi K3 (K3), Claude Haiku 4.5 (H4.5); gold mention support (Supp.).
+gemma3:27b is omitted for space; its per-label scores are in
+\texttt{data/frontier\_results/gemma3-27b-scores.json}.}
+\label{tab:frontier-extended-perlabel}
+\end{table}
 
 \end{document}
