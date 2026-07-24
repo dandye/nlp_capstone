@@ -16,14 +16,14 @@ $(PAPER).pdf: $(PAPER).tex $(PAPER).bib
 	$(LATEX) $(PAPER).tex
 	$(LATEX) $(PAPER).tex
 
-# The survey has no BibTeX citations yet (inline arXiv IDs), so two passes.
-$(SURVEY).pdf: $(SURVEY).tex
+$(SURVEY).pdf: $(SURVEY).tex $(SURVEY).bib
+	$(LATEX) $(SURVEY).tex
+	bibtex $(SURVEY)
 	$(LATEX) $(SURVEY).tex
 	$(LATEX) $(SURVEY).tex
 
-# Regenerate survey.tex from survey.md (md2tex_survey.py)
-survey-tex: survey.md md2tex_survey.py
-	python3 md2tex_survey.py
+# NOTE: survey.tex is now hand-edited (survey.md is deprecated).
+# The old md->tex regeneration target was removed so it cannot clobber edits.
 
 clean:
 	rm -f $(PAPER).aux $(PAPER).bbl $(PAPER).blg $(PAPER).log $(PAPER).out \

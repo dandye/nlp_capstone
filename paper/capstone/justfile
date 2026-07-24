@@ -12,14 +12,15 @@ pdf:
     {{latex}} {{paper}}.tex
     {{latex}} {{paper}}.tex
 
-# Build the survey (no BibTeX yet -- inline arXiv-ID citations)
+# Build the survey (pdflatex -> bibtex -> pdflatex x2)
 survey-pdf:
+    {{latex}} {{survey}}.tex
+    bibtex {{survey}}
     {{latex}} {{survey}}.tex
     {{latex}} {{survey}}.tex
 
-# Regenerate survey.tex from survey.md
-survey-tex:
-    python3 md2tex_survey.py
+# NOTE: survey.tex is now hand-edited (survey.md is deprecated);
+# the md->tex regeneration recipe was removed so it cannot clobber edits.
 
 # Remove LaTeX build intermediates (keeps the PDFs)
 clean:

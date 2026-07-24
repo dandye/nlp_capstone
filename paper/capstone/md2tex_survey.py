@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
-"""Convert survey.md to survey.tex (acmart sigconf,nonacm, matching capstone.tex).
+"""RETIRED (2026-07-24): survey.tex is now hand-edited; survey.md is deprecated.
+Running this would clobber hand edits. Kept for provenance only.
+
+Convert survey.md to survey.tex (acmart sigconf,nonacm, matching capstone.tex).
 
 One-shot conversion helper. Citation keys stay inline as arXiv IDs per the
 draft's own editorial plan (bib formatting is a later phase).
 """
 import re
+import sys
+sys.exit("RETIRED: survey.tex is hand-edited now; this script would clobber it.")
 
 SRC = "survey.md"
 DST = "survey.tex"
@@ -55,6 +60,8 @@ principal review, citation formatting.}
 
 \begin{document}
 \sloppy
+% displaCy-style inline entity annotation: highlighted span + small-caps label
+\newcommand{\ent}[3]{\colorbox{#1}{\strut #2\,{\tiny\textsc{#3}}}}
 """
 
 CORPUS_TABLE = r"""\begin{table*}[t]
@@ -143,6 +150,13 @@ while i < len(lines):
         title = re.sub(r"^### (\d+\.\d+\s*)?", "", line)
         out.append("\\subsection{%s}" % esc(title))
         i += 1
+        continue
+    if line.strip() == "<!--latex":
+        i += 1
+        while i < len(lines) and lines[i].strip() != "-->":
+            out.append(lines[i])
+            i += 1
+        i += 1  # skip closing -->
         continue
     if line.startswith("|"):
         buf = []
