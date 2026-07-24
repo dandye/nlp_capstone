@@ -811,7 +811,16 @@ Face Hub:
 notebook, \path{notebooks/hf_models_demo.ipynb}, downloads the
 published checkpoints and reproduces windowed inference on sample advisory
 text; the Colab notebooks under \path{notebooks/} reproduce the training
-runs themselves.
+runs themselves. The Colab notebooks are self-contained: dependencies
+are pinned and seeds are fixed, and the token-classifier notebooks
+embed the training corpus and document-level split directly (the GLiNER
+notebook loads the same two committed files,
+\path{data/gliner_train.jsonl} and \path{data/split_slugs.json}). Training is nevertheless
+not bit-deterministic on GPU: an identical-recipe rerun of
+RoBERTa-large scored 0.63 strict micro F1 against the 0.648 reported
+here, and the published checkpoints carry their own measured scores on
+their model cards. Reruns should be expected to land near, not exactly
+on, the reported numbers.
 \endgroup
 
 \bibliographystyle{ACM-Reference-Format}
