@@ -1,6 +1,7 @@
 # Environments
 .venv/
 .venv-ml/
+.python-version
 __pycache__/
 *.pyc
 
