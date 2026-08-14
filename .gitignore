@@ -53,3 +53,4 @@ data/papers/*.pdf
 *.fls
 # stale truncated inference artifact (superseded)
 data/frontier_results/gemma3-27b-entities.truncated-old.jsonl
+paper/capstone/acl2023/anthology.bib
