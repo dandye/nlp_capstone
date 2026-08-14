@@ -138,9 +138,20 @@ data/
 │                           and the capstone bibliography: {arxiv-id}-{slug}.md
 │                           (docling-converted, tracked) + matching .pdf
 │                           (gitignored, 85MB, copied from scrape_cisa)
-└── evals/                  external benchmark (MalwareTextDB-1.0) for
-                            cross-domain eval; not yet wired into any module
+└── evals/                  6 external CTI NER corpora (AnnoCTR, AZERG,
+                            CyberNER, APTNER, AttackER, CyNER) + MalwareTextDB;
+                            gitignored by design (licensed data, regenerable).
+                            Cross-corpus results in data/evals/results/
+                            (gliner-* complete; frontier-* 4/5, CyberNER
+                            stalled on API credits). See NEXT_STEPS.md P2.
 ```
+
+Post-submission additions: `external/bond/` (BOND self-training port; CPU
+only — MPS silently corrupts weights in optimizer.step(), `--no_cuda` is
+baked in), `ner/distant_labels.py` (regex + ATT&CK gazetteer weak labeler),
+`ner/external_corpus_convert.py` / `external_eval_gliner.py` (cross-corpus
+eval). The active research thread is `paper/study2-design.md`
+("Redeeming Silver", pre-registered); the working roadmap is `NEXT_STEPS.md`.
 
 `data/gold_v2/results/` filename convention: `trained-*.json` = model retrained
 on current LLM gold and scored on it (the numbers the paper reports);
@@ -261,7 +272,10 @@ generalization better than a softmax head) came from comparing an
 not an architecture effect. Do not cite the old hypothesis as the paper's
 finding; it's now the paper's RQ1/RQ4 cautionary example instead.
 
-No open items remain. The frontier-LLM comparison is done
+Study 1 (the submitted paper, tag `capstone-submitted-2026-07-25`) is
+closed; open post-submission work is tracked in `NEXT_STEPS.md` (BOND gold
+eval, CyberNER frontier resume, cross-corpus SUMMARY, Study 2 phases,
+AlphaEvolve arms). The frontier-LLM comparison is done
 (`data/frontier_results/`, Gemini 0.795 strict F1 vs SecureBERT 0.712).
 The blind gold audit turned out to be already human-judged (pre-repo,
 scrape_cisa era — the principal's own 300 judgments arrived in the initial

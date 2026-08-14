@@ -15,9 +15,9 @@
 
 ---
 
-## P1 — Preserve the work (do first, ~30 min)
+## P1 — Preserve the work (do first, ~30 min) ✅ DONE 2026-08-14
 
-Three weeks of uncommitted work is one bad `git clean` away from gone.
+Committed in 6 logical chunks on `post_submit_v00001` and pushed to origin. `anthology.bib` (42MB unused template ballast) excluded + gitignored; latexmk droppings and the stale gemma3 artifact gitignored; bond `.venv`/`outputs`/`pretrained_model` confirmed excluded; secrets scan clean.
 
 **P1.1 Commit the post-submission changeset** in logical chunks:
 - Design doc: `paper/study2-design.md` — the most valuable uncommitted file in the repo.
@@ -48,9 +48,9 @@ Finishes the Study-1-adjacent loop and produces inputs Study 2 reuses.
 - Lead with the headline finding already in hand: fine-tuning on our 16-label schema helps zero-shot transfer on 4/5 external schemas but *hurts* AttackER (0.169 → 0.111, long-STIX-span distribution mismatch).
 - **Done when:** the file renders every completed run and flags any still-missing cell. Est. 1–2 h. Depends on P2.2 for completeness (can draft before, with CyberNER cells marked pending).
 
-**P2.4 Decide: sweep BOND through the 5-corpus eval?**
-- Only the 4 GLiNER/frontier-eligible architectures were swept. Decide yes/no and record the rationale in SUMMARY.md either way (a fixed-head token classifier needs per-corpus label mapping — nontrivial).
-- **Done when:** a decision + rationale is written down. Est. 15 min to decide.
+**P2.4 Decide: sweep BOND through the 5-corpus eval?** ✅ DECIDED 2026-08-14: **No.**
+- Rationale: BOND is a fixed-head softmax classifier over our 16-label space — it cannot emit unseen labels, which is precisely Study 1's finding about softmax heads. The cross-corpus sweep exists to measure *schema transfer*, which only open-vocabulary predictors (GLiNER, frontier LLMs) can attempt natively; evaluating BOND there requires per-corpus label mapping that changes the comparison basis per corpus, yielding an apples-to-oranges table at real cost. BOND's role stays in-domain: the RQ2 silver-pretraining baseline, already measured.
+- Revisit trigger: if Study 2 Phase 1's `corpus_map` produces a principled label mapping anyway, the marginal cost of a BOND sweep drops to near zero — reconsider then. (Copy this rationale into SUMMARY.md when P2.3 creates it.)
 
 ## P3 — Study 2: "Redeeming Silver" (the main forward thread, ~4–6 weeks phased)
 
@@ -84,7 +84,7 @@ First check: is there a real venue/deadline for a revision, or is `revision.md` 
 
 ## P5 — Documentation hygiene (~30 min, after P1–P2)
 
-- **P5.1 Update `CLAUDE.md`:** remove "No open items remain"; replace the stale `data/evals/` description with the real 6-corpus + results layout; document `external/bond/` (incl. the MPS-corrupts-optimizer-step finding and the `--no_cuda` requirement), `ner/distant_labels.py`, the external-eval modules, and point to `paper/study2-design.md` as the active thread.
+- **P5.1 Update `CLAUDE.md`:** ✅ DONE 2026-08-14 — stale "no open items" claim replaced with a NEXT_STEPS.md pointer; `data/evals/` description now reflects the 6-corpus reality; `external/bond/` (--no_cuda/MPS finding), `distant_labels.py`, external-eval modules, and study2-design.md all documented.
 - **P5.2 Retire `SESSION_STATE.md`** (it says "delete once no longer needed") after its remaining content is absorbed here and into CLAUDE.md.
 - **Done when:** a fresh session can orient from CLAUDE.md alone.
 
