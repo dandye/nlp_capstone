@@ -46,7 +46,30 @@ CLAUDE_MODEL_IDS = {
 }
 
 
-def call_gemini(text: str, api_key: str, model: str = "gemini-3.5-flash") -> dict:
+def load_jsonl_records(path: Path) -> list[dict]:
+    records = []
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line:
+                records.append(json.loads(line))
+    return records
+
+
+def load_labels_file(path: Path) -> list[str]:
+    labels = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(labels, list) or not all(isinstance(l, str) for l in labels):
+        print(f"{path} must be a JSON list of strings.", file=sys.stderr)
+        sys.exit(1)
+    return labels
+
+
+def call_gemini(
+    text: str,
+    api_key: str,
+    model: str = "gemini-3.5-flash",
+    labels: list[str] | None = None,
+) -> dict:
     """Call a Gemini model for NER via the google-genai SDK.
 
     Auth (pick one):
@@ -67,7 +90,7 @@ def call_gemini(text: str, api_key: str, model: str = "gemini-3.5-flash") -> dic
     else:
         client = genai.Client(api_key=api_key)
 
-    label_list = ", ".join(LABELS)
+    label_list = ", ".join(labels if labels is not None else LABELS)
     prompt = f"""Extract named entities from the following cybersecurity text.
 For each entity, return JSON with:
 - text: the exact text of the entity (verbatim from the text)
@@ -141,7 +164,12 @@ If no clear matches, return an empty array: []
     return {"entities": entities, "latency_sec": latency, "tokens": tokens}
 
 
-def call_claude(text: str, api_key: str, model_id: str) -> dict:
+def call_claude(
+    text: str,
+    api_key: str,
+    model_id: str,
+    labels: list[str] | None = None,
+) -> dict:
     """Call a Claude model for NER via the Anthropic SDK.
 
     Same prompt contract as call_gemini (label list, JSON array, char
@@ -154,7 +182,7 @@ def call_claude(text: str, api_key: str, model_id: str) -> dict:
 
     client = anthropic.Anthropic(api_key=api_key)
 
-    label_list = ", ".join(LABELS)
+    label_list = ", ".join(labels if labels is not None else LABELS)
     prompt = f"""Extract named entities from the following cybersecurity text.
 For each entity, return JSON with:
 - text: the exact text of the entity (verbatim from the text)
@@ -211,7 +239,12 @@ If no clear matches, return an empty array: []
     return {"entities": entities, "latency_sec": latency, "tokens": tokens}
 
 
-def call_kimi(text: str, api_key: str, model: str = "kimi-k2.6") -> dict:
+def call_kimi(
+    text: str,
+    api_key: str,
+    model: str = "kimi-k2.6",
+    labels: list[str] | None = None,
+) -> dict:
     """Call a Kimi model (Moonshot) for NER via the OpenAI-compatible API.
 
     Kimi doesn't reliably output JSON, so we ask for markdown lists and parse them.
@@ -222,7 +255,9 @@ def call_kimi(text: str, api_key: str, model: str = "kimi-k2.6") -> dict:
 
     client = OpenAI(api_key=api_key, base_url="https://api.moonshot.ai/v1")
 
-    label_list = ", ".join(LABELS)
+    active_labels = labels if labels is not None else LABELS
+    label_lookup = {label.lower(): label for label in active_labels}
+    label_list = ", ".join(active_labels)
     prompt = f"""Extract cybersecurity entities from this text. For each entity, list:
 - The exact text (verbatim from the text)
 - The label (one of: {label_list})
@@ -262,12 +297,13 @@ If no matches, respond with: No entities found"""
                 # Clean up markdown formatting
                 entity_text = entity_part.strip('*`"\'')
                 label_text = label_part.strip('*`"\'').lower()
+                canonical_label = label_lookup.get(label_text)
 
                 # Validate label
-                if label_text in LABELS:
+                if canonical_label:
                     entities.append({
                         "text": entity_text,
-                        "label": label_text,
+                        "label": canonical_label,
                         "start_char": 0,  # Placeholder; frontier_extract will find actual position
                         "end_char": 0,
                     })
@@ -278,7 +314,12 @@ If no matches, respond with: No entities found"""
     return {"entities": entities, "latency_sec": latency, "tokens": tokens}
 
 
-def call_ollama_model(text: str, model_name: str, ollama_base: str = "http://localhost:11434") -> dict:
+def call_ollama_model(
+    text: str,
+    model_name: str,
+    ollama_base: str = "http://localhost:11434",
+    labels: list[str] | None = None,
+) -> dict:
     """Call Ollama model for NER."""
     # Ollama tags use "name:tag", not "name-tag" -- the dash-style entries
     # below were never verified against an actually-pulled model and don't
@@ -294,7 +335,7 @@ def call_ollama_model(text: str, model_name: str, ollama_base: str = "http://loc
     }
     ollama_model = model_map.get(model_name, model_name)
 
-    label_list = ", ".join(LABELS)
+    label_list = ", ".join(labels if labels is not None else LABELS)
     prompt = f"""Extract named entities from the following cybersecurity text.
 For each entity, return JSON with:
 - text: the exact text of the entity (verbatim from the text)
@@ -370,17 +411,45 @@ def main() -> None:
                         help="If >0, cover the FULL document in chunks of this many chars "
                              "(500-char overlap) instead of truncating; entities are merged")
     parser.add_argument("--ollama-base", default="http://localhost:11434")
+    parser.add_argument("--labels-file",
+                        help="Optional JSON list of labels to use in prompts")
+    parser.add_argument("--input-jsonl",
+                        help="Optional pre-tokenized eval JSONL; one record = one model call")
+    parser.add_argument("--limit", type=int, default=0,
+                        help="If >0, run only the first N sorted slugs/records")
     args = parser.parse_args()
 
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Load split
-    split = load_split(Path(args.split))
-    subset_slugs = split[args.subset]
+    prompt_labels = load_labels_file(Path(args.labels_file)) if args.labels_file else None
     markdown_dir = Path(args.markdown_dir)
-
-    print(f"Running inference on {args.subset} split ({len(subset_slugs)} advisories)")
+    input_records = None
+    if args.input_jsonl:
+        input_records = sorted(
+            load_jsonl_records(Path(args.input_jsonl)), key=lambda r: r["slug"]
+        )
+        if args.limit > 0:
+            input_records = input_records[:args.limit]
+        items = [
+            {
+                "slug": rec["slug"],
+                "text": " ".join(rec["tokenized_text"]),
+                "external": True,
+            }
+            for rec in input_records
+        ]
+        print(f"Running inference on {len(items)} pre-tokenized records")
+    else:
+        split = load_split(Path(args.split))
+        subset_slugs = sorted(split[args.subset])
+        if args.limit > 0:
+            subset_slugs = subset_slugs[:args.limit]
+        items = [
+            {"slug": slug, "text": None, "external": False}
+            for slug in subset_slugs
+        ]
+        print(f"Running inference on {args.subset} split ({len(items)} advisories)")
     print(f"Models: {args.models}")
     print()
 
@@ -404,31 +473,35 @@ def main() -> None:
             if done_slugs:
                 print(f"  Resuming: {len(done_slugs)} slugs already done, skipping them")
 
-        for i, slug in enumerate(sorted(subset_slugs), 1):
+        for i, item in enumerate(items, 1):
+            slug = item["slug"]
             if slug in done_slugs:
                 continue
-            # Load markdown with gold annotations stripped (leaking them to the
-            # LLM would contaminate the evaluation)
-            full_text = load_clean_text(slug, markdown_dir)
-            if not full_text:
-                print(f"  ⚠ {slug}: markdown not found, skipping", file=sys.stderr)
-                continue
-
-            # Build the list of texts to send: either one truncated window,
-            # or overlapping chunks covering the full document
-            if args.chunk_size > 0:
-                overlap = 500
-                chunks = []
-                pos = 0
-                while pos < len(full_text):
-                    chunks.append(full_text[pos:pos + args.chunk_size])
-                    if pos + args.chunk_size >= len(full_text):
-                        break
-                    pos += args.chunk_size - overlap
-                inference_text = full_text  # spans/scoring cover the whole doc
+            if item["external"]:
+                chunks = [item["text"]]
             else:
-                inference_text = full_text[:args.max_text_len] if len(full_text) > args.max_text_len else full_text
-                chunks = [inference_text]
+                # Load markdown with gold annotations stripped (leaking them to the
+                # LLM would contaminate the evaluation)
+                full_text = load_clean_text(slug, markdown_dir)
+                if not full_text:
+                    print(f"  ⚠ {slug}: markdown not found, skipping", file=sys.stderr)
+                    continue
+
+                # Build the list of texts to send: either one truncated window,
+                # or overlapping chunks covering the full document
+                if args.chunk_size > 0:
+                    overlap = 500
+                    chunks = []
+                    pos = 0
+                    while pos < len(full_text):
+                        chunks.append(full_text[pos:pos + args.chunk_size])
+                        if pos + args.chunk_size >= len(full_text):
+                            break
+                        pos += args.chunk_size - overlap
+                    inference_text = full_text  # spans/scoring cover the whole doc
+                else:
+                    inference_text = full_text[:args.max_text_len] if len(full_text) > args.max_text_len else full_text
+                    chunks = [inference_text]
 
             def call_one(chunk_text: str) -> dict:
                 if model_name.startswith("gemini"):
@@ -438,19 +511,19 @@ def main() -> None:
                         print("  ⚠ Set GOOGLE_API_KEY/GEMINI_API_KEY, or GOOGLE_GENAI_USE_VERTEXAI=true with ADC",
                               file=sys.stderr)
                         sys.exit(1)
-                    return call_gemini(chunk_text, api_key, model_name)
+                    return call_gemini(chunk_text, api_key, model_name, prompt_labels)
                 elif model_name.startswith("claude"):
                     api_key = os.environ.get("ANTHROPIC_API_KEY")
                     if not api_key:
                         print("  ⚠ Set ANTHROPIC_API_KEY", file=sys.stderr)
                         sys.exit(1)
-                    return call_claude(chunk_text, api_key, CLAUDE_MODEL_IDS.get(model_name, model_name))
+                    return call_claude(chunk_text, api_key, CLAUDE_MODEL_IDS.get(model_name, model_name), prompt_labels)
                 elif model_name.startswith("kimi"):
                     api_key = os.environ.get("MOONSHOT_API_KEY") or os.environ.get("KIMI_API_KEY")
                     if not api_key:
                         print("  ⚠ Set MOONSHOT_API_KEY (or KIMI_API_KEY)", file=sys.stderr)
                         sys.exit(1)
-                    return call_kimi(chunk_text, api_key, model_name)
+                    return call_kimi(chunk_text, api_key, model_name, prompt_labels)
                 elif model_name.startswith("gemma-4"):
                     # API-served Gemma (e.g. gemma-4-31b-it) goes through the
                     # Gemini API; Ollama-style names (gemma3:27b) stay local.
@@ -458,9 +531,9 @@ def main() -> None:
                     if not api_key:
                         print("  ⚠ Set GOOGLE_API_KEY/GEMINI_API_KEY", file=sys.stderr)
                         sys.exit(1)
-                    return call_gemini(chunk_text, api_key, model_name)
+                    return call_gemini(chunk_text, api_key, model_name, prompt_labels)
                 elif model_name.startswith("gemma") or model_name.startswith("qwen"):
-                    return call_ollama_model(chunk_text, model_name, args.ollama_base)
+                    return call_ollama_model(chunk_text, model_name, args.ollama_base, prompt_labels)
                 print(f"  ⚠ Unknown model: {model_name}", file=sys.stderr)
                 return {"entities": [], "latency_sec": 0.0, "tokens": 0}
 
@@ -497,7 +570,7 @@ def main() -> None:
                 f.write(json.dumps(record) + "\n")
 
             print(
-                f"  [{i}/{len(subset_slugs)}] {slug}: "
+                f"  [{i}/{len(items)}] {slug}: "
                 f"{len(result['entities'])} entities, {result['latency_sec']:.2f}s",
                 file=sys.stderr
             )

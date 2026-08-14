@@ -179,6 +179,22 @@ def tokenize(text: str) -> list[str]:
     return text.split()
 
 
+def ws_normalize(text: str) -> str:
+    """Collapse every whitespace run (spaces, newlines, tabs, NBSP) to a
+    single space and strip the ends. Verbatim-presence gates must compare in
+    this space: find_token_span tokenizes with split(), so a line-wrapped
+    entity is perfectly locatable downstream — a raw substring gate that
+    rejects it is stricter than the locator it feeds."""
+    return " ".join(text.split())
+
+
+def contains_verbatim(text_normalized_lower: str, entity: str) -> bool:
+    """Whitespace-insensitive, case-insensitive verbatim-presence check.
+    First arg must be pre-normalized via ws_normalize(...).lower() (callers
+    gate many entities against one document — normalize the document once)."""
+    return ws_normalize(entity).lower() in text_normalized_lower
+
+
 def find_token_span(tokens: list[str], entity: str) -> list[tuple[int, int]]:
     """
     Find all (start_tok, end_tok) spans where entity appears in the token list.

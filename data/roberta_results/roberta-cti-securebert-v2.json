@@ -1,0 +1,248 @@
+{
+  "model": "ehsanaghaei/SecureBERT",
+  "checkpoint": "models/roberta-cti-securebert-v2/best",
+  "subset": "test",
+  "n_documents": 8,
+  "harness": "ner.evaluate (document-level, strict span+label)",
+  "windowing": {
+    "max_wordpieces": 510,
+    "overlap_words": 50
+  },
+  "hyperparams": {
+    "epochs": 8,
+    "lr": 2e-05,
+    "batch_size": 16,
+    "grad_accum": 1,
+    "seed": 0
+  },
+  "labels": [
+    "affected software product",
+    "attack technique id",
+    "attack technique name",
+    "cve identifier",
+    "cwe identifier",
+    "email address",
+    "file hash",
+    "file name",
+    "file path",
+    "hacking tool",
+    "ip address",
+    "malware family",
+    "tactic",
+    "threat actor group",
+    "tlp classification",
+    "yara rule name"
+  ],
+  "strict": {
+    "per_label": {
+      "affected software product": {
+        "P": 0.5689,
+        "R": 0.5975,
+        "F1": 0.5828,
+        "support": 159
+      },
+      "attack technique id": {
+        "P": 0.9802,
+        "R": 1.0,
+        "F1": 0.99,
+        "support": 297
+      },
+      "attack technique name": {
+        "P": 0.5157,
+        "R": 0.5694,
+        "F1": 0.5413,
+        "support": 144
+      },
+      "cve identifier": {
+        "P": 0.9153,
+        "R": 0.9818,
+        "F1": 0.9474,
+        "support": 55
+      },
+      "cwe identifier": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "support": 4
+      },
+      "email address": {
+        "P": 0.963,
+        "R": 1.0,
+        "F1": 0.9811,
+        "support": 26
+      },
+      "file hash": {
+        "P": 0.6837,
+        "R": 0.7204,
+        "F1": 0.7016,
+        "support": 93
+      },
+      "file name": {
+        "P": 0.6863,
+        "R": 0.7865,
+        "F1": 0.733,
+        "support": 89
+      },
+      "file path": {
+        "P": 0.835,
+        "R": 0.7963,
+        "F1": 0.8152,
+        "support": 108
+      },
+      "hacking tool": {
+        "P": 0.4522,
+        "R": 0.5108,
+        "F1": 0.4797,
+        "support": 139
+      },
+      "ip address": {
+        "P": 0.8467,
+        "R": 0.9769,
+        "F1": 0.9071,
+        "support": 130
+      },
+      "malware family": {
+        "P": 0.7541,
+        "R": 0.637,
+        "F1": 0.6906,
+        "support": 438
+      },
+      "tactic": {
+        "P": 0.4794,
+        "R": 0.8378,
+        "F1": 0.6098,
+        "support": 111
+      },
+      "threat actor group": {
+        "P": 0.4483,
+        "R": 0.2484,
+        "F1": 0.3197,
+        "support": 157
+      },
+      "tlp classification": {
+        "P": 0.9722,
+        "R": 0.9722,
+        "F1": 0.9722,
+        "support": 36
+      },
+      "yara rule name": {
+        "P": 1.0,
+        "R": 0.4444,
+        "F1": 0.6154,
+        "support": 9
+      }
+    },
+    "micro": {
+      "P": 0.7074,
+      "R": 0.7163,
+      "F1": 0.7118
+    },
+    "macro_F1": 0.7429
+  },
+  "relaxed": {
+    "per_label": {
+      "affected software product": {
+        "P": 0.7305,
+        "R": 0.7673,
+        "F1": 0.7485,
+        "support": 159
+      },
+      "attack technique id": {
+        "P": 0.9802,
+        "R": 1.0,
+        "F1": 0.99,
+        "support": 297
+      },
+      "attack technique name": {
+        "P": 0.6101,
+        "R": 0.6736,
+        "F1": 0.6403,
+        "support": 144
+      },
+      "cve identifier": {
+        "P": 0.9153,
+        "R": 0.9818,
+        "F1": 0.9474,
+        "support": 55
+      },
+      "cwe identifier": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "support": 4
+      },
+      "email address": {
+        "P": 0.963,
+        "R": 1.0,
+        "F1": 0.9811,
+        "support": 26
+      },
+      "file hash": {
+        "P": 0.6837,
+        "R": 0.7204,
+        "F1": 0.7016,
+        "support": 93
+      },
+      "file name": {
+        "P": 0.6863,
+        "R": 0.7865,
+        "F1": 0.733,
+        "support": 89
+      },
+      "file path": {
+        "P": 0.8738,
+        "R": 0.8333,
+        "F1": 0.8531,
+        "support": 108
+      },
+      "hacking tool": {
+        "P": 0.4713,
+        "R": 0.5324,
+        "F1": 0.5,
+        "support": 139
+      },
+      "ip address": {
+        "P": 0.8467,
+        "R": 0.9769,
+        "F1": 0.9071,
+        "support": 130
+      },
+      "malware family": {
+        "P": 0.8784,
+        "R": 0.742,
+        "F1": 0.8045,
+        "support": 438
+      },
+      "tactic": {
+        "P": 0.4845,
+        "R": 0.8468,
+        "F1": 0.6164,
+        "support": 111
+      },
+      "threat actor group": {
+        "P": 0.5057,
+        "R": 0.2803,
+        "F1": 0.3607,
+        "support": 157
+      },
+      "tlp classification": {
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "support": 36
+      },
+      "yara rule name": {
+        "P": 1.0,
+        "R": 0.4444,
+        "F1": 0.6154,
+        "support": 9
+      }
+    },
+    "micro": {
+      "P": 0.7579,
+      "R": 0.7674,
+      "F1": 0.7626
+    },
+    "macro_F1": 0.7749
+  }
+}

@@ -8,7 +8,7 @@
 #   PYTHONPATH=. .venv-ml/bin/python3 -m ner.finetune_roberta ...
 
 torch>=2.2
-transformers>=4.46
+transformers>=4.51.3,<5.9.0
 gliner>=0.2.13
 numpy>=1.26
 docling>=2.0

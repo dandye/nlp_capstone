@@ -19,7 +19,10 @@ Differences from the frontier-eval prompt (frontier_infer.call_claude):
     Spans are located by verbatim text search instead.
 
 Gates applied to every proposal (drops are reported, not silent):
-  - verbatim: proposed text must appear in the document exactly
+  - verbatim: proposed text must appear in the document exactly, compared
+    whitespace-insensitively (line wraps / multiple spaces collapse; the
+    2026-07-26 fix — the old raw-substring test flakily rejected entities
+    that were merely line-wrapped in clean.md)
   - validator: structured types must satisfy their format grammar
     (span_validators; defanged forms accepted)
   - label: must be one of the 16 canonical labels
@@ -48,6 +51,7 @@ import time
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from .annotation_text import contains_verbatim, ws_normalize
 from .frontier_llm_utils import LABELS, load_clean_text
 from .span_validators import validate
 
@@ -159,11 +163,14 @@ def annotate_document(slug: str, markdown_dir: Path, model_id: str,
                 proposals.setdefault((t.lower(), l), {"text": t, "label": l})
 
     kept, dropped = [], []
-    text_lower = text.lower()
+    # Whitespace-normalized comparison space: a raw substring test rejects
+    # entities that are merely line-wrapped in clean.md, even though the
+    # downstream span locator (find_token_span) places them fine.
+    text_norm = ws_normalize(text).lower()
     for (tl, label), ent in sorted(proposals.items()):
         if label not in LABELS:
             dropped.append({**ent, "reason": f"unknown label {label!r}"})
-        elif tl not in text_lower:
+        elif not contains_verbatim(text_norm, ent["text"]):
             dropped.append({**ent, "reason": "not verbatim in document"})
         elif not validate(label, ent["text"]):
             dropped.append({**ent, "reason": "failed format validator"})
