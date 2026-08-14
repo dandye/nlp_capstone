@@ -11,6 +11,13 @@ __pycache__/
 # Model checkpoints (5.9GB; published to HF Hub, retraining repopulates)
 models/
 
+# BOND distant-supervision (external/bond); regenerable caches/outputs.
+# The dataset/*_distant/*.json + data/gold_v2/distant.jsonl ARE tracked.
+data/mitre-attack.json
+external/*/outputs/
+external/*/pretrained_model/
+external/**/cached_*
+
 # Raw scrape outputs left behind by design (clean.md is the committed artifact)
 data/pdfs/
 data/stix/
@@ -38,3 +45,11 @@ data/papers/*.pdf
 
 # OS cruft
 .DS_Store
+# roborev snapshots
+/.roborev/
+
+# LaTeX build droppings
+*.fdb_latexmk
+*.fls
+# stale truncated inference artifact (superseded)
+data/frontier_results/gemma3-27b-entities.truncated-old.jsonl
