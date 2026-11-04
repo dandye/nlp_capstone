@@ -945,3 +945,163 @@ Monica Munnangi (University of Massachusetts, Amherst). Survey (arXiv 2411.05057
 **Relevance.** Background for §2.2 (method eras): confirms a rule-based → statistical → deep-learning periodization, with a fourth "future" era of semi-/few-shot methods gestured at but not realized. Cite only for pre-LLM boundary framing — it predates and does not cover the LLM era. Keep the citation short: positioning, not a method contribution.
 
 **Artifacts.** None (references third-party tools NeuroNER, AllenNLP, CoreNLP, spaCy, but no artifact of its own).
+
+---
+
+# November 2026 update (22 works, published 2026-06 to 2026-11)
+
+Found by forward citations of `survey.bib` (OpenAlex, via `just citing --bib` in `research_arxiv_knowledge_base`) and an OpenAlex keyword sweep. Notes are from abstracts read through OpenAlex; full texts were not read unless stated. Non-arXiv entries use the DOI in the heading.
+
+---
+
+## 2607.23312 — Structuring CTI Reports: A STIX 2.1-Aligned Dataset with MITRE ATT&CK Mappings
+Das, Banik, Islam, Rahman. IEEE ICICN 2026, pp. 298–303.
+
+**Summary.** Manually built dataset of 150 English CTI reports, each a STIX 2.1 graph. **Method.** 25 reports independently assessed by two researchers, disagreements adjudicated into a gold sample; four local open-weight LLMs evaluated as judges against it. **Findings.** 4,777 entities, 5,817 relationships, 1,273 attack-pattern objects mapped to 269 ATT&CK techniques; "substantial" inter-rater agreement; best judge Qwen3.6 27B reaches kappa 0.803, micro-F1 > 92%, FPR < 5%. LLMs help find annotation inconsistencies but do not replace experts. **Relevance.** §4 corpora table and LLM-assisted annotation; §7 RE gap. Cites CTINexus, ThreatKG, AnnoCTR, AttacKG. **Artifacts.** Not confirmed.
+
+---
+
+## 10.3390/jcp6060190 — CTI-Rationale: Expert-Annotated Dataset for Evidence-Grounded ATT&CK Mapping
+Resul, Bouruc, Rughiniș, Văduva, Țurcanu. J. Cybersecurity & Privacy 6(6):190, 2026.
+
+**Summary.** Treats each technique mapping as an argument (evidence span, warrant, rejected alternatives). **Method.** 1,740 human-written paragraph–technique mappings from 100 public reports; no AI-generated rationale content. **Findings.** Paragraph Jaccard 0.421 overall, 0.780 where both annotators mapped; 10.4% of one-sided mappings are conflicts; capture–recapture completeness 84.2–88.0%. Annotation bundle beats an equal-volume label-only control by +0.024 micro-F1 (also under campaign-, publisher-, and TRAM2 transfer splits); ATT&CK definition text recovers about two-thirds of the gain; retrieved demonstrations raise a small LM from 0.367 to 0.500 micro-F1. **Relevance.** §4 annotation methodology; §6. **Artifacts.** Not confirmed.
+
+---
+
+## 10.3390/jcp6060188 — A Lightweight Approach for Adaptation of LMs for Cybersecurity NER
+Srivastava, Gupta, Paul, Sahoo. J. Cybersecurity & Privacy 6(6):188, 2026.
+
+**Summary.** Adds domain terms to a general LM's WordPiece vocabulary before fine-tuning instead of domain pretraining. **Method.** Terms grouped by split count, ranked by TF-IDF, budget searched over 20 configurations. **Findings.** 250 terms (5+ pieces) into BERT-large-cased: STUCCO-CNC 5-fold F1 96.66 to 96.91; 80/20 split 97.20 to 97.63 (CySecBERT 97.45, SecureBERT 97.83). CyberNER-STIX entity F1 +~1.0 to 80.10 (prior published 72.30, BERT-base). No pretraining (SecureBERT used ~1.07B tokens); 1.5 h on one 24 GB GPU. Gains small, not statistically established; selection rule beats random only on CyberNER-STIX. **Relevance.** §5.3 (tokenizer as third axis). Cites AttackER. **Artifacts.** None found.
+
+---
+
+## 10.3390/electronics15163749 — AraCTI-NER: Arabic CTI NER Dataset and Benchmark
+Alghamdi, Meshoul. Electronics 15(16):3749, 2026.
+
+**Summary.** First Arabic CTI NER corpus. **Method.** LLM-assisted pipeline seeded with Arabic cybersecurity articles, structurally validated and rebalanced by targeted generation; 8 STIX-inspired types; 7 encoders x 3 seeds, strict entity metrics. **Findings.** 10,312 samples, 275,530 tokens, 42,360 spans. 408-sentence expert-audited test subset (ATS-gold), second-expert IAA 0.878 entity F1. XLM-R Large 0.7603 (0.7674 on gold), AraBERTv2 0.7491, English cyber encoders ~0.63. ~3 F1 drop silver to gold, mostly Vulnerability and TTP. Authentic Arabic news: best 0.5429 vs IAA 0.616. **Relevance.** §4 corpora + LLM-assisted annotation; §5.3 multilingual; §5.7 synthetic span data; §9. Same method family as this repo's LLM-proposed, human-curated gold. **Artifacts.** ATS-gold release stated; URL not confirmed.
+
+---
+
+## 10.1007/978-3-032-32643-0_17 — From Zero-Shot to Domain Precision: Synthetic Data Fine-Tuning for Robust NER
+Zafar, Nowaczyk, Sarmadi. LNCS (Springer), pp. 200–212, 2026.
+
+No abstract available in OpenAlex; Springer page blocked automated fetch. Cited by title only (§5.5). Cites GLiNER. **Artifacts.** Unknown.
+
+---
+
+## 10.5281/zenodo.22713460 — Evaluating Robustness of Cybersecurity NER: Clean Baseline and Controlled Perturbation (preliminary)
+Omran. Zenodo preprint, 2026. Not peer reviewed.
+
+**Summary/Method.** Protocol for multilingual context, Arabic–English code-switching, obfuscation, normalization on AnnoCTR with DistilBERT. **Findings.** Clean baseline only: token-level P 0.7369, R 0.8584, F1 0.7931 on 200 held-out examples, single configuration; no perturbation results yet. **Relevance.** §8. **Artifacts.** Zenodo record.
+
+---
+
+## 10.5281/zenodo.21939890 — Relation Extraction for Cyber-Attack Attribution (AttackER-RE)
+Oyenuga. Zenodo dataset (MSc, University of Southampton), 2026.
+
+**Summary.** RE layer over AttackER: 9 STIX-aligned relation types plus no_relation, as directed triples. **Method.** Train/dev labels from GPT-4o as silver annotator; test set manually annotated gold; fine-tuned CySecBERT RE model released. **Relevance.** §4, §7 RE gap, §9. **Artifacts.** doi.org/10.5281/zenodo.21939890; underlying text under AttackER's license.
+
+---
+
+## 10.1186/s42400-025-00480-4 — VIB-NER: OOV Recognition in CTI via Variational Bottleneck
+Wang, Liu, Zhang, Xu, Zhao, Sun, Wang. Cybersecurity 9(1), 2026.
+
+**Findings.** F1 79%, R 77%, P 80% on CTI entity extraction; 4–8% over E-NER and similar; 50% less time per training batch. **Relevance.** §5.3. **Artifacts.** None found.
+
+---
+
+## 10.14801/jkiit.2026.24.8.45 — Hybrid LLM-BERT Framework for TTP Extraction from CTI (Korean)
+Kim, Jung. J. KIIT 24(8):45–55, 2026.
+
+**Method.** Noise removal (URLs, IOCs) on TRAM2 and AnnoCTR; Kanana-1.5 2.1B proposes TTP candidates, CySecBERT verifies. **Findings.** Rule-based noise removal best on TRAM2, URL removal best on AnnoCTR; hybrid improves F1 on both, mainly precision. **Relevance.** §6.
+
+---
+
+## 10.1109/compsac69091.2026.11743430 — LoRA-Driven CTI Triple Extraction and KG Construction
+Mitchell, Doğdu, Choupani. IEEE COMPSAC 2026, pp. 3335–3340.
+
+**Method.** Semantic chunking; Gemma 2 9B with separate LoRA NER and RE adapters; canonicalization with Markov entity-type smoothing. **Findings.** Deduplicated DNRTI: NER micro-F1 0.7515, RE 0.9970, above SecureBERT. CTI-HAL (71 docs): chunking +51% extraction density, +70% graph density; largest component ratio 0.81. **32.5% of the original DNRTI test set duplicates training sentences.** **Relevance.** §5.6, §7, §8, §9. **Artifacts.** None confirmed.
+
+---
+
+## 10.1007/978-981-92-6837-5_3 — LLM-ETKG: Event-Centric, Evidence-Grounded CTI KG Construction
+Wang, Du, Li, Hu, Pan, Wang. LNCS (Springer), pp. 43–62, 2026.
+
+No abstract available in OpenAlex. Cited by title only (§7). Cites AttacKG.
+
+---
+
+## 2606.21890 — Many-Shot In-Context Learning for NER
+Zhang, Lan, Caragea, Latecki, Dragut. arXiv 2026.
+
+**Findings.** Hundreds of demonstrations let LLMs match or beat fully supervised BERT; ~100 human-labeled demonstrations used for in-context annotation yield ~10 absolute F1 over prior SOTA when the labels fine-tune BERT for low-resource NER. **Relevance.** §4 LLM-assisted annotation.
+
+---
+
+## 2610.00007 — On-Device NER: A Deployability Study
+Chaganti. arXiv 2026.
+
+**Method.** 9 systems (spaCy; GLiNER 166–460M; local Qwen3 0.6–4B and DeepSeek-R1 1.5/8B) on 3 datasets; silver gold from a cross-family LLM judge panel, then full human re-validation. **Findings.** Gold provenance flips paradigm ranking: human gold raises every encoder and lowers every generative model. 4B instruct competitive on accuracy; GLiNER matches or slightly trails at 1/9–1/24 the size, ms–s latency, zero malformed output; small generators up to 27% invalid output on long inputs. GLiNER confidence AUROC 0.76–0.86, ECE 0.24–0.47 (halved by temperature scaling). **Relevance.** §4, §5.5, §8, §9; directly relevant to this repo's LLM-gold vs fine-tuned comparison and latency axis.
+
+---
+
+## 2610.37678 — Partner Selection for Selective Span Tagging
+Kotte. arXiv 2026.
+
+**Findings.** Choosing the second model by held-out accuracy on the primary's errors recovers 82% of the best partner's gain (vs 69–70% for span F1 or random); replicated on a fourth dataset; scoring the predictive distribution beats hard labels. **Relevance.** §4 (spending the human audit budget).
+
+---
+
+## 10.19678/j.issn.1000-3428.0070621 — Review of Information Extraction in the Field of CTI (Chinese)
+Gao, Feng. Computer Engineering, 2026.
+
+Competing review: IE for CTI by ML, DL, and LLM method families, KG construction as main application. **Relevance.** §6 positioning.
+
+---
+
+## 2606.18166 — Open-Source LLMs for Multi-Label ATT&CK Classification on CTI Reports
+Ryan, Noor, Erfan, Mitra, Mittal, Rahman. arXiv 2026.
+
+**Findings.** 2,076 human-annotated sentences (1,281 positive) from 83 reports, 114 techniques, kappa 0.68. Best of seven open LLMs (8B–236B) micro-F1 0.22; size correlates with F1; prompt strategy and temperature no significant gain. **Relevance.** §6, §9. **Artifacts.** Dataset release stated; URL not confirmed.
+
+---
+
+## 10.5753/sbseg_estendido.2026.29364 — IoC Mapping and Detection in Threat Intelligence Reports (Portuguese)
+Caxias, Santana. SBSeg 2026 (extended proceedings), pp. 532–542.
+
+Hybrid regex + NER for IPs, URLs, hashes including obfuscated forms; reduces false positives on real CTI reports. **Relevance.** §5.1.
+
+---
+
+## 10.5753/sbseg.2026.29054 — MulitaMiner: Multi-Version Evaluation of LLM Vulnerability Report Extraction
+Machado, Lautert, Kapelinski, Kreutz, Ferrão, de Oliveira. SBSeg 2026, pp. 801–816.
+
+Five LLMs held fixed across three pipeline versions on OpenVAS PDFs (450 runs): exact record match 37.5% to 90.4%, omission 20.5% to 1.7%, cross-model variance 41.8 to 2.9 pp. **Relevance.** §5.6.
+
+---
+
+## 10.5281/zenodo.23085907 — Uzbek NER: Fine-Tuned XLM-R Beats CRF, GLiNER, Few-Shot LLMs
+Azimov. Zenodo, 2026. Not peer reviewed.
+
+200-sentence subset: XLM-R-large 80.9 strict F1, CRF 77.1; transfer/zero-shot/few-shot 39.6–62.1. Full 400: XLM-R 79.2. **Relevance.** §5.5 (non-security replication of fine-tuned > GLiNER > few-shot). **Artifacts.** HF `UAzimov/uzbek-ner-xlmr-large`.
+
+---
+
+## 2606.08700 — AutoSUT: The Environment Semantics Gap in Structured CTI
+Barbieri, Ferraz, Pereira Júnior. arXiv 2026.
+
+97.6% of ATT&CK Enterprise software objects lack version indicators and CPE identifiers; platform tags near-universal. **Relevance.** §2.3.
+
+---
+
+## 10.1109/eurospw72509.2026.00027 — ATT&CK TTP Adoption and Semantic Ambiguity (WIP)
+Suarez-Roman, Caballero, Tapiador. IEEE EuroS&PW 2026, pp. 181–186.
+
+CTICore dataset, 9,359 reports: low, uneven TTP adoption; substantial overlap in names and descriptions of distinct techniques. Same authors as the CTI Echo Chamber paper. **Relevance.** §6.
+
+---
+
+## 10.1016/j.neucom.2026.134365 — NLP in Cybersecurity: Advances, Applications, Future Directions
+Alsirhani, Ali, Humayun, Sahito, Alzahrani. Neurocomputing 699:134365, 2026.
+
+Broad review of NLP for threat reports and dark-web data (NER, sentiment, topic modeling, LLMs). **Relevance.** §6 positioning.
