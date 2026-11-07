@@ -948,9 +948,9 @@ Monica Munnangi (University of Massachusetts, Amherst). Survey (arXiv 2411.05057
 
 ---
 
-# November 2026 update (22 works, published 2026-06 to 2026-11)
+# November 2026 update (23 works, published 2026-06 to 2026-11)
 
-Found by forward citations of `survey.bib` (OpenAlex, via `just citing --bib` in `research_arxiv_knowledge_base`) and an OpenAlex keyword sweep. Notes are from abstracts read through OpenAlex; full texts were not read unless stated. Non-arXiv entries use the DOI in the heading.
+Found by forward citations of `survey.bib` (OpenAlex, via `just citing --bib` in `research_arxiv_knowledge_base`), an OpenAlex keyword sweep, and arXiv monitoring. Notes are from abstracts read through OpenAlex unless full-text verification is noted (`2611.07486`). Non-arXiv entries use the DOI in the heading.
 
 ---
 
@@ -1105,3 +1105,10 @@ CTICore dataset, 9,359 reports: low, uneven TTP adoption; substantial overlap in
 Alsirhani, Ali, Humayun, Sahito, Alzahrani. Neurocomputing 699:134365, 2026.
 
 Broad review of NLP for threat reports and dark-web data (NER, sentiment, topic modeling, LLMs). **Relevance.** §6 positioning.
+
+---
+
+## 2611.07486 — MEvince: Knowledge-Constrained LLM Reasoning for Technique Identification from Malware Reports
+She, He, Xie, Liu, Qian, Qin, Cavallaro (Zhejiang University + UCL). arXiv 2026 (full text verified).
+
+**Summary.** Two-stage knowledge-constrained reasoning framework for report-level MITRE ATT&CK technique identification that grounds predictions in source spans and official specification constraints without fine-tuning model weights. **Method.** Evaluated on 610 MITRE ATT&CK-referenced malware reports (555 train/adaptation, 55 test) across 651 Enterprise v19.2 techniques and sub-techniques against 11 baselines from four method families (encoder classifiers, RAG, multi-stage prompting, agentic workflows). Stage 1 extracts behavioral units into four typed primitives (`Action`, `Object`, `Goal`, `Mechanism`) linked directly to report spans. Stage 2 pairs concept-aligned contrastive retrieval against known confusers with deterministic requirement validation and offline agentic policy refinement. **Findings.** Raises gold exact-ID candidate coverage from 31.6% to 47.9%, reaches exact-ID macro-F1 0.310 (+17.4% over Llama-3.1-70B at 0.264), and doubles exact-ID precision over standard RAG (0.384 vs 0.191). **Relevance.** §6 (span-linked behavioral grounding for implicit techniques, contrastive ATT&CK disambiguation, and verification without weight updates). **Artifacts.** Not confirmed in preprint text.
