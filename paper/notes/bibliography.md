@@ -124,21 +124,6 @@ Zhan, Wang, Huang (Shenzhen University). January 2026. **READ 2026-07-18 — cor
 
 ---
 
-## 2509.12098 — Is 'Hope' a Person or an Idea? A Pilot Benchmark for NER: Comparing Traditional NLP Tools and Large Language Models on Ambiguous Entities
-Latifi (single author). September 2025. **READ 2026-07-18 — corrects a prior fabricated version of this entry (wrong authors/methodology/numbers; see paper/ISA.md Changelog). Read as a minor, explicitly-limited pilot study — see caveats below, not strong evidence.**
-
-**Summary.** Six NER systems (NLTK, spaCy, Stanza; Gemini-1.5-flash, DeepSeek-V3, Qwen-3-4B) compared on one hand-constructed 119-token passage engineered to be ambiguity-dense — capitalized common nouns as names ("Justice Hope"), multi-token org/location spans, context-only temporal expressions ("dusk," "midday").
-
-**Method.** Single author manually annotated the one passage (no second annotator — the paper explicitly states no inter-annotator agreement/kappa is computable). Token-level P/R/F1 against this single gold set, five entity types (PERSON, LOCATION, ORGANIZATION, DATE, TIME), single-shot prompting at each API's lowest available temperature.
-
-**Findings.** Macro-F1: Gemini 0.824 (best overall, driven by PERSON 0.960 — correctly reads "Justice Hope" as a person), Stanza 0.806, spaCy 0.741, DeepSeek 0.725, Qwen 0.527, NLTK 0.416 (fails DATE/TIME entirely). Grouped: LLMs beat traditional tools sharply on PERSON (0.923 vs 0.692 avg) but lose on ORGANIZATION (0.657 vs 0.733); TIME is weak for both groups alike (0.500). Aggregate LLM vs. traditional gap is small (0.692 vs 0.655) — the PERSON-category win is the whole story, not a general LLM advantage.
-
-**Relevance.** Open Problems — a small, honestly-caveated data point for the same ambiguity class CTI entities exhibit (is "Apache" the tool, the threat actor, or the web server?), specifically the finding that LLM context-modeling advantage concentrates on capitalized-common-noun-as-name disambiguation, not general entity-type performance. Should be cited as directional/suggestive only — n=119 tokens, single annotator, single passage, no significance testing, and the authors' own Limitations section says as much. Not comparable in rigor to the corpus's other benchmark papers (CTIBench, AthenaBench); do not cite its specific F1 numbers as if they generalize.
-
-**Artifacts.** None found — no repo/data link in the paper; authors note releasing data/prompts is future work.
-
----
-
 ## 2404.19192 — BOND-MoE: Mix of Experts Language Model for Named Entity Recognition
 Chen (UIUC), Li (UIUC), Song (Columbia), Guo (UCSD). April 2024. **READ 2026-07-18 — corrects a prior fabricated version of this entry (invented specifics not grounded in any source); confirmed real via arXiv abstract page before reading. Short paper (2pp, IEEE workshop format).**
 
@@ -948,9 +933,9 @@ Monica Munnangi (University of Massachusetts, Amherst). Survey (arXiv 2411.05057
 
 ---
 
-# November 2026 update (23 works, published 2026-06 to 2026-11)
+# November 2026 update (23 works, published 2026-05 to 2026-11)
 
-Found by forward citations of `survey.bib` (OpenAlex, via `just citing --bib` in `research_arxiv_knowledge_base`), an OpenAlex keyword sweep, and arXiv monitoring. Notes are from abstracts read through OpenAlex unless full-text verification is noted (`2611.07486`). Non-arXiv entries use the DOI in the heading.
+Found by forward citations of `survey.bib` (OpenAlex, via `just citing --bib` in `research_arxiv_knowledge_base`), an OpenAlex keyword sweep, and arXiv monitoring. Notes are from abstracts read through OpenAlex unless full-text verification is noted (`2610.39433`, `2611.07486`). Non-arXiv entries use the DOI in the heading.
 
 ---
 
@@ -989,10 +974,10 @@ No abstract available in OpenAlex; Springer page blocked automated fetch. Cited 
 
 ---
 
-## 10.5281/zenodo.22713460 — Evaluating Robustness of Cybersecurity NER: Clean Baseline and Controlled Perturbation (preliminary)
-Omran. Zenodo preprint, 2026. Not peer reviewed.
+## 10.1109/sp63933.2026.00215 - APT to Disagree on Attribution in Commercial TI
+Ethembabaoglu, van Wegberg, Zhauniarovich, van Eeten (Delft University of Technology). IEEE Symposium on Security and Privacy (S&P) 2026, pp. 4769-4787.
 
-**Summary/Method.** Protocol for multilingual context, Arabic–English code-switching, obfuscation, normalization on AnnoCTR with DistilBERT. **Findings.** Clean baseline only: token-level P 0.7369, R 0.8584, F1 0.7931 on 200 held-out examples, single configuration; no perturbation results yet. **Relevance.** §8. **Artifacts.** Zenodo record.
+**Summary.** Longitudinal comparative measurement of threat-actor attribution across seven leading commercial CTI vendors over 14 years from 2011 to 2025, covering 13.5 million attributed IOCs. **Method.** Raw vendor feeds are normalized into comparable indicator records and reconciled against an evaluated and augmented MISP Threat Actor Galaxy (MISP TAG); inter-vendor agreement on overlapping indicators is scored with Krippendorff's alpha at both threat-actor and country-of-origin levels. **Findings.** Multi-vendor IOC overlap holds near 1%, and most tracked threat actors appear in only a single vendor's reporting; on shared indicators, Krippendorff's alpha is moderate at the actor level and substantially higher at country of origin. **Relevance.** §2.3 instance-level naming fragmentation alongside Hesperus; §9 fragmentation complex and source overlap. **Artifacts.** Evaluated/augmented MISP TAG mapping; commercial TI feeds proprietary.
 
 ---
 
@@ -1080,10 +1065,10 @@ Five LLMs held fixed across three pipeline versions on OpenVAS PDFs (450 runs): 
 
 ---
 
-## 10.5281/zenodo.23085907 — Uzbek NER: Fine-Tuned XLM-R Beats CRF, GLiNER, Few-Shot LLMs
-Azimov. Zenodo, 2026. Not peer reviewed.
+## 2610.39433 - ARBITRA Document-Level ATT&CK Extraction via Multi-Expert Argumentation
+Jin, Shin. arXiv 2026 (full text verified).
 
-200-sentence subset: XLM-R-large 80.9 strict F1, CRF 77.1; transfer/zero-shot/few-shot 39.6–62.1. Full 400: XLM-R 79.2. **Relevance.** §5.5 (non-security replication of fine-tuned > GLiNER > few-shot). **Artifacts.** HF `UAzimov/uzbek-ner-xlmr-large`.
+**Summary.** Two-phase multi-expert framework for document-level MITRE ATT&CK extraction from full unsegmented CTI reports. **Method.** Phase 1 runs three reasoning-distilled small-model SFT specialists (`GPT-4.1-mini` and `GPT-4o-mini` trained on `GPT-5.4-mini` rationales for verbatim evidence grounding, sibling-technique contrast, and chronological attack-flow inference), accepting unanimous picks and routing split-vote candidates to Phase 2. Phase 2 builds a rooted Quantitative Bipolar Argumentation Framework (QBAF) tree per disputed candidate and scores final strength deterministically under DF-QuAD gradual semantics. **Findings.** Reaches 0.722 precision, 0.635 recall, and 0.649 macro-F1 on TRAM2 (31 test reports), surpassing sentence-level NER pipelines (0.614), TTPrint (0.494), TTPXHunter (0.328), CTINexus (0.246), and single-pass GPT-5.5 (0.411) at 28% of GPT-5.5's output token cost (USD 0.0214 vs USD 0.0760 per report); lifts zero-shot CTIBench-ATE by +5.0 F1 points without fine-tuning; across three black-box adversarial CTI report attacks (conflicting TTP injection, cross-report contamination, targeted semantic poisoning), holds mean relative precision loss to 7.0% versus 14.0% on GPT-5.5 and 12.2% on GPT-5.4. **Relevance.** §6 report-scale TTP verification; §8 adversarial perturbation robustness. **Artifacts.** Code release deferred until peer-reviewed publication.
 
 ---
 
